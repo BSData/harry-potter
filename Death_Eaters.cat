@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8dba-fe04-7a54-57c1" name="Death Eaters" revision="1" battleScribeVersion="2.01" gameSystemId="aa1e-80ca-b43a-cf7b" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8dba-fe04-7a54-57c1" name="Death Eaters" revision="2" battleScribeVersion="2.01" gameSystemId="aa1e-80ca-b43a-cf7b" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -153,15 +153,30 @@
       <constraints/>
       <categoryLinks/>
     </entryLink>
-    <entryLink id="25ed-7786-1370-13d5" name="Lord Voldemort" hidden="false" targetId="0050-089c-1236-9fd5" type="selectionEntry">
+    <entryLink id="25ed-7786-1370-13d5" name="Lord Voldemort (60mm base)" hidden="false" targetId="0050-089c-1236-9fd5" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" childId="2bf3-147f-9681-8501" type="atLeast"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" childId="a27b-f783-37f4-2f67" type="atLeast"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks/>
     </entryLink>
-    <entryLink id="c560-5a82-95fe-11bd" name="Lucius Malfoy (WIP)" hidden="false" targetId="1aa0-e912-0572-7a0c" type="selectionEntry">
+    <entryLink id="c560-5a82-95fe-11bd" name="Lucius Malfoy" hidden="false" targetId="1aa0-e912-0572-7a0c" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -202,6 +217,92 @@
       <categoryLinks/>
     </entryLink>
     <entryLink id="9e33-07f2-fca5-93e2" name="Pansy Parkinson" hidden="false" targetId="103a-8a52-c881-1a79" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="63c5-eed6-19ce-c147" name="Scabior" hidden="false" targetId="8445-790c-c937-72f7" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="bb94-ef74-34e5-f403" name="Snatcher 1" hidden="false" targetId="3c40-83c8-0e4d-d0e6" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="4c91-f51a-d3b8-6f32" name="Snatcher 2" hidden="false" targetId="980a-31c7-e7a8-72d2" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="a4c3-4877-605e-3894" name="Snatcher 3" hidden="false" targetId="48dd-8199-be75-dfef" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="aa2b-16ce-bef6-8d4b" name="Lord Voldemort (30mm base)" hidden="false" targetId="2bf3-147f-9681-8501" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" childId="0050-089c-1236-9fd5" type="atLeast"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="febb-7132-6124-a55c" name="Nagini" hidden="false" targetId="a27b-f783-37f4-2f67" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" childId="25ed-7786-1370-13d5" type="atLeast"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" childId="a27b-f783-37f4-2f67" type="atLeast"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" childId="edb1-df50-301a-ec8f" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="7c37-cffc-58fd-434c" name="Fenrir" hidden="false" targetId="5f02-584e-1dc9-08bd" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1085,7 +1186,7 @@
         <cost name="Galleons" costTypeId="39b7-674d-1765-92fb" value="9.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0050-089c-1236-9fd5" name="Lord Voldemort" hidden="false" collective="false" type="model">
+    <selectionEntry id="0050-089c-1236-9fd5" name="Lord Voldemort (60mm base)" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="a88d-9f40-1bd0-09d7" name="Lord Voldemort" hidden="false" profileTypeId="2093f4cd-f669-06c6-0f4f-06037948fe28" profileTypeName="1.1 Attributes">
           <profiles/>
@@ -1185,7 +1286,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="ea78-3010-6666-c079" name="Items (Lord Voldemort)" hidden="false" targetId="579f-6bb8-e58f-97c4" type="selectionEntryGroup">
+        <entryLink id="ea78-3010-6666-c079" name="Items (Lord Voldemort)" hidden="false" targetId="aa7f-441a-d722-baa6" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1307,7 +1408,7 @@
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb11-e417-6795-b33c" type="max"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb11-e417-6795-b33c" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -2063,7 +2164,6 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc4b-1fc9-ae50-5423" type="max"/>
-            <constraint field="selections" scope="d115-2481-b188-b3a8" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="9a38-ea1d-6bbd-1278" type="max"/>
           </constraints>
           <categoryLinks/>
         </entryLink>
@@ -2579,7 +2679,7 @@
           <characteristics>
             <characteristic name="Affiliation" characteristicTypeId="911f2847-ecab-772a-37ad-b325a40b19ce" value="Hogwarts/Death Eaters"/>
             <characteristic name="Mastery" characteristicTypeId="fd922c18-88be-5191-46b0-1ab589f2ef33" value="1"/>
-            <characteristic name="Defense" characteristicTypeId="49d96d28-c1dc-f977-7bb6-8e1fbe8fe397" value="1"/>
+            <characteristic name="Defense" characteristicTypeId="49d96d28-c1dc-f977-7bb6-8e1fbe8fe397" value="0"/>
             <characteristic name="Cunning" characteristicTypeId="9ef0bc71-33ab-98cd-26b3-07c55ed7725f" value="2 White"/>
             <characteristic name="Magic" characteristicTypeId="84a7bbc1-d970-b7b9-2fd5-f174c9fdda90" value="4"/>
             <characteristic name="Courage" characteristicTypeId="ae357512-6823-3b1d-aebe-2c2c8e52e2e0" value="2"/>
@@ -2664,6 +2764,816 @@
       </entryLinks>
       <costs>
         <cost name="Galleons" costTypeId="39b7-674d-1765-92fb" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8445-790c-c937-72f7" name="Scabior" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="ff71-8420-4656-7703" name="Scabior" hidden="false" profileTypeId="2093f4cd-f669-06c6-0f4f-06037948fe28" profileTypeName="1.1 Attributes">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Affiliation" characteristicTypeId="911f2847-ecab-772a-37ad-b325a40b19ce" value="Death Eaters"/>
+            <characteristic name="Mastery" characteristicTypeId="fd922c18-88be-5191-46b0-1ab589f2ef33" value="2"/>
+            <characteristic name="Defense" characteristicTypeId="49d96d28-c1dc-f977-7bb6-8e1fbe8fe397" value="1"/>
+            <characteristic name="Cunning" characteristicTypeId="9ef0bc71-33ab-98cd-26b3-07c55ed7725f" value="2 Black"/>
+            <characteristic name="Magic" characteristicTypeId="84a7bbc1-d970-b7b9-2fd5-f174c9fdda90" value="7"/>
+            <characteristic name="Courage" characteristicTypeId="ae357512-6823-3b1d-aebe-2c2c8e52e2e0" value="0"/>
+            <characteristic name="Wisdom" characteristicTypeId="4e4daeff-a451-4e80-f5b5-d588866411b4" value="3"/>
+            <characteristic name="Temper" characteristicTypeId="d6fc-863a-9aaa-271d" value="9"/>
+            <characteristic name="Item Slots" characteristicTypeId="d0e0-c03d-1183-cd2e" value="2"/>
+            <characteristic name="Spellbook" characteristicTypeId="3d3e-73e5-dd6a-789c" value="2"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="9bb0-35b4-043d-39f0" name="Diffindo" hidden="false" targetId="27be-8211-bd3b-5dac" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value="(Innate Spell)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="1477-76d0-b357-a53b" name="Dark Arts" hidden="false" targetId="d0bf-0eb1-3424-c7b5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c0f7-ef9f-a5d7-ed73" name="Fast " hidden="false" targetId="24ac-dd50-6187-7abd" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="62f2-1517-7922-eb68" name="Snatcher" hidden="false" targetId="7f6e-c590-b75c-e1eb" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="decrement" field="39b7-674d-1765-92fb" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0c54-082c-c7be-a97b" type="atLeast"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="8445-790c-c937-72f7" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0c54-082c-c7be-a97b" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="61a4-8703-ae2a-c10b" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="1903-25f1-5d10-0e4d" name="New CategoryLink" hidden="false" targetId="eea5-4f44-b142-d4ef" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="31a4-3aef-9380-0e97" name="Items (Snatcher Leader)" hidden="false" targetId="c9f4-60cc-6b01-d67b" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b372-d971-50ad-29b2" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="c970-806f-e5e3-8195" name="Spells (With Dark Arts)" hidden="false" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="c6e4-365e-a037-bc26" value="1">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fff0-6570-5dc9-99c4" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6e4-365e-a037-bc26" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Galleons" costTypeId="39b7-674d-1765-92fb" value="9.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3c40-83c8-0e4d-d0e6" name="Snatcher 1" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="7779-f8af-1ccc-f6b2" name="Snatcher 1" hidden="false" profileTypeId="2093f4cd-f669-06c6-0f4f-06037948fe28" profileTypeName="1.1 Attributes">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Affiliation" characteristicTypeId="911f2847-ecab-772a-37ad-b325a40b19ce" value="Death Eaters"/>
+            <characteristic name="Mastery" characteristicTypeId="fd922c18-88be-5191-46b0-1ab589f2ef33" value="1"/>
+            <characteristic name="Defense" characteristicTypeId="49d96d28-c1dc-f977-7bb6-8e1fbe8fe397" value="1"/>
+            <characteristic name="Cunning" characteristicTypeId="9ef0bc71-33ab-98cd-26b3-07c55ed7725f" value="1 Black"/>
+            <characteristic name="Magic" characteristicTypeId="84a7bbc1-d970-b7b9-2fd5-f174c9fdda90" value="6"/>
+            <characteristic name="Courage" characteristicTypeId="ae357512-6823-3b1d-aebe-2c2c8e52e2e0" value="1"/>
+            <characteristic name="Wisdom" characteristicTypeId="4e4daeff-a451-4e80-f5b5-d588866411b4" value="3"/>
+            <characteristic name="Temper" characteristicTypeId="d6fc-863a-9aaa-271d" value="3"/>
+            <characteristic name="Item Slots" characteristicTypeId="d0e0-c03d-1183-cd2e" value="1"/>
+            <characteristic name="Spellbook" characteristicTypeId="3d3e-73e5-dd6a-789c" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="c642-6ca2-24ef-507f" name="Crucio" hidden="false" targetId="891d-0368-2304-2df8" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value="(Innate Spell)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="20dc-b1ea-22ee-1f20" name="Dark Arts" hidden="false" targetId="d0bf-0eb1-3424-c7b5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="17d7-6074-7f1f-2b8a" name="Snatcher" hidden="false" targetId="7f6e-c590-b75c-e1eb" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="decrement" field="39b7-674d-1765-92fb" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0c54-082c-c7be-a97b" type="atLeast"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="995d-ed16-b763-89e0" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="a962-9ead-7cc1-daf0" name="New CategoryLink" hidden="false" targetId="eea5-4f44-b142-d4ef" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="df78-2439-13e5-fee4" name="Items (Death Eaters)" hidden="false" targetId="efd1-2200-051d-ca40" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c21e-5d89-6b53-e1b7" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="eed8-e05a-8d4b-89f0" name="Spells (With Dark Arts)" hidden="false" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="e2d4-90f8-5947-88aa" value="1">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fff0-6570-5dc9-99c4" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2d4-90f8-5947-88aa" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Galleons" costTypeId="39b7-674d-1765-92fb" value="7.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="980a-31c7-e7a8-72d2" name="Snatcher 2" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="ed68-0c57-8740-815e" name="Snatcher 2" hidden="false" profileTypeId="2093f4cd-f669-06c6-0f4f-06037948fe28" profileTypeName="1.1 Attributes">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Affiliation" characteristicTypeId="911f2847-ecab-772a-37ad-b325a40b19ce" value="Death Eaters"/>
+            <characteristic name="Mastery" characteristicTypeId="fd922c18-88be-5191-46b0-1ab589f2ef33" value="1"/>
+            <characteristic name="Defense" characteristicTypeId="49d96d28-c1dc-f977-7bb6-8e1fbe8fe397" value="1"/>
+            <characteristic name="Cunning" characteristicTypeId="9ef0bc71-33ab-98cd-26b3-07c55ed7725f" value="1 Black"/>
+            <characteristic name="Magic" characteristicTypeId="84a7bbc1-d970-b7b9-2fd5-f174c9fdda90" value="6"/>
+            <characteristic name="Courage" characteristicTypeId="ae357512-6823-3b1d-aebe-2c2c8e52e2e0" value="1"/>
+            <characteristic name="Wisdom" characteristicTypeId="4e4daeff-a451-4e80-f5b5-d588866411b4" value="3"/>
+            <characteristic name="Temper" characteristicTypeId="d6fc-863a-9aaa-271d" value="3"/>
+            <characteristic name="Item Slots" characteristicTypeId="d0e0-c03d-1183-cd2e" value="1"/>
+            <characteristic name="Spellbook" characteristicTypeId="3d3e-73e5-dd6a-789c" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="937a-af3a-fadb-fec8" name="Petrificus Totalus" hidden="false" targetId="bcd4-2517-5eb7-6c9c" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value="(Innate Spell)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="7605-95bb-f396-9ccf" name="Dark Arts" hidden="false" targetId="d0bf-0eb1-3424-c7b5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5697-044d-5570-5b64" name="Snatcher" hidden="false" targetId="7f6e-c590-b75c-e1eb" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="decrement" field="39b7-674d-1765-92fb" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0c54-082c-c7be-a97b" type="atLeast"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4865-861a-9c7d-125b" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="c32f-0808-5d09-87c6" name="New CategoryLink" hidden="false" targetId="eea5-4f44-b142-d4ef" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="1d70-43a0-dd40-ee5d" name="Items (Death Eaters)" hidden="false" targetId="efd1-2200-051d-ca40" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe4e-f382-d700-af2e" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="11a0-82b9-995a-1120" name="Spells (With Dark Arts)" hidden="false" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="5435-a3a6-b61c-0d1e" value="1">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fff0-6570-5dc9-99c4" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5435-a3a6-b61c-0d1e" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Galleons" costTypeId="39b7-674d-1765-92fb" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="48dd-8199-be75-dfef" name="Snatcher 3" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="6f35-4ca2-0479-807e" name="Snatcher 3" hidden="false" profileTypeId="2093f4cd-f669-06c6-0f4f-06037948fe28" profileTypeName="1.1 Attributes">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Affiliation" characteristicTypeId="911f2847-ecab-772a-37ad-b325a40b19ce" value="Death Eaters"/>
+            <characteristic name="Mastery" characteristicTypeId="fd922c18-88be-5191-46b0-1ab589f2ef33" value="1"/>
+            <characteristic name="Defense" characteristicTypeId="49d96d28-c1dc-f977-7bb6-8e1fbe8fe397" value="1"/>
+            <characteristic name="Cunning" characteristicTypeId="9ef0bc71-33ab-98cd-26b3-07c55ed7725f" value="1 Black"/>
+            <characteristic name="Magic" characteristicTypeId="84a7bbc1-d970-b7b9-2fd5-f174c9fdda90" value="6"/>
+            <characteristic name="Courage" characteristicTypeId="ae357512-6823-3b1d-aebe-2c2c8e52e2e0" value="1"/>
+            <characteristic name="Wisdom" characteristicTypeId="4e4daeff-a451-4e80-f5b5-d588866411b4" value="3"/>
+            <characteristic name="Temper" characteristicTypeId="d6fc-863a-9aaa-271d" value="3"/>
+            <characteristic name="Item Slots" characteristicTypeId="d0e0-c03d-1183-cd2e" value="1"/>
+            <characteristic name="Spellbook" characteristicTypeId="3d3e-73e5-dd6a-789c" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="50c7-6150-047b-6b5f" name="Stupefy" hidden="false" targetId="6652-b7ff-0b5e-4273" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value="(Innate Spell)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="4f90-a88d-c316-6889" name="Dark Arts" hidden="false" targetId="d0bf-0eb1-3424-c7b5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3e94-56aa-b95a-5738" name="Snatcher" hidden="false" targetId="7f6e-c590-b75c-e1eb" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3edc-b7ac-a958-938d" name="Scout" hidden="false" targetId="ad2f-5054-47db-d41c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="decrement" field="39b7-674d-1765-92fb" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0c54-082c-c7be-a97b" type="atLeast"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="629b-764b-a292-4372" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="3a02-ac74-d41f-418a" name="New CategoryLink" hidden="false" targetId="eea5-4f44-b142-d4ef" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="cfc6-10be-8b0b-cc00" name="Items (Death Eaters)" hidden="false" targetId="efd1-2200-051d-ca40" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="230b-77e1-817d-bfcc" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="9257-01c7-0343-009d" name="Spells (With Dark Arts)" hidden="false" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="4441-6f24-da00-4a29" value="1">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fff0-6570-5dc9-99c4" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4441-6f24-da00-4a29" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Galleons" costTypeId="39b7-674d-1765-92fb" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2bf3-147f-9681-8501" name="Lord Voldemort (30mm base)" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="e043-324a-1504-f7c3" name="Lord Voldemort" hidden="false" profileTypeId="2093f4cd-f669-06c6-0f4f-06037948fe28" profileTypeName="1.1 Attributes">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Affiliation" characteristicTypeId="911f2847-ecab-772a-37ad-b325a40b19ce" value="Death Eaters"/>
+            <characteristic name="Mastery" characteristicTypeId="fd922c18-88be-5191-46b0-1ab589f2ef33" value="3"/>
+            <characteristic name="Defense" characteristicTypeId="49d96d28-c1dc-f977-7bb6-8e1fbe8fe397" value="2"/>
+            <characteristic name="Cunning" characteristicTypeId="9ef0bc71-33ab-98cd-26b3-07c55ed7725f" value="1 White/Black"/>
+            <characteristic name="Magic" characteristicTypeId="84a7bbc1-d970-b7b9-2fd5-f174c9fdda90" value="12"/>
+            <characteristic name="Courage" characteristicTypeId="ae357512-6823-3b1d-aebe-2c2c8e52e2e0" value="0"/>
+            <characteristic name="Wisdom" characteristicTypeId="4e4daeff-a451-4e80-f5b5-d588866411b4" value="6"/>
+            <characteristic name="Temper" characteristicTypeId="d6fc-863a-9aaa-271d" value="25"/>
+            <characteristic name="Item Slots" characteristicTypeId="d0e0-c03d-1183-cd2e" value="3"/>
+            <characteristic name="Spellbook" characteristicTypeId="3d3e-73e5-dd6a-789c" value="3"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="d141-78de-1189-6f0d" name="Duelling" hidden="false" targetId="d0d6-59cb-5f49-a1be" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d937-5870-3371-3c5d" name="Avada Kedabra" hidden="false" targetId="356e-206b-ac27-0e46" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value="(Innate Spell)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="dc03-96ff-0d0e-ae19" name="Master Wizard " hidden="false" targetId="7e41-c870-19f3-5edb" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a056-69c7-17d5-0de8" name="Dark Lord " hidden="false" targetId="84d5-5c1a-2d8c-f9c3" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c683-7766-7565-2dd9" name="Slytherin" hidden="false" targetId="0604-5b80-5931-2fcd" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="21ac-a94e-6669-d11d" name="Magical Immunity X " hidden="false" targetId="ccfc-7148-76bb-7c9b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Magical Immunity 1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="bc8b-099b-f60b-8618" name="Dark Arts" hidden="false" targetId="d0bf-0eb1-3424-c7b5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d514-656b-a45e-4c23" name="Tactician" hidden="false" targetId="9f93-b81a-6461-ca29" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="45f1-744c-d4f4-b9f0" name="Worship" hidden="false" targetId="27de-9a6b-5443-f2fb" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b292-5e46-d4e5-44fc" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="440d-46f5-4767-7125" name="New CategoryLink" hidden="false" targetId="eea5-4f44-b142-d4ef" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="51e0-13c7-e247-1d98" name="Items (Lord Voldemort)" hidden="false" targetId="aa7f-441a-d722-baa6" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e113-bb98-f4f1-d874" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="59ba-48dd-d91f-ef98" name="Spells (With Dark Arts)" hidden="false" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="7f9c-1fda-608f-3097" value="1">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fff0-6570-5dc9-99c4" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f9c-1fda-608f-3097" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Galleons" costTypeId="39b7-674d-1765-92fb" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a27b-f783-37f4-2f67" name="Nagini" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="4577-30b2-c23e-57b4" name="Nagini" hidden="false" profileTypeId="2093f4cd-f669-06c6-0f4f-06037948fe28" profileTypeName="1.1 Attributes">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Affiliation" characteristicTypeId="911f2847-ecab-772a-37ad-b325a40b19ce" value="Death Eaters"/>
+            <characteristic name="Mastery" characteristicTypeId="fd922c18-88be-5191-46b0-1ab589f2ef33" value="0"/>
+            <characteristic name="Defense" characteristicTypeId="49d96d28-c1dc-f977-7bb6-8e1fbe8fe397" value="1"/>
+            <characteristic name="Cunning" characteristicTypeId="9ef0bc71-33ab-98cd-26b3-07c55ed7725f" value="4 Black"/>
+            <characteristic name="Magic" characteristicTypeId="84a7bbc1-d970-b7b9-2fd5-f174c9fdda90" value="0"/>
+            <characteristic name="Courage" characteristicTypeId="ae357512-6823-3b1d-aebe-2c2c8e52e2e0" value="0"/>
+            <characteristic name="Wisdom" characteristicTypeId="4e4daeff-a451-4e80-f5b5-d588866411b4" value="1"/>
+            <characteristic name="Temper" characteristicTypeId="d6fc-863a-9aaa-271d" value="25"/>
+            <characteristic name="Item Slots" characteristicTypeId="d0e0-c03d-1183-cd2e" value="0"/>
+            <characteristic name="Spellbook" characteristicTypeId="3d3e-73e5-dd6a-789c" value="0"/>
+          </characteristics>
+        </profile>
+        <profile id="cd07-217f-234c-e7d8" name="Poisoned Fangs" hidden="false" profileTypeId="07d6-95ce-9c89-313a" profileTypeName="1.5 Artefact (Attack)">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="cac9-3577-abf0-c57c" value="If successful, the target suffers the Poison effect."/>
+            <characteristic name="Rarity" characteristicTypeId="5542-8a14-e513-9167" value=""/>
+            <characteristic name="Type" characteristicTypeId="9b7b-8d3c-6c3b-c573" value="Physical"/>
+            <characteristic name="Bonus" characteristicTypeId="e033-8269-f4d6-f0c9" value="2"/>
+            <characteristic name="Damage" characteristicTypeId="ca7b-dc78-24dd-3315" value="2"/>
+            <characteristic name="Range" characteristicTypeId="75a3-8b99-a7f1-efd7" value="2"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="267f-806f-a5ee-a86f" name="Beast" hidden="false" targetId="c5d0-8bbd-d69f-631f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0c82-dc54-962c-1d69" name="Armor X " hidden="false" targetId="a14a-93f7-f29e-39ce" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Armor 1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="70eb-5d2a-d3a9-e79d" name="Scout" hidden="false" targetId="ad2f-5054-47db-d41c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7875-b8c1-c21d-097f" name="Magical Immunity X " hidden="false" targetId="ccfc-7148-76bb-7c9b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Magical Immunity 1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="0c28-7c7f-047a-9d91" name="Magic Resistance X " hidden="false" targetId="3b35-8d3e-4720-6c4b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Magic Resistance 1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7fe4-aafe-b35b-4bf0" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="abc3-8e33-70d4-18f4" name="New CategoryLink" hidden="false" targetId="eea5-4f44-b142-d4ef" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Galleons" costTypeId="39b7-674d-1765-92fb" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5f02-584e-1dc9-08bd" name="Fenrir" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="8771-7958-6bfa-e124" name="Fenrir" hidden="false" profileTypeId="2093f4cd-f669-06c6-0f4f-06037948fe28" profileTypeName="1.1 Attributes">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Affiliation" characteristicTypeId="911f2847-ecab-772a-37ad-b325a40b19ce" value="Death Eaters"/>
+            <characteristic name="Mastery" characteristicTypeId="fd922c18-88be-5191-46b0-1ab589f2ef33" value="2"/>
+            <characteristic name="Defense" characteristicTypeId="49d96d28-c1dc-f977-7bb6-8e1fbe8fe397" value="2"/>
+            <characteristic name="Cunning" characteristicTypeId="9ef0bc71-33ab-98cd-26b3-07c55ed7725f" value="3 Black"/>
+            <characteristic name="Magic" characteristicTypeId="84a7bbc1-d970-b7b9-2fd5-f174c9fdda90" value="7"/>
+            <characteristic name="Courage" characteristicTypeId="ae357512-6823-3b1d-aebe-2c2c8e52e2e0" value="1"/>
+            <characteristic name="Wisdom" characteristicTypeId="4e4daeff-a451-4e80-f5b5-d588866411b4" value="4"/>
+            <characteristic name="Temper" characteristicTypeId="d6fc-863a-9aaa-271d" value="13"/>
+            <characteristic name="Item Slots" characteristicTypeId="d0e0-c03d-1183-cd2e" value="1"/>
+            <characteristic name="Spellbook" characteristicTypeId="3d3e-73e5-dd6a-789c" value="2"/>
+          </characteristics>
+        </profile>
+        <profile id="1bd9-75d4-9f99-f6ca" name="Claws" hidden="false" profileTypeId="07d6-95ce-9c89-313a" profileTypeName="1.5 Artefact (Attack)">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="cac9-3577-abf0-c57c" value=""/>
+            <characteristic name="Rarity" characteristicTypeId="5542-8a14-e513-9167" value=""/>
+            <characteristic name="Type" characteristicTypeId="9b7b-8d3c-6c3b-c573" value="Physical"/>
+            <characteristic name="Bonus" characteristicTypeId="e033-8269-f4d6-f0c9" value="3"/>
+            <characteristic name="Damage" characteristicTypeId="ca7b-dc78-24dd-3315" value="2"/>
+            <characteristic name="Range" characteristicTypeId="75a3-8b99-a7f1-efd7" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="5330-821e-dd41-eb90" name="Dark Arts" hidden="false" targetId="d0bf-0eb1-3424-c7b5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2ce8-93a0-8cf9-d082" name="Instinctive Casting " hidden="false" targetId="3777-6c11-6094-865e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="eeae-2c55-3025-a93c" name="Snatcher" hidden="false" targetId="7f6e-c590-b75c-e1eb" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="83d0-fed6-202f-1e1a" name="Elite Fighter " hidden="false" targetId="8f86-b5cf-381f-e419" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="decrement" field="39b7-674d-1765-92fb" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0c54-082c-c7be-a97b" type="atLeast"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="5f02-584e-1dc9-08bd" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0c54-082c-c7be-a97b" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0601-5de9-4f27-6217" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="4751-585a-7f58-209e" name="New CategoryLink" hidden="false" targetId="eea5-4f44-b142-d4ef" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="9289-d9ac-6288-c039" name="Items (Snatcher Leader)" hidden="false" targetId="c9f4-60cc-6b01-d67b" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5c4-ed14-e503-ed25" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d84a-5aac-9f85-4572" name="Spells (With Dark Arts)" hidden="false" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="dfeb-4156-05de-5d0c" value="1">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fff0-6570-5dc9-99c4" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dfeb-4156-05de-5d0c" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Galleons" costTypeId="39b7-674d-1765-92fb" value="13.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -2838,6 +3748,46 @@
                   </constraints>
                   <categoryLinks/>
                 </entryLink>
+                <entryLink id="26e2-c791-4398-d684" name="Helga Hufflepuff’s Cup" hidden="false" targetId="ca07-1e80-4582-1054" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="fdb9-82c8-eaeb-db56" name="Marvolo Gaunt&apos;s Ring" hidden="false" targetId="1472-c025-19cd-0429" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="0889-3822-545b-4502" name="Rowena Ravenclaw’s Diadem" hidden="false" targetId="5bfa-cda0-0123-0791" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="11df-73f3-5309-c72a" name="Salazar Slytherin’s Locket" hidden="false" targetId="681d-ae53-39aa-26d4" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="44fb-bd88-a832-5e04" name="Tom Riddle’s Diary" hidden="false" targetId="4e23-f353-ee5e-7e6a" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -2924,6 +3874,276 @@
           <categoryLinks/>
         </entryLink>
       </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="aa7f-441a-d722-baa6" name="Items (Lord Voldemort)" book="" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1492-a9d3-fbd2-0c6c" name="Legendary" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cbf0-5d8b-5735-3c1b" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="3d9d-4808-06ea-b7fd" name="Artefacts (Legendary)" hidden="false" targetId="e59c-de68-d172-60bd" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="46f5-51e6-ad09-dc0d" name="Common" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="f2f4-fbbc-85c0-8036" name="Artefacts" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="fea9-eda1-ca0b-1025" name="Knife" hidden="false" targetId="98b1-624b-4d7c-7289" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="65ca-4420-b243-819a" name="Nagini" hidden="false" targetId="3d79-e471-ef05-ca21" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <repeats/>
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" childId="a27b-f783-37f4-2f67" type="atLeast"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="9e08-8e57-4c0a-7591" name="Spellbook" hidden="false" targetId="fff0-6570-5dc9-99c4" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="f367-7e3c-4192-9ac0" name="Sword" hidden="false" targetId="2401-8edd-d7d8-b9b9" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="187e-1232-f753-add4" name="Potions (Common)" hidden="false" targetId="a5bf-4232-b441-6f7d" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="0aa4-16d9-ecb4-482d" name="Rare" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f3a-967c-76f2-93e6" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="32d8-eac6-9f24-6f79" name="Artefacts" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="98ca-c9db-875c-14b2" name="Acromantula Venom" hidden="false" targetId="81d3-5334-a379-88e2" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="74ba-dc18-0c00-1e5a" name="Deluminator" hidden="false" targetId="2dda-d219-3971-82ee" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="6f97-eb52-9bb7-c70b" name="Foe-Glass" hidden="false" targetId="5d18-a8ee-3104-de39" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="c199-2c63-c8f3-1de1" name="Time-Turner" hidden="false" targetId="6f05-5194-2f3b-4511" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="5364-b23f-9594-2dae" name="Death Eater Mask" hidden="false" targetId="3ca9-dcc6-c464-1c99" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="c6a1-9111-c188-e99d" name="Death Eater Robe" hidden="false" targetId="1dc6-febb-1e1d-83af" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="7aec-5520-015e-d63b" name="Death Eater Wand" hidden="false" targetId="b2e9-f796-77e8-f76f" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="8191-2e64-012a-3622" name="Unicorn Blood" hidden="false" targetId="3e67-605b-7f9a-1783" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="25c0-6fda-d2ec-5882" name="Bellatrix Lestrange’s Knife" hidden="false" targetId="6888-c9d6-6cbb-08cd" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="4f1c-dbed-b810-4496" name="Helga Hufflepuff’s Cup" hidden="false" targetId="ca07-1e80-4582-1054" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="52fe-5bf9-005d-c981" name="Marvolo Gaunt&apos;s Ring" hidden="false" targetId="1472-c025-19cd-0429" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="8ef1-834e-aa91-120e" name="Rowena Ravenclaw’s Diadem" hidden="false" targetId="5bfa-cda0-0123-0791" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="dc6a-b06e-d3b3-8ce2" name="Salazar Slytherin’s Locket" hidden="false" targetId="681d-ae53-39aa-26d4" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="1838-e01b-773b-f46d" name="Tom Riddle’s Diary" hidden="false" targetId="4e23-f353-ee5e-7e6a" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="244d-f465-9d06-33c9" name="Nagini Horcrux" hidden="false" targetId="edb1-df50-301a-ec8f" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <repeats/>
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a27b-f783-37f4-2f67" type="atLeast"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="7302-a026-c9c0-3773" name="Potions (Rare)" hidden="false" targetId="f5b5-6c56-7f4e-e56a" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules/>

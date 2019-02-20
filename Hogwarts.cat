@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="03e9-1dee-4361-7029" name="Hogwarts" revision="1" battleScribeVersion="2.01" gameSystemId="aa1e-80ca-b43a-cf7b" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="03e9-1dee-4361-7029" name="Hogwarts" revision="2" battleScribeVersion="2.01" gameSystemId="aa1e-80ca-b43a-cf7b" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -342,6 +342,22 @@
           <conditionGroups/>
         </modifier>
       </modifiers>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="1d12-1d46-edf2-fa5f" name="Arthur Weasly" hidden="false" targetId="f30e-7846-a524-93b0" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="baf4-5b19-7ee7-1e72" name="Molly Weasley" hidden="false" targetId="9d5b-5123-71e6-ead4" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
       <constraints/>
       <categoryLinks/>
     </entryLink>
@@ -2887,6 +2903,11 @@
               <conditions/>
               <conditionGroups/>
             </modifier>
+            <modifier type="set" field="48bb-c6ce-efd9-b84c" value="3">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
         </infoLink>
         <infoLink id="9a94-ffe8-bc8e-0fc5" name="Wandlore" hidden="false" targetId="7e91-86e1-e952-faa8" type="rule">
@@ -3239,7 +3260,7 @@
           <characteristics>
             <characteristic name="Affiliation" characteristicTypeId="911f2847-ecab-772a-37ad-b325a40b19ce" value="Hogwarts/Death Eaters"/>
             <characteristic name="Mastery" characteristicTypeId="fd922c18-88be-5191-46b0-1ab589f2ef33" value="1"/>
-            <characteristic name="Defense" characteristicTypeId="49d96d28-c1dc-f977-7bb6-8e1fbe8fe397" value="1"/>
+            <characteristic name="Defense" characteristicTypeId="49d96d28-c1dc-f977-7bb6-8e1fbe8fe397" value="0"/>
             <characteristic name="Cunning" characteristicTypeId="9ef0bc71-33ab-98cd-26b3-07c55ed7725f" value="2 White"/>
             <characteristic name="Magic" characteristicTypeId="84a7bbc1-d970-b7b9-2fd5-f174c9fdda90" value="4"/>
             <characteristic name="Courage" characteristicTypeId="ae357512-6823-3b1d-aebe-2c2c8e52e2e0" value="2"/>
@@ -4555,6 +4576,220 @@
       </entryLinks>
       <costs>
         <cost name="Galleons" costTypeId="39b7-674d-1765-92fb" value="18.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9d5b-5123-71e6-ead4" name="Molly Weasley" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="a09e-ac6d-52a1-c874" name="Molly Weasley" hidden="false" profileTypeId="2093f4cd-f669-06c6-0f4f-06037948fe28" profileTypeName="1.1 Attributes">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Affiliation" characteristicTypeId="911f2847-ecab-772a-37ad-b325a40b19ce" value="Hogwarts"/>
+            <characteristic name="Mastery" characteristicTypeId="fd922c18-88be-5191-46b0-1ab589f2ef33" value="2"/>
+            <characteristic name="Defense" characteristicTypeId="49d96d28-c1dc-f977-7bb6-8e1fbe8fe397" value="1"/>
+            <characteristic name="Cunning" characteristicTypeId="9ef0bc71-33ab-98cd-26b3-07c55ed7725f" value="3 White"/>
+            <characteristic name="Magic" characteristicTypeId="84a7bbc1-d970-b7b9-2fd5-f174c9fdda90" value="7"/>
+            <characteristic name="Courage" characteristicTypeId="ae357512-6823-3b1d-aebe-2c2c8e52e2e0" value="4"/>
+            <characteristic name="Wisdom" characteristicTypeId="4e4daeff-a451-4e80-f5b5-d588866411b4" value="6"/>
+            <characteristic name="Temper" characteristicTypeId="d6fc-863a-9aaa-271d" value="8"/>
+            <characteristic name="Item Slots" characteristicTypeId="d0e0-c03d-1183-cd2e" value="2"/>
+            <characteristic name="Spellbook" characteristicTypeId="3d3e-73e5-dd6a-789c" value="2"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="e0e0-563c-4b35-9ec4" name="Duelling" hidden="false" targetId="d0d6-59cb-5f49-a1be" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5108-dae7-dd60-16c1" name="Potioneer X " hidden="false" targetId="4a44-324a-a514-1c27" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Potioneer 2">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="74e0-11b8-ad3e-75e2" name="Episkey" hidden="false" targetId="49d3-2650-63ee-6dce" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value="(Innate Spell)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="b2a7-205a-a489-b0aa" name="Protective" hidden="false" targetId="c436-a95c-8688-3c39" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cd87-96a7-e6c6-0058" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="0641-b16a-a95d-7619" name="Hogwarts" hidden="false" targetId="72a0-0676-dd71-5ecd" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="0cb7-b79a-3afb-8111" name="Items" hidden="false" targetId="871c-8447-8648-4757" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36fa-2166-b272-bdcd" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e1bd-4f77-40cd-02cf" name="Spells" hidden="false" targetId="f45a-25ca-6491-8733" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="3e47-817b-4285-e031" value="1">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fff0-6570-5dc9-99c4" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e47-817b-4285-e031" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="73f8-2104-535b-6cd0" name="Potioneer 2" hidden="false" targetId="4715-273b-c1de-8474" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Galleons" costTypeId="39b7-674d-1765-92fb" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f30e-7846-a524-93b0" name="Arthur Weasly" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="3c02-5e52-1e6d-4525" name="Arthur Weasly" hidden="false" profileTypeId="2093f4cd-f669-06c6-0f4f-06037948fe28" profileTypeName="1.1 Attributes">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Affiliation" characteristicTypeId="911f2847-ecab-772a-37ad-b325a40b19ce" value="Hogwarts"/>
+            <characteristic name="Mastery" characteristicTypeId="fd922c18-88be-5191-46b0-1ab589f2ef33" value="1"/>
+            <characteristic name="Defense" characteristicTypeId="49d96d28-c1dc-f977-7bb6-8e1fbe8fe397" value="2"/>
+            <characteristic name="Cunning" characteristicTypeId="9ef0bc71-33ab-98cd-26b3-07c55ed7725f" value="1 White"/>
+            <characteristic name="Magic" characteristicTypeId="84a7bbc1-d970-b7b9-2fd5-f174c9fdda90" value="6"/>
+            <characteristic name="Courage" characteristicTypeId="ae357512-6823-3b1d-aebe-2c2c8e52e2e0" value="3"/>
+            <characteristic name="Wisdom" characteristicTypeId="4e4daeff-a451-4e80-f5b5-d588866411b4" value="6"/>
+            <characteristic name="Temper" characteristicTypeId="d6fc-863a-9aaa-271d" value="2"/>
+            <characteristic name="Item Slots" characteristicTypeId="d0e0-c03d-1183-cd2e" value="2"/>
+            <characteristic name="Spellbook" characteristicTypeId="3d3e-73e5-dd6a-789c" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="8eb6-0b92-a822-325b" name="Duelling" hidden="false" targetId="d0d6-59cb-5f49-a1be" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1707-855a-b718-61fa" name="Fianto Duri" hidden="false" targetId="cb22-6ec9-c7b3-8da5" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value="(Innate Spell)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="89bc-9b4f-1add-d2b4" name="Ministry of Magic Employee" hidden="false" targetId="c304-bc49-eab4-533b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0824-3440-b483-e0e8" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="b2ff-f3df-6e10-8635" name="Hogwarts" hidden="false" targetId="72a0-0676-dd71-5ecd" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="0df4-c71d-1a2b-6b4f" name="Items" hidden="false" targetId="871c-8447-8648-4757" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31e4-341c-bc2b-faa6" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="58c6-aa5d-a0e5-c5a1" name="Spells" hidden="false" targetId="f45a-25ca-6491-8733" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="24cf-98e0-9969-be1a" value="1">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fff0-6570-5dc9-99c4" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24cf-98e0-9969-be1a" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Galleons" costTypeId="39b7-674d-1765-92fb" value="8.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

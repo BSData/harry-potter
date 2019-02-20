@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="aa1e-80ca-b43a-cf7b" name="Harry Potter Miniatures Adventure Game" revision="1" battleScribeVersion="2.01" authorName="NeXo" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="aa1e-80ca-b43a-cf7b" name="Harry Potter Miniatures Adventure Game" revision="2" battleScribeVersion="2.01" authorName="NeXo" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1537,7 +1537,7 @@
         <cost name="Galleons" costTypeId="39b7-674d-1765-92fb" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="552f-686d-a0ff-ee4f" name="Garroting Gas (Lvl 2)" book="Wesley twins" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="552f-686d-a0ff-ee4f" name="Garroting Gas (Lvl 1)" book="Wesley twins" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="93c2-364e-031a-5435" name="Garroting Gas" hidden="false" profileTypeId="9240-871e-f92a-dca7" profileTypeName="1.3 Potion">
           <profiles/>
@@ -1754,6 +1754,325 @@
         <cost name="Galleons" costTypeId="39b7-674d-1765-92fb" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="770d-606c-1014-8ddc" name="Vulnera Sanentur" book="" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="087e-04df-4af3-6db7" name="Vulnera Sanentur" hidden="false" targetId="92f6-43e9-4ee6-18b0" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Galleons" costTypeId="39b7-674d-1765-92fb" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cce5-b7e5-2439-2df6" name="Antidote to Uncommon Poisons (Lvl 1)" book="" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="6d0e-312a-52f8-aa74" name="Antidote to Uncommon Poisons" hidden="false" profileTypeId="9240-871e-f92a-dca7" profileTypeName="1.3 Potion">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="c446-8595-c2ab-557d" value="Remove all Poison markers from target model."/>
+            <characteristic name="Level" characteristicTypeId="aa7a-73a2-1140-ddda" value="1"/>
+            <characteristic name="Range" characteristicTypeId="8eb6-077f-d4a8-aad5" value="1"/>
+            <characteristic name="Rarity" characteristicTypeId="9e89-a9cf-e544-cdec" value="Rare"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Galleons" costTypeId="39b7-674d-1765-92fb" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5ee0-cf5f-4a3c-cda3" name="Draught of Peace (Lvl 2)" book="" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="2569-0ceb-85be-ee65" name="Draught of Peace" hidden="false" profileTypeId="9240-871e-f92a-dca7" profileTypeName="1.3 Potion">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="c446-8595-c2ab-557d" value="Reduces the Power Cost of the next spell cast by the target model by 1 (to a minimum of 1)."/>
+            <characteristic name="Level" characteristicTypeId="aa7a-73a2-1140-ddda" value="2"/>
+            <characteristic name="Range" characteristicTypeId="8eb6-077f-d4a8-aad5" value="1"/>
+            <characteristic name="Rarity" characteristicTypeId="9e89-a9cf-e544-cdec" value="Rare"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Galleons" costTypeId="39b7-674d-1765-92fb" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3be4-40ae-57b9-eea0" name="Harry Potter Horcrux" book="" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="8a0a-a78c-558d-4616" name="Harry Potter Horcrux" hidden="false" profileTypeId="3229-77e7-0f3c-27b9" profileTypeName="1.4 Artefact">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="710d-419f-1488-1c46" value="This model ignores the first Avada Kedavra spell performed against it by an enemy Lord Voldemort model, then discards this card. Harry Potter model only."/>
+            <characteristic name="Rarity" characteristicTypeId="6ccd-dad9-f7cb-3440" value="Rare, Unique, Horcrux"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="dd97-90e0-d640-0b79" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b91-c4e7-f7b6-1fd6" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Galleons" costTypeId="39b7-674d-1765-92fb" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4e23-f353-ee5e-7e6a" name="Tom Riddle’s Diary" book="" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="4c94-dbe9-4436-b451" name="Tom Riddle’s Diary" hidden="false" profileTypeId="3229-77e7-0f3c-27b9" profileTypeName="1.4 Artefact">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="710d-419f-1488-1c46" value="If this model has the Dark Arts trait, it gains +1 to cast Unforgivable Curses. If not, it gains the Dark Arts trait but deducts 1 success from its casting rolls."/>
+            <characteristic name="Rarity" characteristicTypeId="6ccd-dad9-f7cb-3440" value="Rare, Unique, Horcrux"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1a0b-0197-ac96-e231" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7a9-80a5-42cd-6f65" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Galleons" costTypeId="39b7-674d-1765-92fb" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5bfa-cda0-0123-0791" name="Rowena Ravenclaw’s Diadem" book="" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="53e5-4625-9c3e-2161" name="Rowena Ravenclaw’s Diadem" hidden="false" profileTypeId="3229-77e7-0f3c-27b9" profileTypeName="1.4 Artefact">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="710d-419f-1488-1c46" value="Once per game, when a friendly model tries to resolve a Challenge, you can choose which characteristic to use."/>
+            <characteristic name="Rarity" characteristicTypeId="6ccd-dad9-f7cb-3440" value="Rare, Unique, Horcrux"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7f87-cec4-318b-b5ea" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05d8-fd92-cdd4-3e74" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Galleons" costTypeId="39b7-674d-1765-92fb" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="681d-ae53-39aa-26d4" name="Salazar Slytherin’s Locket" book="" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="db31-fc81-6a83-4304" name="Salazar Slytherin’s Locket" hidden="false" profileTypeId="3229-77e7-0f3c-27b9" profileTypeName="1.4 Artefact">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="710d-419f-1488-1c46" value="This model changes its Cunning colour to Black. If the model’s Cunning color is already Black, then add +1 Cunning instead."/>
+            <characteristic name="Rarity" characteristicTypeId="6ccd-dad9-f7cb-3440" value="Rare, Unique, Horcrux"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ed3d-4f04-ff28-3132" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c993-15d6-0ba1-3007" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Galleons" costTypeId="39b7-674d-1765-92fb" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1472-c025-19cd-0429" name="Marvolo Gaunt&apos;s Ring" book="" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="88d5-c808-bb14-44f4" name="Marvolo Gaunt&apos;s Ring" hidden="false" profileTypeId="3229-77e7-0f3c-27b9" profileTypeName="1.4 Artefact">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="710d-419f-1488-1c46" value="This model suffers 1 damage at the end of each activation. This model reduces the damage taken from enemy actions by -1 (to a minimum of 1)."/>
+            <characteristic name="Rarity" characteristicTypeId="6ccd-dad9-f7cb-3440" value="Rare, Unique, Horcrux"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="644e-b37a-8315-0bb4" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98e2-6cbe-ae93-07ad" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Galleons" costTypeId="39b7-674d-1765-92fb" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ca07-1e80-4582-1054" name="Helga Hufflepuff’s Cup" book="" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="8e45-da7b-f1fc-8632" name="Helga Hufflepuff’s Cup" hidden="false" profileTypeId="3229-77e7-0f3c-27b9" profileTypeName="1.4 Artefact">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="710d-419f-1488-1c46" value="This card grants the following attack: Type: Physical Bonus: 2, Damage: 2, Range: 1 This attack is only ever made with only 3 dice, ignoring any other rule that adds or substracts dice. If no Successes are scored, then this model suffers the effect of the attack. If you score at least 2 symbols with this attack, increase the damage to 3."/>
+            <characteristic name="Rarity" characteristicTypeId="6ccd-dad9-f7cb-3440" value="Rare, Unique, Horcrux"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="67a2-afff-27dd-d45d" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="456f-2a32-5cd0-bee8" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Galleons" costTypeId="39b7-674d-1765-92fb" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="edb1-df50-301a-ec8f" name="Nagini Horcrux" book="" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="70cb-888f-ec32-686c" name="Nagini Horcrux" hidden="false" profileTypeId="3229-77e7-0f3c-27b9" profileTypeName="1.4 Artefact">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="710d-419f-1488-1c46" value="This card grants the following attack:  Type: Physical Bonus: 3, Damage: 3, Range: 2 Ignore the Armor rule. Use once per game. Lord Voldermort model only."/>
+            <characteristic name="Rarity" characteristicTypeId="6ccd-dad9-f7cb-3440" value="Rare, Unique, Horcrux"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c03b-e9c9-652a-d4bf" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1ee-d277-e5cb-ea15" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Galleons" costTypeId="39b7-674d-1765-92fb" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2fd4-2b62-ba41-d3e4" name="Diffindo" book="" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="7727-c6bf-0de2-8a20" name="Diffindo" hidden="false" targetId="27be-8211-bd3b-5dac" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Galleons" costTypeId="39b7-674d-1765-92fb" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0c54-082c-c7be-a97b" name="Snatcher Leader" book="" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="3c6f-1bc3-8a4c-333d" name="Snatcher Leader" hidden="false" profileTypeId="3229-77e7-0f3c-27b9" profileTypeName="1.4 Artefact">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="710d-419f-1488-1c46" value="Other friendly models with the Snatcher trait have their Gallen cost reduced by 1. Can only be purchased by Fenrir or Scabior."/>
+            <characteristic name="Rarity" characteristicTypeId="6ccd-dad9-f7cb-3440" value="Legendary, Unique"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fdff-bda3-6f88-6eb7" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Galleons" costTypeId="39b7-674d-1765-92fb" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="f45a-25ca-6491-8733" name="Spells" hidden="false" collective="false">
@@ -1929,6 +2248,22 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="e0d1-4b60-7395-3da4" name="Wingardium Leviosa" hidden="false" targetId="ca12-c4f2-32bd-32f9" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="3466-c836-37eb-9f78" name="Vulnera Sanentur" hidden="false" targetId="770d-606c-1014-8ddc" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="dd86-bfb8-5039-533a" name="Diffindo" hidden="false" targetId="2fd4-2b62-ba41-d3e4" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2135,6 +2470,22 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="d7bc-396a-417b-fd86" name="Wingardium Leviosa" hidden="false" targetId="ca12-c4f2-32bd-32f9" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5edd-7004-d83b-a173" name="Vulnera Sanentur" hidden="false" targetId="770d-606c-1014-8ddc" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8717-a49b-ddee-7041" name="Diffindo" hidden="false" targetId="2fd4-2b62-ba41-d3e4" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2367,7 +2718,7 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="3bb2-a862-18ab-aa71" name="Artefacts (Rare)" hidden="false" targetId="e06e-f794-42d5-a883" type="selectionEntryGroup">
+            <entryLink id="3bb2-a862-18ab-aa71" name="Artefacts (Rare Harry Potter)" hidden="false" targetId="bd09-58a0-2149-bc36" type="selectionEntryGroup">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -2480,7 +2831,7 @@
       </selectionEntryGroups>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="579f-6bb8-e58f-97c4" name="Items (Lord Voldemort)" hidden="false" collective="false">
+    <selectionEntryGroup id="579f-6bb8-e58f-97c4" name="A BORRAR Items (Lord Voldemort)" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2551,7 +2902,7 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="0f5a-c4f8-dc40-1611" name="Artefacts (Rare Death Eaters)" hidden="false" targetId="7605-7edd-b951-1ce4" type="selectionEntryGroup">
+            <entryLink id="0f5a-c4f8-dc40-1611" name="Artefacts (Rare Voldemort)" hidden="false" targetId="1828-7ebb-f9c5-61cb" type="selectionEntryGroup">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -2796,25 +3147,11 @@
             </categoryLink>
           </categoryLinks>
         </entryLink>
-        <entryLink id="464a-7d87-3617-4063" name="Garroting Gas (Lvl 2)" hidden="true" targetId="552f-686d-a0ff-ee4f" type="selectionEntry">
+        <entryLink id="464a-7d87-3617-4063" name="Garroting Gas (Lvl 1)" hidden="true" targetId="552f-686d-a0ff-ee4f" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="false">
-              <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2544-1b5a-6048-5c5f" type="atLeast"/>
-                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4715-273b-c1de-8474" type="atLeast"/>
-                  </conditions>
-                  <conditionGroups/>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks>
             <categoryLink id="0a7a-0115-f4cf-5ddc" name="Potion" hidden="false" targetId="d115-2481-b188-b3a8" primary="false">
@@ -2953,6 +3290,46 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="3a90-9311-b1e0-92e8" name="Bellatrix Lestrange’s Knife" hidden="false" targetId="6888-c9d6-6cbb-08cd" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="2d33-4639-2a67-5505" name="Helga Hufflepuff’s Cup" hidden="false" targetId="ca07-1e80-4582-1054" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="2672-343a-87da-b4f4" name="Marvolo Gaunt&apos;s Ring" hidden="false" targetId="1472-c025-19cd-0429" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="edca-75d9-0957-987b" name="Rowena Ravenclaw’s Diadem" hidden="false" targetId="5bfa-cda0-0123-0791" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ce30-ac36-ce3f-e403" name="Salazar Slytherin’s Locket" hidden="false" targetId="681d-ae53-39aa-26d4" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="c39c-5f11-a79d-8ff4" name="Tom Riddle’s Diary" hidden="false" targetId="4e23-f353-ee5e-7e6a" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3219,6 +3596,36 @@
             </categoryLink>
           </categoryLinks>
         </entryLink>
+        <entryLink id="4c73-9160-f838-3aae" name="Draught of Peace (Lvl 2)" hidden="true" targetId="5ee0-cf5f-4a3c-cda3" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2544-1b5a-6048-5c5f" type="atLeast"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4715-273b-c1de-8474" type="atLeast"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks>
+            <categoryLink id="3011-962c-b791-50bc" name="Potion" hidden="false" targetId="d115-2481-b188-b3a8" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="871c-8447-8648-4757" name="Items" hidden="false" collective="false">
@@ -3395,6 +3802,46 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="c1f6-c26b-c646-13c3" name="Helga Hufflepuff’s Cup" hidden="false" targetId="ca07-1e80-4582-1054" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="96ac-9667-4a4b-7b16" name="Marvolo Gaunt&apos;s Ring" hidden="false" targetId="1472-c025-19cd-0429" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="2680-c995-239c-aac0" name="Rowena Ravenclaw’s Diadem" hidden="false" targetId="5bfa-cda0-0123-0791" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1b34-e884-6a6a-9d89" name="Salazar Slytherin’s Locket" hidden="false" targetId="681d-ae53-39aa-26d4" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="9abc-719e-e89b-ad50" name="Tom Riddle’s Diary" hidden="false" targetId="4e23-f353-ee5e-7e6a" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="7b99-595a-fd77-41ad" name="Artefacts (Common Harry Potter)" hidden="false" collective="false">
@@ -3441,7 +3888,7 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="114c-5f2a-7499-5f2d" name="Artefacts (Lord Voldemort)" hidden="false" collective="false">
+    <selectionEntryGroup id="114c-5f2a-7499-5f2d" name="A BORRAR Artefacts (Common Lord Voldemort)" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3471,7 +3918,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="edb1-df50-301a-ec8f" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -3490,9 +3945,7 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="d115-2481-b188-b3a8" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="8c90-4069-f6cf-3e42" type="max"/>
-      </constraints>
+      <constraints/>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
@@ -3637,6 +4090,46 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="fe62-2bb2-b577-d9c6" name="Helga Hufflepuff’s Cup" hidden="false" targetId="ca07-1e80-4582-1054" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="f5a2-bc1a-c395-8072" name="Marvolo Gaunt&apos;s Ring" hidden="false" targetId="1472-c025-19cd-0429" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="129a-024b-d574-9244" name="Rowena Ravenclaw’s Diadem" hidden="false" targetId="5bfa-cda0-0123-0791" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="19d4-1202-4e08-92ef" name="Salazar Slytherin’s Locket" hidden="false" targetId="681d-ae53-39aa-26d4" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="21df-066e-2630-5361" name="Tom Riddle’s Diary" hidden="false" targetId="4e23-f353-ee5e-7e6a" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="2e5a-5dfc-1c5a-3b39" name="Artefacts (Rare No Mercy)" hidden="false" collective="false">
@@ -3690,6 +4183,46 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="6a12-40da-b1af-8cd1" name="No Mercy" hidden="false" targetId="9bda-2fa0-5364-dc8d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7202-8a15-4d4b-5829" name="Helga Hufflepuff’s Cup" hidden="false" targetId="ca07-1e80-4582-1054" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e53f-d515-577d-18ed" name="Marvolo Gaunt&apos;s Ring" hidden="false" targetId="1472-c025-19cd-0429" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="25eb-0dcd-774a-0676" name="Rowena Ravenclaw’s Diadem" hidden="false" targetId="5bfa-cda0-0123-0791" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="0bc2-0caa-0e4a-a9a9" name="Salazar Slytherin’s Locket" hidden="false" targetId="681d-ae53-39aa-26d4" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="62d9-47a6-515e-cb01" name="Tom Riddle’s Diary" hidden="false" targetId="4e23-f353-ee5e-7e6a" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3779,6 +4312,407 @@
               <categoryLinks/>
             </entryLink>
             <entryLink id="cfdb-7568-afd0-d39a" name="Potions (Rare)" hidden="false" targetId="f5b5-6c56-7f4e-e56a" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="1828-7ebb-f9c5-61cb" name="A BORRAR Artefacts (Rare Lord Voldemort)" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="5434-efe9-af32-90b2" name="Acromantula Venom" hidden="false" targetId="81d3-5334-a379-88e2" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b2c6-0310-7928-6715" name="Deluminator" hidden="false" targetId="2dda-d219-3971-82ee" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="9046-4553-063e-79fd" name="Foe-Glass" hidden="false" targetId="5d18-a8ee-3104-de39" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d37d-84fd-83d6-5f4a" name="Time-Turner" hidden="false" targetId="6f05-5194-2f3b-4511" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e091-dbe1-3565-5a59" name="Death Eater Mask" hidden="false" targetId="3ca9-dcc6-c464-1c99" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5c8b-8bcc-30db-0bae" name="Death Eater Robe" hidden="false" targetId="1dc6-febb-1e1d-83af" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7438-c304-f69c-ae46" name="Death Eater Wand" hidden="false" targetId="b2e9-f796-77e8-f76f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="157c-d9f0-4e20-a8b8" name="Unicorn Blood" hidden="false" targetId="3e67-605b-7f9a-1783" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="cbe2-ebf8-d3f2-bcbc" name="Bellatrix Lestrange’s Knife" hidden="false" targetId="6888-c9d6-6cbb-08cd" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="4843-c006-a475-ea74" name="Helga Hufflepuff’s Cup" hidden="false" targetId="ca07-1e80-4582-1054" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5c3b-2794-96f8-bf47" name="Marvolo Gaunt&apos;s Ring" hidden="false" targetId="1472-c025-19cd-0429" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b532-61c9-4073-a739" name="Rowena Ravenclaw’s Diadem" hidden="false" targetId="5bfa-cda0-0123-0791" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="83ad-b155-0ac7-6d13" name="Salazar Slytherin’s Locket" hidden="false" targetId="681d-ae53-39aa-26d4" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="9b94-6b5c-cf5b-2e2c" name="Tom Riddle’s Diary" hidden="false" targetId="4e23-f353-ee5e-7e6a" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5c46-02ba-afea-03ef" name="Nagini Horcrux" hidden="false" targetId="edb1-df50-301a-ec8f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3d79-e471-ef05-ca21" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="bd09-58a0-2149-bc36" name="Artefacts (Rare Harry Potter)" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="5ef9-412a-e7a3-73a2" name="Acromantula Venom" hidden="false" targetId="81d3-5334-a379-88e2" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="31e8-3b75-ec60-5f8d" name="Deluminator" hidden="false" targetId="2dda-d219-3971-82ee" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="81ab-d7fd-8a5f-c141" name="Foe-Glass" hidden="false" targetId="5d18-a8ee-3104-de39" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="9d45-e11c-fedd-dedb" name="Time-Turner" hidden="false" targetId="6f05-5194-2f3b-4511" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="75c4-b76d-d349-113e" name="Bellatrix Lestrange’s Knife" hidden="false" targetId="6888-c9d6-6cbb-08cd" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="cf66-5213-2821-e6a9" name="Helga Hufflepuff’s Cup" hidden="false" targetId="ca07-1e80-4582-1054" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="f12e-406d-0945-086a" name="Marvolo Gaunt&apos;s Ring" hidden="false" targetId="1472-c025-19cd-0429" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="2dbc-eb26-4320-d4a9" name="Rowena Ravenclaw’s Diadem" hidden="false" targetId="5bfa-cda0-0123-0791" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="77fa-1ccb-53dc-5d2f" name="Salazar Slytherin’s Locket" hidden="false" targetId="681d-ae53-39aa-26d4" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="47b0-b996-f6d4-f5e7" name="Tom Riddle’s Diary" hidden="false" targetId="4e23-f353-ee5e-7e6a" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="f11a-2207-b8cf-83a7" name="Harry Potter Horcrux" hidden="false" targetId="3be4-40ae-57b9-eea0" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="b2dc-e93c-d8bc-3fd8" name="Artefacts (Legendary Snatcher Leader)" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="5b9b-cc45-7768-9a95" name="Elder Wand" hidden="false" targetId="8d33-b022-48d9-77a8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="809d-a3e5-880e-b697" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4222-f7b1-0ba9-76c5" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="2dae-e8f9-e12d-aba6" name="Deathly Hollows" hidden="false" targetId="466f-78c9-680f-b11b" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="4b1b-7e79-ee54-c844" name="Invisibility Cloak" hidden="false" targetId="8078-994f-75e5-b6ee" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="40ab-906f-cc47-ef87" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac7d-1f83-a3e9-6693" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="7020-163c-7e3f-55a9" name="Deathly Hollows" hidden="false" targetId="466f-78c9-680f-b11b" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="4788-d08f-dfc6-42b3" name="Snatcher Leader" hidden="false" targetId="0c54-082c-c7be-a97b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="232c-0df5-02d6-613f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15a8-9e8a-0954-2a4c" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="e2a6-ea78-43c9-9e11" name="Deathly Hollows" hidden="false" targetId="466f-78c9-680f-b11b" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="c9f4-60cc-6b01-d67b" name="Items (Snatcher Leader)" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d9fb-13f7-19db-99f7" name="Legendary" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="32b4-4ce0-5bb2-b291" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="7246-8d1e-afe6-b931" name="Artefacts (Legendary Snatcher Leader)" hidden="false" targetId="b2dc-e93c-d8bc-3fd8" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="d4a9-4057-312f-833a" name="Common" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="e87c-40c9-44c8-e2ae" name="Artefacts (Common)" hidden="false" targetId="541e-a918-c634-6234" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="2205-cf7b-2621-4237" name="Potions (Common)" hidden="false" targetId="a5bf-4232-b441-6f7d" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="7533-861b-0183-6307" name="Rare" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd15-9552-e0b5-c1a7" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="f0a7-0a7e-fb9c-1edc" name="Potions (Rare)" hidden="false" targetId="f5b5-6c56-7f4e-e56a" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="74b0-b9a8-3ed9-3a92" name="Artefacts (Rare Death Eaters)" hidden="false" targetId="7605-7edd-b951-1ce4" type="selectionEntryGroup">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -4232,6 +5166,34 @@ NB. The Potioneer value is also used in some instances to provide other bonuses 
       <modifiers/>
       <description>When this model ends its activation, loses one Shield from its Defense until the end of the round.</description>
     </rule>
+    <rule id="c436-a95c-8688-3c39" name="Protective" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When another friendly model within 3 spaces of this model suffers damage or is removed from the game, this model gains 1 Lucky die to its casting rolls until the end of the round.</description>
+    </rule>
+    <rule id="c304-bc49-eab4-533b" name="Ministry of Magic Employee" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Once per game, during this model&apos;s activation, you may discard one of your Quest cards and draw a new one.</description>
+    </rule>
+    <rule id="7f6e-c590-b75c-e1eb" name="Snatcher" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When a friendly model with the Snatcher trait performs a Combat Spell, it gains 1 cumulative automatic success for every other friendly model with the Snatcher trait within two spaces of the target.</description>
+    </rule>
+    <rule id="27de-9a6b-5443-f2fb" name="Worship" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>During the Magic Phase, for each friendly model with at least 1 Cunning, this model adds 1 Dark Power counter to the Power Pool to a maximum of 4 additional counters.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="b55f-1ca3-4b7e-ce9d" name="Alarte Ascendare" hidden="false" profileTypeId="0aed-3bd3-2aaa-6237" profileTypeName="1.2 Spell">
@@ -4666,6 +5628,48 @@ NB. The Potioneer value is also used in some instances to provide other bonuses 
         <characteristic name="Difficulty" characteristicTypeId="48bb-c6ce-efd9-b84c" value="6"/>
         <characteristic name="Description" characteristicTypeId="4ee7-a98d-cfca-ca71" value="If successful, all models in range suffer 2 Physical Damage with the Burning Effect"/>
         <characteristic name="Cooldown Clock" characteristicTypeId="62f1-68e4-ceff-8682" value="3"/>
+      </characteristics>
+    </profile>
+    <profile id="92f6-43e9-4ee6-18b0" name="Vulnera Sanentur" hidden="false" profileTypeId="0aed-3bd3-2aaa-6237" profileTypeName="1.2 Spell">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="ecb8-5b30-787e-8ab8" value="4"/>
+        <characteristic name="Power Cost" characteristicTypeId="05fc-2837-01e5-4a01" value="2 White"/>
+        <characteristic name="Upkeep" characteristicTypeId="cf20-f678-81bc-115a" value="No upkeep"/>
+        <characteristic name="Difficulty" characteristicTypeId="48bb-c6ce-efd9-b84c" value="6"/>
+        <characteristic name="Description" characteristicTypeId="4ee7-a98d-cfca-ca71" value="Target model heals up to 3 Damage levels."/>
+        <characteristic name="Cooldown Clock" characteristicTypeId="62f1-68e4-ceff-8682" value="2"/>
+      </characteristics>
+    </profile>
+    <profile id="27be-8211-bd3b-5dac" name="Diffindo" hidden="false" profileTypeId="0aed-3bd3-2aaa-6237" profileTypeName="1.2 Spell">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="ecb8-5b30-787e-8ab8" value="6"/>
+        <characteristic name="Power Cost" characteristicTypeId="05fc-2837-01e5-4a01" value="1 Grey"/>
+        <characteristic name="Upkeep" characteristicTypeId="cf20-f678-81bc-115a" value="No upkeep"/>
+        <characteristic name="Difficulty" characteristicTypeId="48bb-c6ce-efd9-b84c" value="0"/>
+        <characteristic name="Description" characteristicTypeId="4ee7-a98d-cfca-ca71" value="Combat Spell. If successful, target model suffers 1 Magical Damage."/>
+        <characteristic name="Cooldown Clock" characteristicTypeId="62f1-68e4-ceff-8682" value="1"/>
+      </characteristics>
+    </profile>
+    <profile id="cb22-6ec9-c7b3-8da5" name="Fianto Duri" hidden="false" profileTypeId="0aed-3bd3-2aaa-6237" profileTypeName="1.2 Spell">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="ecb8-5b30-787e-8ab8" value="2"/>
+        <characteristic name="Power Cost" characteristicTypeId="05fc-2837-01e5-4a01" value="3 White"/>
+        <characteristic name="Upkeep" characteristicTypeId="cf20-f678-81bc-115a" value="-"/>
+        <characteristic name="Difficulty" characteristicTypeId="48bb-c6ce-efd9-b84c" value="3"/>
+        <characteristic name="Description" characteristicTypeId="4ee7-a98d-cfca-ca71" value="Combat Spell. If succesful, target model suffers 2 Physical Damage."/>
+        <characteristic name="Cooldown Clock" characteristicTypeId="62f1-68e4-ceff-8682" value="2"/>
       </characteristics>
     </profile>
   </sharedProfiles>
