@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="aa1e-80ca-b43a-cf7b" name="Harry Potter Miniatures Adventure Game" revision="2" battleScribeVersion="2.01" authorName="NeXo" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="aa1e-80ca-b43a-cf7b" name="Harry Potter Miniatures Adventure Game" revision="3" battleScribeVersion="2.01" authorName="NeXo" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -300,7 +300,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Galleons" costTypeId="39b7-674d-1765-92fb" value="4.0"/>
+        <cost name="Galleons" costTypeId="39b7-674d-1765-92fb" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b40c-0651-c479-436f" name="Reducto" hidden="false" collective="false" type="upgrade">
@@ -1738,14 +1738,16 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Description" characteristicTypeId="710d-419f-1488-1c46" value="Can only be purchased by Bellatrix Lestrange and Barty Crouch Jr., and only if Lord Voldemort is part of the Group. This model can purchase an Unforgivable Curse without paying its cost."/>
-            <characteristic name="Rarity" characteristicTypeId="6ccd-dad9-f7cb-3440" value="Rare"/>
+            <characteristic name="Rarity" characteristicTypeId="6ccd-dad9-f7cb-3440" value="Legendary"/>
           </characteristics>
         </profile>
       </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7e11-1d3c-9903-4703" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -2071,6 +2073,187 @@
       <entryLinks/>
       <costs>
         <cost name="Galleons" costTypeId="39b7-674d-1765-92fb" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8cdb-cc5c-9dfb-b8ad" name="Centaur Ropes" book="" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="114f-457b-0ca0-f465" name="Centaur Ropes" hidden="false" profileTypeId="07d6-95ce-9c89-313a" profileTypeName="1.5 Artefact (Attack)">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="cac9-3577-abf0-c57c" value="This card grants the following attack. Upon a successful attack, target model must miss during its next activation one of its Actions chosen by you. Only models with the Centaur trait."/>
+            <characteristic name="Rarity" characteristicTypeId="5542-8a14-e513-9167" value="Common"/>
+            <characteristic name="Type" characteristicTypeId="9b7b-8d3c-6c3b-c573" value="Physical"/>
+            <characteristic name="Bonus" characteristicTypeId="e033-8269-f4d6-f0c9" value="2"/>
+            <characteristic name="Damage" characteristicTypeId="ca7b-dc78-24dd-3315" value="0"/>
+            <characteristic name="Range" characteristicTypeId="75a3-8b99-a7f1-efd7" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Galleons" costTypeId="39b7-674d-1765-92fb" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4b69-ea24-0aae-237e" name="Reinforced Bow" book="" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="8ca4-4d87-0420-0a6f" name="Reinforced Bow" hidden="false" profileTypeId="3229-77e7-0f3c-27b9" profileTypeName="1.4 Artefact">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="710d-419f-1488-1c46" value="This model&apos;s Bow attacks inflicts +1 Damage."/>
+            <characteristic name="Rarity" characteristicTypeId="6ccd-dad9-f7cb-3440" value="Common"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Galleons" costTypeId="39b7-674d-1765-92fb" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7b3d-e52a-3f5d-9242" name="Crystal Ball" book="" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="3e5c-be97-6ed8-b277" name="Crystal Ball" hidden="false" profileTypeId="3229-77e7-0f3c-27b9" profileTypeName="1.4 Artefact">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="710d-419f-1488-1c46" value="When this model chooses a model for the Divination trait, you can choose 2 models instead of 1."/>
+            <characteristic name="Rarity" characteristicTypeId="6ccd-dad9-f7cb-3440" value="Rare"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Galleons" costTypeId="39b7-674d-1765-92fb" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c5f1-2b94-3a1e-0b82" name="Mandrake" book="" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="fe90-57a5-3f44-a82c" name="Mandrake" hidden="false" profileTypeId="3229-77e7-0f3c-27b9" profileTypeName="1.4 Artefact">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="710d-419f-1488-1c46" value="Spend an Advanced Action. For the rest of the round, models suffer -2 Successes when making any roll while whitin 2 spaces of this model. Pomona Sprout Only."/>
+            <characteristic name="Rarity" characteristicTypeId="6ccd-dad9-f7cb-3440" value="Rare"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Galleons" costTypeId="39b7-674d-1765-92fb" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2608-236d-4ece-aacf" name="Earmuffs" book="" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="d03e-ff78-8f5c-2818" name="Earmuffs" hidden="false" profileTypeId="3229-77e7-0f3c-27b9" profileTypeName="1.4 Artefact">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="710d-419f-1488-1c46" value="This model ignores the effects of the Mandrake Artefact card."/>
+            <characteristic name="Rarity" characteristicTypeId="6ccd-dad9-f7cb-3440" value="Common"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Galleons" costTypeId="39b7-674d-1765-92fb" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1cd2-8ae1-05b2-693e" name="Death Eaters Professor" book="" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="8a29-a2dc-4f69-241d" name="Death Eaters Professor" hidden="false" profileTypeId="3229-77e7-0f3c-27b9" profileTypeName="1.4 Artefact">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="710d-419f-1488-1c46" value="This model gains Concealment 10 until it performs an Attack (including Combat Spells). Models with the Professor trait only. Can only be purchased if all models in your group share the Death Eaters affiliation."/>
+            <characteristic name="Rarity" characteristicTypeId="6ccd-dad9-f7cb-3440" value="Common"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Galleons" costTypeId="39b7-674d-1765-92fb" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2176-3961-74ca-9e59" name="Felix Felicis (Lvl 3)" book="" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="1571-8a48-b7ad-f229" name="Felix Felicis (Lvl 3)" hidden="false" profileTypeId="9240-871e-f92a-dca7" profileTypeName="1.3 Potion">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="c446-8595-c2ab-557d" value="Until the end of the round, target model may reroll results of 1."/>
+            <characteristic name="Level" characteristicTypeId="aa7a-73a2-1140-ddda" value="3"/>
+            <characteristic name="Range" characteristicTypeId="8eb6-077f-d4a8-aad5" value="1"/>
+            <characteristic name="Rarity" characteristicTypeId="9e89-a9cf-e544-cdec" value="Legendary"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Galleons" costTypeId="39b7-674d-1765-92fb" value="2.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -2831,98 +3014,6 @@
       </selectionEntryGroups>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="579f-6bb8-e58f-97c4" name="A BORRAR Items (Lord Voldemort)" hidden="false" collective="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="a887-ef38-bd4b-09f7" name="Legendary" hidden="false" collective="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="495f-208a-9516-ea73" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks>
-            <entryLink id="9a1e-9a56-f68f-2800" name="Artefacts (Legendary)" hidden="false" targetId="e59c-de68-d172-60bd" type="selectionEntryGroup">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="0c2e-419e-fd37-c02c" name="Common" hidden="false" collective="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks>
-            <entryLink id="4fa3-ac32-2181-9166" name="Artefacts (Lord Voldemort)" hidden="false" targetId="114c-5f2a-7499-5f2d" type="selectionEntryGroup">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-            <entryLink id="efa4-cc83-f785-b7ca" name="Potions (Common)" hidden="false" targetId="a5bf-4232-b441-6f7d" type="selectionEntryGroup">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="983a-c73d-3c1a-b7de" name="Rare" hidden="false" collective="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f099-c101-640f-8748" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks>
-            <entryLink id="0f5a-c4f8-dc40-1611" name="Artefacts (Rare Voldemort)" hidden="false" targetId="1828-7ebb-f9c5-61cb" type="selectionEntryGroup">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-            <entryLink id="8889-77c0-205c-4b1b" name="Potions (Rare)" hidden="false" targetId="f5b5-6c56-7f4e-e56a" type="selectionEntryGroup">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks/>
-    </selectionEntryGroup>
     <selectionEntryGroup id="541e-a918-c634-6234" name="Artefacts (Common)" hidden="false" collective="false">
       <profiles/>
       <rules/>
@@ -2957,6 +3048,22 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="46b3-2a48-759a-1792" name="Earmuffs" hidden="false" targetId="2608-236d-4ece-aacf" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="49de-527f-0103-bfe1" name="Reinforced Bow" hidden="false" targetId="4b69-ea24-0aae-237e" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="a5bf-4232-b441-6f7d" name="Potions (Common)" hidden="false" collective="false">
@@ -2971,24 +3078,10 @@
           </conditions>
           <conditionGroups/>
         </modifier>
-        <modifier type="set" field="dcfc-a816-c53c-ef91" value="3">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a60e-cae0-ca3c-0dc5" type="atLeast"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-        <modifier type="set" field="dcfc-a816-c53c-ef91" value="4">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cb27-98e5-c37e-a44e" type="atLeast"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
         <modifier type="set" field="dcfc-a816-c53c-ef91" value="0">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f5b5-6c56-7f4e-e56a" type="atLeast"/>
+            <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f5b5-6c56-7f4e-e56a" type="equalTo"/>
           </conditions>
           <conditionGroups>
             <conditionGroup type="and">
@@ -3002,54 +3095,177 @@
         <modifier type="set" field="dcfc-a816-c53c-ef91" value="0">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f5b5-6c56-7f4e-e56a" type="atLeast"/>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f5b5-6c56-7f4e-e56a" type="equalTo"/>
           </conditions>
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
                 <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b74c-d3d6-b2c4-8fb2" type="equalTo"/>
               </conditions>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a60e-cae0-ca3c-0dc5" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups/>
-                </conditionGroup>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cb27-98e5-c37e-a44e" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups/>
-                </conditionGroup>
-              </conditionGroups>
+              <conditionGroups/>
             </conditionGroup>
           </conditionGroups>
         </modifier>
-        <modifier type="set" field="dcfc-a816-c53c-ef91" value="1">
+        <modifier type="set" field="dcfc-a816-c53c-ef91" value="0">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f5b5-6c56-7f4e-e56a" type="atLeast"/>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f5b5-6c56-7f4e-e56a" type="equalTo"/>
           </conditions>
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="b74c-d3d6-b2c4-8fb2" type="atLeast"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f77f-e9f0-08bd-85db" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b74c-d3d6-b2c4-8fb2" type="atLeast"/>
               </conditions>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a60e-cae0-ca3c-0dc5" type="atLeast"/>
-                  </conditions>
-                  <conditionGroups/>
-                </conditionGroup>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cb27-98e5-c37e-a44e" type="atLeast"/>
-                  </conditions>
-                  <conditionGroups/>
-                </conditionGroup>
-              </conditionGroups>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="dcfc-a816-c53c-ef91" value="0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f77f-e9f0-08bd-85db" type="equalTo"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b74c-d3d6-b2c4-8fb2" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="dcfc-a816-c53c-ef91" value="0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f5b5-6c56-7f4e-e56a" type="equalTo"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a60e-cae0-ca3c-0dc5" type="atLeast"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f77f-e9f0-08bd-85db" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="dcfc-a816-c53c-ef91" value="2">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f5b5-6c56-7f4e-e56a" type="equalTo"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cb27-98e5-c37e-a44e" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="dcfc-a816-c53c-ef91" value="2">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f5b5-6c56-7f4e-e56a" type="equalTo"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f77f-e9f0-08bd-85db" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cb27-98e5-c37e-a44e" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="dcfc-a816-c53c-ef91" value="2">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f5b5-6c56-7f4e-e56a" type="equalTo"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f77f-e9f0-08bd-85db" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a60e-cae0-ca3c-0dc5" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="dcfc-a816-c53c-ef91" value="2">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f5b5-6c56-7f4e-e56a" type="equalTo"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f77f-e9f0-08bd-85db" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a60e-cae0-ca3c-0dc5" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="dcfc-a816-c53c-ef91" value="3">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f5b5-6c56-7f4e-e56a" type="equalTo"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f77f-e9f0-08bd-85db" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a60e-cae0-ca3c-0dc5" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="dcfc-a816-c53c-ef91" value="4">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f5b5-6c56-7f4e-e56a" type="equalTo"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f77f-e9f0-08bd-85db" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cb27-98e5-c37e-a44e" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="dcfc-a816-c53c-ef91" value="3">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f5b5-6c56-7f4e-e56a" type="equalTo"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f77f-e9f0-08bd-85db" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cb27-98e5-c37e-a44e" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="dcfc-a816-c53c-ef91" value="3">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f5b5-6c56-7f4e-e56a" type="equalTo"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f77f-e9f0-08bd-85db" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cb27-98e5-c37e-a44e" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
             </conditionGroup>
           </conditionGroups>
         </modifier>
@@ -3337,6 +3553,14 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="8ed3-9711-2baf-8d9d" name="Crystal Ball" hidden="false" targetId="7b3d-e52a-3f5d-9242" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="f5b5-6c56-7f4e-e56a" name="Potions (Rare)" hidden="false" collective="false">
@@ -3347,80 +3571,188 @@
         <modifier type="set" field="411f-5789-4f8a-acbe" value="0">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a5bf-4232-b441-6f7d" type="atLeast"/>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a5bf-4232-b441-6f7d" type="equalTo"/>
           </conditions>
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
                 <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b74c-d3d6-b2c4-8fb2" type="equalTo"/>
               </conditions>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a60e-cae0-ca3c-0dc5" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups/>
-                </conditionGroup>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cb27-98e5-c37e-a44e" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups/>
-                </conditionGroup>
-              </conditionGroups>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="set" field="411f-5789-4f8a-acbe" value="2">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b74c-d3d6-b2c4-8fb2" type="atLeast"/>
-          </conditions>
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a5bf-4232-b441-6f7d" type="equalTo"/>
-              </conditions>
               <conditionGroups/>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="set" field="411f-5789-4f8a-acbe" value="1">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a5bf-4232-b441-6f7d" type="atLeast"/>
-          </conditions>
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="b74c-d3d6-b2c4-8fb2" type="atLeast"/>
-              </conditions>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a60e-cae0-ca3c-0dc5" type="atLeast"/>
-                  </conditions>
-                  <conditionGroups/>
-                </conditionGroup>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cb27-98e5-c37e-a44e" type="atLeast"/>
-                  </conditions>
-                  <conditionGroups/>
-                </conditionGroup>
-              </conditionGroups>
             </conditionGroup>
           </conditionGroups>
         </modifier>
         <modifier type="set" field="411f-5789-4f8a-acbe" value="0">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a5bf-4232-b441-6f7d" type="atLeast"/>
+            <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a5bf-4232-b441-6f7d" type="equalTo"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a60e-cae0-ca3c-0dc5" type="atLeast"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f77f-e9f0-08bd-85db" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="411f-5789-4f8a-acbe" value="2">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a5bf-4232-b441-6f7d" type="equalTo"/>
           </conditions>
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
                 <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b74c-d3d6-b2c4-8fb2" type="atLeast"/>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f77f-e9f0-08bd-85db" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="411f-5789-4f8a-acbe" value="0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a5bf-4232-b441-6f7d" type="equalTo"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b74c-d3d6-b2c4-8fb2" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="411f-5789-4f8a-acbe" value="0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f77f-e9f0-08bd-85db" type="equalTo"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b74c-d3d6-b2c4-8fb2" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="411f-5789-4f8a-acbe" value="0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a5bf-4232-b441-6f7d" type="equalTo"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b74c-d3d6-b2c4-8fb2" type="atLeast"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f77f-e9f0-08bd-85db" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="411f-5789-4f8a-acbe" value="0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a5bf-4232-b441-6f7d" type="equalTo"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cb27-98e5-c37e-a44e" type="atLeast"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f77f-e9f0-08bd-85db" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="411f-5789-4f8a-acbe" value="0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a5bf-4232-b441-6f7d" type="equalTo"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cb27-98e5-c37e-a44e" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="411f-5789-4f8a-acbe" value="0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a5bf-4232-b441-6f7d" type="equalTo"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a60e-cae0-ca3c-0dc5" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="411f-5789-4f8a-acbe" value="2">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a5bf-4232-b441-6f7d" type="equalTo"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a60e-cae0-ca3c-0dc5" type="atLeast"/>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f77f-e9f0-08bd-85db" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="411f-5789-4f8a-acbe" value="2">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a5bf-4232-b441-6f7d" type="equalTo"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a60e-cae0-ca3c-0dc5" type="atLeast"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f77f-e9f0-08bd-85db" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="411f-5789-4f8a-acbe" value="2">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a5bf-4232-b441-6f7d" type="equalTo"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cb27-98e5-c37e-a44e" type="atLeast"/>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f77f-e9f0-08bd-85db" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="411f-5789-4f8a-acbe" value="2">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a5bf-4232-b441-6f7d" type="equalTo"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cb27-98e5-c37e-a44e" type="atLeast"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f77f-e9f0-08bd-85db" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -3649,7 +3981,15 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="c192-187c-4708-35f6" name="Artefacts (Legendary)" hidden="false" targetId="e59c-de68-d172-60bd" type="selectionEntryGroup">
+            <entryLink id="c192-187c-4708-35f6" name="Potions (Legendary)" hidden="false" targetId="f77f-e9f0-08bd-85db" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="5409-d129-bba6-66cd" name="Artefacts (Legendary)" hidden="false" targetId="e59c-de68-d172-60bd" type="selectionEntryGroup">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -3842,6 +4182,14 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="ad21-4834-d1de-6e67" name="Crystal Ball" hidden="false" targetId="7b3d-e52a-3f5d-9242" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="7b99-595a-fd77-41ad" name="Artefacts (Common Harry Potter)" hidden="false" collective="false">
@@ -3886,19 +4234,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="114c-5f2a-7499-5f2d" name="A BORRAR Artefacts (Common Lord Voldemort)" hidden="false" collective="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="8896-c781-f5e4-9931" name="Knife" hidden="false" targetId="98b1-624b-4d7c-7289" type="selectionEntry">
+        <entryLink id="29b9-3c3d-58fa-84a3" name="Earmuffs" hidden="false" targetId="2608-236d-4ece-aacf" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3906,31 +4242,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="9e48-0054-f97c-17c7" name="Sword" hidden="false" targetId="2401-8edd-d7d8-b9b9" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="1754-b215-da58-2314" name="Nagini" hidden="false" targetId="3d79-e471-ef05-ca21" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="edb1-df50-301a-ec8f" type="atLeast"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="eb88-ad61-7871-2b01" name="Spellbook" hidden="false" targetId="fff0-6570-5dc9-99c4" type="selectionEntry">
+        <entryLink id="2e5b-8ba7-6841-481d" name="Reinforced Bow" hidden="false" targetId="4b69-ea24-0aae-237e" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4130,6 +4442,14 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="023b-2d74-f270-4b3f" name="Crystal Ball" hidden="false" targetId="7b3d-e52a-3f5d-9242" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="2e5a-5dfc-1c5a-3b39" name="Artefacts (Rare No Mercy)" hidden="false" collective="false">
@@ -4223,6 +4543,14 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="62d9-47a6-515e-cb01" name="Tom Riddle’s Diary" hidden="false" targetId="4e23-f353-ee5e-7e6a" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d9cc-3856-bb7f-3c57" name="Crystal Ball" hidden="false" targetId="7b3d-e52a-3f5d-9242" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4324,146 +4652,6 @@
       </selectionEntryGroups>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="1828-7ebb-f9c5-61cb" name="A BORRAR Artefacts (Rare Lord Voldemort)" hidden="false" collective="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="5434-efe9-af32-90b2" name="Acromantula Venom" hidden="false" targetId="81d3-5334-a379-88e2" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="b2c6-0310-7928-6715" name="Deluminator" hidden="false" targetId="2dda-d219-3971-82ee" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="9046-4553-063e-79fd" name="Foe-Glass" hidden="false" targetId="5d18-a8ee-3104-de39" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="d37d-84fd-83d6-5f4a" name="Time-Turner" hidden="false" targetId="6f05-5194-2f3b-4511" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="e091-dbe1-3565-5a59" name="Death Eater Mask" hidden="false" targetId="3ca9-dcc6-c464-1c99" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="5c8b-8bcc-30db-0bae" name="Death Eater Robe" hidden="false" targetId="1dc6-febb-1e1d-83af" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="7438-c304-f69c-ae46" name="Death Eater Wand" hidden="false" targetId="b2e9-f796-77e8-f76f" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="157c-d9f0-4e20-a8b8" name="Unicorn Blood" hidden="false" targetId="3e67-605b-7f9a-1783" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="cbe2-ebf8-d3f2-bcbc" name="Bellatrix Lestrange’s Knife" hidden="false" targetId="6888-c9d6-6cbb-08cd" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="4843-c006-a475-ea74" name="Helga Hufflepuff’s Cup" hidden="false" targetId="ca07-1e80-4582-1054" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="5c3b-2794-96f8-bf47" name="Marvolo Gaunt&apos;s Ring" hidden="false" targetId="1472-c025-19cd-0429" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="b532-61c9-4073-a739" name="Rowena Ravenclaw’s Diadem" hidden="false" targetId="5bfa-cda0-0123-0791" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="83ad-b155-0ac7-6d13" name="Salazar Slytherin’s Locket" hidden="false" targetId="681d-ae53-39aa-26d4" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="9b94-6b5c-cf5b-2e2c" name="Tom Riddle’s Diary" hidden="false" targetId="4e23-f353-ee5e-7e6a" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="5c46-02ba-afea-03ef" name="Nagini Horcrux" hidden="false" targetId="edb1-df50-301a-ec8f" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3d79-e471-ef05-ca21" type="atLeast"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-    </selectionEntryGroup>
     <selectionEntryGroup id="bd09-58a0-2149-bc36" name="Artefacts (Rare Harry Potter)" hidden="false" collective="false">
       <profiles/>
       <rules/>
@@ -4555,6 +4743,14 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="f11a-2207-b8cf-83a7" name="Harry Potter Horcrux" hidden="false" targetId="3be4-40ae-57b9-eea0" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="0c7a-0221-e41f-7d0d" name="Crystal Ball" hidden="false" targetId="7b3d-e52a-3f5d-9242" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4713,6 +4909,656 @@
               <categoryLinks/>
             </entryLink>
             <entryLink id="74b0-b9a8-3ed9-3a92" name="Artefacts (Rare Death Eaters)" hidden="false" targetId="7605-7edd-b951-1ce4" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="bff4-3238-da4f-39d0" name="Items (Centaurs)" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2db9-db7f-dfdc-0d3a" name="Legendary" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="46ad-0a26-d3f7-626d" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="9314-d108-f2e6-4870" name="Artefacts (Legendary)" hidden="false" targetId="e59c-de68-d172-60bd" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="1d37-5da8-6f65-8f8b" name="Common" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="2290-62cb-f5b7-f6cf" name="Artefacts (Common Centaurs)" hidden="false" targetId="6aa7-4090-5b16-2cc2" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="00c3-7185-4148-1961" name="Potions (Common)" hidden="false" targetId="a5bf-4232-b441-6f7d" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="252a-ab9c-b75a-5e18" name="Rare" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a39-f2ca-f407-f621" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="8a48-64f6-1829-e68f" name="Artefacts (Rare)" hidden="false" targetId="e06e-f794-42d5-a883" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="e60f-f91b-c3dd-f8e0" name="Potions (Rare)" hidden="false" targetId="f5b5-6c56-7f4e-e56a" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="6aa7-4090-5b16-2cc2" name="Artefacts (Common Centaurs)" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="e500-d2ec-9384-51f4" name="Knife" hidden="false" targetId="98b1-624b-4d7c-7289" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b5b8-3e85-b176-5bba" name="Sword" hidden="false" targetId="2401-8edd-d7d8-b9b9" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a566-4f99-cbc6-7db3" name="Spellbook" hidden="false" targetId="fff0-6570-5dc9-99c4" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="9b5f-51b7-4873-2d4e" name="Centaur Ropes" hidden="false" targetId="8cdb-cc5c-9dfb-b8ad" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="0939-d0f1-eb1f-1da2" name="Earmuffs" hidden="false" targetId="2608-236d-4ece-aacf" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="f2ea-1050-eb60-bc8e" name="Reinforced Bow" hidden="false" targetId="4b69-ea24-0aae-237e" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="2381-df89-b974-f7ac" name="Artefacts (Common Death Eater Professors)" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="8478-992e-51b9-b425" name="Knife" hidden="false" targetId="98b1-624b-4d7c-7289" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="f83b-3894-f93f-93b8" name="Sword" hidden="false" targetId="2401-8edd-d7d8-b9b9" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a644-c2df-b4ff-f4f6" name="Spellbook" hidden="false" targetId="fff0-6570-5dc9-99c4" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="149a-1015-a8cf-f693" name="Death Eaters Professor" hidden="false" targetId="1cd2-8ae1-05b2-693e" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="f77f-e9f0-08bd-85db" name="Potions (Legendary)" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="8ee6-1e0b-b74f-5c78" value="0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a5bf-4232-b441-6f7d" type="equalTo"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b74c-d3d6-b2c4-8fb2" type="atLeast"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f5b5-6c56-7f4e-e56a" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="8ee6-1e0b-b74f-5c78" value="0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a5bf-4232-b441-6f7d" type="equalTo"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a60e-cae0-ca3c-0dc5" type="atLeast"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f5b5-6c56-7f4e-e56a" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="8ee6-1e0b-b74f-5c78" value="0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a5bf-4232-b441-6f7d" type="equalTo"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cb27-98e5-c37e-a44e" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="8ee6-1e0b-b74f-5c78" value="0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a5bf-4232-b441-6f7d" type="equalTo"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b74c-d3d6-b2c4-8fb2" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="8ee6-1e0b-b74f-5c78" value="0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a5bf-4232-b441-6f7d" type="equalTo"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cb27-98e5-c37e-a44e" type="atLeast"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f5b5-6c56-7f4e-e56a" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="8ee6-1e0b-b74f-5c78" value="0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f5b5-6c56-7f4e-e56a" type="equalTo"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b74c-d3d6-b2c4-8fb2" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="8ee6-1e0b-b74f-5c78" value="0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a5bf-4232-b441-6f7d" type="equalTo"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a60e-cae0-ca3c-0dc5" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="8ee6-1e0b-b74f-5c78" value="0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a5bf-4232-b441-6f7d" type="equalTo"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b74c-d3d6-b2c4-8fb2" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8ee6-1e0b-b74f-5c78" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="7e77-3564-2de2-d259" name="Potion" hidden="false" targetId="d115-2481-b188-b3a8" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="8cee-4223-5086-57fa" name="Felix Felicis (Lvl 3)" hidden="true" targetId="2176-3961-74ca-9e59" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2544-1b5a-6048-5c5f" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks>
+            <categoryLink id="9ad4-74ef-25fe-c4ae" name="Potion" hidden="false" targetId="d115-2481-b188-b3a8" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="87c5-46e2-0677-f301" name="Artefacts (Rare Pomona Sprout)" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="4058-8fd3-2cdd-de53" name="Acromantula Venom" hidden="false" targetId="81d3-5334-a379-88e2" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1690-bf49-a3b8-2844" name="Deluminator" hidden="false" targetId="2dda-d219-3971-82ee" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="addc-fb1c-e7f4-c9c9" name="Foe-Glass" hidden="false" targetId="5d18-a8ee-3104-de39" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8340-5537-beb1-b079" name="Time-Turner" hidden="false" targetId="6f05-5194-2f3b-4511" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1e08-b8eb-84be-94af" name="Bellatrix Lestrange’s Knife" hidden="false" targetId="6888-c9d6-6cbb-08cd" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7557-319d-aaa8-95b3" name="Helga Hufflepuff’s Cup" hidden="false" targetId="ca07-1e80-4582-1054" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e1d9-a6a7-c8bf-0c72" name="Marvolo Gaunt&apos;s Ring" hidden="false" targetId="1472-c025-19cd-0429" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5fe3-7d66-5506-086d" name="Rowena Ravenclaw’s Diadem" hidden="false" targetId="5bfa-cda0-0123-0791" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="340b-b506-bcc4-60ce" name="Salazar Slytherin’s Locket" hidden="false" targetId="681d-ae53-39aa-26d4" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b0d8-d40d-5389-bb1a" name="Tom Riddle’s Diary" hidden="false" targetId="4e23-f353-ee5e-7e6a" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="f7d4-3e02-c56b-944b" name="Mandrake" hidden="false" targetId="c5f1-2b94-3a1e-0b82" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="010b-5c44-091a-4e39" name="Crystal Ball" hidden="false" targetId="7b3d-e52a-3f5d-9242" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="3378-88ab-8a62-fd0f" name="Items (Death Eaters Professors)" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d648-2c9a-8fed-e8ea" name="Legendary" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8612-0a6c-9f7a-17da" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="1f35-1189-d5e2-0f3b" name="Artefacts (Legendary)" hidden="false" targetId="e59c-de68-d172-60bd" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="a0b7-bd94-611c-2774" name="Common" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="e088-600d-628e-4973" name="Artefacts (Common Death Eater Professors)" hidden="false" targetId="2381-df89-b974-f7ac" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="3fe8-b439-4da8-9a33" name="Potions (Common)" hidden="false" targetId="a5bf-4232-b441-6f7d" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="40f8-9922-8772-9e47" name="Rare" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="364e-318e-0d23-898b" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="2e71-cb76-32ad-7c47" name="Potions (Rare)" hidden="false" targetId="f5b5-6c56-7f4e-e56a" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="3472-a3e7-fd3f-edbd" name="Artefacts (Rare Death Eaters)" hidden="false" targetId="7605-7edd-b951-1ce4" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="1593-b9a7-ccb6-a657" name="Items (Pomona Sprout)" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f7e5-848e-78c2-87c4" name="Legendary" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="273c-31d3-7690-31bf" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="e34d-5a65-3955-f4bc" name="Artefacts (Legendary)" hidden="false" targetId="e59c-de68-d172-60bd" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="8b2a-7075-ae2c-bb33" name="Common" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="f617-0882-4a0d-c457" name="Artefacts (Common)" hidden="false" targetId="541e-a918-c634-6234" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="e81b-d900-a9d0-827b" name="Potions (Common)" hidden="false" targetId="a5bf-4232-b441-6f7d" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="77c5-c63e-c022-5a0e" name="Rare" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9af8-86a9-2ebf-ae92" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="700f-9a5e-d6c0-d71b" name="Artefacts (Rare Pomona Sprout)" hidden="false" targetId="87c5-46e2-0677-f301" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="cfec-3850-4287-966a" name="Potions (Rare)" hidden="false" targetId="f5b5-6c56-7f4e-e56a" type="selectionEntryGroup">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -5194,6 +6040,48 @@ NB. The Potioneer value is also used in some instances to provide other bonuses 
       <modifiers/>
       <description>During the Magic Phase, for each friendly model with at least 1 Cunning, this model adds 1 Dark Power counter to the Power Pool to a maximum of 4 additional counters.</description>
     </rule>
+    <rule id="ae88-edc7-8f1c-d1dc" name="Inspirational Potioneer" book="Horace Slughorn" page="Card" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Before any friendly model performs a Use Potion action, it can move 1 space for free.</description>
+    </rule>
+    <rule id="8796-f027-52af-7380" name="Divination" book="Sybill Trelawney" page="Card" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>At the start of the game choose a game round number and a friendly model. During the chosen round, the specified model can reroll any of the dice it rolls.</description>
+    </rule>
+    <rule id="6ff6-212f-674d-c2d8" name="Herbology Professor" book="Pomona Sprout" page="Car" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Once per game, a friendly model may use a Potion without discarding it.</description>
+    </rule>
+    <rule id="5f18-ca47-561e-5d97" name="Cruelty" book="Alecto Carrow" page="Card" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Friendly models with the Apprentice trait within 3 spaces gain +1 die to the roll when casting a Crucius spell.</description>
+    </rule>
+    <rule id="9573-afd5-fe99-f02a" name="Intimidation" book="Amycus Carrow" page="Card" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Enemy models with the Apprentice trait within 3 spaces gain 1 Jinxed Mystery die when casting a spell.</description>
+    </rule>
+    <rule id="7215-ee37-912f-bad9" name="Centaur" book="" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This model can interrupt its Movement Action to perform an Attack Action.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="b55f-1ca3-4b7e-ce9d" name="Alarte Ascendare" hidden="false" profileTypeId="0aed-3bd3-2aaa-6237" profileTypeName="1.2 Spell">
@@ -5668,7 +6556,35 @@ NB. The Potioneer value is also used in some instances to provide other bonuses 
         <characteristic name="Power Cost" characteristicTypeId="05fc-2837-01e5-4a01" value="3 White"/>
         <characteristic name="Upkeep" characteristicTypeId="cf20-f678-81bc-115a" value="-"/>
         <characteristic name="Difficulty" characteristicTypeId="48bb-c6ce-efd9-b84c" value="3"/>
-        <characteristic name="Description" characteristicTypeId="4ee7-a98d-cfca-ca71" value="Combat Spell. If succesful, target model suffers 2 Physical Damage."/>
+        <characteristic name="Description" characteristicTypeId="4ee7-a98d-cfca-ca71" value="All friendly models in range add 1 die to their Defense rolls until the end of the round."/>
+        <characteristic name="Cooldown Clock" characteristicTypeId="62f1-68e4-ceff-8682" value="2"/>
+      </characteristics>
+    </profile>
+    <profile id="09c9-bceb-5ee5-4c2b" name="Sybill&apos;s Spell" hidden="false" profileTypeId="0aed-3bd3-2aaa-6237" profileTypeName="1.2 Spell">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="ecb8-5b30-787e-8ab8" value="4"/>
+        <characteristic name="Power Cost" characteristicTypeId="05fc-2837-01e5-4a01" value="1 Grey"/>
+        <characteristic name="Upkeep" characteristicTypeId="cf20-f678-81bc-115a" value="-"/>
+        <characteristic name="Difficulty" characteristicTypeId="48bb-c6ce-efd9-b84c" value="0"/>
+        <characteristic name="Description" characteristicTypeId="4ee7-a98d-cfca-ca71" value="Combat Spell. Until the end of its next activation, target model suffers 1 Magical Damage for each Action it performs."/>
+        <characteristic name="Cooldown Clock" characteristicTypeId="62f1-68e4-ceff-8682" value="1"/>
+      </characteristics>
+    </profile>
+    <profile id="67bc-619e-3580-3b44" name="Incendio" hidden="false" profileTypeId="0aed-3bd3-2aaa-6237" profileTypeName="1.2 Spell">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="ecb8-5b30-787e-8ab8" value="4"/>
+        <characteristic name="Power Cost" characteristicTypeId="05fc-2837-01e5-4a01" value="3 Grey"/>
+        <characteristic name="Upkeep" characteristicTypeId="cf20-f678-81bc-115a" value="-"/>
+        <characteristic name="Difficulty" characteristicTypeId="48bb-c6ce-efd9-b84c" value="1"/>
+        <characteristic name="Description" characteristicTypeId="4ee7-a98d-cfca-ca71" value="Combat Spell. If successful, target model and each model within 2 spaces of it (friend or foe) suffers 1 Physical Damage with the Burning Effect."/>
         <characteristic name="Cooldown Clock" characteristicTypeId="62f1-68e4-ceff-8682" value="2"/>
       </characteristics>
     </profile>

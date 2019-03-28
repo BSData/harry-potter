@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="51cf-b0a2-3920-fb6c" name="Magical Creatures" revision="1" battleScribeVersion="2.01" gameSystemId="aa1e-80ca-b43a-cf7b" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="51cf-b0a2-3920-fb6c" name="Magical Creatures" revision="2" battleScribeVersion="2.01" gameSystemId="aa1e-80ca-b43a-cf7b" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -58,6 +58,30 @@
       <categoryLinks/>
     </entryLink>
     <entryLink id="3418-6f45-0fb5-50a6" name="Dementor" hidden="false" targetId="200f-1e56-7014-dd5c" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="17a9-e7e9-472a-a3b0" name="Firenze" hidden="false" targetId="5448-b131-6f28-dcf0" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="8026-fd2b-aaaa-4084" name="Centaur" hidden="false" targetId="f32d-1f2d-e668-c861" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="a37a-1d44-107a-6e04" name="Magorian" hidden="false" targetId="8271-e4b4-904d-a64f" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -697,6 +721,301 @@
       <entryLinks/>
       <costs>
         <cost name="Galleons" costTypeId="39b7-674d-1765-92fb" value="9.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f32d-1f2d-e668-c861" name="Centaur" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="4ca3-8b86-9b4b-3f02" name="Centaur" hidden="false" profileTypeId="2093f4cd-f669-06c6-0f4f-06037948fe28" profileTypeName="1.1 Attributes">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Affiliation" characteristicTypeId="911f2847-ecab-772a-37ad-b325a40b19ce" value="Magical Creatures"/>
+            <characteristic name="Mastery" characteristicTypeId="fd922c18-88be-5191-46b0-1ab589f2ef33" value="0"/>
+            <characteristic name="Defense" characteristicTypeId="49d96d28-c1dc-f977-7bb6-8e1fbe8fe397" value="2"/>
+            <characteristic name="Cunning" characteristicTypeId="9ef0bc71-33ab-98cd-26b3-07c55ed7725f" value=""/>
+            <characteristic name="Magic" characteristicTypeId="84a7bbc1-d970-b7b9-2fd5-f174c9fdda90" value="0"/>
+            <characteristic name="Courage" characteristicTypeId="ae357512-6823-3b1d-aebe-2c2c8e52e2e0" value="3"/>
+            <characteristic name="Wisdom" characteristicTypeId="4e4daeff-a451-4e80-f5b5-d588866411b4" value="2"/>
+            <characteristic name="Temper" characteristicTypeId="d6fc-863a-9aaa-271d" value="5"/>
+            <characteristic name="Item Slots" characteristicTypeId="d0e0-c03d-1183-cd2e" value="1"/>
+            <characteristic name="Spellbook" characteristicTypeId="3d3e-73e5-dd6a-789c" value="0"/>
+          </characteristics>
+        </profile>
+        <profile id="0139-a62b-0bb7-8459" name="Bow" hidden="false" profileTypeId="07d6-95ce-9c89-313a" profileTypeName="1.5 Artefact (Attack)">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="cac9-3577-abf0-c57c" value=""/>
+            <characteristic name="Rarity" characteristicTypeId="5542-8a14-e513-9167" value=""/>
+            <characteristic name="Type" characteristicTypeId="9b7b-8d3c-6c3b-c573" value="Physical"/>
+            <characteristic name="Bonus" characteristicTypeId="e033-8269-f4d6-f0c9" value="1"/>
+            <characteristic name="Damage" characteristicTypeId="ca7b-dc78-24dd-3315" value="1"/>
+            <characteristic name="Range" characteristicTypeId="75a3-8b99-a7f1-efd7" value="6"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="0f28-b20d-9a00-743b" name="Beast" hidden="false" targetId="c5d0-8bbd-d69f-631f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2001-6897-e253-148b" name="Scout" hidden="false" targetId="ad2f-5054-47db-d41c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="fe19-4e71-f070-1897" name="Horde" hidden="false" targetId="ebc5-07b3-8049-a637" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0dd7-e77f-187f-a2a1" name="Large" hidden="false" targetId="cd8f-43f8-f8b8-e324" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c051-ab38-f5a6-463f" name="Centaur" hidden="false" targetId="7215-ee37-912f-bad9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="3e1f-ed2c-b649-20d4" name="New CategoryLink" hidden="false" targetId="f627-a6c7-0f04-9aee" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="4cda-f861-a9cd-23e7" name="Items (Centaurs)" hidden="false" targetId="bff4-3238-da4f-39d0" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07ab-ef99-427e-ba07" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Galleons" costTypeId="39b7-674d-1765-92fb" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8271-e4b4-904d-a64f" name="Magorian" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="c9cc-72f1-2a1b-092e" name="Magorian" hidden="false" profileTypeId="2093f4cd-f669-06c6-0f4f-06037948fe28" profileTypeName="1.1 Attributes">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Affiliation" characteristicTypeId="911f2847-ecab-772a-37ad-b325a40b19ce" value="Magical Creatures"/>
+            <characteristic name="Mastery" characteristicTypeId="fd922c18-88be-5191-46b0-1ab589f2ef33" value="0"/>
+            <characteristic name="Defense" characteristicTypeId="49d96d28-c1dc-f977-7bb6-8e1fbe8fe397" value="2"/>
+            <characteristic name="Cunning" characteristicTypeId="9ef0bc71-33ab-98cd-26b3-07c55ed7725f" value=""/>
+            <characteristic name="Magic" characteristicTypeId="84a7bbc1-d970-b7b9-2fd5-f174c9fdda90" value="0"/>
+            <characteristic name="Courage" characteristicTypeId="ae357512-6823-3b1d-aebe-2c2c8e52e2e0" value="4"/>
+            <characteristic name="Wisdom" characteristicTypeId="4e4daeff-a451-4e80-f5b5-d588866411b4" value="3"/>
+            <characteristic name="Temper" characteristicTypeId="d6fc-863a-9aaa-271d" value="6"/>
+            <characteristic name="Item Slots" characteristicTypeId="d0e0-c03d-1183-cd2e" value="2"/>
+            <characteristic name="Spellbook" characteristicTypeId="3d3e-73e5-dd6a-789c" value="0"/>
+          </characteristics>
+        </profile>
+        <profile id="dfa3-aab4-a974-8743" name="Bow" hidden="false" profileTypeId="07d6-95ce-9c89-313a" profileTypeName="1.5 Artefact (Attack)">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="cac9-3577-abf0-c57c" value=""/>
+            <characteristic name="Rarity" characteristicTypeId="5542-8a14-e513-9167" value=""/>
+            <characteristic name="Type" characteristicTypeId="9b7b-8d3c-6c3b-c573" value="Physical"/>
+            <characteristic name="Bonus" characteristicTypeId="e033-8269-f4d6-f0c9" value="2"/>
+            <characteristic name="Damage" characteristicTypeId="ca7b-dc78-24dd-3315" value="1"/>
+            <characteristic name="Range" characteristicTypeId="75a3-8b99-a7f1-efd7" value="6"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="ca09-48f1-2331-9000" name="Beast" hidden="false" targetId="c5d0-8bbd-d69f-631f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8e7f-c37b-931d-67c3" name="Scout" hidden="false" targetId="ad2f-5054-47db-d41c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3ef9-0fcc-5ba5-6ab1" name="Large" hidden="false" targetId="cd8f-43f8-f8b8-e324" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d472-1750-408d-55f7" name="Centaur" hidden="false" targetId="7215-ee37-912f-bad9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5fd8-8d31-8152-e96b" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="ff58-7cbd-c5b6-b35e" name="New CategoryLink" hidden="false" targetId="f627-a6c7-0f04-9aee" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="794f-5af8-ecef-b6d8" name="Items (Centaurs)" hidden="false" targetId="bff4-3238-da4f-39d0" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7cc0-802c-e1e6-74e8" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Galleons" costTypeId="39b7-674d-1765-92fb" value="12.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5448-b131-6f28-dcf0" name="Firenze" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="a661-694b-12a9-4777" name="Firenze" hidden="false" profileTypeId="2093f4cd-f669-06c6-0f4f-06037948fe28" profileTypeName="1.1 Attributes">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Affiliation" characteristicTypeId="911f2847-ecab-772a-37ad-b325a40b19ce" value="Magical Creatures/Hogwarts"/>
+            <characteristic name="Mastery" characteristicTypeId="fd922c18-88be-5191-46b0-1ab589f2ef33" value="0"/>
+            <characteristic name="Defense" characteristicTypeId="49d96d28-c1dc-f977-7bb6-8e1fbe8fe397" value="2"/>
+            <characteristic name="Cunning" characteristicTypeId="9ef0bc71-33ab-98cd-26b3-07c55ed7725f" value=""/>
+            <characteristic name="Magic" characteristicTypeId="84a7bbc1-d970-b7b9-2fd5-f174c9fdda90" value="0"/>
+            <characteristic name="Courage" characteristicTypeId="ae357512-6823-3b1d-aebe-2c2c8e52e2e0" value="5"/>
+            <characteristic name="Wisdom" characteristicTypeId="4e4daeff-a451-4e80-f5b5-d588866411b4" value="4"/>
+            <characteristic name="Temper" characteristicTypeId="d6fc-863a-9aaa-271d" value="4"/>
+            <characteristic name="Item Slots" characteristicTypeId="d0e0-c03d-1183-cd2e" value="2"/>
+            <characteristic name="Spellbook" characteristicTypeId="3d3e-73e5-dd6a-789c" value="0"/>
+          </characteristics>
+        </profile>
+        <profile id="c3cb-daa2-cf9c-a0b6" name="Bash" hidden="false" profileTypeId="07d6-95ce-9c89-313a" profileTypeName="1.5 Artefact (Attack)">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="cac9-3577-abf0-c57c" value=""/>
+            <characteristic name="Rarity" characteristicTypeId="5542-8a14-e513-9167" value=""/>
+            <characteristic name="Type" characteristicTypeId="9b7b-8d3c-6c3b-c573" value="Physical"/>
+            <characteristic name="Bonus" characteristicTypeId="e033-8269-f4d6-f0c9" value="3"/>
+            <characteristic name="Damage" characteristicTypeId="ca7b-dc78-24dd-3315" value="2"/>
+            <characteristic name="Range" characteristicTypeId="75a3-8b99-a7f1-efd7" value="2"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="65db-90e8-2fec-39d6" name="Beast" hidden="false" targetId="c5d0-8bbd-d69f-631f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="725f-5ed3-16b2-7588" name="Scout" hidden="false" targetId="ad2f-5054-47db-d41c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2376-c27b-267e-8486" name="Large" hidden="false" targetId="cd8f-43f8-f8b8-e324" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7de3-348a-b987-9c5a" name="Centaur" hidden="false" targetId="7215-ee37-912f-bad9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7dfe-f8c8-cf0b-2542" name="Fast " hidden="false" targetId="24ac-dd50-6187-7abd" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="288d-0f8e-1de6-394e" name="Leadership" hidden="false" targetId="7c29-d3bc-fa66-50ed" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6828-37cf-1094-9cb7" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="2dfb-0e17-1621-f33d" name="New CategoryLink" hidden="false" targetId="f627-a6c7-0f04-9aee" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="d6a6-a906-af50-e117" name="Items (Centaurs)" hidden="false" targetId="bff4-3238-da4f-39d0" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6774-1465-7a5c-9c65" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Galleons" costTypeId="39b7-674d-1765-92fb" value="10.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
