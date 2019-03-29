@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="aa1e-80ca-b43a-cf7b" name="Harry Potter Miniatures Adventure Game" revision="3" battleScribeVersion="2.01" authorName="NeXo" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="aa1e-80ca-b43a-cf7b" name="Harry Potter Miniatures Adventure Game" revision="4" battleScribeVersion="2.01" authorName="NeXo" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -2828,6 +2828,50 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="a233-b50f-f1e2-85ba" name="Draught of Peace (Lvl 2)" hidden="true" targetId="5ee0-cf5f-4a3c-cda3" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="39b7-674d-1765-92fb" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks>
+            <categoryLink id="1a14-b22f-821f-2f65" name="Potion" hidden="false" targetId="d115-2481-b188-b3a8" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="89a8-6a7e-9970-ab21" name="Blood-Replenishing Potion (Lvl 1)" hidden="false" targetId="f60d-55fe-a302-1e04" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="39b7-674d-1765-92fb" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks>
+            <categoryLink id="aee9-538b-0e32-24f7" name="Potion" hidden="false" targetId="d115-2481-b188-b3a8" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="2f9d-51f1-5af2-2e5f" name="Items (Harry Potter)" hidden="false" collective="false">
@@ -2880,6 +2924,14 @@
           <selectionEntryGroups/>
           <entryLinks>
             <entryLink id="9ea7-a0a1-0586-8baa" name="Artefacts (Legendary TEST)" hidden="false" targetId="e59c-de68-d172-60bd" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="69c2-9641-d3c7-c636" name="Potions (Legendary)" hidden="false" targetId="f77f-e9f0-08bd-85db" type="selectionEntryGroup">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -2944,6 +2996,14 @@
           <selectionEntryGroups/>
           <entryLinks>
             <entryLink id="8f04-3e01-8cc8-f4de" name="Artefacts (Legendary)" hidden="false" targetId="e59c-de68-d172-60bd" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="b1c9-be43-9cd3-ecb5" name="Potions (Legendary)" hidden="false" targetId="f77f-e9f0-08bd-85db" type="selectionEntryGroup">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -4281,6 +4341,14 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
+            <entryLink id="8711-af4f-28fc-32ae" name="Potions (Legendary)" hidden="false" targetId="f77f-e9f0-08bd-85db" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="da19-2032-89bb-150f" name="Common" hidden="false" collective="false">
@@ -4589,6 +4657,14 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
+            <entryLink id="4039-e5ec-1bb4-e272" name="Potions (Legendary)" hidden="false" targetId="f77f-e9f0-08bd-85db" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="33c2-a80d-1d68-17bb" name="Common" hidden="false" collective="false">
@@ -4858,6 +4934,14 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
+            <entryLink id="b3b8-6cd4-cddc-7794" name="Potions (Legendary)" hidden="false" targetId="f77f-e9f0-08bd-85db" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="d4a9-4057-312f-833a" name="Common" hidden="false" collective="false">
@@ -4943,6 +5027,14 @@
           <selectionEntryGroups/>
           <entryLinks>
             <entryLink id="9314-d108-f2e6-4870" name="Artefacts (Legendary)" hidden="false" targetId="e59c-de68-d172-60bd" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="8761-bc1a-e3d0-9dfb" name="Potions (Legendary)" hidden="false" targetId="f77f-e9f0-08bd-85db" type="selectionEntryGroup">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -5108,6 +5200,22 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="149a-1015-a8cf-f693" name="Death Eaters Professor" hidden="false" targetId="1cd2-8ae1-05b2-693e" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="48de-c850-9671-a010" name="Earmuffs" hidden="false" targetId="2608-236d-4ece-aacf" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="c984-37d8-b579-ea6e" name="Reinforced Bow" hidden="false" targetId="4b69-ea24-0aae-237e" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5416,6 +5524,14 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
+            <entryLink id="0d47-d1cb-5c82-2222" name="Potions (Legendary)" hidden="false" targetId="f77f-e9f0-08bd-85db" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="a0b7-bd94-611c-2774" name="Common" hidden="false" collective="false">
@@ -5501,6 +5617,14 @@
           <selectionEntryGroups/>
           <entryLinks>
             <entryLink id="e34d-5a65-3955-f4bc" name="Artefacts (Legendary)" hidden="false" targetId="e59c-de68-d172-60bd" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="3490-a997-914c-a5dd" name="Potions (Legendary)" hidden="false" targetId="f77f-e9f0-08bd-85db" type="selectionEntryGroup">
               <profiles/>
               <rules/>
               <infoLinks/>

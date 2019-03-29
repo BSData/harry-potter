@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8dba-fe04-7a54-57c1" name="Death Eaters" revision="3" battleScribeVersion="2.01" gameSystemId="aa1e-80ca-b43a-cf7b" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8dba-fe04-7a54-57c1" name="Death Eaters" revision="4" battleScribeVersion="2.01" gameSystemId="aa1e-80ca-b43a-cf7b" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -3851,91 +3851,104 @@
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks>
-            <entryLink id="0253-fbb6-21af-ae3b" name="Artefacts (Legendary)" hidden="false" targetId="e59c-de68-d172-60bd" type="selectionEntryGroup">
+          <selectionEntryGroups>
+            <selectionEntryGroup id="1ef0-20d0-ed8f-bd2e" name="Artefacts (Legendary)" hidden="false" collective="false">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <constraints/>
               <categoryLinks/>
-            </entryLink>
-            <entryLink id="7865-7dad-84ce-11a7" name="Elder Wand" hidden="false" targetId="8d33-b022-48d9-77a8" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cb0e-d391-e6cf-f57e" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="549b-ba18-74a0-9d7f" type="max"/>
-              </constraints>
-              <categoryLinks>
-                <categoryLink id="ec4d-4fd1-d5c3-d58d" name="Deathly Hollows" hidden="false" targetId="466f-78c9-680f-b11b" primary="false">
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="3be9-369a-0282-14aa" name="Elder Wand" hidden="false" targetId="8d33-b022-48d9-77a8" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
-                  <constraints/>
-                </categoryLink>
-              </categoryLinks>
-            </entryLink>
-            <entryLink id="508d-9ad5-8682-b765" name="Invisibility Cloak" hidden="false" targetId="8078-994f-75e5-b6ee" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="421a-7fab-e73e-cf88" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e1e-eecb-bffa-0722" type="max"/>
-              </constraints>
-              <categoryLinks>
-                <categoryLink id="d78a-6f74-cc07-762d" name="Deathly Hollows" hidden="false" targetId="466f-78c9-680f-b11b" primary="false">
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1709-6940-613b-9fd0" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97c6-1121-45a3-d2fd" type="max"/>
+                  </constraints>
+                  <categoryLinks>
+                    <categoryLink id="bd93-4cc9-5ee4-2359" name="Deathly Hollows" hidden="false" targetId="466f-78c9-680f-b11b" primary="false">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints/>
+                    </categoryLink>
+                  </categoryLinks>
+                </entryLink>
+                <entryLink id="e533-de75-5a74-770d" name="Fervent Follower" hidden="false" targetId="8a8b-e874-ad96-bf0c" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="1b84-4e32-0149-f7a7" value="0">
+                      <repeats/>
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="25ed-7786-1370-13d5" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="aa2b-16ce-bef6-8d4b" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="set" field="name" value="Fervent Followers (Must choose Lord Voldemort)">
+                      <repeats/>
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="25ed-7786-1370-13d5" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="aa2b-16ce-bef6-8d4b" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b84-4e32-0149-f7a7" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="1337-ca1f-da02-7821" name="Invisibility Cloak" hidden="false" targetId="8078-994f-75e5-b6ee" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
-                  <constraints/>
-                </categoryLink>
-              </categoryLinks>
-            </entryLink>
-            <entryLink id="5150-424e-5235-2ee1" name="Fervent Follower" hidden="false" targetId="8a8b-e874-ad96-bf0c" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4b79-6027-278c-3f44" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aed0-12bf-1262-b502" type="max"/>
+                  </constraints>
+                  <categoryLinks>
+                    <categoryLink id="4279-1b72-9bfe-5f72" name="Deathly Hollows" hidden="false" targetId="466f-78c9-680f-b11b" primary="false">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints/>
+                    </categoryLink>
+                  </categoryLinks>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="e878-d3d6-82c0-2089" name="Potions (Legendary)" hidden="false" targetId="f77f-e9f0-08bd-85db" type="selectionEntryGroup">
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="8f38-28b9-c079-59bf" value="0">
-                  <repeats/>
-                  <conditions>
-                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="25ed-7786-1370-13d5" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="aa2b-16ce-bef6-8d4b" type="equalTo"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-                <modifier type="set" field="name" value="Fervent Followers (Must choose Lord Voldemort)">
-                  <repeats/>
-                  <conditions>
-                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="25ed-7786-1370-13d5" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="aa2b-16ce-bef6-8d4b" type="equalTo"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f38-28b9-c079-59bf" type="max"/>
-              </constraints>
+              <modifiers/>
+              <constraints/>
               <categoryLinks/>
             </entryLink>
           </entryLinks>
@@ -4009,7 +4022,7 @@
         <modifier type="set" field="hidden" value="true">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5150-424e-5235-2ee1" type="lessThan"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e533-de75-5a74-770d" type="lessThan"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -4094,6 +4107,14 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
+            <entryLink id="02f0-231e-e509-2c41" name="Potions (Legendary)" hidden="false" targetId="f77f-e9f0-08bd-85db" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="46f5-51e6-ad09-dc0d" name="Common" hidden="false" collective="false">
@@ -4148,6 +4169,22 @@
                   <categoryLinks/>
                 </entryLink>
                 <entryLink id="f367-7e3c-4192-9ac0" name="Sword" hidden="false" targetId="2401-8edd-d7d8-b9b9" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="7305-b466-c617-bd67" name="Earmuffs" hidden="false" targetId="2608-236d-4ece-aacf" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="a1c2-abbe-cac9-da3d" name="Reinforced Bow" hidden="false" targetId="4b69-ea24-0aae-237e" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -4315,6 +4352,14 @@
                       <conditionGroups/>
                     </modifier>
                   </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="c650-68de-933d-2d5a" name="Crystal Ball" hidden="false" targetId="7b3d-e52a-3f5d-9242" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
                   <constraints/>
                   <categoryLinks/>
                 </entryLink>
