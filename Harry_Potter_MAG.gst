@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="aa1e-80ca-b43a-cf7b" name="Harry Potter Miniatures Adventure Game" revision="4" battleScribeVersion="2.01" authorName="NeXo" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="aa1e-80ca-b43a-cf7b" name="Harry Potter Miniatures Adventure Game" revision="5" battleScribeVersion="2.01" authorName="NeXo" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -206,6 +206,7 @@
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3eb9-f009-2d1a-b708" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3d25-e294-4b7c-6500" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries/>
@@ -231,7 +232,9 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="84cc-83b0-c38e-77cf" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -252,7 +255,9 @@
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="52cd-95e1-00c2-ac86" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -273,7 +278,9 @@
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="97f1-29a2-0969-430e" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -294,7 +301,9 @@
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a54b-7016-5632-d16d" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -315,7 +324,9 @@
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6d9f-cd39-cc6d-cb19" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -342,6 +353,7 @@
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cba4-5287-c479-44d0" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="88b2-e119-f2ef-df6f" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries/>
@@ -367,7 +379,9 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d8ba-f33d-f341-2ff1" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -424,7 +438,9 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0c1a-f951-a313-a107" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -453,7 +469,9 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b543-0921-9b73-8c42" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -508,7 +526,9 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="dcda-3be8-acb7-a895" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -535,7 +555,9 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="15c4-99f2-f45e-cb29" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -562,7 +584,9 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d5ea-11d9-e6c0-59df" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -589,7 +613,9 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="282f-1568-b557-9a2c" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -616,7 +642,9 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6cc0-f8b5-4f5a-dae2" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -643,7 +671,9 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="dca2-fdd0-3f54-ce1f" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -670,7 +700,9 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="93c6-885a-5c19-d7b4" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -697,7 +729,9 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="628a-ea3f-499d-2bed" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -888,7 +922,9 @@
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1f1b-e4f0-f06f-c63d" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -909,7 +945,9 @@
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8616-b29c-ca9e-37bd" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -930,7 +968,9 @@
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a450-4f0e-f2c0-5ecb" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -951,7 +991,9 @@
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fb04-cdce-f1a1-d829" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -972,7 +1014,9 @@
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9487-cbe0-1d2a-686a" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -993,7 +1037,9 @@
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ccc3-35d7-cf2c-e992" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -1014,7 +1060,9 @@
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cf0c-76f2-8f4e-a1ef" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -1035,7 +1083,9 @@
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fd91-a6f5-6506-72a5" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -1056,7 +1106,9 @@
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8b6b-a78c-226d-55ae" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -1077,7 +1129,9 @@
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8675-71fe-52fe-2d6b" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -1098,7 +1152,9 @@
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d9ad-c384-7335-dd09" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -1119,7 +1175,9 @@
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="620f-720b-1a35-3d73" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -1140,7 +1198,9 @@
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c891-07f9-ad09-9697" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -1161,7 +1221,9 @@
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="315c-6874-35b9-38ac" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -1182,7 +1244,9 @@
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5f76-40df-0dac-ff16" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -1203,7 +1267,9 @@
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ab5d-5db0-29ff-d8aa" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -1224,7 +1290,9 @@
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="250b-e6aa-9720-3863" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -1245,7 +1313,9 @@
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a5ea-51dd-7c64-62cb" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -1266,7 +1336,9 @@
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e84c-fffa-3974-d1fe" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -1287,7 +1359,9 @@
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3dcf-eb39-abf6-50d5" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -1309,7 +1383,7 @@
             <characteristic name="Type" characteristicTypeId="9b7b-8d3c-6c3b-c573" value="Physical"/>
             <characteristic name="Bonus" characteristicTypeId="e033-8269-f4d6-f0c9" value="4"/>
             <characteristic name="Damage" characteristicTypeId="ca7b-dc78-24dd-3315" value="1"/>
-            <characteristic name="Range" characteristicTypeId="75a3-8b99-a7f1-efd7" value="1"/>
+            <characteristic name="Range" characteristicTypeId="75a3-8b99-a7f1-efd7" value="4"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1344,7 +1418,9 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7bdf-bb9c-fe6d-67d5" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -1369,7 +1445,9 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d46a-d123-b805-78c6" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -1394,7 +1472,9 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="667a-1856-ad18-baa5" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -1423,7 +1503,9 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ef5f-8f31-62a6-0ddf" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -1450,6 +1532,7 @@
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8985-c897-c478-b3f1" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="008f-0853-2451-0574" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries/>
@@ -1467,7 +1550,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="710d-419f-1488-1c46" value="A model may discard this card to remove all its Damage markers. However, for the remainder of the game the model must reduce its Cunning by 1, and deduct 1 Success from its Casting Rolls. Only Death Eaters models"/>
+            <characteristic name="Description" characteristicTypeId="710d-419f-1488-1c46" value="During this model activation, a model may discard this card to remove all its Damage markers. However, for the remainder of the game the model must reduce its Cunning by 1, and deduct 1 Success from its Casting Rolls. Only Death Eaters models"/>
             <characteristic name="Rarity" characteristicTypeId="6ccd-dad9-f7cb-3440" value="Rare, Unique"/>
           </characteristics>
         </profile>
@@ -1503,7 +1586,9 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3b29-96c9-d590-f4fa" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -1528,7 +1613,9 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2fbf-5ebd-f5ac-4c94" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -1555,7 +1642,9 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="79fd-5ee8-42e4-eb74" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -1582,7 +1671,9 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6b90-f204-5228-f902" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="402b-dfad-c71b-9cf0" name="New CategoryLink" hidden="false" targetId="d115-2481-b188-b3a8" primary="true">
           <profiles/>
@@ -1617,7 +1708,9 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1cef-0c81-9cbb-a829" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -1644,7 +1737,9 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="04a1-10cb-190f-0896" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -1695,7 +1790,9 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1be5-bf0c-297c-0ebc" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -1720,7 +1817,9 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="70af-a341-5fa4-fce3" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -1747,6 +1846,7 @@
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7e11-1d3c-9903-4703" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e7b0-a7d9-ac6f-2e9f" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries/>
@@ -1768,7 +1868,9 @@
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="db9a-a6ac-a0a0-e0f5" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -1795,7 +1897,9 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3fbd-2a3b-60e4-c6a9" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -1822,7 +1926,9 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="06a0-a11c-e7ec-62f6" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -2039,7 +2145,9 @@
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1914-733f-1c3e-9fb9" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -2066,6 +2174,7 @@
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fdff-bda3-6f88-6eb7" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b713-51f2-740e-6d70" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries/>
@@ -2095,7 +2204,9 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0257-53ea-e3f4-6fdc" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -2120,7 +2231,9 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2dc0-7399-a6ef-e63a" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -2145,7 +2258,9 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a33a-8c67-46d3-dc96" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -2170,7 +2285,9 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="bb1e-e798-a453-8ecd" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -2195,7 +2312,9 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="de62-9d4e-a006-0484" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -2220,7 +2339,9 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e9c0-c07c-45f9-0d4d" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -2247,13 +2368,114 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="55f1-03cd-09db-aef3" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
         <cost name="Galleons" costTypeId="39b7-674d-1765-92fb" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5635-2fa3-8f46-ac73" name="Death Eater Broom" book="" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="a7e7-97d8-f82a-3a42" name="Death Eater Broom" hidden="false" profileTypeId="3229-77e7-0f3c-27b9" profileTypeName="1.4 Artefact">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="710d-419f-1488-1c46" value="After resolving a combat spell, this model may move 1 space. Models with the Broomstick trait and Death Eaters affiliation only."/>
+            <characteristic name="Rarity" characteristicTypeId="6ccd-dad9-f7cb-3440" value="Common"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="76e8-f53f-7c9c-b441" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Galleons" costTypeId="39b7-674d-1765-92fb" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="36b7-f2a1-5d62-3b0f" name="Impulse" book="" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="1946-7f81-606e-7c13" name="Impulse" hidden="false" profileTypeId="3229-77e7-0f3c-27b9" profileTypeName="1.4 Artefact">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="710d-419f-1488-1c46" value="Once per game, this model can move 3 additional spaces during its Move Action. Models with the Broomstick trait and Death Eaters affiliation only."/>
+            <characteristic name="Rarity" characteristicTypeId="6ccd-dad9-f7cb-3440" value="Common"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="941a-118a-9e5a-40e3" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Galleons" costTypeId="39b7-674d-1765-92fb" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5311-a783-524a-f86e" name="Piertotum Locomotor" book="" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="f9d8-8d5a-2ed8-dac2" name="Piertotum Locomotor" hidden="false" targetId="13ef-6ad3-cfcf-5002" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="eea5-4f44-b142-d4ef" type="atLeast"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" childId="f627-a6c7-0f04-9aee" type="atLeast"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" childId="1f0a-90b8-3333-4a80" type="atLeast"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c640-f4a3-19e1-7a91" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Galleons" costTypeId="39b7-674d-1765-92fb" value="5.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -2447,6 +2669,14 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="dd86-bfb8-5039-533a" name="Diffindo" hidden="false" targetId="2fd4-2b62-ba41-d3e4" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8737-c932-b602-334a" name="Piertotum Locomotor" hidden="false" targetId="5311-a783-524a-f86e" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2669,6 +2899,14 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="8717-a49b-ddee-7041" name="Diffindo" hidden="false" targetId="2fd4-2b62-ba41-d3e4" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5637-9212-b4ff-3ee8" name="Piertotum Locomotor" hidden="false" targetId="5311-a783-524a-f86e" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3191,7 +3429,15 @@
               <conditions>
                 <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b74c-d3d6-b2c4-8fb2" type="equalTo"/>
               </conditions>
-              <conditionGroups/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a60e-cae0-ca3c-0dc5" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cb27-98e5-c37e-a44e" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
             </conditionGroup>
           </conditionGroups>
         </modifier>
@@ -3637,6 +3883,8 @@
             <conditionGroup type="and">
               <conditions>
                 <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b74c-d3d6-b2c4-8fb2" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a60e-cae0-ca3c-0dc5" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cb27-98e5-c37e-a44e" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -3661,12 +3909,14 @@
           <repeats/>
           <conditions>
             <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a5bf-4232-b441-6f7d" type="equalTo"/>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f77f-e9f0-08bd-85db" type="equalTo"/>
           </conditions>
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b74c-d3d6-b2c4-8fb2" type="atLeast"/>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f77f-e9f0-08bd-85db" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b74c-d3d6-b2c4-8fb2" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a60e-cae0-ca3c-0dc5" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cb27-98e5-c37e-a44e" type="atLeast"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -3695,6 +3945,8 @@
             <conditionGroup type="and">
               <conditions>
                 <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b74c-d3d6-b2c4-8fb2" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a60e-cae0-ca3c-0dc5" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cb27-98e5-c37e-a44e" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -3813,6 +4065,20 @@
               <conditions>
                 <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cb27-98e5-c37e-a44e" type="atLeast"/>
                 <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f77f-e9f0-08bd-85db" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="411f-5789-4f8a-acbe" value="2">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cb27-98e5-c37e-a44e" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a60e-cae0-ca3c-0dc5" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b74c-d3d6-b2c4-8fb2" type="atLeast"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -5284,7 +5550,15 @@
               <conditions>
                 <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b74c-d3d6-b2c4-8fb2" type="equalTo"/>
               </conditions>
-              <conditionGroups/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a60e-cae0-ca3c-0dc5" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cb27-98e5-c37e-a44e" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
             </conditionGroup>
           </conditionGroups>
         </modifier>
@@ -5312,6 +5586,8 @@
             <conditionGroup type="and">
               <conditions>
                 <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b74c-d3d6-b2c4-8fb2" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a60e-cae0-ca3c-0dc5" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cb27-98e5-c37e-a44e" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -5695,6 +5971,174 @@
       </selectionEntryGroups>
       <entryLinks/>
     </selectionEntryGroup>
+    <selectionEntryGroup id="365c-2dcd-608f-5213" name="Artefacts (Common Death Eaters Broomstick)" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="49e2-12f4-7e39-f9f4" name="Knife" hidden="false" targetId="98b1-624b-4d7c-7289" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5a48-3fdf-8152-45db" name="Sword" hidden="false" targetId="2401-8edd-d7d8-b9b9" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5edb-af5b-5349-0243" name="Spellbook" hidden="false" targetId="fff0-6570-5dc9-99c4" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="85aa-16de-efa6-c8e7" name="Earmuffs" hidden="false" targetId="2608-236d-4ece-aacf" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="08b6-5b43-da42-1f4f" name="Reinforced Bow" hidden="false" targetId="4b69-ea24-0aae-237e" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="c1c8-634d-c8ed-61f9" name="Death Eater Broom" hidden="false" targetId="5635-2fa3-8f46-ac73" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="118d-50d3-7f16-9d44" name="Impulse" hidden="false" targetId="36b7-f2a1-5d62-3b0f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="aba7-ae6b-d014-fa5e" name="Items (Death Eaters Broomstick)" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8619-a5d7-3a77-f241" name="Legendary" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="eb34-eb0b-84ea-d8e9" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="8828-f1ce-abb3-fda9" name="Artefacts (Legendary)" hidden="false" targetId="e59c-de68-d172-60bd" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="262f-60a9-98f7-8c41" name="Potions (Legendary)" hidden="false" targetId="f77f-e9f0-08bd-85db" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="5988-ec7f-54f4-974e" name="Common" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="6585-2a0a-4299-7e5d" name="Artefacts (Common Death Eaters Broomstick)" hidden="false" targetId="365c-2dcd-608f-5213" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="cac1-33fb-c561-18cc" name="Potions (Common)" hidden="false" targetId="a5bf-4232-b441-6f7d" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="f1e2-92d4-df8d-2c64" name="Rare" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7bb7-a0c2-f473-93e5" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="faff-66a6-682d-c02b" name="Potions (Rare)" hidden="false" targetId="f5b5-6c56-7f4e-e56a" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="cd61-93c1-febe-eb8c" name="Artefacts (Rare Death Eaters)" hidden="false" targetId="7605-7edd-b951-1ce4" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="d103-fc7c-84e6-69b5" name="Animagus" page="0" hidden="false">
@@ -5934,7 +6378,7 @@ Once per game, this model may change one Spell card of their Spellbook for anoth
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>This model, and all models in the same group, may carry X Potions instead of just one, as long as they have sufficient Item slots. If there are several models with this Trait in the same group, choose the highest value. This bonus remains in effect even if this model is removed from play.</description>
+      <description>This model, and all models in the same group, may carry X+1 Potions instead of just one, as long as they have sufficient Item slots. If there are several models with this Trait in the same group, choose the highest value. This bonus remains in effect even if this model is removed from play.</description>
     </rule>
     <rule id="4a44-324a-a514-1c27" name="Potioneer X " hidden="false">
       <profiles/>
@@ -6061,21 +6505,21 @@ NB. The Potioneer value is also used in some instances to provide other bonuses 
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>This model, and all models in the same group, may carry 1 Potions instead of just one, as long as they have sufficient Item slots. If there are several models with this Trait in the same group, choose the highest value. This bonus remains in effect even if this model is removed from play.</description>
+      <description>This model, and all models in the same group, may carry 1+1 Potions instead of just one, as long as they have sufficient Item slots. If there are several models with this Trait in the same group, choose the highest value. This bonus remains in effect even if this model is removed from play.</description>
     </rule>
     <rule id="b235-4a3b-c881-b812" name="Potion Mastery 2" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>This model, and all models in the same group, may carry 2 Potions instead of just one, as long as they have sufficient Item slots. If there are several models with this Trait in the same group, choose the highest value. This bonus remains in effect even if this model is removed from play.</description>
+      <description>This model, and all models in the same group, may carry 2+1 Potions instead of just one, as long as they have sufficient Item slots. If there are several models with this Trait in the same group, choose the highest value. This bonus remains in effect even if this model is removed from play.</description>
     </rule>
     <rule id="347b-56de-fca4-bb90" name="Potion Mastery 3" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>This model, and all models in the same group, may carry 3 Potions instead of just one, as long as they have sufficient Item slots. If there are several models with this Trait in the same group, choose the highest value. This bonus remains in effect even if this model is removed from play.</description>
+      <description>This model, and all models in the same group, may carry 3+1 Potions instead of just one, as long as they have sufficient Item slots. If there are several models with this Trait in the same group, choose the highest value. This bonus remains in effect even if this model is removed from play.</description>
     </rule>
     <rule id="b095-14c0-16b1-e070" name="At all costs" hidden="false">
       <profiles/>
@@ -6205,6 +6649,20 @@ NB. The Potioneer value is also used in some instances to provide other bonuses 
       <infoLinks/>
       <modifiers/>
       <description>This model can interrupt its Movement Action to perform an Attack Action.</description>
+    </rule>
+    <rule id="fb29-60b2-eb60-c332" name="Invocation X" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This model cannot enter the game by a Spell effect if there are already X models with Name: Hogwarts Statue in play. If this model is affected by a Finite Incatatem spell, it is removed from the game.</description>
+    </rule>
+    <rule id="4c8d-aa19-a4de-ba16" name="Charms Professor" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When this model uses a non-combat Spell, then until the end of the round all friendly models (included itself) within 2 spaces gain 1 bonus die to their next Casting roll for a non-combat Spell.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -6710,6 +7168,20 @@ NB. The Potioneer value is also used in some instances to provide other bonuses 
         <characteristic name="Difficulty" characteristicTypeId="48bb-c6ce-efd9-b84c" value="1"/>
         <characteristic name="Description" characteristicTypeId="4ee7-a98d-cfca-ca71" value="Combat Spell. If successful, target model and each model within 2 spaces of it (friend or foe) suffers 1 Physical Damage with the Burning Effect."/>
         <characteristic name="Cooldown Clock" characteristicTypeId="62f1-68e4-ceff-8682" value="2"/>
+      </characteristics>
+    </profile>
+    <profile id="13ef-6ad3-cfcf-5002" name="Piertotum Locomotor" hidden="false" profileTypeId="0aed-3bd3-2aaa-6237" profileTypeName="1.2 Spell">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="ecb8-5b30-787e-8ab8" value="3"/>
+        <characteristic name="Power Cost" characteristicTypeId="05fc-2837-01e5-4a01" value="5 White"/>
+        <characteristic name="Upkeep" characteristicTypeId="cf20-f678-81bc-115a" value="-"/>
+        <characteristic name="Difficulty" characteristicTypeId="48bb-c6ce-efd9-b84c" value="6"/>
+        <characteristic name="Description" characteristicTypeId="4ee7-a98d-cfca-ca71" value="Place a Hogwarts Statue completely within range. That model can be activated this round as normal. This spell can only be purchased if all models in your group share the Hogwarts affiliation."/>
+        <characteristic name="Cooldown Clock" characteristicTypeId="62f1-68e4-ceff-8682" value="3"/>
       </characteristics>
     </profile>
   </sharedProfiles>
