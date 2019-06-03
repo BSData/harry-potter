@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="03e9-1dee-4361-7029" name="Hogwarts" revision="5" battleScribeVersion="2.02" library="false" gameSystemId="aa1e-80ca-b43a-cf7b" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="03e9-1dee-4361-7029" name="Hogwarts" revision="6" battleScribeVersion="2.02" library="false" gameSystemId="aa1e-80ca-b43a-cf7b" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="7513-0c39-fa94-ba97" name="Ginny Weasley" hidden="false" collective="false" targetId="d734-14ea-68a3-2fa1" type="selectionEntry"/>
     <entryLink id="d67d-c3e9-f169-9fb9" name="Harry Potter" hidden="false" collective="false" targetId="a862-b4be-cb5c-4d46" type="selectionEntry">
@@ -90,6 +90,11 @@
       </modifiers>
     </entryLink>
     <entryLink id="e7d3-42d1-975d-fe97" name="Gringotts Goblin" hidden="false" collective="false" targetId="b46d-109b-65ca-a468" type="selectionEntry"/>
+    <entryLink id="ebf2-937a-7605-d611" name="Credence Barebone" hidden="false" collective="false" targetId="3555-5011-9e9c-5bd5" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="6cf8-c7d6-8792-7e38" name="Magical Creatures Expert" hidden="false" targetId="1f0a-90b8-3333-4a80" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="d734-14ea-68a3-2fa1" name="Ginny Weasley" hidden="false" collective="false" type="model">
@@ -3833,6 +3838,89 @@ When a friendly model spends an entire activation adjacent to this marker, draw 
       </selectionEntryGroups>
       <costs>
         <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3555-5011-9e9c-5bd5" name="Credence Barebone" hidden="false" collective="false" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c810-b763-7f5d-0a6c" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="b2e2-f2d8-8656-3abb" name="Credence Barebone" hidden="false" typeId="2093f4cd-f669-06c6-0f4f-06037948fe28" typeName="1.1 Attributes">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="911f2847-ecab-772a-37ad-b325a40b19ce">Grindelwald&apos;s Army/Magical Creatures</characteristic>
+            <characteristic name="Mastery" typeId="fd922c18-88be-5191-46b0-1ab589f2ef33">1</characteristic>
+            <characteristic name="Defense" typeId="49d96d28-c1dc-f977-7bb6-8e1fbe8fe397">1</characteristic>
+            <characteristic name="Cunning" typeId="9ef0bc71-33ab-98cd-26b3-07c55ed7725f">3 Black/White</characteristic>
+            <characteristic name="Magic" typeId="84a7bbc1-d970-b7b9-2fd5-f174c9fdda90">16</characteristic>
+            <characteristic name="Courage" typeId="ae357512-6823-3b1d-aebe-2c2c8e52e2e0">10</characteristic>
+            <characteristic name="Wisdom" typeId="4e4daeff-a451-4e80-f5b5-d588866411b4">4</characteristic>
+            <characteristic name="Temper" typeId="d6fc-863a-9aaa-271d">2</characteristic>
+            <characteristic name="Item Slots" typeId="d0e0-c03d-1183-cd2e">1</characteristic>
+            <characteristic name="Spellbook" typeId="3d3e-73e5-dd6a-789c">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0b2c-b7a6-f93d-172b" name="Obscurus&apos;s Attack" hidden="false" typeId="07d6-95ce-9c89-313a" typeName="1.5 Artefact (Attack)">
+          <characteristics>
+            <characteristic name="Description" typeId="cac9-3577-abf0-c57c">When this model scores at least 1 Symbol during an attack roll, it ignores any rule that reduces the Damage of the attack.</characteristic>
+            <characteristic name="Rarity" typeId="5542-8a14-e513-9167"/>
+            <characteristic name="Type" typeId="9b7b-8d3c-6c3b-c573">Physical</characteristic>
+            <characteristic name="Bonus" typeId="e033-8269-f4d6-f0c9">2</characteristic>
+            <characteristic name="Damage" typeId="ca7b-dc78-24dd-3315">3</characteristic>
+            <characteristic name="Range" typeId="75a3-8b99-a7f1-efd7">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d6b8-89af-611b-6638" name="Master Fighter " hidden="false" targetId="4b8d-df13-15f5-c37f" type="rule"/>
+        <infoLink id="5a2e-7384-98e5-93db" name="Obscurus" hidden="false" targetId="e4bf-e61a-64ce-8b30" type="rule"/>
+        <infoLink id="a87e-fb06-a6c0-6fe4" name="Large" hidden="false" targetId="cd8f-43f8-f8b8-e324" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="69cc-5461-a578-34e1" name="New CategoryLink" hidden="false" targetId="1f0a-90b8-3333-4a80" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="23f5-aafd-abc6-aa3d" name="Items (Credence Barebone)" hidden="false" collective="false" targetId="7e66-0249-5474-9afa" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec0f-9487-7a76-a1d8" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="8b92-e0a1-334b-6a0a" name="Spells" hidden="false" collective="false" targetId="f45a-25ca-6491-8733" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="increment" field="0566-f452-4259-0555" value="1">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fff0-6570-5dc9-99c4" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e23-f353-ee5e-7e6a" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0566-f452-4259-0555" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="3507-9829-ab51-9a6e" name="Spells (With Dark Arts)" hidden="true" collective="false" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="increment" field="5c8b-97e2-4d6b-d67f" value="1">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fff0-6570-5dc9-99c4" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e23-f353-ee5e-7e6a" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c8b-97e2-4d6b-d67f" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="20.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
