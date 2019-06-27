@@ -1556,7 +1556,7 @@
         </profile>
       </profiles>
       <costs>
-        <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="2.0"/>
+        <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9cc0-8508-e412-a362" name="Traitor" hidden="false" collective="false" type="upgrade">
@@ -1626,6 +1626,131 @@
         <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="3.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="0d5a-5b4f-5651-329d" name="Elixir of Life (Lvl 3)" hidden="false" collective="false" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="968b-1f58-5876-361a" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="7f15-9ac0-59c3-d7b2" name="Elixir of Life (Lvl 3)" hidden="false" typeId="9240-871e-f92a-dca7" typeName="1.3 Potion">
+          <characteristics>
+            <characteristic name="Description" typeId="c446-8595-c2ab-557d">The first time a friendly model within range would be removed from the game, instead heal 2 damage levels to that model and discard this card. The use of this Potion is automatic.</characteristic>
+            <characteristic name="Level" typeId="aa7a-73a2-1140-ddda">3</characteristic>
+            <characteristic name="Range" typeId="8eb6-077f-d4a8-aad5">1</characteristic>
+            <characteristic name="Rarity" typeId="9e89-a9cf-e544-cdec">Legendary</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="477a-4495-8aa2-f251" name="Magical Glove" hidden="false" collective="false" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a318-bb2d-e67c-fd92" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="e549-e0fc-3477-504d" name="Magical Glove" hidden="false" targetId="4eac-4bff-e2e6-be67" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9da6-d8b6-f302-ec1c" name="Alchemic Potions" hidden="false" collective="false" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="88c8-9614-ba9e-2b2e" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="1c58-ebed-ed04-383f" name="Alchemic Potions" hidden="false" typeId="3229-77e7-0f3c-27b9" typeName="1.4 Artefact">
+          <characteristics>
+            <characteristic name="Description" typeId="710d-419f-1488-1c46">Once per game, at the start of its activation, this model may exchange one of its Potions for another with the same or lower Galleon Cost.</characteristic>
+            <characteristic name="Rarity" typeId="6ccd-dad9-f7cb-3440">Rare</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0e86-c11d-31dd-ee2a" name="Blood Bond" hidden="false" collective="false" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2c26-902b-4e48-7d58" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="1b4d-b75f-c1b2-c33e" name="Blood Bond" hidden="false" typeId="3229-77e7-0f3c-27b9" typeName="1.4 Artefact">
+          <characteristics>
+            <characteristic name="Description" typeId="710d-419f-1488-1c46">If this model is within 3 spaces of a friendly model that contains Scamander in its Name, its Finite Incantatem spell affects all models on the board. This upgrade can only be purchased by a model that contains Scamander in its Name.</characteristic>
+            <characteristic name="Rarity" typeId="6ccd-dad9-f7cb-3440">Rare</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6cd4-ebbc-3e95-8cc8" name="Professor&apos;s Artefacts" hidden="false" collective="false" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a585-ae4c-de92-8e99" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="a822-b854-ea5a-033a" name="Professor&apos;s Artefacts" hidden="false" typeId="3229-77e7-0f3c-27b9" typeName="1.4 Artefact">
+          <characteristics>
+            <characteristic name="Description" typeId="710d-419f-1488-1c46">Once per game, at the start of its activation, this model may change one Spell card in their Spellbook for another with the same or lower Galleon Cost.</characteristic>
+            <characteristic name="Rarity" typeId="6ccd-dad9-f7cb-3440">Rare, Unique</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1754-d5e4-0da0-6493" name="MACUSA Edict" hidden="false" collective="false" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="89b2-4d1e-ef49-dbd4" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="9d15-9550-d33e-cd8a" name="MACUSA Edict" hidden="false" typeId="3229-77e7-0f3c-27b9" typeName="1.4 Artefact">
+          <characteristics>
+            <characteristic name="Description" typeId="710d-419f-1488-1c46">Friendly models that perform Combat spells within 3 spaces of a model with the Muggle trait score 1 less succcess. In addition, when this model’s Group is awarded VP from a Quest card, gain +1 VP. If this upgrade is purchased by a model with the MACUSA President trait, its Galleon cost is reduced to 0.</characteristic>
+            <characteristic name="Rarity" typeId="6ccd-dad9-f7cb-3440">Rare</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6922-0267-2720-5f38" name="MACUSA Orders" hidden="false" collective="false" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8646-0929-7ac2-44ab" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="cd9f-a57a-51f2-5d91" name="MACUSA Orders" hidden="false" typeId="3229-77e7-0f3c-27b9" typeName="1.4 Artefact">
+          <characteristics>
+            <characteristic name="Description" typeId="710d-419f-1488-1c46">Friendly models with at least Cunning 1 within 3 spaces can spend 1 Advanced Action when performing a Move Action to move up to an additional 2 spaces. If this upgrade is purchased by a model with the MACUSA President trait, its Galleon cost is reduced to 1.</characteristic>
+            <characteristic name="Rarity" typeId="6ccd-dad9-f7cb-3440">Rare</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4ac9-1ff5-b454-4411" name="President&apos;s Orders" hidden="false" collective="false" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="317f-4165-3280-7b47" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="59a0-e3d7-eb28-4ce4" name="President&apos;s Orders" hidden="false" typeId="3229-77e7-0f3c-27b9" typeName="1.4 Artefact">
+          <characteristics>
+            <characteristic name="Description" typeId="710d-419f-1488-1c46">This model may spend 1 Advanced Action during its activation to allow another friendly model to immediately cast a Spell without spending an Action. Once this Action is resolved, play returns to the normal sequence. If this upgrade is purchased by a model with the MACUSA President trait, its Galleon cost is reduced to 1.</characteristic>
+            <characteristic name="Rarity" typeId="6ccd-dad9-f7cb-3440">Rare</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="2.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="f45a-25ca-6491-8733" name="Spells" hidden="false" collective="false">
@@ -1658,6 +1783,7 @@
         <entryLink id="dd86-bfb8-5039-533a" name="Diffindo" hidden="false" collective="false" targetId="2fd4-2b62-ba41-d3e4" type="selectionEntry"/>
         <entryLink id="8737-c932-b602-334a" name="Piertotum Locomotor" hidden="false" collective="false" targetId="5311-a783-524a-f86e" type="selectionEntry"/>
         <entryLink id="582f-0a76-c76e-989e" name="Fiendfyre" hidden="false" collective="false" targetId="c739-1521-b1cd-3867" type="selectionEntry"/>
+        <entryLink id="338d-9f83-07dd-db0a" name="Magical Glove" hidden="false" collective="false" targetId="477a-4495-8aa2-f251" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="4003-4f1c-e444-ec09" name="Spells (With Dark Arts)" hidden="false" collective="false">
@@ -1693,6 +1819,7 @@
         <entryLink id="8717-a49b-ddee-7041" name="Diffindo" hidden="false" collective="false" targetId="2fd4-2b62-ba41-d3e4" type="selectionEntry"/>
         <entryLink id="5637-9212-b4ff-3ee8" name="Piertotum Locomotor" hidden="false" collective="false" targetId="5311-a783-524a-f86e" type="selectionEntry"/>
         <entryLink id="30c0-1228-e00d-865b" name="Fiendfyre" hidden="false" collective="false" targetId="c739-1521-b1cd-3867" type="selectionEntry"/>
+        <entryLink id="a4b3-cdfe-6319-3f0b" name="Magical Glove" hidden="false" collective="false" targetId="477a-4495-8aa2-f251" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="5e63-f616-c041-4c7f" name="Herbology Expert" hidden="false" collective="false">
@@ -2106,6 +2233,11 @@
         <entryLink id="395c-377c-683f-53e3" name="Blood Pact" hidden="false" collective="false" targetId="1e95-2787-bcc8-23b2" type="selectionEntry"/>
         <entryLink id="2747-9fee-a31e-fec0" name="Traitor" hidden="false" collective="false" targetId="9cc0-8508-e412-a362" type="selectionEntry"/>
         <entryLink id="e3b1-89f8-5d91-3e49" name="Gellert&apos;s Skull" hidden="false" collective="false" targetId="1540-1435-802b-5193" type="selectionEntry"/>
+        <entryLink id="13a6-97b1-a894-f834" name="MACUSA Edict" hidden="false" collective="false" targetId="1754-d5e4-0da0-6493" type="selectionEntry"/>
+        <entryLink id="f476-a8b5-b561-2bd1" name="MACUSA Orders" hidden="false" collective="false" targetId="6922-0267-2720-5f38" type="selectionEntry"/>
+        <entryLink id="a797-b70e-0d4b-c6d3" name="President&apos;s Orders" hidden="false" collective="false" targetId="4ac9-1ff5-b454-4411" type="selectionEntry"/>
+        <entryLink id="155c-303d-c9c6-e50d" name="Professor&apos;s Artefacts" hidden="false" collective="false" targetId="6cd4-ebbc-3e95-8cc8" type="selectionEntry"/>
+        <entryLink id="51c8-592c-c5cc-c029" name="Alchemic Potions" hidden="false" collective="false" targetId="9da6-d8b6-f302-ec1c" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="f5b5-6c56-7f4e-e56a" name="Potions (Rare)" hidden="false" collective="false">
@@ -2444,6 +2576,11 @@
         <entryLink id="9abc-719e-e89b-ad50" name="Tom Riddle’s Diary" hidden="false" collective="false" targetId="4e23-f353-ee5e-7e6a" type="selectionEntry"/>
         <entryLink id="ad21-4834-d1de-6e67" name="Crystal Ball" hidden="false" collective="false" targetId="7b3d-e52a-3f5d-9242" type="selectionEntry"/>
         <entryLink id="ba31-62c7-4206-751d" name="Blood Pact" hidden="false" collective="false" targetId="1e95-2787-bcc8-23b2" type="selectionEntry"/>
+        <entryLink id="c9b4-e16d-564a-51be" name="MACUSA Edict" hidden="false" collective="false" targetId="1754-d5e4-0da0-6493" type="selectionEntry"/>
+        <entryLink id="6da8-4bfd-75d4-7716" name="MACUSA Orders" hidden="false" collective="false" targetId="6922-0267-2720-5f38" type="selectionEntry"/>
+        <entryLink id="c08b-096e-17d8-3dda" name="President&apos;s Orders" hidden="false" collective="false" targetId="4ac9-1ff5-b454-4411" type="selectionEntry"/>
+        <entryLink id="7711-cd78-d41e-6e52" name="Professor&apos;s Artefacts" hidden="false" collective="false" targetId="6cd4-ebbc-3e95-8cc8" type="selectionEntry"/>
+        <entryLink id="34d9-9cbc-5336-ba3e" name="Alchemic Potions" hidden="false" collective="false" targetId="9da6-d8b6-f302-ec1c" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="7b99-595a-fd77-41ad" name="Artefacts (Common Harry Potter)" hidden="false" collective="false">
@@ -2500,6 +2637,11 @@
         <entryLink id="21df-066e-2630-5361" name="Tom Riddle’s Diary" hidden="false" collective="false" targetId="4e23-f353-ee5e-7e6a" type="selectionEntry"/>
         <entryLink id="023b-2d74-f270-4b3f" name="Crystal Ball" hidden="false" collective="false" targetId="7b3d-e52a-3f5d-9242" type="selectionEntry"/>
         <entryLink id="1aa0-86e4-694d-2cb6" name="Blood Pact" hidden="false" collective="false" targetId="1e95-2787-bcc8-23b2" type="selectionEntry"/>
+        <entryLink id="91a2-ba7b-838e-be7e" name="MACUSA Edict" hidden="false" collective="false" targetId="1754-d5e4-0da0-6493" type="selectionEntry"/>
+        <entryLink id="b4cc-59d0-2f19-2a74" name="MACUSA Orders" hidden="false" collective="false" targetId="6922-0267-2720-5f38" type="selectionEntry"/>
+        <entryLink id="bf90-7d4f-0877-39e5" name="President&apos;s Orders" hidden="false" collective="false" targetId="4ac9-1ff5-b454-4411" type="selectionEntry"/>
+        <entryLink id="d6e0-2514-91c2-8a4c" name="Professor&apos;s Artefacts" hidden="false" collective="false" targetId="6cd4-ebbc-3e95-8cc8" type="selectionEntry"/>
+        <entryLink id="a6ff-5cc4-c01c-8c7c" name="Alchemic Potions" hidden="false" collective="false" targetId="9da6-d8b6-f302-ec1c" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="2e5a-5dfc-1c5a-3b39" name="Artefacts (Rare No Mercy)" hidden="false" collective="false">
@@ -2517,6 +2659,11 @@
         <entryLink id="62d9-47a6-515e-cb01" name="Tom Riddle’s Diary" hidden="false" collective="false" targetId="4e23-f353-ee5e-7e6a" type="selectionEntry"/>
         <entryLink id="d9cc-3856-bb7f-3c57" name="Crystal Ball" hidden="false" collective="false" targetId="7b3d-e52a-3f5d-9242" type="selectionEntry"/>
         <entryLink id="1f0f-fbb0-cd44-430e" name="Blood Pact" hidden="false" collective="false" targetId="1e95-2787-bcc8-23b2" type="selectionEntry"/>
+        <entryLink id="27bb-a6b8-e598-fbb4" name="MACUSA Edict" hidden="false" collective="false" targetId="1754-d5e4-0da0-6493" type="selectionEntry"/>
+        <entryLink id="6439-76de-b9aa-016e" name="MACUSA Orders" hidden="false" collective="false" targetId="6922-0267-2720-5f38" type="selectionEntry"/>
+        <entryLink id="3282-50ed-a045-a8c4" name="President&apos;s Orders" hidden="false" collective="false" targetId="4ac9-1ff5-b454-4411" type="selectionEntry"/>
+        <entryLink id="bd8d-a5c3-e670-4b98" name="Professor&apos;s Artefacts" hidden="false" collective="false" targetId="6cd4-ebbc-3e95-8cc8" type="selectionEntry"/>
+        <entryLink id="a107-bdf1-c89d-d5f2" name="Alchemic Potions" hidden="false" collective="false" targetId="9da6-d8b6-f302-ec1c" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="b22c-1a08-6b00-4f88" name="Items (No Mercy)" hidden="false" collective="false">
@@ -2562,6 +2709,11 @@
         <entryLink id="f11a-2207-b8cf-83a7" name="Harry Potter Horcrux" hidden="false" collective="false" targetId="3be4-40ae-57b9-eea0" type="selectionEntry"/>
         <entryLink id="0c7a-0221-e41f-7d0d" name="Crystal Ball" hidden="false" collective="false" targetId="7b3d-e52a-3f5d-9242" type="selectionEntry"/>
         <entryLink id="ffb5-4904-15e1-10c4" name="Blood Pact" hidden="false" collective="false" targetId="1e95-2787-bcc8-23b2" type="selectionEntry"/>
+        <entryLink id="adc1-9dfe-272f-cd82" name="MACUSA Edict" hidden="false" collective="false" targetId="1754-d5e4-0da0-6493" type="selectionEntry"/>
+        <entryLink id="294a-c5cd-ac84-c7be" name="MACUSA Orders" hidden="false" collective="false" targetId="6922-0267-2720-5f38" type="selectionEntry"/>
+        <entryLink id="633f-5852-27d6-c588" name="President&apos;s Orders" hidden="false" collective="false" targetId="4ac9-1ff5-b454-4411" type="selectionEntry"/>
+        <entryLink id="e2a8-3b51-ca6d-bbbd" name="Professor&apos;s Artefacts" hidden="false" collective="false" targetId="6cd4-ebbc-3e95-8cc8" type="selectionEntry"/>
+        <entryLink id="fe5f-0d54-987f-4834" name="Alchemic Potions" hidden="false" collective="false" targetId="9da6-d8b6-f302-ec1c" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="b2dc-e93c-d8bc-3fd8" name="Artefacts (Legendary Snatcher Leader)" hidden="false" collective="false">
@@ -2816,6 +2968,18 @@
             <categoryLink id="017e-e6ed-29c6-9f0f" name="Potion" hidden="false" targetId="d115-2481-b188-b3a8" primary="false"/>
           </categoryLinks>
         </entryLink>
+        <entryLink id="31e4-4440-ebc7-894b" name="Elixir of Life (Lvl 3)" hidden="true" collective="false" targetId="0d5a-5b4f-5651-329d" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2544-1b5a-6048-5c5f" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <categoryLinks>
+            <categoryLink id="66e9-dc5d-d716-1ef3" name="Potion" hidden="false" targetId="d115-2481-b188-b3a8" primary="false"/>
+          </categoryLinks>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="87c5-46e2-0677-f301" name="Artefacts (Rare Pomona Sprout)" hidden="false" collective="false">
@@ -2833,6 +2997,11 @@
         <entryLink id="f7d4-3e02-c56b-944b" name="Mandrake" hidden="false" collective="false" targetId="c5f1-2b94-3a1e-0b82" type="selectionEntry"/>
         <entryLink id="010b-5c44-091a-4e39" name="Crystal Ball" hidden="false" collective="false" targetId="7b3d-e52a-3f5d-9242" type="selectionEntry"/>
         <entryLink id="06e2-5e7d-7a9f-e394" name="Blood Pact" hidden="false" collective="false" targetId="1e95-2787-bcc8-23b2" type="selectionEntry"/>
+        <entryLink id="93c5-4244-365b-c15b" name="MACUSA Edict" hidden="false" collective="false" targetId="1754-d5e4-0da0-6493" type="selectionEntry"/>
+        <entryLink id="f8a2-b31f-d07f-6a97" name="MACUSA Orders" hidden="false" collective="false" targetId="6922-0267-2720-5f38" type="selectionEntry"/>
+        <entryLink id="9090-785d-bc70-0cb3" name="President&apos;s Orders" hidden="false" collective="false" targetId="4ac9-1ff5-b454-4411" type="selectionEntry"/>
+        <entryLink id="def6-9fa5-80fc-2d59" name="Professor&apos;s Artefacts" hidden="false" collective="false" targetId="6cd4-ebbc-3e95-8cc8" type="selectionEntry"/>
+        <entryLink id="4825-5915-847b-6198" name="Alchemic Potions" hidden="false" collective="false" targetId="9da6-d8b6-f302-ec1c" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="3378-88ab-8a62-fd0f" name="Items (Death Eaters Professors)" hidden="false" collective="false">
@@ -2947,6 +3116,11 @@
         <entryLink id="1b13-c15a-cac7-9fc2" name="Blood Pact" hidden="false" collective="false" targetId="1e95-2787-bcc8-23b2" type="selectionEntry"/>
         <entryLink id="f46b-cd16-8965-d944" name="Credence&apos;s Belt" hidden="false" collective="false" targetId="6c57-86d0-d63f-997c" type="selectionEntry"/>
         <entryLink id="89ca-6ada-f4cc-3ef8" name="Obscurus Unchained" hidden="false" collective="false" targetId="2a90-b6a5-bfcd-dd5b" type="selectionEntry"/>
+        <entryLink id="a7be-4bc2-3f5f-bd36" name="MACUSA Edict" hidden="false" collective="false" targetId="1754-d5e4-0da0-6493" type="selectionEntry"/>
+        <entryLink id="ff9b-719c-2693-5072" name="MACUSA Orders" hidden="false" collective="false" targetId="6922-0267-2720-5f38" type="selectionEntry"/>
+        <entryLink id="f818-8f51-0e53-801d" name="President&apos;s Orders" hidden="false" collective="false" targetId="4ac9-1ff5-b454-4411" type="selectionEntry"/>
+        <entryLink id="d5a0-93b7-4133-99f0" name="Professor&apos;s Artefacts" hidden="false" collective="false" targetId="6cd4-ebbc-3e95-8cc8" type="selectionEntry"/>
+        <entryLink id="b583-91f2-1186-eeab" name="Alchemic Potions" hidden="false" collective="false" targetId="9da6-d8b6-f302-ec1c" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="7e66-0249-5474-9afa" name="Items (Credence Barebone)" hidden="false" collective="false">
@@ -3006,6 +3180,7 @@
         <entryLink id="209a-a187-6f17-07be" name="Vulnera Sanentur" hidden="false" collective="false" targetId="770d-606c-1014-8ddc" type="selectionEntry"/>
         <entryLink id="fdd8-2f58-40ce-eade" name="Diffindo" hidden="false" collective="false" targetId="2fd4-2b62-ba41-d3e4" type="selectionEntry"/>
         <entryLink id="61d3-9877-d2df-6faf" name="Piertotum Locomotor" hidden="false" collective="false" targetId="5311-a783-524a-f86e" type="selectionEntry"/>
+        <entryLink id="2488-630b-d684-7c4e" name="Magical Glove" hidden="false" collective="false" targetId="477a-4495-8aa2-f251" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="89f4-b809-76ba-1d8a" name="Artefacts (Legendary Grindelwald)" hidden="false" collective="false">
@@ -3057,6 +3232,121 @@
           <entryLinks>
             <entryLink id="7046-5065-d3ab-ebd7" name="Artefacts (Rare)" hidden="false" collective="false" targetId="e06e-f794-42d5-a883" type="selectionEntryGroup"/>
             <entryLink id="a8c2-a7a3-ab5d-5cae" name="Potions (Rare)" hidden="false" collective="false" targetId="f5b5-6c56-7f4e-e56a" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="3ed6-a44b-9745-bd3e" name="Artefacts (Rare MACUSA President)" hidden="false" collective="false">
+      <entryLinks>
+        <entryLink id="34a5-8565-cc6f-9067" name="Acromantula Venom" hidden="false" collective="false" targetId="81d3-5334-a379-88e2" type="selectionEntry"/>
+        <entryLink id="0a95-cd30-dbfb-123e" name="Deluminator" hidden="false" collective="false" targetId="2dda-d219-3971-82ee" type="selectionEntry"/>
+        <entryLink id="9b4f-953b-1a39-acca" name="Foe-Glass" hidden="false" collective="false" targetId="5d18-a8ee-3104-de39" type="selectionEntry"/>
+        <entryLink id="407e-ee24-564c-e7f6" name="Time-Turner" hidden="false" collective="false" targetId="6f05-5194-2f3b-4511" type="selectionEntry"/>
+        <entryLink id="0514-ce6c-b11e-6bb3" name="Bellatrix Lestrange’s Knife" hidden="false" collective="false" targetId="6888-c9d6-6cbb-08cd" type="selectionEntry"/>
+        <entryLink id="247f-4e6e-e7f9-e0c7" name="Helga Hufflepuff’s Cup" hidden="false" collective="false" targetId="ca07-1e80-4582-1054" type="selectionEntry"/>
+        <entryLink id="0509-f518-7a74-a4e5" name="Marvolo Gaunt&apos;s Ring" hidden="false" collective="false" targetId="1472-c025-19cd-0429" type="selectionEntry"/>
+        <entryLink id="693b-3822-c1c6-1902" name="Rowena Ravenclaw’s Diadem" hidden="false" collective="false" targetId="5bfa-cda0-0123-0791" type="selectionEntry"/>
+        <entryLink id="399d-b801-b360-0fef" name="Salazar Slytherin’s Locket" hidden="false" collective="false" targetId="681d-ae53-39aa-26d4" type="selectionEntry"/>
+        <entryLink id="d56c-e99a-22d4-1752" name="Tom Riddle’s Diary" hidden="false" collective="false" targetId="4e23-f353-ee5e-7e6a" type="selectionEntry"/>
+        <entryLink id="d0a0-302b-3d76-ca79" name="Crystal Ball" hidden="false" collective="false" targetId="7b3d-e52a-3f5d-9242" type="selectionEntry"/>
+        <entryLink id="df66-273b-151b-6562" name="Blood Pact" hidden="false" collective="false" targetId="1e95-2787-bcc8-23b2" type="selectionEntry"/>
+        <entryLink id="163e-70d8-1d16-7afd" name="Traitor" hidden="false" collective="false" targetId="9cc0-8508-e412-a362" type="selectionEntry"/>
+        <entryLink id="b93a-9644-cda1-1c3f" name="Gellert&apos;s Skull" hidden="false" collective="false" targetId="1540-1435-802b-5193" type="selectionEntry"/>
+        <entryLink id="6823-daca-5bce-42af" name="MACUSA Edict" hidden="false" collective="false" targetId="1754-d5e4-0da0-6493" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="39b7-674d-1765-92fb" value="0.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="4f4c-9fad-d040-d05b" name="MACUSA Orders" hidden="false" collective="false" targetId="6922-0267-2720-5f38" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="39b7-674d-1765-92fb" value="1"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="2123-9fed-522d-957e" name="President&apos;s Orders" hidden="false" collective="false" targetId="4ac9-1ff5-b454-4411" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="39b7-674d-1765-92fb" value="1"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="6a60-b850-581f-313b" name="Professor&apos;s Artefacts" hidden="false" collective="false" targetId="6cd4-ebbc-3e95-8cc8" type="selectionEntry"/>
+        <entryLink id="7519-a6ce-91d1-3b60" name="Alchemic Potions" hidden="false" collective="false" targetId="9da6-d8b6-f302-ec1c" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="7d67-91f6-cf27-611c" name="Artefacts (Rare Scamander)" hidden="false" collective="false">
+      <entryLinks>
+        <entryLink id="bfee-c775-459b-3258" name="Acromantula Venom" hidden="false" collective="false" targetId="81d3-5334-a379-88e2" type="selectionEntry"/>
+        <entryLink id="a6a0-e6e0-5028-812d" name="Deluminator" hidden="false" collective="false" targetId="2dda-d219-3971-82ee" type="selectionEntry"/>
+        <entryLink id="7dde-2d96-e34b-e4f7" name="Foe-Glass" hidden="false" collective="false" targetId="5d18-a8ee-3104-de39" type="selectionEntry"/>
+        <entryLink id="12c7-47fe-4870-2f27" name="Time-Turner" hidden="false" collective="false" targetId="6f05-5194-2f3b-4511" type="selectionEntry"/>
+        <entryLink id="fe7b-862d-76fe-2d32" name="Bellatrix Lestrange’s Knife" hidden="false" collective="false" targetId="6888-c9d6-6cbb-08cd" type="selectionEntry"/>
+        <entryLink id="406d-93ee-4ef6-b95d" name="Helga Hufflepuff’s Cup" hidden="false" collective="false" targetId="ca07-1e80-4582-1054" type="selectionEntry"/>
+        <entryLink id="e703-80ec-a642-e7d6" name="Marvolo Gaunt&apos;s Ring" hidden="false" collective="false" targetId="1472-c025-19cd-0429" type="selectionEntry"/>
+        <entryLink id="98b2-835d-307f-9e85" name="Rowena Ravenclaw’s Diadem" hidden="false" collective="false" targetId="5bfa-cda0-0123-0791" type="selectionEntry"/>
+        <entryLink id="c40e-181c-c5c3-70ff" name="Salazar Slytherin’s Locket" hidden="false" collective="false" targetId="681d-ae53-39aa-26d4" type="selectionEntry"/>
+        <entryLink id="71ff-0584-013c-86e9" name="Tom Riddle’s Diary" hidden="false" collective="false" targetId="4e23-f353-ee5e-7e6a" type="selectionEntry"/>
+        <entryLink id="3d98-03d4-01c6-3e42" name="Crystal Ball" hidden="false" collective="false" targetId="7b3d-e52a-3f5d-9242" type="selectionEntry"/>
+        <entryLink id="d873-fdc4-bddc-44b3" name="Blood Pact" hidden="false" collective="false" targetId="1e95-2787-bcc8-23b2" type="selectionEntry"/>
+        <entryLink id="fbfe-b7a8-a6e7-ef8b" name="Traitor" hidden="false" collective="false" targetId="9cc0-8508-e412-a362" type="selectionEntry"/>
+        <entryLink id="6723-519e-a710-9179" name="Gellert&apos;s Skull" hidden="false" collective="false" targetId="1540-1435-802b-5193" type="selectionEntry"/>
+        <entryLink id="ef6d-4c34-0de1-9bcd" name="MACUSA Edict" hidden="false" collective="false" targetId="1754-d5e4-0da0-6493" type="selectionEntry"/>
+        <entryLink id="1465-1c93-0beb-2f5a" name="MACUSA Orders" hidden="false" collective="false" targetId="6922-0267-2720-5f38" type="selectionEntry"/>
+        <entryLink id="76d0-c01d-8a4b-d307" name="President&apos;s Orders" hidden="false" collective="false" targetId="4ac9-1ff5-b454-4411" type="selectionEntry"/>
+        <entryLink id="12bb-4da8-a8b0-cc33" name="Professor&apos;s Artefacts" hidden="false" collective="false" targetId="6cd4-ebbc-3e95-8cc8" type="selectionEntry"/>
+        <entryLink id="d64a-0e71-0191-cb48" name="Alchemic Potions" hidden="false" collective="false" targetId="9da6-d8b6-f302-ec1c" type="selectionEntry"/>
+        <entryLink id="cf28-e889-18f3-85cb" name="Blood Bond" hidden="false" collective="false" targetId="0e86-c11d-31dd-ee2a" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="88c3-b28d-7c9b-72a1" name="Items (Scamander)" hidden="false" collective="false">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a4f0-a2a4-1d15-35fe" name="Legendary" hidden="false" collective="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3b15-53db-1bdd-ac3d" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="1615-9a9c-9c84-be3e" name="Potions (Legendary)" hidden="false" collective="false" targetId="f77f-e9f0-08bd-85db" type="selectionEntryGroup"/>
+            <entryLink id="aad8-7e1d-52cd-d316" name="Artefacts (Legendary)" hidden="false" collective="false" targetId="e59c-de68-d172-60bd" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="371c-76f8-5f59-61fe" name="Common" hidden="false" collective="false">
+          <entryLinks>
+            <entryLink id="35f1-7d13-34f7-b8e3" name="Artefacts (Common)" hidden="false" collective="false" targetId="541e-a918-c634-6234" type="selectionEntryGroup"/>
+            <entryLink id="83db-4ef7-7321-dfd2" name="Potions (Common)" hidden="false" collective="false" targetId="a5bf-4232-b441-6f7d" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="a346-acb2-ec2b-bc52" name="Rare" hidden="false" collective="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8265-5ed9-0ffa-615b" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="9051-d141-2479-3d9f" name="Artefacts (Rare Scamander)" hidden="false" collective="false" targetId="7d67-91f6-cf27-611c" type="selectionEntryGroup"/>
+            <entryLink id="7058-af18-9c50-8a55" name="Potions (Rare)" hidden="false" collective="false" targetId="f5b5-6c56-7f4e-e56a" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="fa68-54ff-57fe-ad0f" name="Items (MACUSA President)" hidden="false" collective="false">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b611-845c-1ee4-e749" name="Legendary" hidden="false" collective="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8df9-9b3c-69b2-ab02" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="02a4-a418-07eb-bcce" name="Potions (Legendary)" hidden="false" collective="false" targetId="f77f-e9f0-08bd-85db" type="selectionEntryGroup"/>
+            <entryLink id="c117-f2fc-ebbe-3578" name="Artefacts (Legendary)" hidden="false" collective="false" targetId="e59c-de68-d172-60bd" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="c286-382f-bb5d-c052" name="Common" hidden="false" collective="false">
+          <entryLinks>
+            <entryLink id="41fd-1590-c306-ab55" name="Artefacts (Common)" hidden="false" collective="false" targetId="541e-a918-c634-6234" type="selectionEntryGroup"/>
+            <entryLink id="1a4f-620c-afd9-93ce" name="Potions (Common)" hidden="false" collective="false" targetId="a5bf-4232-b441-6f7d" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="ed85-87bf-96e6-81cd" name="Rare" hidden="false" collective="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae04-5bf3-46b6-f5ec" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="54a8-a669-a166-e49c" name="Artefacts (Rare MACUSA President)" hidden="false" collective="false" targetId="3ed6-a44b-9745-bd3e" type="selectionEntryGroup"/>
+            <entryLink id="44cf-5d98-bb0a-787e" name="Potions (Rare)" hidden="false" collective="false" targetId="f5b5-6c56-7f4e-e56a" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -3306,6 +3596,22 @@ NB. The Potioneer value is also used in some instances to provide other bonuses 
     </rule>
     <rule id="379e-2524-f239-e565" name="Goblin" hidden="false">
       <description>During organizing your Group, you can spend up to 5 extra Galleons, ignoring the usual limits. At the end of the game you lose as many VPs as extra used Galleons.</description>
+    </rule>
+    <rule id="238d-a6c5-b2d8-b9de" name="Role Model" hidden="false">
+      <description>Friendly models within 3 spaces that cast a Spell not of the Combat type roll 1 additional dice.</description>
+    </rule>
+    <rule id="de92-6bc2-8a4d-9ccf" name="Indomitable Willpower" hidden="false">
+      <description>This model gains +2 Successes when defending against Unforgivable Curses and Petrificus Totalus spells.</description>
+    </rule>
+    <rule id="cb71-561f-c26e-e1bd" name="Alchemist" hidden="false">
+      <description>Once per game, at the start of this model&apos;s activation, a friendly model may change 1 Artefact or Potion card for another with the same or lower Galleon Cost.</description>
+    </rule>
+    <rule id="eb1a-3716-6b1b-41c5" name="Head Auror" hidden="false">
+      <description>Friendly models within 3 spaces gain +1 Success to the roll when performing Combat Spells that do not damage or remove models from the game.</description>
+    </rule>
+    <rule id="9466-2e3e-7441-3ec7" name="Horned Serpent" hidden="false"/>
+    <rule id="4bc3-a63d-211a-51aa" name="MACUSA President" hidden="false">
+      <description>For each friendly model within 3 spaces that has least Cunning 1, this model gains +1 Success to its Defense rolls.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -3706,6 +4012,26 @@ NB. The Potioneer value is also used in some instances to provide other bonuses 
         <characteristic name="Upkeep" typeId="cf20-f678-81bc-115a">3</characteristic>
         <characteristic name="Difficulty" typeId="48bb-c6ce-efd9-b84c">6</characteristic>
         <characteristic name="Description" typeId="4ee7-a98d-cfca-ca71">Place 1 Fiendfyre marker within Range. Special: Increase the difficulty to 8 to place 2 markers, or increase the Difficulty to 10 to place 3 markers. Models within 1 space of any Fiendfyre marker suffer the Burning effect and 1 Damage. When the upkeep is paid, you may remove the current marker(s) and place it again within 2 spaces of its previous position, then apply the effects. This spell cannot be purchased by a model with the Elf trait.</characteristic>
+        <characteristic name="Cooldown Clock" typeId="62f1-68e4-ceff-8682">2</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6940-6a9b-fb31-5477" name="Nebulus" hidden="false" typeId="0aed-3bd3-2aaa-6237" typeName="1.2 Spell">
+      <characteristics>
+        <characteristic name="Range" typeId="ecb8-5b30-787e-8ab8">3</characteristic>
+        <characteristic name="Power Cost" typeId="05fc-2837-01e5-4a01">2 Grey</characteristic>
+        <characteristic name="Upkeep" typeId="cf20-f678-81bc-115a">2</characteristic>
+        <characteristic name="Difficulty" typeId="48bb-c6ce-efd9-b84c">4</characteristic>
+        <characteristic name="Description" typeId="4ee7-a98d-cfca-ca71">This model cannot be targeted by models with a Magic value of 7 or less. This effect also applies to all other models while they are within the Spell&apos;s range.</characteristic>
+        <characteristic name="Cooldown Clock" typeId="62f1-68e4-ceff-8682">2</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4eac-4bff-e2e6-be67" name="Magical Glove" hidden="false" typeId="0aed-3bd3-2aaa-6237" typeName="1.2 Spell">
+      <characteristics>
+        <characteristic name="Range" typeId="ecb8-5b30-787e-8ab8">4</characteristic>
+        <characteristic name="Power Cost" typeId="05fc-2837-01e5-4a01">2 Grey</characteristic>
+        <characteristic name="Upkeep" typeId="cf20-f678-81bc-115a">1</characteristic>
+        <characteristic name="Difficulty" typeId="48bb-c6ce-efd9-b84c">4</characteristic>
+        <characteristic name="Description" typeId="4ee7-a98d-cfca-ca71">Place a Glove marker in range. Models that Move directly towards the marker can move 1 additional space (they must end their Move closer to the Glove marker than they began). When the upkeep is paid, you may remove the current marker and place it again within range.</characteristic>
         <characteristic name="Cooldown Clock" typeId="62f1-68e4-ceff-8682">2</characteristic>
       </characteristics>
     </profile>
