@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="aa1e-80ca-b43a-cf7b" name="Harry Potter Miniatures Adventure Game" revision="7" battleScribeVersion="2.02" authorName="NeXo" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="aa1e-80ca-b43a-cf7b" name="Harry Potter Miniatures Adventure Game" revision="8" battleScribeVersion="2.02" authorName="NeXo" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="aa1e-80ca-pubN66054" name="Voldemort"/>
     <publication id="aa1e-80ca-pubN66142" name="Order of the Phoenix"/>
