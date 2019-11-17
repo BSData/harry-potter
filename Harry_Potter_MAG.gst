@@ -2365,7 +2365,7 @@
             <modifier type="set" field="39b7-674d-1765-92fb" value="0.0"/>
           </modifiers>
         </entryLink>
-        <entryLink id="a233-b50f-f1e2-85ba" name="Draught of Peace (Lvl 2)" hidden="true" collective="false" import="true" targetId="5ee0-cf5f-4a3c-cda3" type="selectionEntry">
+        <entryLink id="a233-b50f-f1e2-85ba" name="Draught of Peace (Lvl 2)" hidden="false" collective="false" import="true" targetId="5ee0-cf5f-4a3c-cda3" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="39b7-674d-1765-92fb" value="0.0"/>
           </modifiers>
@@ -2401,7 +2401,7 @@
             <modifier type="set" field="39b7-674d-1765-92fb" value="0.0"/>
           </modifiers>
         </entryLink>
-        <entryLink id="6294-cf1d-78db-9f9e" name="Love Potion (Lvl 2)" hidden="true" collective="false" import="true" targetId="bc86-a502-fb37-0626" type="selectionEntry">
+        <entryLink id="6294-cf1d-78db-9f9e" name="Love Potion (Lvl 2)" hidden="false" collective="false" import="true" targetId="bc86-a502-fb37-0626" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="39b7-674d-1765-92fb" value="0.0"/>
           </modifiers>

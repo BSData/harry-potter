@@ -1060,6 +1060,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="eee6-941d-0477-8a01" name="Neville Longbottom (with a frog)" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e06b-1ead-8380-e472" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5ec7-5c2b-d420-5bfc" type="max"/>
       </constraints>
@@ -5704,6 +5711,13 @@ When a friendly model spends an entire activation adjacent to this marker, draw 
       </costs>
     </selectionEntry>
     <selectionEntry id="e06b-1ead-8380-e472" name="Neville Longbottom" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="eee6-941d-0477-8a01" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5a50-9496-3be8-13d1" type="max"/>
       </constraints>
