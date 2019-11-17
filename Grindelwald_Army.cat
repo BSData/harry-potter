@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3e39-bac8-9771-961e" name="Grindelwald&apos;s Army" revision="1" battleScribeVersion="2.02" library="false" gameSystemId="aa1e-80ca-b43a-cf7b" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3e39-bac8-9771-961e" name="Grindelwald&apos;s Army" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="aa1e-80ca-b43a-cf7b" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
-    <entryLink id="d83c-a9f7-27d6-7cd9" name="Gellert Grindelwald (30mm base)" hidden="false" collective="false" targetId="bf26-271e-002f-80b2" type="selectionEntry">
+    <entryLink id="d83c-a9f7-27d6-7cd9" name="Gellert Grindelwald (30mm base)" hidden="false" collective="false" import="true" targetId="bf26-271e-002f-80b2" type="selectionEntry"/>
+    <entryLink id="adf1-1a27-6673-d90e" name="Gellert Grindelwald (60mm base)" hidden="false" collective="false" import="true" targetId="8b5d-0c56-b396-b8f5" type="selectionEntry"/>
+    <entryLink id="c74a-21fe-9aa2-cf0f" name="Credence Barebone" hidden="false" collective="false" import="true" targetId="2ab3-96ff-8748-163d" type="selectionEntry"/>
+    <entryLink id="d157-e045-ffad-f40d" name="Abernathy" hidden="false" collective="false" import="true" targetId="2953-39d9-d0b8-0a99" type="selectionEntry"/>
+    <entryLink id="adae-b8eb-5892-bf22" name="Krall" hidden="false" collective="false" import="true" targetId="e472-e7e9-67e7-c468" type="selectionEntry"/>
+    <entryLink id="6762-4618-c457-a049" name="Vinda Rosier" hidden="false" collective="false" import="true" targetId="a88f-ff07-084d-4193" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="bf26-271e-002f-80b2" name="Gellert Grindelwald (30mm base)" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -9,23 +17,6 @@
           </conditions>
         </modifier>
       </modifiers>
-    </entryLink>
-    <entryLink id="adf1-1a27-6673-d90e" name="Gellert Grindelwald (60mm base)" hidden="false" collective="false" targetId="8b5d-0c56-b396-b8f5" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d83c-a9f7-27d6-7cd9" type="atLeast"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-    </entryLink>
-    <entryLink id="c74a-21fe-9aa2-cf0f" name="Credence Barebone" hidden="false" collective="false" targetId="2ab3-96ff-8748-163d" type="selectionEntry"/>
-    <entryLink id="d157-e045-ffad-f40d" name="Abernathy" hidden="false" collective="false" targetId="2953-39d9-d0b8-0a99" type="selectionEntry"/>
-    <entryLink id="adae-b8eb-5892-bf22" name="Krall" hidden="false" collective="false" targetId="e472-e7e9-67e7-c468" type="selectionEntry"/>
-    <entryLink id="6762-4618-c457-a049" name="Vinda Rosier" hidden="false" collective="false" targetId="a88f-ff07-084d-4193" type="selectionEntry"/>
-  </entryLinks>
-  <sharedSelectionEntries>
-    <selectionEntry id="bf26-271e-002f-80b2" name="Gellert Grindelwald (30mm base)" hidden="false" collective="false" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="96c5-4b48-ebf9-08f5" type="max"/>
       </constraints>
@@ -66,12 +57,12 @@
         <categoryLink id="6ad5-a575-267b-c3eb" name="Grindelwald&apos;s Army" hidden="false" targetId="56dc-f689-a347-cbca" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="c535-0977-d253-5465" name="Items (Grindelwald)" hidden="false" collective="false" targetId="a167-b85a-7269-d785" type="selectionEntryGroup">
+        <entryLink id="c535-0977-d253-5465" name="Items (Grindelwald)" hidden="false" collective="false" import="true" targetId="a167-b85a-7269-d785" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e777-05ea-24dd-302b" type="max"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e777-05ea-24dd-302b" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="6ba1-eb2d-d519-f52f" name="Spells (With Dark Arts)" hidden="false" collective="false" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
+        <entryLink id="6ba1-eb2d-d519-f52f" name="Spells (With Dark Arts)" hidden="false" collective="false" import="true" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
           <modifiers>
             <modifier type="increment" field="f6f1-399f-55aa-3a0c" value="1">
               <repeats>
@@ -88,7 +79,7 @@
         <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a88f-ff07-084d-4193" name="Vinda Rosier" hidden="false" collective="false" type="model">
+    <selectionEntry id="a88f-ff07-084d-4193" name="Vinda Rosier" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0026-2541-b2bf-1eda" type="max"/>
       </constraints>
@@ -122,12 +113,12 @@
         <categoryLink id="173a-74c6-afea-cb96" name="Grindelwald&apos;s Army" hidden="false" targetId="56dc-f689-a347-cbca" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="8e2d-e96f-165a-f26e" name="Items" hidden="false" collective="false" targetId="871c-8447-8648-4757" type="selectionEntryGroup">
+        <entryLink id="8e2d-e96f-165a-f26e" name="Items" hidden="false" collective="false" import="true" targetId="871c-8447-8648-4757" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e7a-7d83-58ab-8f9a" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1e7a-7d83-58ab-8f9a" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="47d8-aae3-6ef0-13bb" name="Spells (With Dark Arts)" hidden="false" collective="false" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
+        <entryLink id="47d8-aae3-6ef0-13bb" name="Spells (With Dark Arts)" hidden="false" collective="false" import="true" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
           <modifiers>
             <modifier type="increment" field="664c-6e9a-751e-cd28" value="1">
               <repeats>
@@ -144,7 +135,7 @@
         <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2953-39d9-d0b8-0a99" name="Abernathy" hidden="false" collective="false" type="model">
+    <selectionEntry id="2953-39d9-d0b8-0a99" name="Abernathy" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e1d4-dc27-5359-1421" type="max"/>
       </constraints>
@@ -177,12 +168,12 @@
         <categoryLink id="0836-e481-deaf-fe6c" name="Grindelwald&apos;s Army" hidden="false" targetId="56dc-f689-a347-cbca" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="e606-5aa1-95a7-8be6" name="Items" hidden="false" collective="false" targetId="871c-8447-8648-4757" type="selectionEntryGroup">
+        <entryLink id="e606-5aa1-95a7-8be6" name="Items" hidden="false" collective="false" import="true" targetId="871c-8447-8648-4757" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bda7-7cc8-a7f5-02dd" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="bda7-7cc8-a7f5-02dd" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="25f4-9c41-0379-8f21" name="Spells (With Dark Arts)" hidden="false" collective="false" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
+        <entryLink id="25f4-9c41-0379-8f21" name="Spells (With Dark Arts)" hidden="false" collective="false" import="true" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
           <modifiers>
             <modifier type="increment" field="b257-e8a4-22ee-2bf3" value="1">
               <repeats>
@@ -199,7 +190,7 @@
         <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="9.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e472-e7e9-67e7-c468" name="Krall" hidden="false" collective="false" type="model">
+    <selectionEntry id="e472-e7e9-67e7-c468" name="Krall" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5f76-e166-8673-77cb" type="max"/>
       </constraints>
@@ -231,12 +222,12 @@
         <categoryLink id="cb07-689f-4450-ed40" name="Grindelwald&apos;s Army" hidden="false" targetId="56dc-f689-a347-cbca" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="aa23-79f8-6ded-44aa" name="Items" hidden="false" collective="false" targetId="871c-8447-8648-4757" type="selectionEntryGroup">
+        <entryLink id="aa23-79f8-6ded-44aa" name="Items" hidden="false" collective="false" import="true" targetId="871c-8447-8648-4757" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f9e-38ad-e677-f07b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1f9e-38ad-e677-f07b" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="5443-1988-ff49-1c9e" name="Spells (With Dark Arts)" hidden="false" collective="false" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
+        <entryLink id="5443-1988-ff49-1c9e" name="Spells (With Dark Arts)" hidden="false" collective="false" import="true" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
           <modifiers>
             <modifier type="increment" field="b984-ffb9-e8bb-8fcc" value="1">
               <repeats>
@@ -253,7 +244,7 @@
         <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="6.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2ab3-96ff-8748-163d" name="Credence Barebone" hidden="false" collective="false" type="model">
+    <selectionEntry id="2ab3-96ff-8748-163d" name="Credence Barebone" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ad91-e88c-447c-0a04" type="max"/>
       </constraints>
@@ -292,12 +283,12 @@
         <categoryLink id="bc30-09ba-7287-7ed6" name="Grindelwald&apos;s Army" hidden="false" targetId="56dc-f689-a347-cbca" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="cb88-231d-b95c-6a1a" name="Items (Credence Barebone)" hidden="false" collective="false" targetId="7e66-0249-5474-9afa" type="selectionEntryGroup">
+        <entryLink id="cb88-231d-b95c-6a1a" name="Items (Credence Barebone)" hidden="false" collective="false" import="true" targetId="7e66-0249-5474-9afa" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8611-e185-dc7f-db0f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8611-e185-dc7f-db0f" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="0a59-4475-dc61-9760" name="Spells" hidden="false" collective="false" targetId="f45a-25ca-6491-8733" type="selectionEntryGroup">
+        <entryLink id="0a59-4475-dc61-9760" name="Spells" hidden="false" collective="false" import="true" targetId="f45a-25ca-6491-8733" type="selectionEntryGroup">
           <modifiers>
             <modifier type="increment" field="e3e3-e4d4-528d-139c" value="1">
               <repeats>
@@ -314,7 +305,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3e3-e4d4-528d-139c" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="7f51-67de-3289-3355" name="Spells (With Dark Arts)" hidden="true" collective="false" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
+        <entryLink id="7f51-67de-3289-3355" name="Spells (With Dark Arts)" hidden="true" collective="false" import="true" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
           <modifiers>
             <modifier type="increment" field="8078-512e-a73d-71a6" value="1">
               <repeats>
@@ -336,7 +327,14 @@
         <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8b5d-0c56-b396-b8f5" name="Gellert Grindelwald (60mm base)" hidden="false" collective="false" type="model">
+    <selectionEntry id="8b5d-0c56-b396-b8f5" name="Gellert Grindelwald (60mm base)" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="bf26-271e-002f-80b2" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="747e-9599-6ffb-ace8" type="max"/>
       </constraints>
@@ -377,12 +375,12 @@
         <categoryLink id="4007-740c-a2a2-fef9" name="Grindelwald&apos;s Army" hidden="false" targetId="56dc-f689-a347-cbca" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="ee10-8d7a-da0c-888e" name="Items (Grindelwald)" hidden="false" collective="false" targetId="a167-b85a-7269-d785" type="selectionEntryGroup">
+        <entryLink id="ee10-8d7a-da0c-888e" name="Items (Grindelwald)" hidden="false" collective="false" import="true" targetId="a167-b85a-7269-d785" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e913-bd55-1617-ad9e" type="max"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e913-bd55-1617-ad9e" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="c119-da4e-eb63-0611" name="Spells (With Dark Arts)" hidden="false" collective="false" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
+        <entryLink id="c119-da4e-eb63-0611" name="Spells (With Dark Arts)" hidden="false" collective="false" import="true" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
           <modifiers>
             <modifier type="increment" field="dee9-b580-39fa-4121" value="1">
               <repeats>

@@ -1,101 +1,46 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8dba-fe04-7a54-57c1" name="Death Eaters" revision="6" battleScribeVersion="2.02" library="false" gameSystemId="aa1e-80ca-b43a-cf7b" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8dba-fe04-7a54-57c1" name="Death Eaters" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="aa1e-80ca-b43a-cf7b" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
-    <entryLink id="9868-e6ec-2670-2745" name="Acromantula" hidden="false" collective="false" targetId="7994-a047-18a7-8e16" type="selectionEntry"/>
-    <entryLink id="9488-5083-7a15-ca12" name="Acromantula Swarm" hidden="false" collective="false" targetId="65a2-87af-f77e-ec4e" type="selectionEntry"/>
-    <entryLink id="8ae0-dc90-aca6-c924" name="Barty Crouch Jr." hidden="false" collective="false" targetId="2af5-ff50-1ae9-2080" type="selectionEntry"/>
-    <entryLink id="3a22-8e40-cd85-eb60" name="Bellatrix Lestrange" hidden="false" collective="false" targetId="15dc-d2bf-f491-fa70" type="selectionEntry"/>
-    <entryLink id="d2a1-0d70-2e59-9da8" name="Death Eater 1" hidden="false" collective="false" targetId="62f4-dda0-d890-d7fd" type="selectionEntry"/>
-    <entryLink id="aefc-e58a-86db-7556" name="Death Eater 2" hidden="false" collective="false" targetId="781f-5145-152d-fad7" type="selectionEntry"/>
-    <entryLink id="1559-679c-4106-1f30" name="Death Eater 3" hidden="false" collective="false" targetId="851a-31a0-ef3a-1a36" type="selectionEntry"/>
-    <entryLink id="db00-a3c3-60af-3290" name="Death Eater 5" hidden="false" collective="false" targetId="2354-b65a-ec61-b3a7" type="selectionEntry"/>
-    <entryLink id="1259-2c6b-cfd4-399f" name="Death Eater 4" hidden="false" collective="false" targetId="2f36-7de8-e282-fd54" type="selectionEntry"/>
-    <entryLink id="a4a9-ef8c-eea6-3bd3" name="Death Eater 6" hidden="false" collective="false" targetId="45e7-0338-2f60-b9e9" type="selectionEntry"/>
-    <entryLink id="2732-83fc-0fd8-b6b9" name="Death Eater 7" hidden="false" collective="false" targetId="08af-ad67-d425-86ac" type="selectionEntry"/>
-    <entryLink id="0d0d-8476-ff52-65a7" name="Dolores Umbridge" hidden="false" collective="false" targetId="3a9d-837d-7418-83d4" type="selectionEntry"/>
-    <entryLink id="de9b-7c32-0f22-aa38" name="Dementor" hidden="false" collective="false" targetId="b2d4-329b-651c-7c3a" type="selectionEntry"/>
-    <entryLink id="927d-1b68-2cde-315b" name="Draco Malfoy" hidden="false" collective="false" targetId="1482-f461-e4db-e2fe" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ddae-d1da-b4b6-61bb" type="atLeast"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-    </entryLink>
-    <entryLink id="ddae-d1da-b4b6-61bb" name="Draco Malfoy (Death Eater)" hidden="false" collective="false" targetId="ad92-03d8-2652-3651" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="927d-1b68-2cde-315b" type="atLeast"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-    </entryLink>
-    <entryLink id="0de0-0bbb-9fa6-bc10" name="Gregory Goyle" hidden="false" collective="false" targetId="f888-219c-c55c-6fe4" type="selectionEntry"/>
-    <entryLink id="25ed-7786-1370-13d5" name="Lord Voldemort (60mm base)" hidden="false" collective="false" targetId="0050-089c-1236-9fd5" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2bf3-147f-9681-8501" type="atLeast"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a27b-f783-37f4-2f67" type="atLeast"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-    </entryLink>
-    <entryLink id="c560-5a82-95fe-11bd" name="Lucius Malfoy" hidden="false" collective="false" targetId="1aa0-e912-0572-7a0c" type="selectionEntry"/>
-    <entryLink id="4ca1-cb3d-4673-e8b2" name="Narcissa Malfoy" hidden="false" collective="false" targetId="2bcb-8075-ea96-1178" type="selectionEntry"/>
-    <entryLink id="7d24-fe84-9cc2-5d5c" name="Peter Pettigrew" hidden="false" collective="false" targetId="4f88-faec-a1cd-c0c4" type="selectionEntry"/>
-    <entryLink id="fa8d-d11d-a9b1-fe38" name="Severus Snape" hidden="false" collective="false" targetId="7114-77fe-94f5-a886" type="selectionEntry"/>
-    <entryLink id="e512-98cf-847d-aa96" name="Vincent Crabbe" hidden="false" collective="false" targetId="8337-dfc8-8b17-31fe" type="selectionEntry"/>
-    <entryLink id="9e33-07f2-fca5-93e2" name="Pansy Parkinson" hidden="false" collective="false" targetId="103a-8a52-c881-1a79" type="selectionEntry"/>
-    <entryLink id="63c5-eed6-19ce-c147" name="Scabior" hidden="false" collective="false" targetId="8445-790c-c937-72f7" type="selectionEntry"/>
-    <entryLink id="bb94-ef74-34e5-f403" name="Snatcher 1" hidden="false" collective="false" targetId="3c40-83c8-0e4d-d0e6" type="selectionEntry"/>
-    <entryLink id="4c91-f51a-d3b8-6f32" name="Snatcher 2" hidden="false" collective="false" targetId="980a-31c7-e7a8-72d2" type="selectionEntry"/>
-    <entryLink id="a4c3-4877-605e-3894" name="Snatcher 3" hidden="false" collective="false" targetId="48dd-8199-be75-dfef" type="selectionEntry"/>
-    <entryLink id="aa2b-16ce-bef6-8d4b" name="Lord Voldemort (30mm base)" hidden="false" collective="false" targetId="2bf3-147f-9681-8501" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0050-089c-1236-9fd5" type="atLeast"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-    </entryLink>
-    <entryLink id="febb-7132-6124-a55c" name="Nagini" hidden="false" collective="false" targetId="a27b-f783-37f4-2f67" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" childId="25ed-7786-1370-13d5" type="atLeast"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" childId="a27b-f783-37f4-2f67" type="atLeast"/>
-          </conditions>
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" childId="edb1-df50-301a-ec8f" type="atLeast"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-    </entryLink>
-    <entryLink id="7c37-cffc-58fd-434c" name="Fenrir" hidden="false" collective="false" targetId="5f02-584e-1dc9-08bd" type="selectionEntry"/>
-    <entryLink id="3cb3-7240-aae0-b2c2" name="Amycus Carrow" hidden="false" collective="false" targetId="423c-3835-e754-d2fb" type="selectionEntry"/>
-    <entryLink id="7771-7579-a369-ae5a" name="Alecto Carrow" hidden="false" collective="false" targetId="442e-9229-bf09-954a" type="selectionEntry"/>
-    <entryLink id="77c2-c0e8-8f3a-f530" name="Death Eater 8" hidden="false" collective="false" targetId="9c1e-a3ce-36cc-fdaf" type="selectionEntry"/>
-    <entryLink id="38cf-f479-de52-8355" name="Death Eater 9" hidden="false" collective="false" targetId="187a-3670-a555-85d0" type="selectionEntry"/>
-    <entryLink id="d2d8-bef2-0778-e1a6" name="Gringotts Goblin" hidden="false" collective="false" targetId="cbc9-30b9-ec0e-82fa" type="selectionEntry"/>
+    <entryLink id="9868-e6ec-2670-2745" name="Acromantula" hidden="false" collective="false" import="true" targetId="7994-a047-18a7-8e16" type="selectionEntry"/>
+    <entryLink id="9488-5083-7a15-ca12" name="Acromantula Swarm" hidden="false" collective="false" import="true" targetId="65a2-87af-f77e-ec4e" type="selectionEntry"/>
+    <entryLink id="8ae0-dc90-aca6-c924" name="Barty Crouch Jr." hidden="false" collective="false" import="true" targetId="2af5-ff50-1ae9-2080" type="selectionEntry"/>
+    <entryLink id="3a22-8e40-cd85-eb60" name="Bellatrix Lestrange" hidden="false" collective="false" import="true" targetId="15dc-d2bf-f491-fa70" type="selectionEntry"/>
+    <entryLink id="d2a1-0d70-2e59-9da8" name="Death Eater 1" hidden="false" collective="false" import="true" targetId="62f4-dda0-d890-d7fd" type="selectionEntry"/>
+    <entryLink id="aefc-e58a-86db-7556" name="Death Eater 2" hidden="false" collective="false" import="true" targetId="781f-5145-152d-fad7" type="selectionEntry"/>
+    <entryLink id="1559-679c-4106-1f30" name="Death Eater 3" hidden="false" collective="false" import="true" targetId="851a-31a0-ef3a-1a36" type="selectionEntry"/>
+    <entryLink id="db00-a3c3-60af-3290" name="Death Eater 5" hidden="false" collective="false" import="true" targetId="2354-b65a-ec61-b3a7" type="selectionEntry"/>
+    <entryLink id="1259-2c6b-cfd4-399f" name="Death Eater 4" hidden="false" collective="false" import="true" targetId="2f36-7de8-e282-fd54" type="selectionEntry"/>
+    <entryLink id="a4a9-ef8c-eea6-3bd3" name="Death Eater 6" hidden="false" collective="false" import="true" targetId="45e7-0338-2f60-b9e9" type="selectionEntry"/>
+    <entryLink id="2732-83fc-0fd8-b6b9" name="Death Eater 7" hidden="false" collective="false" import="true" targetId="08af-ad67-d425-86ac" type="selectionEntry"/>
+    <entryLink id="0d0d-8476-ff52-65a7" name="Dolores Umbridge" hidden="false" collective="false" import="true" targetId="3a9d-837d-7418-83d4" type="selectionEntry"/>
+    <entryLink id="de9b-7c32-0f22-aa38" name="Dementor" hidden="false" collective="false" import="true" targetId="b2d4-329b-651c-7c3a" type="selectionEntry"/>
+    <entryLink id="927d-1b68-2cde-315b" name="Draco Malfoy" hidden="false" collective="false" import="true" targetId="1482-f461-e4db-e2fe" type="selectionEntry"/>
+    <entryLink id="ddae-d1da-b4b6-61bb" name="Draco Malfoy (Death Eater)" hidden="false" collective="false" import="true" targetId="ad92-03d8-2652-3651" type="selectionEntry"/>
+    <entryLink id="0de0-0bbb-9fa6-bc10" name="Gregory Goyle" hidden="false" collective="false" import="true" targetId="f888-219c-c55c-6fe4" type="selectionEntry"/>
+    <entryLink id="25ed-7786-1370-13d5" name="Lord Voldemort (60mm base)" hidden="false" collective="false" import="true" targetId="0050-089c-1236-9fd5" type="selectionEntry"/>
+    <entryLink id="c560-5a82-95fe-11bd" name="Lucius Malfoy" hidden="false" collective="false" import="true" targetId="1aa0-e912-0572-7a0c" type="selectionEntry"/>
+    <entryLink id="4ca1-cb3d-4673-e8b2" name="Narcissa Malfoy" hidden="false" collective="false" import="true" targetId="2bcb-8075-ea96-1178" type="selectionEntry"/>
+    <entryLink id="7d24-fe84-9cc2-5d5c" name="Peter Pettigrew" hidden="false" collective="false" import="true" targetId="4f88-faec-a1cd-c0c4" type="selectionEntry"/>
+    <entryLink id="fa8d-d11d-a9b1-fe38" name="Severus Snape" hidden="false" collective="false" import="true" targetId="7114-77fe-94f5-a886" type="selectionEntry"/>
+    <entryLink id="e512-98cf-847d-aa96" name="Vincent Crabbe" hidden="false" collective="false" import="true" targetId="8337-dfc8-8b17-31fe" type="selectionEntry"/>
+    <entryLink id="9e33-07f2-fca5-93e2" name="Pansy Parkinson" hidden="false" collective="false" import="true" targetId="103a-8a52-c881-1a79" type="selectionEntry"/>
+    <entryLink id="63c5-eed6-19ce-c147" name="Scabior" hidden="false" collective="false" import="true" targetId="8445-790c-c937-72f7" type="selectionEntry"/>
+    <entryLink id="bb94-ef74-34e5-f403" name="Snatcher 1" hidden="false" collective="false" import="true" targetId="3c40-83c8-0e4d-d0e6" type="selectionEntry"/>
+    <entryLink id="4c91-f51a-d3b8-6f32" name="Snatcher 2" hidden="false" collective="false" import="true" targetId="980a-31c7-e7a8-72d2" type="selectionEntry"/>
+    <entryLink id="a4c3-4877-605e-3894" name="Snatcher 3" hidden="false" collective="false" import="true" targetId="48dd-8199-be75-dfef" type="selectionEntry"/>
+    <entryLink id="aa2b-16ce-bef6-8d4b" name="Lord Voldemort (30mm base)" hidden="false" collective="false" import="true" targetId="2bf3-147f-9681-8501" type="selectionEntry"/>
+    <entryLink id="febb-7132-6124-a55c" name="Nagini" hidden="false" collective="false" import="true" targetId="a27b-f783-37f4-2f67" type="selectionEntry"/>
+    <entryLink id="7c37-cffc-58fd-434c" name="Fenrir" hidden="false" collective="false" import="true" targetId="5f02-584e-1dc9-08bd" type="selectionEntry"/>
+    <entryLink id="3cb3-7240-aae0-b2c2" name="Amycus Carrow" hidden="false" collective="false" import="true" targetId="423c-3835-e754-d2fb" type="selectionEntry"/>
+    <entryLink id="7771-7579-a369-ae5a" name="Alecto Carrow" hidden="false" collective="false" import="true" targetId="442e-9229-bf09-954a" type="selectionEntry"/>
+    <entryLink id="77c2-c0e8-8f3a-f530" name="Death Eater 8" hidden="false" collective="false" import="true" targetId="9c1e-a3ce-36cc-fdaf" type="selectionEntry"/>
+    <entryLink id="38cf-f479-de52-8355" name="Death Eater 9" hidden="false" collective="false" import="true" targetId="187a-3670-a555-85d0" type="selectionEntry"/>
+    <entryLink id="d2d8-bef2-0778-e1a6" name="Gringotts Goblin" hidden="false" collective="false" import="true" targetId="cbc9-30b9-ec0e-82fa" type="selectionEntry"/>
+    <entryLink id="1cbd-ae7f-f516-b24c" name="Tom Riddle" hidden="false" collective="false" import="true" targetId="664e-0f54-6884-2e18" type="selectionEntry"/>
+    <entryLink id="d597-9b2b-7dfd-9c93" name="Salazar Slytherin&apos;s Basilisk" hidden="false" collective="false" import="true" targetId="8932-fa13-f9f7-2f5a" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="2af5-ff50-1ae9-2080" name="Barty Crouch Jr." hidden="false" collective="false" type="model">
+    <selectionEntry id="2af5-ff50-1ae9-2080" name="Barty Crouch Jr." hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d38f-1ead-052e-dd30" type="max"/>
       </constraints>
@@ -130,7 +75,7 @@
         <categoryLink id="3848-19a4-a0d9-9c14" name="Death Eaters" hidden="false" targetId="eea5-4f44-b142-d4ef" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="0f18-239f-9c74-83a0" name="Spells" hidden="false" collective="false">
+        <selectionEntryGroup id="0f18-239f-9c74-83a0" name="Spells" hidden="false" collective="false" import="true">
           <modifiers>
             <modifier type="increment" field="f74e-8525-4268-3f4e" value="1">
               <repeats>
@@ -142,24 +87,24 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f74e-8525-4268-3f4e" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="5e83-7ea7-d7b1-5e57" name="Spells (With Dark Arts)" hidden="false" collective="false" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup"/>
-            <entryLink id="4299-30a3-5497-39e7" name="Fervent Followers" hidden="false" collective="false" targetId="2658-4536-24f1-0b23" type="selectionEntryGroup"/>
+            <entryLink id="5e83-7ea7-d7b1-5e57" name="Spells (With Dark Arts)" hidden="false" collective="false" import="true" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup"/>
+            <entryLink id="4299-30a3-5497-39e7" name="Fervent Followers" hidden="false" collective="false" import="true" targetId="2658-4536-24f1-0b23" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="119a-4152-6a2a-676c" name="Items (Fervent Follower)" hidden="false" collective="false" targetId="72a7-4996-e0b5-53b8" type="selectionEntryGroup">
+        <entryLink id="119a-4152-6a2a-676c" name="Items (Fervent Follower)" hidden="false" collective="false" import="true" targetId="72a7-4996-e0b5-53b8" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c64-413c-6bb7-1cf0" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7c64-413c-6bb7-1cf0" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="835d-533f-ee1c-ac97" name="Potioneer 2" hidden="false" collective="false" targetId="4715-273b-c1de-8474" type="selectionEntry"/>
+        <entryLink id="835d-533f-ee1c-ac97" name="Potioneer 2" hidden="false" collective="false" import="true" targetId="4715-273b-c1de-8474" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1482-f461-e4db-e2fe" name="Draco Malfoy" hidden="false" collective="false" type="model">
+    <selectionEntry id="1482-f461-e4db-e2fe" name="Draco Malfoy" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -198,14 +143,15 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="ad69-1c60-0364-44e8" name="New CategoryLink" hidden="false" targetId="eea5-4f44-b142-d4ef" primary="true"/>
+        <categoryLink id="6db9-e628-f8e7-6b64" name="Apprentice" hidden="false" targetId="bb3f-f996-3458-da0b" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="dab7-81d2-21d2-e8b4" name="Items (Death Eaters)" hidden="false" collective="false" targetId="efd1-2200-051d-ca40" type="selectionEntryGroup">
+        <entryLink id="dab7-81d2-21d2-e8b4" name="Items (Death Eaters)" hidden="false" collective="false" import="true" targetId="efd1-2200-051d-ca40" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5da-5798-a902-cf01" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="f5da-5798-a902-cf01" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="acd0-503e-8500-37c5" name="Spells (With Dark Arts)" hidden="false" collective="false" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
+        <entryLink id="acd0-503e-8500-37c5" name="Spells (With Dark Arts)" hidden="false" collective="false" import="true" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
           <modifiers>
             <modifier type="increment" field="4c93-632a-198d-fca0" value="1">
               <repeats>
@@ -222,7 +168,7 @@
         <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f888-219c-c55c-6fe4" name="Gregory Goyle" hidden="false" collective="false" type="model">
+    <selectionEntry id="f888-219c-c55c-6fe4" name="Gregory Goyle" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e945-aac0-fa6b-1b7a" type="max"/>
       </constraints>
@@ -254,14 +200,15 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="fe9d-49a9-7443-1450" name="Death Eaters" hidden="false" targetId="eea5-4f44-b142-d4ef" primary="true"/>
+        <categoryLink id="009c-abcc-c7c9-1b36" name="Apprentice" hidden="false" targetId="bb3f-f996-3458-da0b" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="86c2-2d21-8e3c-27a3" name="Items (Death Eaters)" hidden="false" collective="false" targetId="efd1-2200-051d-ca40" type="selectionEntryGroup">
+        <entryLink id="86c2-2d21-8e3c-27a3" name="Items (Death Eaters)" hidden="false" collective="false" import="true" targetId="efd1-2200-051d-ca40" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fb4-b652-43d0-4568" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1fb4-b652-43d0-4568" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="6b6f-3eda-a142-a4e0" name="Spells (With Dark Arts)" hidden="false" collective="false" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
+        <entryLink id="6b6f-3eda-a142-a4e0" name="Spells (With Dark Arts)" hidden="false" collective="false" import="true" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
           <modifiers>
             <modifier type="increment" field="e048-12bc-60aa-f104" value="1">
               <repeats>
@@ -278,7 +225,7 @@
         <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7114-77fe-94f5-a886" name="Severus Snape" hidden="false" collective="false" type="model">
+    <selectionEntry id="7114-77fe-94f5-a886" name="Severus Snape" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e635-a970-cf45-1a75" type="max"/>
       </constraints>
@@ -322,14 +269,15 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="51f9-b88a-803b-ddc2" name="New CategoryLink" hidden="false" targetId="eea5-4f44-b142-d4ef" primary="true"/>
+        <categoryLink id="8a25-cf8a-7c7a-517d" name="Professor" hidden="false" targetId="9137-5073-312f-b858" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="8fd4-1b4c-b2a0-107a" name="Items (Death Eaters Professors)" hidden="false" collective="false" targetId="3378-88ab-8a62-fd0f" type="selectionEntryGroup">
+        <entryLink id="8fd4-1b4c-b2a0-107a" name="Items (Death Eaters)" hidden="false" collective="false" import="true" targetId="efd1-2200-051d-ca40" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f0a-a8d9-45a2-68df" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3f0a-a8d9-45a2-68df" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="37b0-be1e-eca4-bd49" name="Spells (With Dark Arts)" hidden="false" collective="false" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
+        <entryLink id="37b0-be1e-eca4-bd49" name="Spells (With Dark Arts)" hidden="false" collective="false" import="true" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
           <modifiers>
             <modifier type="increment" field="54c8-9806-6b05-bd9c" value="1">
               <repeats>
@@ -341,14 +289,14 @@
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54c8-9806-6b05-bd9c" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="b93d-c3ca-ebf6-2968" name="Potioneer 3" hidden="false" collective="false" targetId="2544-1b5a-6048-5c5f" type="selectionEntry"/>
-        <entryLink id="c274-06ea-2dcf-69e0" name="Potion Mastery 1" hidden="false" collective="false" targetId="b74c-d3d6-b2c4-8fb2" type="selectionEntry"/>
+        <entryLink id="b93d-c3ca-ebf6-2968" name="Potioneer 3" hidden="false" collective="false" import="true" targetId="2544-1b5a-6048-5c5f" type="selectionEntry"/>
+        <entryLink id="c274-06ea-2dcf-69e0" name="Potion Mastery 1" hidden="false" collective="false" import="true" targetId="b74c-d3d6-b2c4-8fb2" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="16.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8337-dfc8-8b17-31fe" name="Vincent Crabbe" hidden="false" collective="false" type="model">
+    <selectionEntry id="8337-dfc8-8b17-31fe" name="Vincent Crabbe" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1506-05e3-ce40-16ee" type="max"/>
       </constraints>
@@ -380,14 +328,15 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="2f46-2235-d79c-4277" name="Death Eaters" hidden="false" targetId="eea5-4f44-b142-d4ef" primary="true"/>
+        <categoryLink id="2335-bc95-f0bd-572b" name="Apprentice" hidden="false" targetId="bb3f-f996-3458-da0b" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="46b1-d40c-68c7-cf72" name="Items (Death Eaters)" hidden="false" collective="false" targetId="efd1-2200-051d-ca40" type="selectionEntryGroup">
+        <entryLink id="46b1-d40c-68c7-cf72" name="Items (Death Eaters)" hidden="false" collective="false" import="true" targetId="efd1-2200-051d-ca40" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc53-b229-0d8c-1d11" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="fc53-b229-0d8c-1d11" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="d672-0855-645e-72fd" name="Spells (With Dark Arts)" hidden="false" collective="false" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
+        <entryLink id="d672-0855-645e-72fd" name="Spells (With Dark Arts)" hidden="false" collective="false" import="true" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
           <modifiers>
             <modifier type="increment" field="d0b4-db80-2ef1-a368" value="1">
               <repeats>
@@ -404,7 +353,7 @@
         <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7994-a047-18a7-8e16" name="Acromantula" hidden="false" collective="false" type="model">
+    <selectionEntry id="7994-a047-18a7-8e16" name="Acromantula" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="dec8-0626-bd71-07e4" name="Acromantula" hidden="false" typeId="2093f4cd-f669-06c6-0f4f-06037948fe28" typeName="1.1 Attributes">
           <characteristics>
@@ -444,7 +393,7 @@
         <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="65a2-87af-f77e-ec4e" name="Acromantula Swarm" hidden="false" collective="false" type="model">
+    <selectionEntry id="65a2-87af-f77e-ec4e" name="Acromantula Swarm" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="2b57-fd88-551e-ec63" name="Acromantula Swarm" hidden="false" typeId="2093f4cd-f669-06c6-0f4f-06037948fe28" typeName="1.1 Attributes">
           <characteristics>
@@ -489,7 +438,7 @@
         <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="4.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b2d4-329b-651c-7c3a" name="Dementor" hidden="false" collective="false" type="model">
+    <selectionEntry id="b2d4-329b-651c-7c3a" name="Dementor" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="3014-29f2-13ea-613b" name="Dementor" hidden="false" typeId="2093f4cd-f669-06c6-0f4f-06037948fe28" typeName="1.1 Attributes">
           <characteristics>
@@ -534,7 +483,24 @@
         <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="9.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0050-089c-1236-9fd5" name="Lord Voldemort (60mm base)" hidden="false" collective="false" type="model">
+    <selectionEntry id="0050-089c-1236-9fd5" name="Lord Voldemort (60mm base)" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a27b-f783-37f4-2f67" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="664e-0f54-6884-2e18" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2bf3-147f-9681-8501" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c143-39bc-790a-5ea6" type="max"/>
       </constraints>
@@ -576,12 +542,12 @@
         <categoryLink id="666d-5d75-c1d4-7f9d" name="New CategoryLink" hidden="false" targetId="eea5-4f44-b142-d4ef" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="ea78-3010-6666-c079" name="Items (Lord Voldemort)" hidden="false" collective="false" targetId="aa7f-441a-d722-baa6" type="selectionEntryGroup">
+        <entryLink id="ea78-3010-6666-c079" name="Items (Lord Voldemort)" hidden="false" collective="false" import="true" targetId="aa7f-441a-d722-baa6" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac5d-a40b-80b1-0347" type="max"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ac5d-a40b-80b1-0347" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="0e76-7b6b-8d50-e9e4" name="Spells (With Dark Arts)" hidden="false" collective="false" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
+        <entryLink id="0e76-7b6b-8d50-e9e4" name="Spells (With Dark Arts)" hidden="false" collective="false" import="true" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
           <modifiers>
             <modifier type="increment" field="1d49-f506-4234-89b5" value="1">
               <repeats>
@@ -598,7 +564,7 @@
         <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="15dc-d2bf-f491-fa70" name="Bellatrix Lestrange" hidden="false" collective="false" type="model">
+    <selectionEntry id="15dc-d2bf-f491-fa70" name="Bellatrix Lestrange" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ac85-f18d-2cc0-1148" type="max"/>
       </constraints>
@@ -633,9 +599,9 @@
         <categoryLink id="5a9c-c2f3-5733-1d94" name="New CategoryLink" hidden="false" targetId="eea5-4f44-b142-d4ef" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="e505-1125-a014-9a53" name="Spells" hidden="false" collective="false">
+        <selectionEntryGroup id="e505-1125-a014-9a53" name="Spells" hidden="false" collective="false" import="true">
           <modifiers>
-            <modifier type="increment" field="eb11-e417-6795-b33c" value="1">
+            <modifier type="increment" field="eb11-e417-6795-b33c" value="1.0">
               <repeats>
                 <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fff0-6570-5dc9-99c4" repeats="1" roundUp="false"/>
               </repeats>
@@ -645,15 +611,15 @@
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb11-e417-6795-b33c" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="6aeb-8866-dd92-cbe3" name="Spells (With Dark Arts)" hidden="false" collective="false" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup"/>
-            <entryLink id="ce2f-2b2b-3056-16ca" name="Fervent Followers" hidden="false" collective="false" targetId="2658-4536-24f1-0b23" type="selectionEntryGroup"/>
+            <entryLink id="6aeb-8866-dd92-cbe3" name="Spells (With Dark Arts)" hidden="false" collective="false" import="true" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup"/>
+            <entryLink id="ce2f-2b2b-3056-16ca" name="Fervent Followers" hidden="false" collective="false" import="true" targetId="2658-4536-24f1-0b23" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="5ef7-72b5-569b-3150" name="Items (Fervent Follower)" hidden="false" collective="false" targetId="72a7-4996-e0b5-53b8" type="selectionEntryGroup">
+        <entryLink id="5ef7-72b5-569b-3150" name="Items (Fervent Follower)" hidden="false" collective="false" import="true" targetId="72a7-4996-e0b5-53b8" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4991-0209-6fae-5c1d" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="4991-0209-6fae-5c1d" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -661,7 +627,7 @@
         <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="14.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4f88-faec-a1cd-c0c4" name="Peter Pettigrew" hidden="false" collective="false" type="model">
+    <selectionEntry id="4f88-faec-a1cd-c0c4" name="Peter Pettigrew" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="69de-762e-8cf7-629e" type="max"/>
       </constraints>
@@ -694,12 +660,12 @@
         <categoryLink id="4f42-a28b-93d8-38ec" name="New CategoryLink" hidden="false" targetId="eea5-4f44-b142-d4ef" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="d0dc-242b-bd11-e5ba" name="Items (Death Eaters)" hidden="false" collective="false" targetId="efd1-2200-051d-ca40" type="selectionEntryGroup">
+        <entryLink id="d0dc-242b-bd11-e5ba" name="Items (Death Eaters)" hidden="false" collective="false" import="true" targetId="efd1-2200-051d-ca40" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edb5-6ae0-ad88-d20f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="edb5-6ae0-ad88-d20f" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="5d35-e7ec-7bfd-3e04" name="Spells (With Dark Arts)" hidden="false" collective="false" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
+        <entryLink id="5d35-e7ec-7bfd-3e04" name="Spells (With Dark Arts)" hidden="false" collective="false" import="true" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
           <modifiers>
             <modifier type="increment" field="ae44-7a78-779f-1311" value="1">
               <repeats>
@@ -711,25 +677,25 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae44-7a78-779f-1311" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="c455-c74d-66fa-8710" name="Potioneer 2" hidden="false" collective="false" targetId="4715-273b-c1de-8474" type="selectionEntry"/>
+        <entryLink id="c455-c74d-66fa-8710" name="Potioneer 2" hidden="false" collective="false" import="true" targetId="4715-273b-c1de-8474" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1aa0-e912-0572-7a0c" name="Lucius Malfoy" hidden="false" collective="false" type="model">
+    <selectionEntry id="1aa0-e912-0572-7a0c" name="Lucius Malfoy" hidden="false" collective="false" import="true" type="model">
       <modifiers>
-        <modifier type="decrement" field="39b7-674d-1765-92fb" value="1">
+        <modifier type="decrement" field="39b7-674d-1765-92fb" value="1.0">
           <conditions>
             <condition field="39b7-674d-1765-92fb" scope="1aa0-e912-0572-7a0c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ccba-4062-89b1-2b88" type="equalTo"/>
           </conditions>
         </modifier>
-        <modifier type="decrement" field="39b7-674d-1765-92fb" value="2">
+        <modifier type="decrement" field="39b7-674d-1765-92fb" value="2.0">
           <conditions>
             <condition field="39b7-674d-1765-92fb" scope="1aa0-e912-0572-7a0c" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ccba-4062-89b1-2b88" type="equalTo"/>
           </conditions>
         </modifier>
-        <modifier type="decrement" field="39b7-674d-1765-92fb" value="3">
+        <modifier type="decrement" field="39b7-674d-1765-92fb" value="3.0">
           <conditions>
             <condition field="39b7-674d-1765-92fb" scope="1aa0-e912-0572-7a0c" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ccba-4062-89b1-2b88" type="atLeast"/>
           </conditions>
@@ -770,12 +736,12 @@
         <categoryLink id="bf96-3329-4e3d-f703" name="Death Eaters" hidden="false" targetId="eea5-4f44-b142-d4ef" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="ccba-4062-89b1-2b88" name="Items (Death Eaters)" hidden="false" collective="false" targetId="efd1-2200-051d-ca40" type="selectionEntryGroup">
+        <entryLink id="ccba-4062-89b1-2b88" name="Items (Death Eaters)" hidden="false" collective="false" import="true" targetId="efd1-2200-051d-ca40" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa17-573a-39fc-c42e" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="aa17-573a-39fc-c42e" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="4e51-db6c-5b2a-f17c" name="Spells (With Dark Arts)" hidden="false" collective="false" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
+        <entryLink id="4e51-db6c-5b2a-f17c" name="Spells (With Dark Arts)" hidden="false" collective="false" import="true" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
           <modifiers>
             <modifier type="increment" field="7ef7-27b9-beb2-a298" value="1">
               <repeats>
@@ -792,7 +758,7 @@
         <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="13.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2bcb-8075-ea96-1178" name="Narcissa Malfoy" hidden="false" collective="false" type="model">
+    <selectionEntry id="2bcb-8075-ea96-1178" name="Narcissa Malfoy" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="66ec-4570-abd7-9bf2" type="max"/>
       </constraints>
@@ -825,12 +791,12 @@
         <categoryLink id="11d6-ee41-f5d4-da6b" name="Death Eaters" hidden="false" targetId="eea5-4f44-b142-d4ef" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="e400-8ee5-b635-a352" name="Items (Death Eaters)" hidden="false" collective="false" targetId="efd1-2200-051d-ca40" type="selectionEntryGroup">
+        <entryLink id="e400-8ee5-b635-a352" name="Items (Death Eaters)" hidden="false" collective="false" import="true" targetId="efd1-2200-051d-ca40" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e818-8e93-bd77-2489" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e818-8e93-bd77-2489" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="3e46-9c06-1340-a1c3" name="Spells (With Dark Arts)" hidden="false" collective="false" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
+        <entryLink id="3e46-9c06-1340-a1c3" name="Spells (With Dark Arts)" hidden="false" collective="false" import="true" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
           <modifiers>
             <modifier type="increment" field="ba4f-19c0-a2a9-33da" value="1">
               <repeats>
@@ -847,7 +813,7 @@
         <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="7.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ad92-03d8-2652-3651" name="Draco Malfoy (Death Eater)" hidden="false" collective="false" type="model">
+    <selectionEntry id="ad92-03d8-2652-3651" name="Draco Malfoy (Death Eater)" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -886,14 +852,15 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="af13-49e8-e47b-eb83" name="New CategoryLink" hidden="false" targetId="eea5-4f44-b142-d4ef" primary="true"/>
+        <categoryLink id="a9b5-96e7-0937-12e7" name="Apprentice" hidden="false" targetId="bb3f-f996-3458-da0b" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="2e1a-b2bb-e171-159e" name="Items (Death Eaters)" hidden="false" collective="false" targetId="efd1-2200-051d-ca40" type="selectionEntryGroup">
+        <entryLink id="2e1a-b2bb-e171-159e" name="Items (Death Eaters)" hidden="false" collective="false" import="true" targetId="efd1-2200-051d-ca40" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a006-3b79-b800-9e4c" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="a006-3b79-b800-9e4c" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="e548-d557-c66e-da3e" name="Spells (With Dark Arts)" hidden="false" collective="false" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
+        <entryLink id="e548-d557-c66e-da3e" name="Spells (With Dark Arts)" hidden="false" collective="false" import="true" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
           <modifiers>
             <modifier type="increment" field="dd51-113a-5323-c4ee" value="1">
               <repeats>
@@ -910,7 +877,7 @@
         <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="9.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3a9d-837d-7418-83d4" name="Dolores Umbridge" hidden="false" collective="false" type="model">
+    <selectionEntry id="3a9d-837d-7418-83d4" name="Dolores Umbridge" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d387-b920-9bf7-0ad7" type="max"/>
       </constraints>
@@ -942,14 +909,15 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="f854-ec86-a568-ee94" name="New CategoryLink" hidden="false" targetId="eea5-4f44-b142-d4ef" primary="true"/>
+        <categoryLink id="3ada-c472-6b65-e91d" name="Professor" hidden="false" targetId="9137-5073-312f-b858" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="7dab-0e7f-793a-3a03" name="Items (Death Eaters Professors)" hidden="false" collective="false" targetId="3378-88ab-8a62-fd0f" type="selectionEntryGroup">
+        <entryLink id="7dab-0e7f-793a-3a03" name="Items (Death Eaters)" hidden="false" collective="false" import="true" targetId="efd1-2200-051d-ca40" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a24a-7fff-c43c-cd99" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="a24a-7fff-c43c-cd99" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="ddc7-2723-4140-a770" name="Spells (With Dark Arts)" hidden="false" collective="false" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
+        <entryLink id="ddc7-2723-4140-a770" name="Spells (With Dark Arts)" hidden="false" collective="false" import="true" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
           <modifiers>
             <modifier type="increment" field="14a7-c1c9-3df6-b00a" value="1">
               <repeats>
@@ -966,7 +934,7 @@
         <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="781f-5145-152d-fad7" name="Death Eater 2" hidden="false" collective="false" type="model">
+    <selectionEntry id="781f-5145-152d-fad7" name="Death Eater 2" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e5a4-8f9b-f195-6834" type="max"/>
       </constraints>
@@ -999,12 +967,12 @@
         <categoryLink id="f099-0f14-cb19-c8e6" name="New CategoryLink" hidden="false" targetId="eea5-4f44-b142-d4ef" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="bfbc-54e6-06fd-1d27" name="Items (Death Eaters)" hidden="false" collective="false" targetId="efd1-2200-051d-ca40" type="selectionEntryGroup">
+        <entryLink id="bfbc-54e6-06fd-1d27" name="Items (Death Eaters)" hidden="false" collective="false" import="true" targetId="efd1-2200-051d-ca40" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7ff-0ecc-8565-1f8a" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e7ff-0ecc-8565-1f8a" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="3850-ff2f-54d8-77df" name="Spells (With Dark Arts)" hidden="false" collective="false" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
+        <entryLink id="3850-ff2f-54d8-77df" name="Spells (With Dark Arts)" hidden="false" collective="false" import="true" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
           <modifiers>
             <modifier type="increment" field="854f-e736-e7bb-56d1" value="1">
               <repeats>
@@ -1021,7 +989,7 @@
         <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="6.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="62f4-dda0-d890-d7fd" name="Death Eater 1" hidden="false" collective="false" type="model">
+    <selectionEntry id="62f4-dda0-d890-d7fd" name="Death Eater 1" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a46a-daaa-4d73-0fce" type="max"/>
       </constraints>
@@ -1053,12 +1021,12 @@
         <categoryLink id="2725-a1c3-81b0-1400" name="New CategoryLink" hidden="false" targetId="eea5-4f44-b142-d4ef" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="ec1a-ca10-b2a2-96f9" name="Items (Death Eaters)" hidden="false" collective="false" targetId="efd1-2200-051d-ca40" type="selectionEntryGroup">
+        <entryLink id="ec1a-ca10-b2a2-96f9" name="Items (Death Eaters)" hidden="false" collective="false" import="true" targetId="efd1-2200-051d-ca40" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc4b-1fc9-ae50-5423" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="fc4b-1fc9-ae50-5423" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="e70a-e53c-6516-cc28" name="Spells (With Dark Arts)" hidden="false" collective="false" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
+        <entryLink id="e70a-e53c-6516-cc28" name="Spells (With Dark Arts)" hidden="false" collective="false" import="true" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
           <modifiers>
             <modifier type="increment" field="8636-46d0-fda7-32cf" value="1">
               <repeats>
@@ -1075,7 +1043,7 @@
         <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="6.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="851a-31a0-ef3a-1a36" name="Death Eater 3" hidden="false" collective="false" type="model">
+    <selectionEntry id="851a-31a0-ef3a-1a36" name="Death Eater 3" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="bc98-817b-7dcf-1f00" type="max"/>
       </constraints>
@@ -1108,12 +1076,12 @@
         <categoryLink id="b84b-189b-dcdc-eae4" name="New CategoryLink" hidden="false" targetId="eea5-4f44-b142-d4ef" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="0d7e-10ab-7309-26a0" name="Items (Death Eaters)" hidden="false" collective="false" targetId="efd1-2200-051d-ca40" type="selectionEntryGroup">
+        <entryLink id="0d7e-10ab-7309-26a0" name="Items (Death Eaters)" hidden="false" collective="false" import="true" targetId="efd1-2200-051d-ca40" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f02-54fc-d7a0-4508" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3f02-54fc-d7a0-4508" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="b39b-9113-7550-cf65" name="Spells (With Dark Arts)" hidden="false" collective="false" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
+        <entryLink id="b39b-9113-7550-cf65" name="Spells (With Dark Arts)" hidden="false" collective="false" import="true" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
           <modifiers>
             <modifier type="increment" field="cf73-a2d8-3784-beca" value="1">
               <repeats>
@@ -1130,7 +1098,7 @@
         <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="6.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2f36-7de8-e282-fd54" name="Death Eater 4" hidden="false" collective="false" type="model">
+    <selectionEntry id="2f36-7de8-e282-fd54" name="Death Eater 4" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a2dd-332b-ebe2-21d2" type="max"/>
       </constraints>
@@ -1163,12 +1131,12 @@
         <categoryLink id="9341-64ed-a716-57f8" name="New CategoryLink" hidden="false" targetId="eea5-4f44-b142-d4ef" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="04fd-adae-9b19-84b2" name="Items (Death Eaters)" hidden="false" collective="false" targetId="efd1-2200-051d-ca40" type="selectionEntryGroup">
+        <entryLink id="04fd-adae-9b19-84b2" name="Items (Death Eaters)" hidden="false" collective="false" import="true" targetId="efd1-2200-051d-ca40" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73ef-e73c-8998-021f" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="73ef-e73c-8998-021f" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="41a3-e947-7a43-25d8" name="Spells (With Dark Arts)" hidden="false" collective="false" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
+        <entryLink id="41a3-e947-7a43-25d8" name="Spells (With Dark Arts)" hidden="false" collective="false" import="true" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
           <modifiers>
             <modifier type="increment" field="8249-46e7-959b-a57d" value="1">
               <repeats>
@@ -1185,7 +1153,7 @@
         <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="6.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2354-b65a-ec61-b3a7" name="Death Eater 5" hidden="false" collective="false" type="model">
+    <selectionEntry id="2354-b65a-ec61-b3a7" name="Death Eater 5" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0bab-ac13-77ff-62f3" type="max"/>
       </constraints>
@@ -1217,12 +1185,12 @@
         <categoryLink id="2f80-c031-9c92-93b0" name="New CategoryLink" hidden="false" targetId="eea5-4f44-b142-d4ef" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="4d1b-8f7f-4545-2a8e" name="Items (Death Eaters)" hidden="false" collective="false" targetId="efd1-2200-051d-ca40" type="selectionEntryGroup">
+        <entryLink id="4d1b-8f7f-4545-2a8e" name="Items (Death Eaters)" hidden="false" collective="false" import="true" targetId="efd1-2200-051d-ca40" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b4c-fe6c-48c9-f5cc" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3b4c-fe6c-48c9-f5cc" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="6fc4-4a11-0ce8-6d16" name="Spells (With Dark Arts)" hidden="false" collective="false" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
+        <entryLink id="6fc4-4a11-0ce8-6d16" name="Spells (With Dark Arts)" hidden="false" collective="false" import="true" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
           <modifiers>
             <modifier type="increment" field="c4a5-f2ca-d8dd-4dd0" value="1">
               <repeats>
@@ -1239,7 +1207,7 @@
         <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="45e7-0338-2f60-b9e9" name="Death Eater 6" hidden="false" collective="false" type="model">
+    <selectionEntry id="45e7-0338-2f60-b9e9" name="Death Eater 6" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7c48-14c9-6570-df78" type="max"/>
       </constraints>
@@ -1272,12 +1240,12 @@
         <categoryLink id="7fc4-a058-b3ad-e13b" name="New CategoryLink" hidden="false" targetId="eea5-4f44-b142-d4ef" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="09aa-d688-95ad-c94e" name="Items (Death Eaters)" hidden="false" collective="false" targetId="efd1-2200-051d-ca40" type="selectionEntryGroup">
+        <entryLink id="09aa-d688-95ad-c94e" name="Items (Death Eaters)" hidden="false" collective="false" import="true" targetId="efd1-2200-051d-ca40" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b589-ecfc-7fb2-2ff9" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="b589-ecfc-7fb2-2ff9" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="678c-2201-d9c0-4ebb" name="Spells (With Dark Arts)" hidden="false" collective="false" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
+        <entryLink id="678c-2201-d9c0-4ebb" name="Spells (With Dark Arts)" hidden="false" collective="false" import="true" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
           <modifiers>
             <modifier type="increment" field="7483-4fb6-6ac5-ec0c" value="1">
               <repeats>
@@ -1294,7 +1262,7 @@
         <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="08af-ad67-d425-86ac" name="Death Eater 7" hidden="false" collective="false" type="model">
+    <selectionEntry id="08af-ad67-d425-86ac" name="Death Eater 7" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ee59-a450-dc70-19e4" type="max"/>
       </constraints>
@@ -1327,12 +1295,12 @@
         <categoryLink id="fe23-458b-282d-f42e" name="New CategoryLink" hidden="false" targetId="eea5-4f44-b142-d4ef" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="cba3-9736-5d16-67d0" name="Items (Death Eaters)" hidden="false" collective="false" targetId="efd1-2200-051d-ca40" type="selectionEntryGroup">
+        <entryLink id="cba3-9736-5d16-67d0" name="Items (Death Eaters)" hidden="false" collective="false" import="true" targetId="efd1-2200-051d-ca40" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8bc9-4d84-d472-fef1" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8bc9-4d84-d472-fef1" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="1ba5-ff5c-7de2-03c9" name="Spells (With Dark Arts)" hidden="false" collective="false" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
+        <entryLink id="1ba5-ff5c-7de2-03c9" name="Spells (With Dark Arts)" hidden="false" collective="false" import="true" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
           <modifiers>
             <modifier type="increment" field="3ae4-38af-f0e1-cdd7" value="1">
               <repeats>
@@ -1349,7 +1317,7 @@
         <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="103a-8a52-c881-1a79" name="Pansy Parkinson" hidden="false" collective="false" type="model">
+    <selectionEntry id="103a-8a52-c881-1a79" name="Pansy Parkinson" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8b41-ab30-2e2e-eb74" type="max"/>
       </constraints>
@@ -1380,14 +1348,15 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="4bb2-8856-245a-8c2d" name="New CategoryLink" hidden="false" targetId="eea5-4f44-b142-d4ef" primary="true"/>
+        <categoryLink id="897e-9681-90d5-1181" name="Apprentice" hidden="false" targetId="bb3f-f996-3458-da0b" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="441f-863a-e0c9-0da4" name="Artefacts/Potions" hidden="false" collective="false" targetId="871c-8447-8648-4757" type="selectionEntryGroup">
+        <entryLink id="441f-863a-e0c9-0da4" name="Artefacts/Potions" hidden="false" collective="false" import="true" targetId="871c-8447-8648-4757" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c05-d364-7df3-7a5d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7c05-d364-7df3-7a5d" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="ce52-79df-627d-dba6" name="Spells" hidden="false" collective="false" targetId="f45a-25ca-6491-8733" type="selectionEntryGroup">
+        <entryLink id="ce52-79df-627d-dba6" name="Spells" hidden="false" collective="false" import="true" targetId="f45a-25ca-6491-8733" type="selectionEntryGroup">
           <modifiers>
             <modifier type="increment" field="1730-66b6-9fd8-c8e2" value="1">
               <repeats>
@@ -1404,7 +1373,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1730-66b6-9fd8-c8e2" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="8000-7203-01a0-37f4" name="Spells (With Dark Arts)" hidden="true" collective="false" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
+        <entryLink id="8000-7203-01a0-37f4" name="Spells (With Dark Arts)" hidden="true" collective="false" import="true" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
           <modifiers>
             <modifier type="increment" field="1408-1635-1249-65d4" value="1">
               <repeats>
@@ -1426,7 +1395,7 @@
         <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="6.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8445-790c-c937-72f7" name="Scabior" hidden="false" collective="false" type="model">
+    <selectionEntry id="8445-790c-c937-72f7" name="Scabior" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="decrement" field="39b7-674d-1765-92fb" value="1">
           <conditions>
@@ -1474,12 +1443,12 @@
         <categoryLink id="1903-25f1-5d10-0e4d" name="New CategoryLink" hidden="false" targetId="eea5-4f44-b142-d4ef" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="31a4-3aef-9380-0e97" name="Items (Snatcher Leader)" hidden="false" collective="false" targetId="c9f4-60cc-6b01-d67b" type="selectionEntryGroup">
+        <entryLink id="31a4-3aef-9380-0e97" name="Items (Snatcher Leader)" hidden="false" collective="false" import="true" targetId="c9f4-60cc-6b01-d67b" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b372-d971-50ad-29b2" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="b372-d971-50ad-29b2" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="c970-806f-e5e3-8195" name="Spells (With Dark Arts)" hidden="false" collective="false" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
+        <entryLink id="c970-806f-e5e3-8195" name="Spells (With Dark Arts)" hidden="false" collective="false" import="true" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
           <modifiers>
             <modifier type="increment" field="c6e4-365e-a037-bc26" value="1">
               <repeats>
@@ -1496,7 +1465,7 @@
         <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="9.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3c40-83c8-0e4d-d0e6" name="Snatcher 1" hidden="false" collective="false" type="model">
+    <selectionEntry id="3c40-83c8-0e4d-d0e6" name="Snatcher 1" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="decrement" field="39b7-674d-1765-92fb" value="1">
           <conditions>
@@ -1536,12 +1505,12 @@
         <categoryLink id="a962-9ead-7cc1-daf0" name="New CategoryLink" hidden="false" targetId="eea5-4f44-b142-d4ef" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="df78-2439-13e5-fee4" name="Items (Death Eaters)" hidden="false" collective="false" targetId="efd1-2200-051d-ca40" type="selectionEntryGroup">
+        <entryLink id="df78-2439-13e5-fee4" name="Items (Death Eaters)" hidden="false" collective="false" import="true" targetId="efd1-2200-051d-ca40" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c21e-5d89-6b53-e1b7" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c21e-5d89-6b53-e1b7" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="eed8-e05a-8d4b-89f0" name="Spells (With Dark Arts)" hidden="false" collective="false" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
+        <entryLink id="eed8-e05a-8d4b-89f0" name="Spells (With Dark Arts)" hidden="false" collective="false" import="true" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
           <modifiers>
             <modifier type="increment" field="e2d4-90f8-5947-88aa" value="1">
               <repeats>
@@ -1558,7 +1527,7 @@
         <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="7.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="980a-31c7-e7a8-72d2" name="Snatcher 2" hidden="false" collective="false" type="model">
+    <selectionEntry id="980a-31c7-e7a8-72d2" name="Snatcher 2" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="decrement" field="39b7-674d-1765-92fb" value="1">
           <conditions>
@@ -1598,12 +1567,12 @@
         <categoryLink id="c32f-0808-5d09-87c6" name="New CategoryLink" hidden="false" targetId="eea5-4f44-b142-d4ef" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="1d70-43a0-dd40-ee5d" name="Items (Death Eaters)" hidden="false" collective="false" targetId="efd1-2200-051d-ca40" type="selectionEntryGroup">
+        <entryLink id="1d70-43a0-dd40-ee5d" name="Items (Death Eaters)" hidden="false" collective="false" import="true" targetId="efd1-2200-051d-ca40" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe4e-f382-d700-af2e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="fe4e-f382-d700-af2e" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="11a0-82b9-995a-1120" name="Spells (With Dark Arts)" hidden="false" collective="false" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
+        <entryLink id="11a0-82b9-995a-1120" name="Spells (With Dark Arts)" hidden="false" collective="false" import="true" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
           <modifiers>
             <modifier type="increment" field="5435-a3a6-b61c-0d1e" value="1">
               <repeats>
@@ -1620,7 +1589,7 @@
         <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="6.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="48dd-8199-be75-dfef" name="Snatcher 3" hidden="false" collective="false" type="model">
+    <selectionEntry id="48dd-8199-be75-dfef" name="Snatcher 3" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="decrement" field="39b7-674d-1765-92fb" value="1">
           <conditions>
@@ -1661,12 +1630,12 @@
         <categoryLink id="3a02-ac74-d41f-418a" name="New CategoryLink" hidden="false" targetId="eea5-4f44-b142-d4ef" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="cfc6-10be-8b0b-cc00" name="Items (Death Eaters)" hidden="false" collective="false" targetId="efd1-2200-051d-ca40" type="selectionEntryGroup">
+        <entryLink id="cfc6-10be-8b0b-cc00" name="Items (Death Eaters)" hidden="false" collective="false" import="true" targetId="efd1-2200-051d-ca40" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="230b-77e1-817d-bfcc" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="230b-77e1-817d-bfcc" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="9257-01c7-0343-009d" name="Spells (With Dark Arts)" hidden="false" collective="false" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
+        <entryLink id="9257-01c7-0343-009d" name="Spells (With Dark Arts)" hidden="false" collective="false" import="true" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
           <modifiers>
             <modifier type="increment" field="4441-6f24-da00-4a29" value="1">
               <repeats>
@@ -1683,7 +1652,19 @@
         <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="6.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2bf3-147f-9681-8501" name="Lord Voldemort (30mm base)" hidden="false" collective="false" type="model">
+    <selectionEntry id="2bf3-147f-9681-8501" name="Lord Voldemort (30mm base)" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="664e-0f54-6884-2e18" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0050-089c-1236-9fd5" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b292-5e46-d4e5-44fc" type="max"/>
       </constraints>
@@ -1726,12 +1707,12 @@
         <categoryLink id="440d-46f5-4767-7125" name="New CategoryLink" hidden="false" targetId="eea5-4f44-b142-d4ef" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="51e0-13c7-e247-1d98" name="Items (Lord Voldemort)" hidden="false" collective="false" targetId="aa7f-441a-d722-baa6" type="selectionEntryGroup">
+        <entryLink id="51e0-13c7-e247-1d98" name="Items (Lord Voldemort)" hidden="false" collective="false" import="true" targetId="aa7f-441a-d722-baa6" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e113-bb98-f4f1-d874" type="max"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e113-bb98-f4f1-d874" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="59ba-48dd-d91f-ef98" name="Spells (With Dark Arts)" hidden="false" collective="false" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
+        <entryLink id="59ba-48dd-d91f-ef98" name="Spells (With Dark Arts)" hidden="false" collective="false" import="true" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
           <modifiers>
             <modifier type="increment" field="7f9c-1fda-608f-3097" value="1">
               <repeats>
@@ -1748,7 +1729,26 @@
         <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a27b-f783-37f4-2f67" name="Nagini" hidden="false" collective="false" type="model">
+    <selectionEntry id="a27b-f783-37f4-2f67" name="Nagini" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a27b-f783-37f4-2f67" type="atLeast"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="edb1-df50-301a-ec8f" type="atLeast"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0050-089c-1236-9fd5" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7fe4-aafe-b35b-4bf0" type="max"/>
       </constraints>
@@ -1804,7 +1804,7 @@
         <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5f02-584e-1dc9-08bd" name="Fenrir" hidden="false" collective="false" type="model">
+    <selectionEntry id="5f02-584e-1dc9-08bd" name="Fenrir" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="decrement" field="39b7-674d-1765-92fb" value="1">
           <conditions>
@@ -1858,12 +1858,12 @@
         <categoryLink id="4751-585a-7f58-209e" name="New CategoryLink" hidden="false" targetId="eea5-4f44-b142-d4ef" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="9289-d9ac-6288-c039" name="Items (Snatcher Leader)" hidden="false" collective="false" targetId="c9f4-60cc-6b01-d67b" type="selectionEntryGroup">
+        <entryLink id="9289-d9ac-6288-c039" name="Items (Snatcher Leader)" hidden="false" collective="false" import="true" targetId="c9f4-60cc-6b01-d67b" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5c4-ed14-e503-ed25" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e5c4-ed14-e503-ed25" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="d84a-5aac-9f85-4572" name="Spells (With Dark Arts)" hidden="false" collective="false" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
+        <entryLink id="d84a-5aac-9f85-4572" name="Spells (With Dark Arts)" hidden="false" collective="false" import="true" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
           <modifiers>
             <modifier type="increment" field="dfeb-4156-05de-5d0c" value="1">
               <repeats>
@@ -1880,7 +1880,7 @@
         <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="13.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="442e-9229-bf09-954a" name="Alecto Carrow" hidden="false" collective="false" type="model">
+    <selectionEntry id="442e-9229-bf09-954a" name="Alecto Carrow" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="53b3-ab97-dd84-46d8" type="max"/>
       </constraints>
@@ -1912,14 +1912,15 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="72a8-882a-127f-83d2" name="New CategoryLink" hidden="false" targetId="eea5-4f44-b142-d4ef" primary="true"/>
+        <categoryLink id="8dfc-0126-2441-05f4" name="Professor" hidden="false" targetId="9137-5073-312f-b858" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="48e7-86d8-e119-628f" name="Items (Death Eaters Professors)" hidden="false" collective="false" targetId="3378-88ab-8a62-fd0f" type="selectionEntryGroup">
+        <entryLink id="48e7-86d8-e119-628f" name="Items (Death Eaters)" hidden="false" collective="false" import="true" targetId="efd1-2200-051d-ca40" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68c1-dfac-ea9f-6c91" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="68c1-dfac-ea9f-6c91" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="088e-8f67-28a9-501f" name="Spells (With Dark Arts)" hidden="false" collective="false" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
+        <entryLink id="088e-8f67-28a9-501f" name="Spells (With Dark Arts)" hidden="false" collective="false" import="true" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
           <modifiers>
             <modifier type="increment" field="a777-7916-1960-b959" value="1">
               <repeats>
@@ -1936,7 +1937,7 @@
         <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="423c-3835-e754-d2fb" name="Amycus Carrow" hidden="false" collective="false" type="model">
+    <selectionEntry id="423c-3835-e754-d2fb" name="Amycus Carrow" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4d2d-5888-45c3-0ffd" type="max"/>
       </constraints>
@@ -1968,14 +1969,15 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="084e-b807-5258-4c07" name="New CategoryLink" hidden="false" targetId="eea5-4f44-b142-d4ef" primary="true"/>
+        <categoryLink id="8d82-1a57-ebf5-c7ee" name="Professor" hidden="false" targetId="9137-5073-312f-b858" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="4fea-fd47-859c-bfd7" name="Items (Death Eaters Professors)" hidden="false" collective="false" targetId="3378-88ab-8a62-fd0f" type="selectionEntryGroup">
+        <entryLink id="4fea-fd47-859c-bfd7" name="Items (Death Eaters)" hidden="false" collective="false" import="true" targetId="efd1-2200-051d-ca40" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7b2-72f1-a570-22c6" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c7b2-72f1-a570-22c6" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="d93d-06df-0adc-17ea" name="Spells (With Dark Arts)" hidden="false" collective="false" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
+        <entryLink id="d93d-06df-0adc-17ea" name="Spells (With Dark Arts)" hidden="false" collective="false" import="true" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
           <modifiers>
             <modifier type="increment" field="c736-0430-66e6-a123" value="1">
               <repeats>
@@ -1992,7 +1994,7 @@
         <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="9.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="187a-3670-a555-85d0" name="Death Eater 9" hidden="false" collective="false" type="model">
+    <selectionEntry id="187a-3670-a555-85d0" name="Death Eater 9" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4b28-6de9-a0a9-da51" type="max"/>
       </constraints>
@@ -2025,14 +2027,15 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="bf52-7256-1a8e-24b2" name="New CategoryLink" hidden="false" targetId="eea5-4f44-b142-d4ef" primary="true"/>
+        <categoryLink id="e13d-0e91-4ab3-6418" name="Broomstick" hidden="false" targetId="1a47-6051-3f1a-37f1" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="cf93-b79e-17b6-8371" name="Items (Death Eaters Broomstick)" hidden="false" collective="false" targetId="aba7-ae6b-d014-fa5e" type="selectionEntryGroup">
+        <entryLink id="cf93-b79e-17b6-8371" name="Items (Death Eaters)" hidden="false" collective="false" import="true" targetId="efd1-2200-051d-ca40" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8298-a8c7-65fb-d7cc" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8298-a8c7-65fb-d7cc" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="deba-291f-8fe6-bfab" name="Spells (With Dark Arts)" hidden="false" collective="false" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
+        <entryLink id="deba-291f-8fe6-bfab" name="Spells (With Dark Arts)" hidden="false" collective="false" import="true" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
           <modifiers>
             <modifier type="increment" field="5b94-2e83-18b4-24a4" value="1">
               <repeats>
@@ -2049,7 +2052,7 @@
         <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9c1e-a3ce-36cc-fdaf" name="Death Eater 8" hidden="false" collective="false" type="model">
+    <selectionEntry id="9c1e-a3ce-36cc-fdaf" name="Death Eater 8" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b30b-88d8-9ff7-3d58" type="max"/>
       </constraints>
@@ -2085,14 +2088,15 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c080-3d5b-861c-8c57" name="New CategoryLink" hidden="false" targetId="eea5-4f44-b142-d4ef" primary="true"/>
+        <categoryLink id="73cf-c620-7fad-5d70" name="Broomstick" hidden="false" targetId="1a47-6051-3f1a-37f1" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="b61f-39d9-5d4a-9791" name="Items (Death Eaters Broomstick)" hidden="false" collective="false" targetId="aba7-ae6b-d014-fa5e" type="selectionEntryGroup">
+        <entryLink id="b61f-39d9-5d4a-9791" name="Items (Death Eaters)" hidden="false" collective="false" import="true" targetId="efd1-2200-051d-ca40" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1cec-996a-160d-a61c" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1cec-996a-160d-a61c" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="c8fe-eab3-db58-93d5" name="Spells (With Dark Arts)" hidden="false" collective="false" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
+        <entryLink id="c8fe-eab3-db58-93d5" name="Spells (With Dark Arts)" hidden="false" collective="false" import="true" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
           <modifiers>
             <modifier type="increment" field="6488-e945-211f-df52" value="1">
               <repeats>
@@ -2109,7 +2113,7 @@
         <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cbc9-30b9-ec0e-82fa" name="Gringotts Goblin" hidden="false" collective="false" type="model">
+    <selectionEntry id="cbc9-30b9-ec0e-82fa" name="Gringotts Goblin" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="782d-d349-f22b-0b0a" type="max"/>
       </constraints>
@@ -2147,12 +2151,12 @@
         <categoryLink id="7ba5-6e24-1337-107a" name="New CategoryLink" hidden="false" targetId="eea5-4f44-b142-d4ef" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="5d12-16ee-5d61-31fe" name="Goblin" hidden="false" collective="false">
+        <selectionEntryGroup id="5d12-16ee-5d61-31fe" name="Goblin" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c574-118f-4821-bd1e" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="f7b0-9cb4-9342-c33e" name="+1 Galleon = -1 VP" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="f7b0-9cb4-9342-c33e" name="+1 Galleon = -1 VP" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="decrement" field="39b7-674d-1765-92fb" value="1"/>
               </modifiers>
@@ -2160,7 +2164,7 @@
                 <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="5f9e-3019-929c-91f7" name="+2 Galleons = -2 VP" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="5f9e-3019-929c-91f7" name="+2 Galleons = -2 VP" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="decrement" field="39b7-674d-1765-92fb" value="2"/>
               </modifiers>
@@ -2168,7 +2172,7 @@
                 <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="051e-09b7-c999-2119" name="+3 Galleons = -3 VP" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="051e-09b7-c999-2119" name="+3 Galleons = -3 VP" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="decrement" field="39b7-674d-1765-92fb" value="3"/>
               </modifiers>
@@ -2176,7 +2180,7 @@
                 <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="4539-b73b-9f80-41cd" name="+4 Galleons = -4 VP" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="4539-b73b-9f80-41cd" name="+4 Galleons = -4 VP" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="decrement" field="39b7-674d-1765-92fb" value="4"/>
               </modifiers>
@@ -2184,7 +2188,7 @@
                 <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="56ae-23c6-9c41-daca" name="+5 Galleons = -5 VP" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="56ae-23c6-9c41-daca" name="+5 Galleons = -5 VP" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="decrement" field="39b7-674d-1765-92fb" value="5"/>
               </modifiers>
@@ -2199,18 +2203,153 @@
         <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="8932-fa13-f9f7-2f5a" name="Salazar Slytherin&apos;s Basilisk" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0d90-d420-c9b2-b5b4" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="6de4-f742-dd71-b02c" name="Salazar Slytherin&apos;s Basilisk" hidden="false" typeId="2093f4cd-f669-06c6-0f4f-06037948fe28" typeName="1.1 Attributes">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="911f2847-ecab-772a-37ad-b325a40b19ce">Magical Creatures/Death Eaters</characteristic>
+            <characteristic name="Mastery" typeId="fd922c18-88be-5191-46b0-1ab589f2ef33">0</characteristic>
+            <characteristic name="Defense" typeId="49d96d28-c1dc-f977-7bb6-8e1fbe8fe397">2</characteristic>
+            <characteristic name="Cunning" typeId="9ef0bc71-33ab-98cd-26b3-07c55ed7725f">2 Black</characteristic>
+            <characteristic name="Magic" typeId="84a7bbc1-d970-b7b9-2fd5-f174c9fdda90">3</characteristic>
+            <characteristic name="Courage" typeId="ae357512-6823-3b1d-aebe-2c2c8e52e2e0">4</characteristic>
+            <characteristic name="Wisdom" typeId="4e4daeff-a451-4e80-f5b5-d588866411b4">3</characteristic>
+            <characteristic name="Temper" typeId="d6fc-863a-9aaa-271d">7</characteristic>
+            <characteristic name="Item Slots" typeId="d0e0-c03d-1183-cd2e">0</characteristic>
+            <characteristic name="Spellbook" typeId="3d3e-73e5-dd6a-789c">0</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6395-7f66-5c76-3dca" name="Poisonous Bite" hidden="false" typeId="07d6-95ce-9c89-313a" typeName="1.5 Artefact (Attack)">
+          <characteristics>
+            <characteristic name="Description" typeId="cac9-3577-abf0-c57c">Effect: Poison/3</characteristic>
+            <characteristic name="Rarity" typeId="5542-8a14-e513-9167"/>
+            <characteristic name="Type" typeId="9b7b-8d3c-6c3b-c573">Physical</characteristic>
+            <characteristic name="Bonus" typeId="e033-8269-f4d6-f0c9">2</characteristic>
+            <characteristic name="Damage" typeId="ca7b-dc78-24dd-3315">2</characteristic>
+            <characteristic name="Range" typeId="75a3-8b99-a7f1-efd7">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8ad1-9c9f-1c82-7b83" name="Basilisk Gaze" hidden="false" typeId="07d6-95ce-9c89-313a" typeName="1.5 Artefact (Attack)">
+          <characteristics>
+            <characteristic name="Description" typeId="cac9-3577-abf0-c57c">Target model is Petrified. If the total Success of the Attack roll doubles the target Success total, target model is removed from the game.</characteristic>
+            <characteristic name="Rarity" typeId="5542-8a14-e513-9167"/>
+            <characteristic name="Type" typeId="9b7b-8d3c-6c3b-c573">Magical</characteristic>
+            <characteristic name="Bonus" typeId="e033-8269-f4d6-f0c9">2</characteristic>
+            <characteristic name="Damage" typeId="ca7b-dc78-24dd-3315">0</characteristic>
+            <characteristic name="Range" typeId="75a3-8b99-a7f1-efd7">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="08b3-270f-30c6-ffd7" name="Beast" hidden="false" targetId="c5d0-8bbd-d69f-631f" type="rule"/>
+        <infoLink id="f467-0bce-cc81-3f27" name="Huge " hidden="false" targetId="6150-909e-eeaf-7a69" type="rule"/>
+        <infoLink id="ac98-d549-ace7-e2bc" name="Magic Resistance X " hidden="false" targetId="3b35-8d3e-4720-6c4b" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Magic Resistance 1"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="1b68-aff1-0d8a-6319" name="Armor X " hidden="false" targetId="a14a-93f7-f29e-39ce" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Armor 1"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="90b1-b00b-5d83-dae2" name="Fast " hidden="false" targetId="24ac-dd50-6187-7abd" type="rule"/>
+        <infoLink id="1f48-38e6-a7bf-668e" name="Scout" hidden="false" targetId="ad2f-5054-47db-d41c" type="rule"/>
+        <infoLink id="164b-8f26-1e98-5e86" name="Basilisk" hidden="false" targetId="e5d0-6f63-23d9-4219" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5c9c-aa29-898f-c440" name="Death Eaters" hidden="false" targetId="eea5-4f44-b142-d4ef" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="17.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="664e-0f54-6884-2e18" name="Tom Riddle" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0050-089c-1236-9fd5" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2bf3-147f-9681-8501" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="871c-b194-02de-dffe" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="8744-e846-8010-713c" name="Tom Riddle" hidden="false" typeId="2093f4cd-f669-06c6-0f4f-06037948fe28" typeName="1.1 Attributes">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="911f2847-ecab-772a-37ad-b325a40b19ce">Hogwarts/Death Eaters</characteristic>
+            <characteristic name="Mastery" typeId="fd922c18-88be-5191-46b0-1ab589f2ef33">2</characteristic>
+            <characteristic name="Defense" typeId="49d96d28-c1dc-f977-7bb6-8e1fbe8fe397">2</characteristic>
+            <characteristic name="Cunning" typeId="9ef0bc71-33ab-98cd-26b3-07c55ed7725f">3 Black</characteristic>
+            <characteristic name="Magic" typeId="84a7bbc1-d970-b7b9-2fd5-f174c9fdda90">6</characteristic>
+            <characteristic name="Courage" typeId="ae357512-6823-3b1d-aebe-2c2c8e52e2e0">2</characteristic>
+            <characteristic name="Wisdom" typeId="4e4daeff-a451-4e80-f5b5-d588866411b4">4</characteristic>
+            <characteristic name="Temper" typeId="d6fc-863a-9aaa-271d">9</characteristic>
+            <characteristic name="Item Slots" typeId="d0e0-c03d-1183-cd2e">1</characteristic>
+            <characteristic name="Spellbook" typeId="3d3e-73e5-dd6a-789c">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="43a3-d527-f2cb-ab0d" name="Duelling" hidden="false" targetId="d0d6-59cb-5f49-a1be" type="rule"/>
+        <infoLink id="d60c-c570-35e0-f62b" name="Stupefy" hidden="false" targetId="6652-b7ff-0b5e-4273" type="profile">
+          <modifiers>
+            <modifier type="append" field="name" value="(Innate Spell)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="cf21-ef3c-ce26-040c" name="Slytherin" hidden="false" targetId="0604-5b80-5931-2fcd" type="rule"/>
+        <infoLink id="3891-add1-1fce-74e6" name="Dark Arts" hidden="false" targetId="d0bf-0eb1-3424-c7b5" type="rule"/>
+        <infoLink id="06f7-4b85-951c-9bc4" name="Slytherin&apos;s Heir" hidden="false" targetId="aca3-ec0e-b6cb-8ccd" type="rule"/>
+        <infoLink id="d4a7-85a4-17e6-48fb" name="Apprentice" hidden="false" targetId="fccc-3c95-79fe-af73" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9258-9c07-5979-ceaf" name="New CategoryLink" hidden="false" targetId="eea5-4f44-b142-d4ef" primary="true"/>
+        <categoryLink id="8fa6-4983-6008-ef27" name="Apprentice" hidden="false" targetId="bb3f-f996-3458-da0b" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="0c39-459f-577d-f455" name="Artefacts/Potions" hidden="false" collective="false" import="true" targetId="871c-8447-8648-4757" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e1db-1440-c448-6845" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="9d63-4a40-1f00-f02d" name="Spells (With Dark Arts)" hidden="false" collective="false" import="true" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="increment" field="fe04-ba36-c6d9-e8b9" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fff0-6570-5dc9-99c4" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe04-ba36-c6d9-e8b9" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="10.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="72a7-4996-e0b5-53b8" name="Items (Fervent Follower)" hidden="false" collective="false">
+    <selectionEntryGroup id="72a7-4996-e0b5-53b8" name="Items (Fervent Follower)" hidden="false" collective="false" import="true">
       <selectionEntryGroups>
-        <selectionEntryGroup id="ffed-cde6-fd7b-1e4a" name="Legendary" hidden="false" collective="false">
+        <selectionEntryGroup id="ffed-cde6-fd7b-1e4a" name="Legendary" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b486-3344-ba06-bf0d" type="max"/>
           </constraints>
           <selectionEntryGroups>
-            <selectionEntryGroup id="1ef0-20d0-ed8f-bd2e" name="Artefacts (Legendary)" hidden="false" collective="false">
+            <selectionEntryGroup id="1ef0-20d0-ed8f-bd2e" name="Artefacts (Legendary)" hidden="false" collective="false" import="true">
               <entryLinks>
-                <entryLink id="3be9-369a-0282-14aa" name="Elder Wand" hidden="false" collective="false" targetId="8d33-b022-48d9-77a8" type="selectionEntry">
+                <entryLink id="3be9-369a-0282-14aa" name="Elder Wand" hidden="false" collective="false" import="true" targetId="8d33-b022-48d9-77a8" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1709-6940-613b-9fd0" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97c6-1121-45a3-d2fd" type="max"/>
@@ -2219,7 +2358,7 @@
                     <categoryLink id="bd93-4cc9-5ee4-2359" name="Deathly Hollows" hidden="false" targetId="466f-78c9-680f-b11b" primary="false"/>
                   </categoryLinks>
                 </entryLink>
-                <entryLink id="e533-de75-5a74-770d" name="Fervent Follower" hidden="false" collective="false" targetId="8a8b-e874-ad96-bf0c" type="selectionEntry">
+                <entryLink id="e533-de75-5a74-770d" name="Fervent Follower" hidden="false" collective="false" import="true" targetId="8a8b-e874-ad96-bf0c" type="selectionEntry">
                   <modifiers>
                     <modifier type="set" field="1b84-4e32-0149-f7a7" value="0">
                       <conditions>
@@ -2250,7 +2389,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b84-4e32-0149-f7a7" type="max"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="1337-ca1f-da02-7821" name="Invisibility Cloak" hidden="false" collective="false" targetId="8078-994f-75e5-b6ee" type="selectionEntry">
+                <entryLink id="1337-ca1f-da02-7821" name="Invisibility Cloak" hidden="false" collective="false" import="true" targetId="8078-994f-75e5-b6ee" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4b79-6027-278c-3f44" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aed0-12bf-1262-b502" type="max"/>
@@ -2259,31 +2398,65 @@
                     <categoryLink id="4279-1b72-9bfe-5f72" name="Deathly Hollows" hidden="false" targetId="466f-78c9-680f-b11b" primary="false"/>
                   </categoryLinks>
                 </entryLink>
+                <entryLink id="4793-5b6b-21da-05d2" name="Basilisk Fang" hidden="false" collective="false" import="true" targetId="c9bb-7fc4-e74d-43c1" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b67c-d426-d4e3-46bf" type="max"/>
+                  </constraints>
+                  <categoryLinks>
+                    <categoryLink id="c530-372a-adea-a50b" name="Deathly Hollows" hidden="false" targetId="466f-78c9-680f-b11b" primary="false"/>
+                  </categoryLinks>
+                </entryLink>
+                <entryLink id="0ad9-20c5-9807-010e" name="Phoenix Tears" hidden="false" collective="false" import="true" targetId="46b6-a546-1d3e-d70d" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="649c-0411-f282-b44c" type="max"/>
+                  </constraints>
+                  <categoryLinks>
+                    <categoryLink id="4e99-4839-9b2b-cd06" name="Deathly Hollows" hidden="false" targetId="466f-78c9-680f-b11b" primary="false"/>
+                  </categoryLinks>
+                </entryLink>
+                <entryLink id="47df-41cb-9ec3-eec6" name="Sword of Gryffindor" hidden="false" collective="false" import="true" targetId="dc44-022c-5a27-6581" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9f6b-15cf-3630-21a0" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d0e-8d1b-a612-3ba9" type="max"/>
+                  </constraints>
+                  <categoryLinks>
+                    <categoryLink id="5089-0c2f-7f67-6644" name="Deathly Hollows" hidden="false" targetId="466f-78c9-680f-b11b" primary="false"/>
+                  </categoryLinks>
+                </entryLink>
+                <entryLink id="ec8f-e85a-b51f-9fde" name="False Sword of Gryffindor" hidden="false" collective="false" import="true" targetId="d0d6-7e3d-bc47-a6b6" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7d2c-6f12-6a2c-0467" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0205-da94-ad7d-d65f" type="max"/>
+                  </constraints>
+                  <categoryLinks>
+                    <categoryLink id="158e-423e-1270-3066" name="Deathly Hollows" hidden="false" targetId="466f-78c9-680f-b11b" primary="false"/>
+                  </categoryLinks>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="e878-d3d6-82c0-2089" name="Potions (Legendary)" hidden="false" collective="false" targetId="f77f-e9f0-08bd-85db" type="selectionEntryGroup"/>
+            <entryLink id="e878-d3d6-82c0-2089" name="Potions (Legendary)" hidden="false" collective="false" import="true" targetId="f77f-e9f0-08bd-85db" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="8578-6aa6-1714-ff19" name="Common" hidden="false" collective="false">
+        <selectionEntryGroup id="8578-6aa6-1714-ff19" name="Common" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="8a29-c5fc-a4b4-c5fc" name="Artefacts (Common)" hidden="false" collective="false" targetId="541e-a918-c634-6234" type="selectionEntryGroup"/>
-            <entryLink id="d608-8eff-b105-7663" name="Potions (Common)" hidden="false" collective="false" targetId="a5bf-4232-b441-6f7d" type="selectionEntryGroup"/>
+            <entryLink id="8a29-c5fc-a4b4-c5fc" name="Artefacts (Common)" hidden="false" collective="false" import="true" targetId="541e-a918-c634-6234" type="selectionEntryGroup"/>
+            <entryLink id="d608-8eff-b105-7663" name="Potions (Common)" hidden="false" collective="false" import="true" targetId="a5bf-4232-b441-6f7d" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="8a36-27a4-f9cb-b81b" name="Rare" hidden="false" collective="false">
+        <selectionEntryGroup id="8a36-27a4-f9cb-b81b" name="Rare" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afdd-a464-b32d-8a45" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="4df7-dc87-7826-69c6" name="Potions (Rare)" hidden="false" collective="false" targetId="f5b5-6c56-7f4e-e56a" type="selectionEntryGroup"/>
-            <entryLink id="e7e8-6d91-1023-6520" name="Artefacts (Rare Death Eaters)" hidden="false" collective="false" targetId="7605-7edd-b951-1ce4" type="selectionEntryGroup"/>
+            <entryLink id="4df7-dc87-7826-69c6" name="Potions (Rare)" hidden="false" collective="false" import="true" targetId="f5b5-6c56-7f4e-e56a" type="selectionEntryGroup"/>
+            <entryLink id="e7e8-6d91-1023-6520" name="Artefacts (Rare Death Eaters)" hidden="false" collective="false" import="true" targetId="7605-7edd-b951-1ce4" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
-    <selectionEntryGroup id="2658-4536-24f1-0b23" name="Fervent Followers" hidden="false" collective="false">
+    <selectionEntryGroup id="2658-4536-24f1-0b23" name="Fervent Followers" hidden="false" collective="false" import="true">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -2295,40 +2468,40 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7715-2849-dff0-9311" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="f388-8d60-d500-e756" name="Crucio" hidden="false" collective="false" targetId="1cec-473f-4f06-4bd9" type="selectionEntry">
+        <entryLink id="f388-8d60-d500-e756" name="Crucio" hidden="false" collective="false" import="true" targetId="1cec-473f-4f06-4bd9" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="39b7-674d-1765-92fb" value="0.0"/>
           </modifiers>
         </entryLink>
-        <entryLink id="8d00-3100-bb62-7890" name="Imperio" hidden="false" collective="false" targetId="41c4-4602-52a5-95c5" type="selectionEntry">
+        <entryLink id="8d00-3100-bb62-7890" name="Imperio" hidden="false" collective="false" import="true" targetId="41c4-4602-52a5-95c5" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="39b7-674d-1765-92fb" value="0.0"/>
           </modifiers>
         </entryLink>
-        <entryLink id="5f21-fcb5-8328-1dcf" name="Avada Kedabra" hidden="false" collective="false" targetId="56ad-4683-3d9a-b82d" type="selectionEntry">
+        <entryLink id="5f21-fcb5-8328-1dcf" name="Avada Kedabra" hidden="false" collective="false" import="true" targetId="56ad-4683-3d9a-b82d" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="39b7-674d-1765-92fb" value="0.0"/>
           </modifiers>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="aa7f-441a-d722-baa6" name="Items (Lord Voldemort)" hidden="false" collective="false">
+    <selectionEntryGroup id="aa7f-441a-d722-baa6" name="Items (Lord Voldemort)" hidden="false" collective="false" import="true">
       <selectionEntryGroups>
-        <selectionEntryGroup id="1492-a9d3-fbd2-0c6c" name="Legendary" hidden="false" collective="false">
+        <selectionEntryGroup id="1492-a9d3-fbd2-0c6c" name="Legendary" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cbf0-5d8b-5735-3c1b" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="3d9d-4808-06ea-b7fd" name="Artefacts (Legendary)" hidden="false" collective="false" targetId="e59c-de68-d172-60bd" type="selectionEntryGroup"/>
-            <entryLink id="02f0-231e-e509-2c41" name="Potions (Legendary)" hidden="false" collective="false" targetId="f77f-e9f0-08bd-85db" type="selectionEntryGroup"/>
+            <entryLink id="3d9d-4808-06ea-b7fd" name="Artefacts (Legendary)" hidden="false" collective="false" import="true" targetId="e59c-de68-d172-60bd" type="selectionEntryGroup"/>
+            <entryLink id="02f0-231e-e509-2c41" name="Potions (Legendary)" hidden="false" collective="false" import="true" targetId="f77f-e9f0-08bd-85db" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="46f5-51e6-ad09-dc0d" name="Common" hidden="false" collective="false">
+        <selectionEntryGroup id="46f5-51e6-ad09-dc0d" name="Common" hidden="false" collective="false" import="true">
           <selectionEntryGroups>
-            <selectionEntryGroup id="f2f4-fbbc-85c0-8036" name="Artefacts" hidden="false" collective="false">
+            <selectionEntryGroup id="f2f4-fbbc-85c0-8036" name="Artefacts" hidden="false" collective="false" import="true">
               <entryLinks>
-                <entryLink id="fea9-eda1-ca0b-1025" name="Knife" hidden="false" collective="false" targetId="98b1-624b-4d7c-7289" type="selectionEntry"/>
-                <entryLink id="65ca-4420-b243-819a" name="Nagini" hidden="false" collective="false" targetId="3d79-e471-ef05-ca21" type="selectionEntry">
+                <entryLink id="fea9-eda1-ca0b-1025" name="Knife" hidden="false" collective="false" import="true" targetId="98b1-624b-4d7c-7289" type="selectionEntry"/>
+                <entryLink id="65ca-4420-b243-819a" name="Nagini" hidden="false" collective="false" import="true" targetId="3d79-e471-ef05-ca21" type="selectionEntry">
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
                       <conditions>
@@ -2337,39 +2510,46 @@
                     </modifier>
                   </modifiers>
                 </entryLink>
-                <entryLink id="9e08-8e57-4c0a-7591" name="Spellbook" hidden="false" collective="false" targetId="fff0-6570-5dc9-99c4" type="selectionEntry"/>
-                <entryLink id="f367-7e3c-4192-9ac0" name="Sword" hidden="false" collective="false" targetId="2401-8edd-d7d8-b9b9" type="selectionEntry"/>
-                <entryLink id="7305-b466-c617-bd67" name="Earmuffs" hidden="false" collective="false" targetId="2608-236d-4ece-aacf" type="selectionEntry"/>
-                <entryLink id="a1c2-abbe-cac9-da3d" name="Reinforced Bow" hidden="false" collective="false" targetId="4b69-ea24-0aae-237e" type="selectionEntry"/>
+                <entryLink id="9e08-8e57-4c0a-7591" name="Spellbook" hidden="false" collective="false" import="true" targetId="fff0-6570-5dc9-99c4" type="selectionEntry"/>
+                <entryLink id="f367-7e3c-4192-9ac0" name="Sword" hidden="false" collective="false" import="true" targetId="2401-8edd-d7d8-b9b9" type="selectionEntry"/>
+                <entryLink id="7305-b466-c617-bd67" name="Earmuffs" hidden="false" collective="false" import="true" targetId="2608-236d-4ece-aacf" type="selectionEntry"/>
+                <entryLink id="a1c2-abbe-cac9-da3d" name="Reinforced Bow" hidden="false" collective="false" import="true" targetId="4b69-ea24-0aae-237e" type="selectionEntry"/>
+                <entryLink id="039d-aaa0-65de-c0e3" name="Death Eater Broom" hidden="false" collective="false" import="true" targetId="5635-2fa3-8f46-ac73" type="selectionEntry"/>
+                <entryLink id="0593-1bdd-8907-9605" name="Death Eaters Professor" hidden="false" collective="false" import="true" targetId="1cd2-8ae1-05b2-693e" type="selectionEntry"/>
+                <entryLink id="d7fd-4cc7-3396-9a9d" name="Howler" hidden="false" collective="false" import="true" targetId="8a08-9570-e5f6-5634" type="selectionEntry"/>
+                <entryLink id="e175-460d-6500-750b" name="Impulse" hidden="false" collective="false" import="true" targetId="36b7-f2a1-5d62-3b0f" type="selectionEntry"/>
+                <entryLink id="0c1f-bd20-28c1-54b3" name="Propaganda" hidden="false" collective="false" import="true" targetId="87d8-3f1a-637c-e214" type="selectionEntry"/>
+                <entryLink id="5716-6ca7-0141-cf14" name="The Impostor" hidden="false" collective="false" import="true" targetId="4ae8-1755-55ce-ca0c" type="selectionEntry"/>
+                <entryLink id="e4ce-1acb-c9b5-4c4b" name="Remembrall" hidden="false" collective="false" import="true" targetId="d439-c0e7-80cd-2e29" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="187e-1232-f753-add4" name="Potions (Common)" hidden="false" collective="false" targetId="a5bf-4232-b441-6f7d" type="selectionEntryGroup"/>
+            <entryLink id="187e-1232-f753-add4" name="Potions (Common)" hidden="false" collective="false" import="true" targetId="a5bf-4232-b441-6f7d" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="0aa4-16d9-ecb4-482d" name="Rare" hidden="false" collective="false">
+        <selectionEntryGroup id="0aa4-16d9-ecb4-482d" name="Rare" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f3a-967c-76f2-93e6" type="max"/>
           </constraints>
           <selectionEntryGroups>
-            <selectionEntryGroup id="32d8-eac6-9f24-6f79" name="Artefacts" hidden="false" collective="false">
+            <selectionEntryGroup id="32d8-eac6-9f24-6f79" name="Artefacts" hidden="false" collective="false" import="true">
               <entryLinks>
-                <entryLink id="98ca-c9db-875c-14b2" name="Acromantula Venom" hidden="false" collective="false" targetId="81d3-5334-a379-88e2" type="selectionEntry"/>
-                <entryLink id="74ba-dc18-0c00-1e5a" name="Deluminator" hidden="false" collective="false" targetId="2dda-d219-3971-82ee" type="selectionEntry"/>
-                <entryLink id="6f97-eb52-9bb7-c70b" name="Foe-Glass" hidden="false" collective="false" targetId="5d18-a8ee-3104-de39" type="selectionEntry"/>
-                <entryLink id="c199-2c63-c8f3-1de1" name="Time-Turner" hidden="false" collective="false" targetId="6f05-5194-2f3b-4511" type="selectionEntry"/>
-                <entryLink id="5364-b23f-9594-2dae" name="Death Eater Mask" hidden="false" collective="false" targetId="3ca9-dcc6-c464-1c99" type="selectionEntry"/>
-                <entryLink id="c6a1-9111-c188-e99d" name="Death Eater Robe" hidden="false" collective="false" targetId="1dc6-febb-1e1d-83af" type="selectionEntry"/>
-                <entryLink id="7aec-5520-015e-d63b" name="Death Eater Wand" hidden="false" collective="false" targetId="b2e9-f796-77e8-f76f" type="selectionEntry"/>
-                <entryLink id="8191-2e64-012a-3622" name="Unicorn Blood" hidden="false" collective="false" targetId="3e67-605b-7f9a-1783" type="selectionEntry"/>
-                <entryLink id="25c0-6fda-d2ec-5882" name="Bellatrix Lestrange’s Knife" hidden="false" collective="false" targetId="6888-c9d6-6cbb-08cd" type="selectionEntry"/>
-                <entryLink id="4f1c-dbed-b810-4496" name="Helga Hufflepuff’s Cup" hidden="false" collective="false" targetId="ca07-1e80-4582-1054" type="selectionEntry"/>
-                <entryLink id="52fe-5bf9-005d-c981" name="Marvolo Gaunt&apos;s Ring" hidden="false" collective="false" targetId="1472-c025-19cd-0429" type="selectionEntry"/>
-                <entryLink id="8ef1-834e-aa91-120e" name="Rowena Ravenclaw’s Diadem" hidden="false" collective="false" targetId="5bfa-cda0-0123-0791" type="selectionEntry"/>
-                <entryLink id="dc6a-b06e-d3b3-8ce2" name="Salazar Slytherin’s Locket" hidden="false" collective="false" targetId="681d-ae53-39aa-26d4" type="selectionEntry"/>
-                <entryLink id="1838-e01b-773b-f46d" name="Tom Riddle’s Diary" hidden="false" collective="false" targetId="4e23-f353-ee5e-7e6a" type="selectionEntry"/>
-                <entryLink id="244d-f465-9d06-33c9" name="Nagini Horcrux" hidden="false" collective="false" targetId="edb1-df50-301a-ec8f" type="selectionEntry">
+                <entryLink id="98ca-c9db-875c-14b2" name="Acromantula Venom" hidden="false" collective="false" import="true" targetId="81d3-5334-a379-88e2" type="selectionEntry"/>
+                <entryLink id="74ba-dc18-0c00-1e5a" name="Deluminator" hidden="false" collective="false" import="true" targetId="2dda-d219-3971-82ee" type="selectionEntry"/>
+                <entryLink id="6f97-eb52-9bb7-c70b" name="Foe-Glass" hidden="false" collective="false" import="true" targetId="5d18-a8ee-3104-de39" type="selectionEntry"/>
+                <entryLink id="c199-2c63-c8f3-1de1" name="Time-Turner" hidden="false" collective="false" import="true" targetId="6f05-5194-2f3b-4511" type="selectionEntry"/>
+                <entryLink id="5364-b23f-9594-2dae" name="Death Eater Mask" hidden="false" collective="false" import="true" targetId="3ca9-dcc6-c464-1c99" type="selectionEntry"/>
+                <entryLink id="c6a1-9111-c188-e99d" name="Death Eater Robe" hidden="false" collective="false" import="true" targetId="1dc6-febb-1e1d-83af" type="selectionEntry"/>
+                <entryLink id="7aec-5520-015e-d63b" name="Death Eater Wand" hidden="false" collective="false" import="true" targetId="b2e9-f796-77e8-f76f" type="selectionEntry"/>
+                <entryLink id="8191-2e64-012a-3622" name="Unicorn Blood" hidden="false" collective="false" import="true" targetId="3e67-605b-7f9a-1783" type="selectionEntry"/>
+                <entryLink id="25c0-6fda-d2ec-5882" name="Bellatrix Lestrange’s Knife" hidden="false" collective="false" import="true" targetId="6888-c9d6-6cbb-08cd" type="selectionEntry"/>
+                <entryLink id="4f1c-dbed-b810-4496" name="Helga Hufflepuff’s Cup" hidden="false" collective="false" import="true" targetId="ca07-1e80-4582-1054" type="selectionEntry"/>
+                <entryLink id="52fe-5bf9-005d-c981" name="Marvolo Gaunt&apos;s Ring" hidden="false" collective="false" import="true" targetId="1472-c025-19cd-0429" type="selectionEntry"/>
+                <entryLink id="8ef1-834e-aa91-120e" name="Rowena Ravenclaw’s Diadem" hidden="false" collective="false" import="true" targetId="5bfa-cda0-0123-0791" type="selectionEntry"/>
+                <entryLink id="dc6a-b06e-d3b3-8ce2" name="Salazar Slytherin’s Locket" hidden="false" collective="false" import="true" targetId="681d-ae53-39aa-26d4" type="selectionEntry"/>
+                <entryLink id="1838-e01b-773b-f46d" name="Tom Riddle’s Diary" hidden="false" collective="false" import="true" targetId="4e23-f353-ee5e-7e6a" type="selectionEntry"/>
+                <entryLink id="244d-f465-9d06-33c9" name="Nagini Horcrux" hidden="false" collective="false" import="true" targetId="edb1-df50-301a-ec8f" type="selectionEntry">
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
                       <conditions>
@@ -2378,12 +2558,22 @@
                     </modifier>
                   </modifiers>
                 </entryLink>
-                <entryLink id="c650-68de-933d-2d5a" name="Crystal Ball" hidden="false" collective="false" targetId="7b3d-e52a-3f5d-9242" type="selectionEntry"/>
+                <entryLink id="c650-68de-933d-2d5a" name="Crystal Ball" hidden="false" collective="false" import="true" targetId="7b3d-e52a-3f5d-9242" type="selectionEntry"/>
+                <entryLink id="539f-ac6d-1d57-f099" name="Alchemic Potions" hidden="false" collective="false" import="true" targetId="9da6-d8b6-f302-ec1c" type="selectionEntry"/>
+                <entryLink id="6dab-1f73-6c99-770d" name="Blood Pact" hidden="false" collective="false" import="true" targetId="1e95-2787-bcc8-23b2" type="selectionEntry"/>
+                <entryLink id="32b7-b022-e2b6-5767" name="Floo Powder" hidden="false" collective="false" import="true" targetId="cd14-3591-316c-0e54" type="selectionEntry"/>
+                <entryLink id="d6fc-6dca-1acf-e933" name="MACUSA Edict" hidden="false" collective="false" import="true" targetId="1754-d5e4-0da0-6493" type="selectionEntry"/>
+                <entryLink id="cf49-5f42-fbe3-9510" name="MACUSA Orders" hidden="false" collective="false" import="true" targetId="6922-0267-2720-5f38" type="selectionEntry"/>
+                <entryLink id="09f5-a340-4c9b-8248" name="Nimbus 2001" hidden="false" collective="false" import="true" targetId="aca9-cc8f-d61b-584a" type="selectionEntry"/>
+                <entryLink id="bb8d-93b7-41e6-1ef3" name="President&apos;s Orders" hidden="false" collective="false" import="true" targetId="4ac9-1ff5-b454-4411" type="selectionEntry"/>
+                <entryLink id="b046-5d29-d698-37c3" name="Professor&apos;s Artefacts" hidden="false" collective="false" import="true" targetId="6cd4-ebbc-3e95-8cc8" type="selectionEntry"/>
+                <entryLink id="0236-1095-1d78-b544" name="Ron&apos;s Wrecked Wand" hidden="false" collective="false" import="true" targetId="7c9e-496a-48fb-4d00" type="selectionEntry"/>
+                <entryLink id="4ae0-96e6-2241-47dc" name="Magi-Me-More!" hidden="false" collective="false" import="true" targetId="75b7-3918-6fab-2d0b" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="7302-a026-c9c0-3773" name="Potions (Rare)" hidden="false" collective="false" targetId="f5b5-6c56-7f4e-e56a" type="selectionEntryGroup"/>
+            <entryLink id="7302-a026-c9c0-3773" name="Potions (Rare)" hidden="false" collective="false" import="true" targetId="f5b5-6c56-7f4e-e56a" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
