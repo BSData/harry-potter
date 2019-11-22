@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="03e9-1dee-4361-7029" name="Hogwarts" revision="8" battleScribeVersion="2.03" library="false" gameSystemId="aa1e-80ca-b43a-cf7b" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="03e9-1dee-4361-7029" name="Hogwarts" revision="9" battleScribeVersion="2.03" library="false" gameSystemId="aa1e-80ca-b43a-cf7b" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="7513-0c39-fa94-ba97" name="Ginny Weasley" hidden="false" collective="false" import="true" targetId="d734-14ea-68a3-2fa1" type="selectionEntry"/>
     <entryLink id="d67d-c3e9-f169-9fb9" name="Harry Potter" hidden="false" collective="false" import="true" targetId="a862-b4be-cb5c-4d46" type="selectionEntry"/>
@@ -39,7 +39,11 @@
         <categoryLink id="0142-f9c8-6f70-c1ea" name="Magical Creatures Expert" hidden="false" targetId="1f0a-90b8-3333-4a80" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="1e0a-3efe-3f4f-6b22" name="Acromantula Swarm" hidden="false" collective="false" import="true" targetId="7116-528b-c99c-f6b6" type="selectionEntry"/>
+    <entryLink id="1e0a-3efe-3f4f-6b22" name="Acromantula Swarm" hidden="false" collective="false" import="true" targetId="7116-528b-c99c-f6b6" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="5800-c013-127f-4ec0" name="Magical Creatures Expert" hidden="false" targetId="1f0a-90b8-3333-4a80" primary="false"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink id="2fea-5098-94e8-119f" name="Dementor" hidden="false" collective="false" import="true" targetId="58b3-010f-12d2-da8f" type="selectionEntry"/>
     <entryLink id="2155-ecc9-f1b1-ff78" name="Troll" hidden="false" collective="false" import="true" targetId="9ea4-0f0d-7dd3-89f5" type="selectionEntry"/>
     <entryLink id="f354-1f15-5180-a813" name="Alastor &quot;Mad-Eye&quot; Moody  " hidden="false" collective="false" import="true" targetId="0894-76c6-a577-13b8" type="selectionEntry"/>
@@ -76,11 +80,7 @@
     <entryLink id="036c-823c-f4ac-13cf" name="Tom Riddle" hidden="false" collective="false" import="true" targetId="2e1a-c928-543e-dad7" type="selectionEntry"/>
     <entryLink id="1936-63b3-3f3b-4c8e" name="Fawkes" hidden="false" collective="false" import="true" targetId="1a39-30a2-ce27-1642" type="selectionEntry"/>
     <entryLink id="5388-4cb8-cc04-3130" name="Moaning Mirtle" hidden="false" collective="false" import="true" targetId="979a-b585-1a6c-78a7" type="selectionEntry"/>
-    <entryLink id="fc5e-2db5-9966-0863" name="Colin Creevey" hidden="false" collective="false" import="true" targetId="beeb-599a-edd4-c49f" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="6a23-b7d1-97a6-d73c" name="Magical Creatures Expert" hidden="false" targetId="1f0a-90b8-3333-4a80" primary="true"/>
-      </categoryLinks>
-    </entryLink>
+    <entryLink id="fc5e-2db5-9966-0863" name="Colin Creevey" hidden="false" collective="false" import="true" targetId="beeb-599a-edd4-c49f" type="selectionEntry"/>
     <entryLink id="4b6d-431b-28ac-cef4" name="Big Acromantula" hidden="false" collective="false" import="true" targetId="2bfe-7e86-f7eb-0c53" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="787d-f6c3-2822-0898" name="Magical Creatures Expert" hidden="false" targetId="1f0a-90b8-3333-4a80" primary="true"/>
