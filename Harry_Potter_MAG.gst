@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="aa1e-80ca-b43a-cf7b" name="Harry Potter Miniatures Adventure Game" revision="9" battleScribeVersion="2.03" authorName="NeXo" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="aa1e-80ca-b43a-cf7b" name="Harry Potter Miniatures Adventure Game" revision="10" battleScribeVersion="2.03" authorName="NeXo" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="aa1e-80ca-pubN66054" name="Voldemort"/>
     <publication id="aa1e-80ca-pubN66142" name="Order of the Phoenix"/>
@@ -138,6 +138,8 @@
     <categoryEntry id="2429-b0fd-4155-240a" name="Ravenclaw" hidden="false"/>
     <categoryEntry id="162d-1a86-5b5b-d2ec" name="Hufflepuff" hidden="false"/>
     <categoryEntry id="870d-b9d3-208d-a364" name="Slytherin" hidden="false"/>
+    <categoryEntry id="6fb0-369f-d775-9e64" name="Pukwudgie" hidden="false"/>
+    <categoryEntry id="ad27-4224-fbf2-18ff" name="Grindelwald" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="4e5b49d8-1fef-164b-8bd7-0bee9ad46f2f" name="Characters" hidden="false">
@@ -157,6 +159,7 @@
         <categoryLink id="e809-4e73-1ad9-45a7" name="Ravenclaw" hidden="false" targetId="2429-b0fd-4155-240a" primary="false"/>
         <categoryLink id="848c-5da2-9f07-9495" name="Hufflepuff" hidden="false" targetId="162d-1a86-5b5b-d2ec" primary="false"/>
         <categoryLink id="bc3a-dd17-0c13-2d3d" name="Slytherin" hidden="false" targetId="870d-b9d3-208d-a364" primary="false"/>
+        <categoryLink id="b4af-962e-d060-a11f" name="Pukwudgie" hidden="false" targetId="6fb0-369f-d775-9e64" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
@@ -2222,6 +2225,22 @@
         <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="1.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="6e0e-75ef-2532-ae95" name="Pact Amulet" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="261d-4e74-2e87-b77f" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="608f-bc42-44d4-9add" name="Pact Amulet" hidden="false" typeId="3229-77e7-0f3c-27b9" typeName="1.4 Artefact">
+          <characteristics>
+            <characteristic name="Description" typeId="710d-419f-1488-1c46">At the start of the game choose another friendly model with a higher Galleon cost than this model. Once per game, during this model’s activation, you may place the chosen model in an adjacent space to this model.</characteristic>
+            <characteristic name="Rarity" typeId="6ccd-dad9-f7cb-3440">Rare</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="2.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="f45a-25ca-6491-8733" name="Spells" hidden="false" collective="false" import="true">
@@ -2835,6 +2854,7 @@
         <entryLink id="430f-a97e-949f-6761" name="Ron&apos;s Wrecked Wand" hidden="false" collective="false" import="true" targetId="7c9e-496a-48fb-4d00" type="selectionEntry"/>
         <entryLink id="b4c9-f312-d07f-bd10" name="Nimbus 2001" hidden="false" collective="false" import="true" targetId="aca9-cc8f-d61b-584a" type="selectionEntry"/>
         <entryLink id="f50d-4bc2-ae1d-4a88" name="Magi-Me-More!" hidden="false" collective="false" import="true" targetId="75b7-3918-6fab-2d0b" type="selectionEntry"/>
+        <entryLink id="d83d-6e48-bcfb-54cb" name="Pact Amulet" hidden="false" collective="false" import="true" targetId="6e0e-75ef-2532-ae95" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="f5b5-6c56-7f4e-e56a" name="Potions (Rare)" hidden="false" collective="false" import="true">
@@ -4550,6 +4570,9 @@ NB. The Potioneer value is also used in some instances to provide other bonuses 
     </rule>
     <rule id="be6f-1dc4-0892-318b" name="Astronomy Professor" hidden="false">
       <description>Friendly models with the Apprentice trait within 3 spaces ignore the line of sight when performing non-combat Spells.</description>
+    </rule>
+    <rule id="60ec-32c4-1aed-49dc" name="Legilimency" hidden="false">
+      <description>This model can reroll all its casting, attack and defense rolls against models that do not have the Beast trait and a Mastery less than 3 wands.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
