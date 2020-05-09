@@ -108,6 +108,8 @@
     <entryLink id="74bc-7d55-9b06-017e" name="Seamus Finnigan" hidden="false" collective="false" import="true" targetId="c9a1-46f4-c51e-f6f5" type="selectionEntry"/>
     <entryLink id="c804-02a8-df27-a90d" name="Aurora Sinistra" hidden="false" collective="false" import="true" targetId="8248-a881-ce58-695c" type="selectionEntry"/>
     <entryLink id="5936-9bce-8230-b70d" name="Fleur Delacour" hidden="false" collective="false" import="true" targetId="c15a-4091-8492-e197" type="selectionEntry"/>
+    <entryLink id="bfb0-e137-d800-7bd0" name="Percival Graves" hidden="false" collective="false" import="true" targetId="c5ee-9a16-3c08-e39b" type="selectionEntry"/>
+    <entryLink id="6f62-1b8a-dfdb-cb84" name="Queenie Goldstein" hidden="false" collective="false" import="true" targetId="4964-3fca-7749-bb5e" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="d734-14ea-68a3-2fa1" name="Ginny Weasley" hidden="false" collective="false" import="true" type="model">
@@ -6321,9 +6323,9 @@ When a friendly model spends an entire activation adjacent to this marker, draw 
         <infoLink id="f819-1ce8-d871-c535" name="Master Wizard " hidden="false" targetId="7e41-c870-19f3-5edb" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="744c-0297-2a26-3269" name="Grindelwald&apos;s Army" hidden="false" targetId="56dc-f689-a347-cbca" primary="true"/>
+        <categoryLink id="744c-0297-2a26-3269" name="Grindelwald&apos;s Army" hidden="false" targetId="56dc-f689-a347-cbca" primary="false"/>
         <categoryLink id="5acb-d558-2890-0997" name="New CategoryLink" hidden="false" targetId="ad27-4224-fbf2-18ff" primary="false"/>
-        <categoryLink id="ad6f-b9dc-dca0-9b01" name="Hogwarts" hidden="false" targetId="72a0-0676-dd71-5ecd" primary="false"/>
+        <categoryLink id="ad6f-b9dc-dca0-9b01" name="Hogwarts" hidden="false" targetId="72a0-0676-dd71-5ecd" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="4eea-b8dc-665f-5932" name="Items" hidden="false" collective="false" import="true" targetId="871c-8447-8648-4757" type="selectionEntryGroup">
@@ -6377,9 +6379,9 @@ When a friendly model spends an entire activation adjacent to this marker, draw 
         <infoLink id="e74e-5c9e-5fa9-a79a" name="Legilimency" hidden="false" targetId="60ec-32c4-1aed-49dc" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="9565-7750-d9ac-67f1" name="Grindelwald&apos;s Army" hidden="false" targetId="56dc-f689-a347-cbca" primary="true"/>
+        <categoryLink id="9565-7750-d9ac-67f1" name="Grindelwald&apos;s Army" hidden="false" targetId="56dc-f689-a347-cbca" primary="false"/>
         <categoryLink id="2fdb-edd7-890a-b010" name="Pukwudgie" hidden="false" targetId="6fb0-369f-d775-9e64" primary="false"/>
-        <categoryLink id="26cf-9123-c1db-414f" name="Hogwarts" hidden="false" targetId="72a0-0676-dd71-5ecd" primary="false"/>
+        <categoryLink id="26cf-9123-c1db-414f" name="Hogwarts" hidden="false" targetId="72a0-0676-dd71-5ecd" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="d1f3-8546-a34d-c589" name="Items" hidden="false" collective="false" import="true" targetId="871c-8447-8648-4757" type="selectionEntryGroup">
