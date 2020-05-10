@@ -140,6 +140,23 @@
     <categoryEntry id="870d-b9d3-208d-a364" name="Slytherin" hidden="false"/>
     <categoryEntry id="6fb0-369f-d775-9e64" name="Pukwudgie" hidden="false"/>
     <categoryEntry id="ad27-4224-fbf2-18ff" name="Grindelwald" hidden="false"/>
+    <categoryEntry id="0c6c-b922-266c-10bd" name="Magizoologist" hidden="true">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0c6c-b922-266c-10bd" type="notEqualTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="8b8c-7eaf-c9ca-f46d" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0c6c-b922-266c-10bd" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8b8c-7eaf-c9ca-f46d" type="max"/>
+      </constraints>
+    </categoryEntry>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="4e5b49d8-1fef-164b-8bd7-0bee9ad46f2f" name="Characters" hidden="false">
@@ -160,6 +177,7 @@
         <categoryLink id="848c-5da2-9f07-9495" name="Hufflepuff" hidden="false" targetId="162d-1a86-5b5b-d2ec" primary="false"/>
         <categoryLink id="bc3a-dd17-0c13-2d3d" name="Slytherin" hidden="false" targetId="870d-b9d3-208d-a364" primary="false"/>
         <categoryLink id="b4af-962e-d060-a11f" name="Pukwudgie" hidden="false" targetId="6fb0-369f-d775-9e64" primary="false"/>
+        <categoryLink id="6b1a-189f-39bf-91be" name="Magizoologist" hidden="false" targetId="0c6c-b922-266c-10bd" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
@@ -2241,6 +2259,34 @@
         <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="2.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="eeeb-b034-e4dd-5aa4" name="Magizoologist" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b8b-f163-5274-5526" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0b6-f4b9-7446-b2aa" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="d48b-4b7e-cb6c-00ef" name="Magizoologist" hidden="false" targetId="ad41-43f6-e6da-b405" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6995-49a7-61b2-d881" name="Magical Suitcase" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="466a-5d0a-2cf8-ee9d" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="612f-1e46-57c0-fec8" name="Magical Suitcase" hidden="false" typeId="3229-77e7-0f3c-27b9" typeName="1.4 Artefact">
+          <characteristics>
+            <characteristic name="Description" typeId="710d-419f-1488-1c46">You can replace this model with the Suitcase marker during its activation. At the start of any round, place this model back in play within 2 spaces of the Suitcase marker, then remove the marker from the board. Can only be purchased by Newt Scamander.</characteristic>
+            <characteristic name="Rarity" typeId="6ccd-dad9-f7cb-3440">Rare</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="f45a-25ca-6491-8733" name="Spells" hidden="false" collective="false" import="true">
@@ -4263,6 +4309,63 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
+    <selectionEntryGroup id="4838-620b-48c0-1575" name="Artefacts (Rare Newt Scamander)" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="c882-c5ad-332c-9748" name="Acromantula Venom" hidden="false" collective="false" import="true" targetId="81d3-5334-a379-88e2" type="selectionEntry"/>
+        <entryLink id="1031-9917-f159-58bd" name="Deluminator" hidden="false" collective="false" import="true" targetId="2dda-d219-3971-82ee" type="selectionEntry"/>
+        <entryLink id="3909-d8a4-e0fe-fdb3" name="Foe-Glass" hidden="false" collective="false" import="true" targetId="5d18-a8ee-3104-de39" type="selectionEntry"/>
+        <entryLink id="49f5-a397-a409-83e5" name="Time-Turner" hidden="false" collective="false" import="true" targetId="6f05-5194-2f3b-4511" type="selectionEntry"/>
+        <entryLink id="a2c4-8174-f979-a457" name="Bellatrix Lestrange’s Knife" hidden="false" collective="false" import="true" targetId="6888-c9d6-6cbb-08cd" type="selectionEntry"/>
+        <entryLink id="d507-8125-2a2b-efbf" name="Helga Hufflepuff’s Cup" hidden="false" collective="false" import="true" targetId="ca07-1e80-4582-1054" type="selectionEntry"/>
+        <entryLink id="df34-e100-6f3a-e4f4" name="Marvolo Gaunt&apos;s Ring" hidden="false" collective="false" import="true" targetId="1472-c025-19cd-0429" type="selectionEntry"/>
+        <entryLink id="1c3a-27f6-1da2-4ed3" name="Rowena Ravenclaw’s Diadem" hidden="false" collective="false" import="true" targetId="5bfa-cda0-0123-0791" type="selectionEntry"/>
+        <entryLink id="b8e4-b29c-31a4-f905" name="Salazar Slytherin’s Locket" hidden="false" collective="false" import="true" targetId="681d-ae53-39aa-26d4" type="selectionEntry"/>
+        <entryLink id="9fd1-f3f0-5445-837c" name="Tom Riddle’s Diary" hidden="false" collective="false" import="true" targetId="4e23-f353-ee5e-7e6a" type="selectionEntry"/>
+        <entryLink id="af31-1e7d-3260-032e" name="Crystal Ball" hidden="false" collective="false" import="true" targetId="7b3d-e52a-3f5d-9242" type="selectionEntry"/>
+        <entryLink id="b663-c093-0766-9e2c" name="Blood Pact" hidden="false" collective="false" import="true" targetId="1e95-2787-bcc8-23b2" type="selectionEntry"/>
+        <entryLink id="57d8-9299-6a3a-497e" name="Traitor" hidden="false" collective="false" import="true" targetId="9cc0-8508-e412-a362" type="selectionEntry"/>
+        <entryLink id="0b3f-5a3f-9119-d2fe" name="Gellert&apos;s Skull" hidden="false" collective="false" import="true" targetId="1540-1435-802b-5193" type="selectionEntry"/>
+        <entryLink id="4f44-3e3a-7e1b-f84f" name="MACUSA Edict" hidden="false" collective="false" import="true" targetId="1754-d5e4-0da0-6493" type="selectionEntry"/>
+        <entryLink id="b743-2cce-78ff-310b" name="MACUSA Orders" hidden="false" collective="false" import="true" targetId="6922-0267-2720-5f38" type="selectionEntry"/>
+        <entryLink id="22ae-59b6-490f-34d4" name="President&apos;s Orders" hidden="false" collective="false" import="true" targetId="4ac9-1ff5-b454-4411" type="selectionEntry"/>
+        <entryLink id="af80-367d-32ac-091b" name="Professor&apos;s Artefacts" hidden="false" collective="false" import="true" targetId="6cd4-ebbc-3e95-8cc8" type="selectionEntry"/>
+        <entryLink id="217a-5909-7c83-5d93" name="Alchemic Potions" hidden="false" collective="false" import="true" targetId="9da6-d8b6-f302-ec1c" type="selectionEntry"/>
+        <entryLink id="ab16-4f94-5ffe-3cb3" name="Blood Bond" hidden="false" collective="false" import="true" targetId="0e86-c11d-31dd-ee2a" type="selectionEntry"/>
+        <entryLink id="8d6d-854d-bc32-1662" name="Floo Powder" hidden="false" collective="false" import="true" targetId="cd14-3591-316c-0e54" type="selectionEntry"/>
+        <entryLink id="9020-c85b-a1ee-218c" name="Ron&apos;s Wrecked Wand" hidden="false" collective="false" import="true" targetId="7c9e-496a-48fb-4d00" type="selectionEntry"/>
+        <entryLink id="33a2-3e47-1774-24a4" name="Nimbus 2001" hidden="false" collective="false" import="true" targetId="aca9-cc8f-d61b-584a" type="selectionEntry"/>
+        <entryLink id="ed98-3842-02b5-40ff" name="Magi-Me-More!" hidden="false" collective="false" import="true" targetId="75b7-3918-6fab-2d0b" type="selectionEntry"/>
+        <entryLink id="125c-5287-85dd-2fde" name="Magical Suitcase" hidden="false" collective="false" import="true" targetId="6995-49a7-61b2-d881" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="7938-7bef-2ed3-1748" name="Items (Newt Scamander)" hidden="false" collective="false" import="true">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="82a7-babf-ec6e-c123" name="Legendary" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9a57-95a7-71bf-0fde" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="bea7-ca02-6eae-66ef" name="Potions (Legendary)" hidden="false" collective="false" import="true" targetId="f77f-e9f0-08bd-85db" type="selectionEntryGroup"/>
+            <entryLink id="3478-9bf6-8ccc-c0b4" name="Artefacts (Legendary)" hidden="false" collective="false" import="true" targetId="e59c-de68-d172-60bd" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="136f-7e6f-9761-e2ac" name="Common" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="77cc-7b12-eb99-bcb1" name="Artefacts (Common)" hidden="false" collective="false" import="true" targetId="541e-a918-c634-6234" type="selectionEntryGroup"/>
+            <entryLink id="4bdd-dadf-b08b-9257" name="Potions (Common)" hidden="false" collective="false" import="true" targetId="a5bf-4232-b441-6f7d" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="8e6a-76e0-d0fa-b90d" name="Rare" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0839-0bb0-e252-37c4" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="76a0-db24-4644-e090" name="Artefacts (Rare Newt Scamander)" hidden="false" collective="false" import="true" targetId="4838-620b-48c0-1575" type="selectionEntryGroup"/>
+            <entryLink id="dedb-9b2f-625b-f988" name="Potions (Rare)" hidden="false" collective="false" import="true" targetId="f5b5-6c56-7f4e-e56a" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="d103-fc7c-84e6-69b5" name="Animagus" page="0" hidden="false">
@@ -4573,6 +4676,15 @@ NB. The Potioneer value is also used in some instances to provide other bonuses 
     </rule>
     <rule id="60ec-32c4-1aed-49dc" name="Legilimency" hidden="false">
       <description>This model can reroll all its casting, attack and defense rolls against models that do not have the Beast trait and a Mastery less than 3 wands.</description>
+    </rule>
+    <rule id="eb22-58f9-0bb7-a41e" name="Strict Matron" hidden="false">
+      <description>At the start of this model&apos;s activation, remove a Effect from a friendly model within 3 spaces. Then, the opponent may immediately move that model 1 space.</description>
+    </rule>
+    <rule id="ad41-43f6-e6da-b405" name="Magizoologist" hidden="false">
+      <description>If you include this model, you may also include any model with Affiliation: Magical Creature (as long as it does not also have Affiliation: Death Eater) and reduce its cost by 1.</description>
+    </rule>
+    <rule id="7451-3507-c7d8-3da5" name="Treasure Hoard" hidden="false">
+      <description>This model can’t be removed from the game by any means. When it would be removed from play, instead place a Loot marker in an adjacent space and move this model 2 spaces. Models adjacent to the marker may spend an Advanced Action to remove it from the board and recover one card Stolen earlier in the game by a Niffler (limitations apply to recovered cards).</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
