@@ -2381,7 +2381,7 @@
       <profiles>
         <profile id="af19-9a1b-66e1-c388" name="Mounted Wizard" hidden="false" typeId="3229-77e7-0f3c-27b9" typeName="1.4 Artefact">
           <characteristics>
-            <characteristic name="Description" typeId="710d-419f-1488-1c46">Only a model with the Beast trait and a Mastery of at least may take this artefact. This model may choose Spells for its Spellbook, and cast them ignoring the Beast limitation. This card cannot be affected by any other rule.</characteristic>
+            <characteristic name="Description" typeId="710d-419f-1488-1c46">Only a model with the Beast trait and a Mastery of at least 1 may take this artefact. This model may choose Spells for its Spellbook, and cast them ignoring the Beast limitation. This card cannot be affected by any other rule.</characteristic>
             <characteristic name="Rarity" typeId="6ccd-dad9-f7cb-3440">Rare</characteristic>
           </characteristics>
         </profile>
