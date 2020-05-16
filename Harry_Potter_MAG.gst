@@ -2351,11 +2351,11 @@
         <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f48c-b547-87e4-24a7" name="Jacob’s Cakes (Second)" publicationId="aa1e-80ca-pubN66474" hidden="true" collective="false" import="true" type="upgrade">
+    <selectionEntry id="f48c-b547-87e4-24a7" name="Jacob’s Cakes (Second Free)" publicationId="aa1e-80ca-pubN66474" hidden="true" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="200c-4eff-83e7-1c7a" type="atLeast"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="200c-4eff-83e7-1c7a" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -2363,7 +2363,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0df3-ab66-157a-f167" type="max"/>
       </constraints>
       <profiles>
-        <profile id="90e1-e0e8-f8fd-566e" name="Jacob’s Cakes (Second)" hidden="false" typeId="3229-77e7-0f3c-27b9" typeName="1.4 Artefact">
+        <profile id="90e1-e0e8-f8fd-566e" name="Jacob’s Cakes (Second Free)" hidden="false" typeId="3229-77e7-0f3c-27b9" typeName="1.4 Artefact">
           <characteristics>
             <characteristic name="Description" typeId="710d-419f-1488-1c46">Once per game, a model with this artefact may use it to ignore the damage penalties. When you purchase this artefact, you may equip it to up to two models instead of 1 at the same cost.</characteristic>
             <characteristic name="Rarity" typeId="6ccd-dad9-f7cb-3440">Common</characteristic>

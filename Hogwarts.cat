@@ -121,6 +121,35 @@
     <entryLink id="e426-6228-89bb-a003" name="Jacob Kowalski" hidden="false" collective="false" import="true" targetId="74e4-50ed-9893-c315" type="selectionEntry"/>
     <entryLink id="bb0b-60a9-955c-4651" name="Tina Goldstein" hidden="false" collective="false" import="true" targetId="201e-aa92-1525-8437" type="selectionEntry"/>
     <entryLink id="39cc-3bbe-e623-aa06" name="Luna Lovegood on Thestral" hidden="false" collective="false" import="true" targetId="7978-cc71-beb9-d6b9" type="selectionEntry"/>
+    <entryLink id="de1a-d801-c0d5-41e0" name="Niffler" hidden="false" collective="false" import="true" targetId="232d-8aa8-9239-9800" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="9a53-5eae-7813-78b8" name="Magical Creatures Expert" hidden="false" targetId="1f0a-90b8-3333-4a80" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f233-367b-2eb1-99e7" name="Niffler (Magizoologist)" hidden="false" collective="false" import="true" targetId="ffd5-65c8-9627-4079" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="5097-f8a4-5753-8d83" name="New CategoryLink" hidden="false" targetId="0c6c-b922-266c-10bd" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d30d-876d-a1de-c005" name="Aragog (Magizoologist)" hidden="false" collective="false" import="true" targetId="0d39-1303-e3c5-be61" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="6b9c-9c2e-dee7-fe29" name="Magical Creatures Expert" hidden="false" targetId="1f0a-90b8-3333-4a80" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="ab04-e2b6-98f6-49c1" name="Centaur (Magizoologist)" hidden="false" collective="false" import="true" targetId="a6bc-92d4-5e51-7447" type="selectionEntry"/>
+    <entryLink id="2c73-f0aa-a7f3-b565" name="Credence Barebone (Magizoologist)" hidden="false" collective="false" import="true" targetId="3917-0901-e550-1e35" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="320f-3ed4-b118-d662" name="Magical Creatures Expert" hidden="false" targetId="1f0a-90b8-3333-4a80" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a31b-2d83-f005-77f1" name="Dobby (Magizoologist)" hidden="false" collective="false" import="true" targetId="e086-bc02-94ec-e7d1" type="selectionEntry"/>
+    <entryLink id="e035-63b2-8f96-66d2" name="Dobby (The Chamber of Secrets) (Magizoologist)" hidden="false" collective="false" import="true" targetId="eeb7-40ed-ef99-f9d3" type="selectionEntry"/>
+    <entryLink id="d1cd-6d89-802e-3c0a" name="Fawkes (Magizoologist)" hidden="false" collective="false" import="true" targetId="63f7-9fed-6a91-c1fb" type="selectionEntry"/>
+    <entryLink id="c8c7-0fbf-faa9-f942" name="Firenze (Magizoologist)" hidden="false" collective="false" import="true" targetId="b313-68eb-0d92-fec0" type="selectionEntry"/>
+    <entryLink id="9707-18c1-8d7d-6600" name="Kreacher (Magizoologist)" hidden="false" collective="false" import="true" targetId="02bc-8fe9-72bd-d1b4" type="selectionEntry"/>
+    <entryLink id="2306-6858-abe6-05d3" name="Magorian (Magizoologist)" hidden="false" collective="false" import="true" targetId="8e43-3724-7e11-3714" type="selectionEntry"/>
+    <entryLink id="4160-9f71-0277-43fa" name="Troll (Magizoologist)" hidden="false" collective="false" import="true" targetId="adb3-72a6-8298-b4c4" type="selectionEntry"/>
+    <entryLink id="cf28-2d3c-18a8-d41d" name="Unicorn (Magizoologist)" hidden="false" collective="false" import="true" targetId="3ee2-f18b-122f-fa36" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="d734-14ea-68a3-2fa1" name="Ginny Weasley" hidden="false" collective="false" import="true" type="model">
@@ -1169,7 +1198,7 @@
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" childId="7978-cc71-beb9-d6b9" type="atLeast"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7978-cc71-beb9-d6b9" type="atLeast"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -1454,7 +1483,7 @@
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" childId="1abc-c80c-35b4-67ed" type="atLeast"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1abc-c80c-35b4-67ed" type="atLeast"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -1667,6 +1696,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="0894-76c6-a577-13b8" name="Alastor &quot;Mad-Eye&quot; Moody  " hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5d7c-abaf-da4f-8674" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="be28-c330-d6fd-802a" type="max"/>
       </constraints>
@@ -6556,6 +6592,13 @@ When a friendly model spends an entire activation adjacent to this marker, draw 
       </costs>
     </selectionEntry>
     <selectionEntry id="5d7c-abaf-da4f-8674" name="Alastor &quot;Mad-Eye&quot; Moody  (On Broomstick)" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0894-76c6-a577-13b8" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0ed5-294e-dae5-c427" type="max"/>
       </constraints>
@@ -6671,7 +6714,7 @@ When a friendly model spends an entire activation adjacent to this marker, draw 
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" childId="1955-302a-97fd-ef56" type="atLeast"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1955-302a-97fd-ef56" type="atLeast"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -7126,7 +7169,7 @@ When a friendly model spends an entire activation adjacent to this marker, draw 
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" childId="5d21-39f4-41ea-dd58" type="atLeast"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5d21-39f4-41ea-dd58" type="atLeast"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -7217,6 +7260,722 @@ When a friendly model spends an entire activation adjacent to this marker, draw 
       </entryLinks>
       <costs>
         <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="232d-8aa8-9239-9800" name="Niffler" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0a14-d69b-2b60-8505" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="89a5-c074-55dc-ef07" name="Niffler" hidden="false" typeId="2093f4cd-f669-06c6-0f4f-06037948fe28" typeName="1.1 Attributes">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="911f2847-ecab-772a-37ad-b325a40b19ce">Magical Creatures</characteristic>
+            <characteristic name="Mastery" typeId="fd922c18-88be-5191-46b0-1ab589f2ef33">0</characteristic>
+            <characteristic name="Defense" typeId="49d96d28-c1dc-f977-7bb6-8e1fbe8fe397">2</characteristic>
+            <characteristic name="Cunning" typeId="9ef0bc71-33ab-98cd-26b3-07c55ed7725f">1</characteristic>
+            <characteristic name="Magic" typeId="84a7bbc1-d970-b7b9-2fd5-f174c9fdda90">2</characteristic>
+            <characteristic name="Courage" typeId="ae357512-6823-3b1d-aebe-2c2c8e52e2e0">3</characteristic>
+            <characteristic name="Wisdom" typeId="4e4daeff-a451-4e80-f5b5-d588866411b4">3</characteristic>
+            <characteristic name="Temper" typeId="d6fc-863a-9aaa-271d">0</characteristic>
+            <characteristic name="Item Slots" typeId="d0e0-c03d-1183-cd2e">0</characteristic>
+            <characteristic name="Spellbook" typeId="3d3e-73e5-dd6a-789c">0</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f856-d3a1-d1ce-a442" name="Robbery" hidden="false" typeId="07d6-95ce-9c89-313a" typeName="1.5 Artefact (Attack)">
+          <characteristics>
+            <characteristic name="Description" typeId="cac9-3577-abf0-c57c">Take an Artefact or Potion card from the target and place it next to this card (ignoring all limitations). The card is now Stolen. No model may use or benefit from a card while it is Stolen.</characteristic>
+            <characteristic name="Rarity" typeId="5542-8a14-e513-9167"/>
+            <characteristic name="Type" typeId="9b7b-8d3c-6c3b-c573">Physical</characteristic>
+            <characteristic name="Bonus" typeId="e033-8269-f4d6-f0c9">2</characteristic>
+            <characteristic name="Damage" typeId="ca7b-dc78-24dd-3315">0</characteristic>
+            <characteristic name="Range" typeId="75a3-8b99-a7f1-efd7">0</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="bc94-04ab-4120-195a" name="Beast" hidden="false" targetId="c5d0-8bbd-d69f-631f" type="rule"/>
+        <infoLink id="c2bb-be22-e9ed-b72d" name="Small" hidden="false" targetId="b238-ee2a-a90a-a543" type="rule"/>
+        <infoLink id="a9e2-6392-9985-333e" name="Fast " hidden="false" targetId="24ac-dd50-6187-7abd" type="rule"/>
+        <infoLink id="c647-98eb-1caa-2157" name="Treasure Hoard" hidden="false" targetId="7451-3507-c7d8-3da5" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b6ef-8f8d-75c3-fe6e" name="Magical Creatures Expert" hidden="false" targetId="1f0a-90b8-3333-4a80" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ffd5-65c8-9627-4079" name="Niffler (Magizoologist)" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ba2f-4786-d2fd-a116" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="6f05-9736-5c02-e9b9" name="Niffler" hidden="false" typeId="2093f4cd-f669-06c6-0f4f-06037948fe28" typeName="1.1 Attributes">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="911f2847-ecab-772a-37ad-b325a40b19ce">Magical Creatures</characteristic>
+            <characteristic name="Mastery" typeId="fd922c18-88be-5191-46b0-1ab589f2ef33">0</characteristic>
+            <characteristic name="Defense" typeId="49d96d28-c1dc-f977-7bb6-8e1fbe8fe397">2</characteristic>
+            <characteristic name="Cunning" typeId="9ef0bc71-33ab-98cd-26b3-07c55ed7725f">1</characteristic>
+            <characteristic name="Magic" typeId="84a7bbc1-d970-b7b9-2fd5-f174c9fdda90">2</characteristic>
+            <characteristic name="Courage" typeId="ae357512-6823-3b1d-aebe-2c2c8e52e2e0">3</characteristic>
+            <characteristic name="Wisdom" typeId="4e4daeff-a451-4e80-f5b5-d588866411b4">3</characteristic>
+            <characteristic name="Temper" typeId="d6fc-863a-9aaa-271d">0</characteristic>
+            <characteristic name="Item Slots" typeId="d0e0-c03d-1183-cd2e">0</characteristic>
+            <characteristic name="Spellbook" typeId="3d3e-73e5-dd6a-789c">0</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6f00-0e70-8125-0af1" name="Robbery" hidden="false" typeId="07d6-95ce-9c89-313a" typeName="1.5 Artefact (Attack)">
+          <characteristics>
+            <characteristic name="Description" typeId="cac9-3577-abf0-c57c">Take an Artefact or Potion card from the target and place it next to this card (ignoring all limitations). The card is now Stolen. No model may use or benefit from a card while it is Stolen.</characteristic>
+            <characteristic name="Rarity" typeId="5542-8a14-e513-9167"/>
+            <characteristic name="Type" typeId="9b7b-8d3c-6c3b-c573">Physical</characteristic>
+            <characteristic name="Bonus" typeId="e033-8269-f4d6-f0c9">2</characteristic>
+            <characteristic name="Damage" typeId="ca7b-dc78-24dd-3315">0</characteristic>
+            <characteristic name="Range" typeId="75a3-8b99-a7f1-efd7">0</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="57c4-5f49-81c6-5ad9" name="Beast" hidden="false" targetId="c5d0-8bbd-d69f-631f" type="rule"/>
+        <infoLink id="6ed2-e237-eec9-9260" name="Small" hidden="false" targetId="b238-ee2a-a90a-a543" type="rule"/>
+        <infoLink id="00c2-9887-bfd4-c1e0" name="Fast " hidden="false" targetId="24ac-dd50-6187-7abd" type="rule"/>
+        <infoLink id="e58d-6b8a-e028-3aaa" name="Treasure Hoard" hidden="false" targetId="7451-3507-c7d8-3da5" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a180-eaeb-229e-dd70" name="New CategoryLink" hidden="false" targetId="0c6c-b922-266c-10bd" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0d39-1303-e3c5-be61" name="Aragog (Magizoologist)" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0445-d9e2-b9e5-2706" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="b0dd-d6b2-66d6-93d9" name="Aragog" hidden="false" typeId="2093f4cd-f669-06c6-0f4f-06037948fe28" typeName="1.1 Attributes">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="911f2847-ecab-772a-37ad-b325a40b19ce">Magical Creatures</characteristic>
+            <characteristic name="Mastery" typeId="fd922c18-88be-5191-46b0-1ab589f2ef33">0</characteristic>
+            <characteristic name="Defense" typeId="49d96d28-c1dc-f977-7bb6-8e1fbe8fe397">2</characteristic>
+            <characteristic name="Cunning" typeId="9ef0bc71-33ab-98cd-26b3-07c55ed7725f"/>
+            <characteristic name="Magic" typeId="84a7bbc1-d970-b7b9-2fd5-f174c9fdda90">0</characteristic>
+            <characteristic name="Courage" typeId="ae357512-6823-3b1d-aebe-2c2c8e52e2e0">2</characteristic>
+            <characteristic name="Wisdom" typeId="4e4daeff-a451-4e80-f5b5-d588866411b4">3</characteristic>
+            <characteristic name="Temper" typeId="d6fc-863a-9aaa-271d">5</characteristic>
+            <characteristic name="Item Slots" typeId="d0e0-c03d-1183-cd2e">0</characteristic>
+            <characteristic name="Spellbook" typeId="3d3e-73e5-dd6a-789c">0</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="70c2-199f-3c2c-8de1" name="Poisonous Bite" hidden="false" typeId="07d6-95ce-9c89-313a" typeName="1.5 Artefact (Attack)">
+          <characteristics>
+            <characteristic name="Description" typeId="cac9-3577-abf0-c57c">Effect: Poison/2</characteristic>
+            <characteristic name="Rarity" typeId="5542-8a14-e513-9167"/>
+            <characteristic name="Type" typeId="9b7b-8d3c-6c3b-c573">Physical</characteristic>
+            <characteristic name="Bonus" typeId="e033-8269-f4d6-f0c9">3</characteristic>
+            <characteristic name="Damage" typeId="ca7b-dc78-24dd-3315">2</characteristic>
+            <characteristic name="Range" typeId="75a3-8b99-a7f1-efd7">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e586-9c7d-5c05-bea5" name="Webbing" hidden="false" typeId="07d6-95ce-9c89-313a" typeName="1.5 Artefact (Attack)">
+          <characteristics>
+            <characteristic name="Description" typeId="cac9-3577-abf0-c57c">If successful, target model suffers the Petrified effect until the end of the round.</characteristic>
+            <characteristic name="Rarity" typeId="5542-8a14-e513-9167"/>
+            <characteristic name="Type" typeId="9b7b-8d3c-6c3b-c573">Physical</characteristic>
+            <characteristic name="Bonus" typeId="e033-8269-f4d6-f0c9">2</characteristic>
+            <characteristic name="Damage" typeId="ca7b-dc78-24dd-3315">0</characteristic>
+            <characteristic name="Range" typeId="75a3-8b99-a7f1-efd7">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9a30-a68c-5aad-4c73" name="Beast" hidden="false" targetId="c5d0-8bbd-d69f-631f" type="rule"/>
+        <infoLink id="3a7c-8a80-a646-0f8c" name="Huge " hidden="false" targetId="6150-909e-eeaf-7a69" type="rule"/>
+        <infoLink id="a397-9772-18f5-44f4" name="Armor X " hidden="false" targetId="a14a-93f7-f29e-39ce" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Armor 1"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="13ae-d5e5-9708-3bc3" name="Fast " hidden="false" targetId="24ac-dd50-6187-7abd" type="rule"/>
+        <infoLink id="3aef-6cef-a841-a818" name="Scout" hidden="false" targetId="ad2f-5054-47db-d41c" type="rule"/>
+        <infoLink id="1112-66c2-26a6-03a9" name="Aragog&apos;s Descendants" hidden="false" targetId="5524-7fd7-f13b-e018" type="rule"/>
+        <infoLink id="1b58-2785-75c4-1960" name="Stealth" hidden="false" targetId="a98a-e8e0-7489-4364" type="rule"/>
+        <infoLink id="6b54-c3e6-0fc7-67d6" name="King of the Arachnids" hidden="false" targetId="3308-ca2f-21f4-e8e3" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f91c-08fe-15a7-36bc" name="New CategoryLink" hidden="false" targetId="0c6c-b922-266c-10bd" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="13.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a6bc-92d4-5e51-7447" name="Centaur (Magizoologist)" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="9b1d-3e37-040b-006b" name="Centaur" hidden="false" typeId="2093f4cd-f669-06c6-0f4f-06037948fe28" typeName="1.1 Attributes">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="911f2847-ecab-772a-37ad-b325a40b19ce">Magical Creatures</characteristic>
+            <characteristic name="Mastery" typeId="fd922c18-88be-5191-46b0-1ab589f2ef33">0</characteristic>
+            <characteristic name="Defense" typeId="49d96d28-c1dc-f977-7bb6-8e1fbe8fe397">2</characteristic>
+            <characteristic name="Cunning" typeId="9ef0bc71-33ab-98cd-26b3-07c55ed7725f"/>
+            <characteristic name="Magic" typeId="84a7bbc1-d970-b7b9-2fd5-f174c9fdda90">0</characteristic>
+            <characteristic name="Courage" typeId="ae357512-6823-3b1d-aebe-2c2c8e52e2e0">3</characteristic>
+            <characteristic name="Wisdom" typeId="4e4daeff-a451-4e80-f5b5-d588866411b4">2</characteristic>
+            <characteristic name="Temper" typeId="d6fc-863a-9aaa-271d">5</characteristic>
+            <characteristic name="Item Slots" typeId="d0e0-c03d-1183-cd2e">1</characteristic>
+            <characteristic name="Spellbook" typeId="3d3e-73e5-dd6a-789c">0</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="776f-856a-a6ee-98b6" name="Bow" hidden="false" typeId="07d6-95ce-9c89-313a" typeName="1.5 Artefact (Attack)">
+          <characteristics>
+            <characteristic name="Description" typeId="cac9-3577-abf0-c57c"/>
+            <characteristic name="Rarity" typeId="5542-8a14-e513-9167"/>
+            <characteristic name="Type" typeId="9b7b-8d3c-6c3b-c573">Physical</characteristic>
+            <characteristic name="Bonus" typeId="e033-8269-f4d6-f0c9">1</characteristic>
+            <characteristic name="Damage" typeId="ca7b-dc78-24dd-3315">1</characteristic>
+            <characteristic name="Range" typeId="75a3-8b99-a7f1-efd7">6</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e8e4-3293-9fbd-b731" name="Beast" hidden="false" targetId="c5d0-8bbd-d69f-631f" type="rule"/>
+        <infoLink id="3462-83e7-0840-9c62" name="Scout" hidden="false" targetId="ad2f-5054-47db-d41c" type="rule"/>
+        <infoLink id="d048-91f8-ae32-2679" name="Horde" hidden="false" targetId="ebc5-07b3-8049-a637" type="rule"/>
+        <infoLink id="c0af-3f4c-4b51-fad7" name="Large" hidden="false" targetId="cd8f-43f8-f8b8-e324" type="rule"/>
+        <infoLink id="30fd-665c-d625-a9d7" name="Centaur" hidden="false" targetId="7215-ee37-912f-bad9" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2fa0-eb07-f1d5-3d3e" name="New CategoryLink" hidden="false" targetId="0c6c-b922-266c-10bd" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="2815-d1b3-f9ef-ecfd" name="Items (Centaurs)" hidden="false" collective="false" import="true" targetId="bff4-3238-da4f-39d0" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ae3d-9c9f-dd60-fce0" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="7.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3917-0901-e550-1e35" name="Credence Barebone (Magizoologist)" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="04c1-e43c-f24f-5057" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="7253-0b8e-f664-82da" name="Credence Barebone" hidden="false" typeId="2093f4cd-f669-06c6-0f4f-06037948fe28" typeName="1.1 Attributes">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="911f2847-ecab-772a-37ad-b325a40b19ce">Grindelwald&apos;s Army/Magical Creatures</characteristic>
+            <characteristic name="Mastery" typeId="fd922c18-88be-5191-46b0-1ab589f2ef33">1</characteristic>
+            <characteristic name="Defense" typeId="49d96d28-c1dc-f977-7bb6-8e1fbe8fe397">1</characteristic>
+            <characteristic name="Cunning" typeId="9ef0bc71-33ab-98cd-26b3-07c55ed7725f">3 Black/White</characteristic>
+            <characteristic name="Magic" typeId="84a7bbc1-d970-b7b9-2fd5-f174c9fdda90">16</characteristic>
+            <characteristic name="Courage" typeId="ae357512-6823-3b1d-aebe-2c2c8e52e2e0">10</characteristic>
+            <characteristic name="Wisdom" typeId="4e4daeff-a451-4e80-f5b5-d588866411b4">4</characteristic>
+            <characteristic name="Temper" typeId="d6fc-863a-9aaa-271d">2</characteristic>
+            <characteristic name="Item Slots" typeId="d0e0-c03d-1183-cd2e">1</characteristic>
+            <characteristic name="Spellbook" typeId="3d3e-73e5-dd6a-789c">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="61ea-308d-1698-08f3" name="Obscurus&apos;s Attack" hidden="false" typeId="07d6-95ce-9c89-313a" typeName="1.5 Artefact (Attack)">
+          <characteristics>
+            <characteristic name="Description" typeId="cac9-3577-abf0-c57c">When this model scores at least 1 Symbol during an attack roll, it ignores any rule that reduces the Damage of the attack.</characteristic>
+            <characteristic name="Rarity" typeId="5542-8a14-e513-9167"/>
+            <characteristic name="Type" typeId="9b7b-8d3c-6c3b-c573">Physical</characteristic>
+            <characteristic name="Bonus" typeId="e033-8269-f4d6-f0c9">2</characteristic>
+            <characteristic name="Damage" typeId="ca7b-dc78-24dd-3315">3</characteristic>
+            <characteristic name="Range" typeId="75a3-8b99-a7f1-efd7">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="1552-9cd4-6d66-a6ee" name="Master Fighter " hidden="false" targetId="4b8d-df13-15f5-c37f" type="rule"/>
+        <infoLink id="31b9-32b9-b569-171f" name="Obscurus" hidden="false" targetId="e4bf-e61a-64ce-8b30" type="rule"/>
+        <infoLink id="e242-80fc-2f05-9c3d" name="Large" hidden="false" targetId="cd8f-43f8-f8b8-e324" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7f70-e6d4-d358-71e1" name="New CategoryLink" hidden="false" targetId="0c6c-b922-266c-10bd" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="43c8-5d0f-ad6a-20b6" name="Items (Credence Barebone)" hidden="false" collective="false" import="true" targetId="7e66-0249-5474-9afa" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="d485-98c9-ebf1-0877" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="3e91-e525-5c3a-0ee6" name="Spells" hidden="false" collective="false" import="true" targetId="f45a-25ca-6491-8733" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="increment" field="98cc-ef77-b2c5-30ba" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fff0-6570-5dc9-99c4" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e23-f353-ee5e-7e6a" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98cc-ef77-b2c5-30ba" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="3682-3440-8c23-2eb6" name="Spells (With Dark Arts)" hidden="true" collective="false" import="true" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="increment" field="5c8b-d6d5-e18f-45fa" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fff0-6570-5dc9-99c4" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e23-f353-ee5e-7e6a" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c8b-d6d5-e18f-45fa" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="19.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e086-bc02-94ec-e7d1" name="Dobby (Magizoologist)" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1805-035b-44c9-047f" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5c73-dbb5-f296-d5ab" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="e87c-0abf-b95d-5a19" name="Dobby" hidden="false" typeId="2093f4cd-f669-06c6-0f4f-06037948fe28" typeName="1.1 Attributes">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="911f2847-ecab-772a-37ad-b325a40b19ce">Hogwarts/Magical Creatures</characteristic>
+            <characteristic name="Mastery" typeId="fd922c18-88be-5191-46b0-1ab589f2ef33">0</characteristic>
+            <characteristic name="Defense" typeId="49d96d28-c1dc-f977-7bb6-8e1fbe8fe397">1</characteristic>
+            <characteristic name="Cunning" typeId="9ef0bc71-33ab-98cd-26b3-07c55ed7725f">3 White</characteristic>
+            <characteristic name="Magic" typeId="84a7bbc1-d970-b7b9-2fd5-f174c9fdda90">7</characteristic>
+            <characteristic name="Courage" typeId="ae357512-6823-3b1d-aebe-2c2c8e52e2e0">4</characteristic>
+            <characteristic name="Wisdom" typeId="4e4daeff-a451-4e80-f5b5-d588866411b4">4</characteristic>
+            <characteristic name="Temper" typeId="d6fc-863a-9aaa-271d">12</characteristic>
+            <characteristic name="Item Slots" typeId="d0e0-c03d-1183-cd2e">0</characteristic>
+            <characteristic name="Spellbook" typeId="3d3e-73e5-dd6a-789c">0</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c2cc-14fc-4ee3-db47" name="Magical Strike" hidden="false" typeId="07d6-95ce-9c89-313a" typeName="1.5 Artefact (Attack)">
+          <characteristics>
+            <characteristic name="Description" typeId="cac9-3577-abf0-c57c"/>
+            <characteristic name="Rarity" typeId="5542-8a14-e513-9167"/>
+            <characteristic name="Type" typeId="9b7b-8d3c-6c3b-c573">Magic</characteristic>
+            <characteristic name="Bonus" typeId="e033-8269-f4d6-f0c9">1</characteristic>
+            <characteristic name="Damage" typeId="ca7b-dc78-24dd-3315">1</characteristic>
+            <characteristic name="Range" typeId="75a3-8b99-a7f1-efd7">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="48ca-7f4a-1036-091c" name="Elf" hidden="false" targetId="49a4-265e-1b80-8eea" type="rule"/>
+        <infoLink id="442c-2831-3619-2457" name="Magical Immunity X " hidden="false" targetId="ccfc-7148-76bb-7c9b" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Magical Immunity 1"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="393c-41b4-78f2-e5aa" name="Magic Resistance X " hidden="false" targetId="3b35-8d3e-4720-6c4b" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Magic Resistance 1"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a349-e2c8-91fb-1a7d" name="New CategoryLink" hidden="false" targetId="0c6c-b922-266c-10bd" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="56d6-01da-0b1c-a9d0" name="Spells (Elf)" hidden="false" collective="false" import="true" targetId="308b-73f2-4de0-6420" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff84-ea1a-591d-b5f4" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="9.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="eeb7-40ed-ef99-f9d3" name="Dobby (The Chamber of Secrets) (Magizoologist)" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c549-a35d-b68e-8540" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a195-02e7-7209-52eb" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6078-21fb-57a4-74d4" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a862-b4be-cb5c-4d46" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="757a-547a-74d1-c132" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c926-3566-54fe-2034" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="197e-efd9-a515-b03a" name="Dobby" hidden="false" typeId="2093f4cd-f669-06c6-0f4f-06037948fe28" typeName="1.1 Attributes">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="911f2847-ecab-772a-37ad-b325a40b19ce">Magical Creatures</characteristic>
+            <characteristic name="Mastery" typeId="fd922c18-88be-5191-46b0-1ab589f2ef33">0</characteristic>
+            <characteristic name="Defense" typeId="49d96d28-c1dc-f977-7bb6-8e1fbe8fe397">1</characteristic>
+            <characteristic name="Cunning" typeId="9ef0bc71-33ab-98cd-26b3-07c55ed7725f">3 White</characteristic>
+            <characteristic name="Magic" typeId="84a7bbc1-d970-b7b9-2fd5-f174c9fdda90">7</characteristic>
+            <characteristic name="Courage" typeId="ae357512-6823-3b1d-aebe-2c2c8e52e2e0">4</characteristic>
+            <characteristic name="Wisdom" typeId="4e4daeff-a451-4e80-f5b5-d588866411b4">4</characteristic>
+            <characteristic name="Temper" typeId="d6fc-863a-9aaa-271d">12</characteristic>
+            <characteristic name="Item Slots" typeId="d0e0-c03d-1183-cd2e">0</characteristic>
+            <characteristic name="Spellbook" typeId="3d3e-73e5-dd6a-789c">0</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="86d5-7093-ab21-39b9" name="Dobby&apos;s Spells" hidden="false" typeId="07d6-95ce-9c89-313a" typeName="1.5 Artefact (Attack)">
+          <characteristics>
+            <characteristic name="Description" typeId="cac9-3577-abf0-c57c">If successful, moves the target 1 space. You can use this ability to target a friendly model, in which case the Spell automatically succeeds (don’t roll any dice).</characteristic>
+            <characteristic name="Rarity" typeId="5542-8a14-e513-9167"/>
+            <characteristic name="Type" typeId="9b7b-8d3c-6c3b-c573">Magical</characteristic>
+            <characteristic name="Bonus" typeId="e033-8269-f4d6-f0c9">3</characteristic>
+            <characteristic name="Damage" typeId="ca7b-dc78-24dd-3315">0</characteristic>
+            <characteristic name="Range" typeId="75a3-8b99-a7f1-efd7">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="834a-a8f9-4d83-00e4" name="Elf" hidden="false" targetId="49a4-265e-1b80-8eea" type="rule"/>
+        <infoLink id="4fb8-bdde-b458-94bd" name="Magical Immunity X " hidden="false" targetId="ccfc-7148-76bb-7c9b" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Magical Immunity 1"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="5ebd-60d1-aed9-d67b" name="Magic Resistance X " hidden="false" targetId="3b35-8d3e-4720-6c4b" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Magic Resistance 1"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="8bb1-f283-d719-b01d" name="Free Elf" hidden="false" targetId="6f7d-a5ae-4698-aa4f" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5f12-6bcd-f3d8-bafc" name="New CategoryLink" hidden="false" targetId="0c6c-b922-266c-10bd" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="8575-fd76-a539-a9c8" name="Spells (Elf)" hidden="false" collective="false" import="true" targetId="308b-73f2-4de0-6420" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac2d-f473-6374-31cc" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="9.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="63f7-9fed-6a91-c1fb" name="Fawkes (Magizoologist)" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1da4-55ae-b9fa-a656" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="1060-80d6-687a-6ef7" name="Fawkes" hidden="false" typeId="2093f4cd-f669-06c6-0f4f-06037948fe28" typeName="1.1 Attributes">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="911f2847-ecab-772a-37ad-b325a40b19ce">Hogwarts/Magical Creatures</characteristic>
+            <characteristic name="Mastery" typeId="fd922c18-88be-5191-46b0-1ab589f2ef33">0</characteristic>
+            <characteristic name="Defense" typeId="49d96d28-c1dc-f977-7bb6-8e1fbe8fe397">3</characteristic>
+            <characteristic name="Cunning" typeId="9ef0bc71-33ab-98cd-26b3-07c55ed7725f">1 White</characteristic>
+            <characteristic name="Magic" typeId="84a7bbc1-d970-b7b9-2fd5-f174c9fdda90">8</characteristic>
+            <characteristic name="Courage" typeId="ae357512-6823-3b1d-aebe-2c2c8e52e2e0">3</characteristic>
+            <characteristic name="Wisdom" typeId="4e4daeff-a451-4e80-f5b5-d588866411b4">5</characteristic>
+            <characteristic name="Temper" typeId="d6fc-863a-9aaa-271d">5</characteristic>
+            <characteristic name="Item Slots" typeId="d0e0-c03d-1183-cd2e">0</characteristic>
+            <characteristic name="Spellbook" typeId="3d3e-73e5-dd6a-789c">0</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8c67-ec6e-daeb-4ef0" name="Peck" hidden="false" typeId="07d6-95ce-9c89-313a" typeName="1.5 Artefact (Attack)">
+          <characteristics>
+            <characteristic name="Description" typeId="cac9-3577-abf0-c57c"/>
+            <characteristic name="Rarity" typeId="5542-8a14-e513-9167"/>
+            <characteristic name="Type" typeId="9b7b-8d3c-6c3b-c573">Physical</characteristic>
+            <characteristic name="Bonus" typeId="e033-8269-f4d6-f0c9">2</characteristic>
+            <characteristic name="Damage" typeId="ca7b-dc78-24dd-3315">3</characteristic>
+            <characteristic name="Range" typeId="75a3-8b99-a7f1-efd7">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="3419-ed95-aa96-4c13" name="Beast" hidden="false" targetId="c5d0-8bbd-d69f-631f" type="rule"/>
+        <infoLink id="e46a-ec03-ef33-4418" name="Phoenix" hidden="false" targetId="9f35-e41b-be80-affd" type="rule"/>
+        <infoLink id="a8ad-cba6-d960-e256" name="Fast " hidden="false" targetId="24ac-dd50-6187-7abd" type="rule"/>
+        <infoLink id="3248-b066-9f58-98e6" name="Fly " hidden="false" targetId="217f-59f5-d7d7-d1d2" type="rule"/>
+        <infoLink id="697d-57f9-af5e-240d" name="Magical Immunity X " hidden="false" targetId="ccfc-7148-76bb-7c9b" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Magical Immunity 1"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5592-521c-be0a-77f4" name="Phoenix" hidden="false" targetId="17ae-4ca1-7830-58a7" primary="false"/>
+        <categoryLink id="346e-0a60-92f8-4bf8" name="New CategoryLink" hidden="false" targetId="0c6c-b922-266c-10bd" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="12.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b313-68eb-0d92-fec0" name="Firenze (Magizoologist)" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d605-1aa3-ffb9-5bef" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="6684-fae9-3b01-9327" name="Firenze" hidden="false" typeId="2093f4cd-f669-06c6-0f4f-06037948fe28" typeName="1.1 Attributes">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="911f2847-ecab-772a-37ad-b325a40b19ce">Magical Creatures/Hogwarts</characteristic>
+            <characteristic name="Mastery" typeId="fd922c18-88be-5191-46b0-1ab589f2ef33">0</characteristic>
+            <characteristic name="Defense" typeId="49d96d28-c1dc-f977-7bb6-8e1fbe8fe397">2</characteristic>
+            <characteristic name="Cunning" typeId="9ef0bc71-33ab-98cd-26b3-07c55ed7725f"/>
+            <characteristic name="Magic" typeId="84a7bbc1-d970-b7b9-2fd5-f174c9fdda90">0</characteristic>
+            <characteristic name="Courage" typeId="ae357512-6823-3b1d-aebe-2c2c8e52e2e0">5</characteristic>
+            <characteristic name="Wisdom" typeId="4e4daeff-a451-4e80-f5b5-d588866411b4">4</characteristic>
+            <characteristic name="Temper" typeId="d6fc-863a-9aaa-271d">4</characteristic>
+            <characteristic name="Item Slots" typeId="d0e0-c03d-1183-cd2e">2</characteristic>
+            <characteristic name="Spellbook" typeId="3d3e-73e5-dd6a-789c">0</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="cbc5-1d4b-4c20-fa71" name="Bash" hidden="false" typeId="07d6-95ce-9c89-313a" typeName="1.5 Artefact (Attack)">
+          <characteristics>
+            <characteristic name="Description" typeId="cac9-3577-abf0-c57c"/>
+            <characteristic name="Rarity" typeId="5542-8a14-e513-9167"/>
+            <characteristic name="Type" typeId="9b7b-8d3c-6c3b-c573">Physical</characteristic>
+            <characteristic name="Bonus" typeId="e033-8269-f4d6-f0c9">3</characteristic>
+            <characteristic name="Damage" typeId="ca7b-dc78-24dd-3315">2</characteristic>
+            <characteristic name="Range" typeId="75a3-8b99-a7f1-efd7">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5883-9e97-6a57-0db7" name="Beast" hidden="false" targetId="c5d0-8bbd-d69f-631f" type="rule"/>
+        <infoLink id="fdbd-98c9-2540-8900" name="Scout" hidden="false" targetId="ad2f-5054-47db-d41c" type="rule"/>
+        <infoLink id="e802-e703-5617-94e7" name="Large" hidden="false" targetId="cd8f-43f8-f8b8-e324" type="rule"/>
+        <infoLink id="9e98-7756-7ac8-e97f" name="Centaur" hidden="false" targetId="7215-ee37-912f-bad9" type="rule"/>
+        <infoLink id="cbb5-0a32-d4f6-f476" name="Fast " hidden="false" targetId="24ac-dd50-6187-7abd" type="rule"/>
+        <infoLink id="67aa-7448-f24f-d326" name="Leadership" hidden="false" targetId="7c29-d3bc-fa66-50ed" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d7d6-ba58-a36d-6b07" name="New CategoryLink" hidden="false" targetId="0c6c-b922-266c-10bd" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="34bb-3c6f-fade-bb57" name="Items (Centaurs)" hidden="false" collective="false" import="true" targetId="bff4-3238-da4f-39d0" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="19fc-02f3-8087-248e" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="9.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="02bc-8fe9-72bd-d1b4" name="Kreacher (Magizoologist)" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d013-2755-f96c-8268" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="b1a1-adac-ee71-a623" name="Kreacher" hidden="false" typeId="2093f4cd-f669-06c6-0f4f-06037948fe28" typeName="1.1 Attributes">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="911f2847-ecab-772a-37ad-b325a40b19ce">Hogwarts/Magical Creatures</characteristic>
+            <characteristic name="Mastery" typeId="fd922c18-88be-5191-46b0-1ab589f2ef33">0</characteristic>
+            <characteristic name="Defense" typeId="49d96d28-c1dc-f977-7bb6-8e1fbe8fe397">1</characteristic>
+            <characteristic name="Cunning" typeId="9ef0bc71-33ab-98cd-26b3-07c55ed7725f">3 White</characteristic>
+            <characteristic name="Magic" typeId="84a7bbc1-d970-b7b9-2fd5-f174c9fdda90">7</characteristic>
+            <characteristic name="Courage" typeId="ae357512-6823-3b1d-aebe-2c2c8e52e2e0">3</characteristic>
+            <characteristic name="Wisdom" typeId="4e4daeff-a451-4e80-f5b5-d588866411b4">2</characteristic>
+            <characteristic name="Temper" typeId="d6fc-863a-9aaa-271d">12</characteristic>
+            <characteristic name="Item Slots" typeId="d0e0-c03d-1183-cd2e">0</characteristic>
+            <characteristic name="Spellbook" typeId="3d3e-73e5-dd6a-789c">0</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d49a-37d3-dc99-8729" name="Magical Strike" hidden="false" typeId="07d6-95ce-9c89-313a" typeName="1.5 Artefact (Attack)">
+          <characteristics>
+            <characteristic name="Description" typeId="cac9-3577-abf0-c57c"/>
+            <characteristic name="Rarity" typeId="5542-8a14-e513-9167"/>
+            <characteristic name="Type" typeId="9b7b-8d3c-6c3b-c573">Magic</characteristic>
+            <characteristic name="Bonus" typeId="e033-8269-f4d6-f0c9">1</characteristic>
+            <characteristic name="Damage" typeId="ca7b-dc78-24dd-3315">1</characteristic>
+            <characteristic name="Range" typeId="75a3-8b99-a7f1-efd7">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="efe9-7a03-c05e-7aad" name="Elf" hidden="false" targetId="49a4-265e-1b80-8eea" type="rule"/>
+        <infoLink id="d50a-0522-8c77-1de0" name="Magical Immunity X " hidden="false" targetId="ccfc-7148-76bb-7c9b" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Magical Immunity 1"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="448f-e2af-b884-d65a" name="Magic Resistance X " hidden="false" targetId="3b35-8d3e-4720-6c4b" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Magic Resistance 1"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2163-d562-d3dd-a36f" name="New CategoryLink" hidden="false" targetId="0c6c-b922-266c-10bd" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="426a-fc70-3441-a97e" name="Spells (Elf)" hidden="false" collective="false" import="true" targetId="308b-73f2-4de0-6420" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c4a-16f0-4f6c-fc7a" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8e43-3724-7e11-3714" name="Magorian (Magizoologist)" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2a07-d605-9bc9-08fb" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="8716-cecd-adba-0225" name="Magorian" hidden="false" typeId="2093f4cd-f669-06c6-0f4f-06037948fe28" typeName="1.1 Attributes">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="911f2847-ecab-772a-37ad-b325a40b19ce">Magical Creatures</characteristic>
+            <characteristic name="Mastery" typeId="fd922c18-88be-5191-46b0-1ab589f2ef33">0</characteristic>
+            <characteristic name="Defense" typeId="49d96d28-c1dc-f977-7bb6-8e1fbe8fe397">2</characteristic>
+            <characteristic name="Cunning" typeId="9ef0bc71-33ab-98cd-26b3-07c55ed7725f"/>
+            <characteristic name="Magic" typeId="84a7bbc1-d970-b7b9-2fd5-f174c9fdda90">0</characteristic>
+            <characteristic name="Courage" typeId="ae357512-6823-3b1d-aebe-2c2c8e52e2e0">4</characteristic>
+            <characteristic name="Wisdom" typeId="4e4daeff-a451-4e80-f5b5-d588866411b4">3</characteristic>
+            <characteristic name="Temper" typeId="d6fc-863a-9aaa-271d">6</characteristic>
+            <characteristic name="Item Slots" typeId="d0e0-c03d-1183-cd2e">2</characteristic>
+            <characteristic name="Spellbook" typeId="3d3e-73e5-dd6a-789c">0</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a364-bb60-86b0-cb58" name="Bow" hidden="false" typeId="07d6-95ce-9c89-313a" typeName="1.5 Artefact (Attack)">
+          <characteristics>
+            <characteristic name="Description" typeId="cac9-3577-abf0-c57c"/>
+            <characteristic name="Rarity" typeId="5542-8a14-e513-9167"/>
+            <characteristic name="Type" typeId="9b7b-8d3c-6c3b-c573">Physical</characteristic>
+            <characteristic name="Bonus" typeId="e033-8269-f4d6-f0c9">2</characteristic>
+            <characteristic name="Damage" typeId="ca7b-dc78-24dd-3315">1</characteristic>
+            <characteristic name="Range" typeId="75a3-8b99-a7f1-efd7">6</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="0e4c-5112-3155-314c" name="Beast" hidden="false" targetId="c5d0-8bbd-d69f-631f" type="rule"/>
+        <infoLink id="e4e5-36ff-8808-1b72" name="Scout" hidden="false" targetId="ad2f-5054-47db-d41c" type="rule"/>
+        <infoLink id="23eb-a81e-e82b-35d6" name="Large" hidden="false" targetId="cd8f-43f8-f8b8-e324" type="rule"/>
+        <infoLink id="128c-eddb-dd42-777c" name="Centaur" hidden="false" targetId="7215-ee37-912f-bad9" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2558-626d-d2a2-d137" name="New CategoryLink" hidden="false" targetId="0c6c-b922-266c-10bd" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d7de-9398-2513-86ae" name="Items (Centaurs)" hidden="false" collective="false" import="true" targetId="bff4-3238-da4f-39d0" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e0b4-2cb6-1894-ee07" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="11.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="adb3-72a6-8298-b4c4" name="Troll (Magizoologist)" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9707-5ce2-3fbf-afe7" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="f6c0-3f10-e88f-3e20" name="Troll" hidden="false" typeId="2093f4cd-f669-06c6-0f4f-06037948fe28" typeName="1.1 Attributes">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="911f2847-ecab-772a-37ad-b325a40b19ce">Magical Creatures</characteristic>
+            <characteristic name="Mastery" typeId="fd922c18-88be-5191-46b0-1ab589f2ef33">0</characteristic>
+            <characteristic name="Defense" typeId="49d96d28-c1dc-f977-7bb6-8e1fbe8fe397">1</characteristic>
+            <characteristic name="Cunning" typeId="9ef0bc71-33ab-98cd-26b3-07c55ed7725f"/>
+            <characteristic name="Magic" typeId="84a7bbc1-d970-b7b9-2fd5-f174c9fdda90">0</characteristic>
+            <characteristic name="Courage" typeId="ae357512-6823-3b1d-aebe-2c2c8e52e2e0">5</characteristic>
+            <characteristic name="Wisdom" typeId="4e4daeff-a451-4e80-f5b5-d588866411b4">0</characteristic>
+            <characteristic name="Temper" typeId="d6fc-863a-9aaa-271d">3</characteristic>
+            <characteristic name="Item Slots" typeId="d0e0-c03d-1183-cd2e">0</characteristic>
+            <characteristic name="Spellbook" typeId="3d3e-73e5-dd6a-789c">0</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="29d4-757a-4be4-e2fe" name="Bash" hidden="false" typeId="07d6-95ce-9c89-313a" typeName="1.5 Artefact (Attack)">
+          <characteristics>
+            <characteristic name="Description" typeId="cac9-3577-abf0-c57c"/>
+            <characteristic name="Rarity" typeId="5542-8a14-e513-9167"/>
+            <characteristic name="Type" typeId="9b7b-8d3c-6c3b-c573">Physical</characteristic>
+            <characteristic name="Bonus" typeId="e033-8269-f4d6-f0c9">1</characteristic>
+            <characteristic name="Damage" typeId="ca7b-dc78-24dd-3315">3</characteristic>
+            <characteristic name="Range" typeId="75a3-8b99-a7f1-efd7">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5dfd-5d7a-d196-7396" name="Beast" hidden="false" targetId="c5d0-8bbd-d69f-631f" type="rule"/>
+        <infoLink id="cfba-a705-2ae6-5a7f" name="Large" hidden="false" targetId="cd8f-43f8-f8b8-e324" type="rule"/>
+        <infoLink id="643f-bcf6-96b2-1427" name="Magical Immunity X " hidden="false" targetId="ccfc-7148-76bb-7c9b" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Magical Immunity 1"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="de3b-2d7d-3f11-e2ca" name="Physical Resistance " hidden="false" targetId="7fd5-0c53-edc6-c4c5" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Physical Resistance 2"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="342e-de79-35b9-9982" name="New CategoryLink" hidden="false" targetId="0c6c-b922-266c-10bd" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3ee2-f18b-122f-fa36" name="Unicorn (Magizoologist)" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="69f4-7406-7395-c12e" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="b972-82e4-a9ee-cdb0" name="Unicorn" hidden="false" typeId="2093f4cd-f669-06c6-0f4f-06037948fe28" typeName="1.1 Attributes">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="911f2847-ecab-772a-37ad-b325a40b19ce">Hogwarts/Magical Creatures</characteristic>
+            <characteristic name="Mastery" typeId="fd922c18-88be-5191-46b0-1ab589f2ef33">0</characteristic>
+            <characteristic name="Defense" typeId="49d96d28-c1dc-f977-7bb6-8e1fbe8fe397">3</characteristic>
+            <characteristic name="Cunning" typeId="9ef0bc71-33ab-98cd-26b3-07c55ed7725f">2 White</characteristic>
+            <characteristic name="Magic" typeId="84a7bbc1-d970-b7b9-2fd5-f174c9fdda90">6</characteristic>
+            <characteristic name="Courage" typeId="ae357512-6823-3b1d-aebe-2c2c8e52e2e0">6</characteristic>
+            <characteristic name="Wisdom" typeId="4e4daeff-a451-4e80-f5b5-d588866411b4">7</characteristic>
+            <characteristic name="Temper" typeId="d6fc-863a-9aaa-271d">1</characteristic>
+            <characteristic name="Item Slots" typeId="d0e0-c03d-1183-cd2e">0</characteristic>
+            <characteristic name="Spellbook" typeId="3d3e-73e5-dd6a-789c">0</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="885f-8b4e-e1bf-9705" name="Bash" hidden="false" typeId="07d6-95ce-9c89-313a" typeName="1.5 Artefact (Attack)">
+          <characteristics>
+            <characteristic name="Description" typeId="cac9-3577-abf0-c57c"/>
+            <characteristic name="Rarity" typeId="5542-8a14-e513-9167"/>
+            <characteristic name="Type" typeId="9b7b-8d3c-6c3b-c573">Physical</characteristic>
+            <characteristic name="Bonus" typeId="e033-8269-f4d6-f0c9">2</characteristic>
+            <characteristic name="Damage" typeId="ca7b-dc78-24dd-3315">1</characteristic>
+            <characteristic name="Range" typeId="75a3-8b99-a7f1-efd7">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9753-07f7-50a6-83ec" name="Beast" hidden="false" targetId="c5d0-8bbd-d69f-631f" type="rule"/>
+        <infoLink id="9329-1419-ac07-25f9" name="Scout" hidden="false" targetId="ad2f-5054-47db-d41c" type="rule"/>
+        <infoLink id="aad9-682c-35d3-cd11" name="Large" hidden="false" targetId="cd8f-43f8-f8b8-e324" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="82ba-d23f-10a4-00a0" name="New CategoryLink" hidden="false" targetId="0c6c-b922-266c-10bd" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="7.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

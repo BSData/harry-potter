@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="51cf-b0a2-3920-fb6c" name="Magical Creatures" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="aa1e-80ca-b43a-cf7b" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="51cf-b0a2-3920-fb6c" name="Magical Creatures" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="aa1e-80ca-b43a-cf7b" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="b35c-79a6-ee83-1a74" name="Acromantula" hidden="false" collective="false" import="true" targetId="b464-1095-127d-8214" type="selectionEntry"/>
     <entryLink id="b146-d50c-2721-ef67" name="Acromantula Swarm" hidden="false" collective="false" import="true" targetId="4e40-918a-25d3-3137" type="selectionEntry"/>
@@ -915,7 +915,6 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="b01e-3061-cc96-ab1f" name="New CategoryLink" hidden="false" targetId="f627-a6c7-0f04-9aee" primary="true"/>
-        <categoryLink id="11f4-9b87-8184-149a" name="Magizoologist" hidden="false" targetId="0c6c-b922-266c-10bd" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="4.0"/>
