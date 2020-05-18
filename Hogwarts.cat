@@ -133,26 +133,70 @@
     </entryLink>
     <entryLink id="d30d-876d-a1de-c005" name="Aragog (Magizoologist)" hidden="false" collective="false" import="true" targetId="0d39-1303-e3c5-be61" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="6b9c-9c2e-dee7-fe29" name="Magical Creatures Expert" hidden="false" targetId="1f0a-90b8-3333-4a80" primary="true"/>
+        <categoryLink id="722d-e369-2e65-744f" name="Magizoologist" hidden="false" targetId="0c6c-b922-266c-10bd" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="ab04-e2b6-98f6-49c1" name="Centaur (Magizoologist)" hidden="false" collective="false" import="true" targetId="a6bc-92d4-5e51-7447" type="selectionEntry"/>
+    <entryLink id="ab04-e2b6-98f6-49c1" name="Centaur (Magizoologist)" hidden="false" collective="false" import="true" targetId="a6bc-92d4-5e51-7447" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ff9d-33a0-a31a-1357" name="New CategoryLink" hidden="false" targetId="0c6c-b922-266c-10bd" primary="true"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink id="2c73-f0aa-a7f3-b565" name="Credence Barebone (Magizoologist)" hidden="false" collective="false" import="true" targetId="3917-0901-e550-1e35" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="320f-3ed4-b118-d662" name="Magical Creatures Expert" hidden="false" targetId="1f0a-90b8-3333-4a80" primary="true"/>
+        <categoryLink id="e4a5-7f38-fac8-055e" name="New CategoryLink" hidden="false" targetId="0c6c-b922-266c-10bd" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="a31b-2d83-f005-77f1" name="Dobby (Magizoologist)" hidden="false" collective="false" import="true" targetId="e086-bc02-94ec-e7d1" type="selectionEntry"/>
-    <entryLink id="e035-63b2-8f96-66d2" name="Dobby (The Chamber of Secrets) (Magizoologist)" hidden="false" collective="false" import="true" targetId="eeb7-40ed-ef99-f9d3" type="selectionEntry"/>
-    <entryLink id="d1cd-6d89-802e-3c0a" name="Fawkes (Magizoologist)" hidden="false" collective="false" import="true" targetId="63f7-9fed-6a91-c1fb" type="selectionEntry"/>
-    <entryLink id="c8c7-0fbf-faa9-f942" name="Firenze (Magizoologist)" hidden="false" collective="false" import="true" targetId="b313-68eb-0d92-fec0" type="selectionEntry"/>
-    <entryLink id="9707-18c1-8d7d-6600" name="Kreacher (Magizoologist)" hidden="false" collective="false" import="true" targetId="02bc-8fe9-72bd-d1b4" type="selectionEntry"/>
-    <entryLink id="2306-6858-abe6-05d3" name="Magorian (Magizoologist)" hidden="false" collective="false" import="true" targetId="8e43-3724-7e11-3714" type="selectionEntry"/>
-    <entryLink id="4160-9f71-0277-43fa" name="Troll (Magizoologist)" hidden="false" collective="false" import="true" targetId="adb3-72a6-8298-b4c4" type="selectionEntry"/>
-    <entryLink id="cf28-2d3c-18a8-d41d" name="Unicorn (Magizoologist)" hidden="false" collective="false" import="true" targetId="3ee2-f18b-122f-fa36" type="selectionEntry"/>
+    <entryLink id="a31b-2d83-f005-77f1" name="Dobby (Magizoologist)" hidden="false" collective="false" import="true" targetId="e086-bc02-94ec-e7d1" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="2be0-99df-dc1e-275c" name="Magizoologist" hidden="false" targetId="0c6c-b922-266c-10bd" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e035-63b2-8f96-66d2" name="Dobby (The Chamber of Secrets) (Magizoologist)" hidden="false" collective="false" import="true" targetId="eeb7-40ed-ef99-f9d3" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="fd37-fbbb-9dcf-703a" name="New CategoryLink" hidden="false" targetId="0c6c-b922-266c-10bd" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d1cd-6d89-802e-3c0a" name="Fawkes (Magizoologist)" hidden="false" collective="false" import="true" targetId="63f7-9fed-6a91-c1fb" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="d1b1-3162-04b4-ca7f" name="New CategoryLink" hidden="false" targetId="0c6c-b922-266c-10bd" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c8c7-0fbf-faa9-f942" name="Firenze (Magizoologist)" hidden="false" collective="false" import="true" targetId="b313-68eb-0d92-fec0" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="91c7-337a-7126-c737" name="New CategoryLink" hidden="false" targetId="0c6c-b922-266c-10bd" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9707-18c1-8d7d-6600" name="Kreacher (Magizoologist)" hidden="false" collective="false" import="true" targetId="02bc-8fe9-72bd-d1b4" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="666f-002f-6988-336a" name="New CategoryLink" hidden="false" targetId="0c6c-b922-266c-10bd" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="2306-6858-abe6-05d3" name="Magorian (Magizoologist)" hidden="false" collective="false" import="true" targetId="8e43-3724-7e11-3714" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="90d5-704b-8e9b-edd4" name="New CategoryLink" hidden="false" targetId="0c6c-b922-266c-10bd" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4160-9f71-0277-43fa" name="Troll (Magizoologist)" hidden="false" collective="false" import="true" targetId="adb3-72a6-8298-b4c4" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="781f-e070-ab04-f834" name="New CategoryLink" hidden="false" targetId="0c6c-b922-266c-10bd" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="cf28-2d3c-18a8-d41d" name="Unicorn (Magizoologist)" hidden="false" collective="false" import="true" targetId="3ee2-f18b-122f-fa36" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3628-46f4-d867-8d45" name="New CategoryLink" hidden="false" targetId="0c6c-b922-266c-10bd" primary="true"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink id="a878-7966-9b7d-437e" name="Harry Potter on Buckbeak" hidden="false" collective="false" import="true" targetId="7749-d2be-fa0f-7c07" type="selectionEntry"/>
-    <entryLink id="be2f-29f7-76d3-1a0d" name="Hippogriff" hidden="false" collective="false" import="true" targetId="006b-1aab-8ef2-7cc7" type="selectionEntry"/>
-    <entryLink id="6dc0-3072-8936-77ad" name="Hippogriff (Magizoologist)" hidden="false" collective="false" import="true" targetId="dc59-aa8c-efcb-3684" type="selectionEntry"/>
+    <entryLink id="be2f-29f7-76d3-1a0d" name="Hippogriff" hidden="false" collective="false" import="true" targetId="006b-1aab-8ef2-7cc7" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="71a8-480d-e4e1-a893" name="New CategoryLink" hidden="false" targetId="1f0a-90b8-3333-4a80" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6dc0-3072-8936-77ad" name="Hippogriff (Magizoologist)" hidden="false" collective="false" import="true" targetId="dc59-aa8c-efcb-3684" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3989-d063-3478-c7b3" name="New CategoryLink" hidden="false" targetId="0c6c-b922-266c-10bd" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="d734-14ea-68a3-2fa1" name="Ginny Weasley" hidden="false" collective="false" import="true" type="model">
