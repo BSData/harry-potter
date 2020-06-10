@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3e39-bac8-9771-961e" name="Grindelwald&apos;s Army" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="aa1e-80ca-b43a-cf7b" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3e39-bac8-9771-961e" name="Grindelwald&apos;s Army" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="aa1e-80ca-b43a-cf7b" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="d83c-a9f7-27d6-7cd9" name="Gellert Grindelwald (30mm base)" hidden="false" collective="false" import="true" targetId="bf26-271e-002f-80b2" type="selectionEntry"/>
     <entryLink id="adf1-1a27-6673-d90e" name="Gellert Grindelwald (60mm base)" hidden="false" collective="false" import="true" targetId="8b5d-0c56-b396-b8f5" type="selectionEntry"/>
@@ -7,6 +7,11 @@
     <entryLink id="d157-e045-ffad-f40d" name="Abernathy" hidden="false" collective="false" import="true" targetId="2953-39d9-d0b8-0a99" type="selectionEntry"/>
     <entryLink id="adae-b8eb-5892-bf22" name="Krall" hidden="false" collective="false" import="true" targetId="e472-e7e9-67e7-c468" type="selectionEntry"/>
     <entryLink id="6762-4618-c457-a049" name="Vinda Rosier" hidden="false" collective="false" import="true" targetId="a88f-ff07-084d-4193" type="selectionEntry"/>
+    <entryLink id="5ef6-472b-ac03-70b9" name="Krafft" hidden="false" collective="false" import="true" targetId="c228-6d54-869d-8972" type="selectionEntry"/>
+    <entryLink id="a83f-ff21-747a-d6c4" name="Carrow" hidden="false" collective="false" import="true" targetId="f8dc-4f59-c752-891b" type="selectionEntry"/>
+    <entryLink id="5f89-28c9-74a5-c0d7" name="Gunnar Grimmson" hidden="false" collective="false" import="true" targetId="3d87-76df-fa79-2c46" type="selectionEntry"/>
+    <entryLink id="1352-524e-fd88-7430" name="Queenie Goldstein" hidden="false" collective="false" import="true" targetId="d95c-37bb-dc8b-abab" type="selectionEntry"/>
+    <entryLink id="a33a-8889-1a0c-7fd3" name="Percival Graves" hidden="false" collective="false" import="true" targetId="66dd-10dc-6269-a900" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="bf26-271e-002f-80b2" name="Gellert Grindelwald (30mm base)" hidden="false" collective="false" import="true" type="model">
@@ -14,6 +19,11 @@
         <modifier type="set" field="hidden" value="true">
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8b5d-0c56-b396-b8f5" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="66dd-10dc-6269-a900" type="atLeast"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -55,6 +65,7 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="6ad5-a575-267b-c3eb" name="Grindelwald&apos;s Army" hidden="false" targetId="56dc-f689-a347-cbca" primary="true"/>
+        <categoryLink id="c829-202f-2e75-9476" name="Grindelwald" hidden="false" targetId="ad27-4224-fbf2-18ff" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="c535-0977-d253-5465" name="Items (Grindelwald)" hidden="false" collective="false" import="true" targetId="a167-b85a-7269-d785" type="selectionEntryGroup">
@@ -80,6 +91,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="a88f-ff07-084d-4193" name="Vinda Rosier" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="name" value="0.0"/>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0026-2541-b2bf-1eda" type="max"/>
       </constraints>
@@ -120,7 +134,7 @@
         </entryLink>
         <entryLink id="47d8-aae3-6ef0-13bb" name="Spells (With Dark Arts)" hidden="false" collective="false" import="true" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
           <modifiers>
-            <modifier type="increment" field="664c-6e9a-751e-cd28" value="1">
+            <modifier type="increment" field="664c-6e9a-751e-cd28" value="1.0">
               <repeats>
                 <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fff0-6570-5dc9-99c4" repeats="1" roundUp="false"/>
               </repeats>
@@ -229,7 +243,7 @@
         </entryLink>
         <entryLink id="5443-1988-ff49-1c9e" name="Spells (With Dark Arts)" hidden="false" collective="false" import="true" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
           <modifiers>
-            <modifier type="increment" field="b984-ffb9-e8bb-8fcc" value="1">
+            <modifier type="increment" field="b984-ffb9-e8bb-8fcc" value="1.0">
               <repeats>
                 <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fff0-6570-5dc9-99c4" repeats="1" roundUp="false"/>
               </repeats>
@@ -334,6 +348,11 @@
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="bf26-271e-002f-80b2" type="atLeast"/>
           </conditions>
         </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="66dd-10dc-6269-a900" type="atLeast"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="747e-9599-6ffb-ace8" type="max"/>
@@ -373,6 +392,7 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="4007-740c-a2a2-fef9" name="Grindelwald&apos;s Army" hidden="false" targetId="56dc-f689-a347-cbca" primary="true"/>
+        <categoryLink id="ea0a-fc89-d692-fb61" name="New CategoryLink" hidden="false" targetId="ad27-4224-fbf2-18ff" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="ee10-8d7a-da0c-888e" name="Items (Grindelwald)" hidden="false" collective="false" import="true" targetId="a167-b85a-7269-d785" type="selectionEntryGroup">
@@ -395,6 +415,298 @@
       </entryLinks>
       <costs>
         <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c228-6d54-869d-8972" name="Krafft" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cfd9-712f-2224-439f" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="951a-cf7b-f058-e690" name="Krafft" hidden="false" typeId="2093f4cd-f669-06c6-0f4f-06037948fe28" typeName="1.1 Attributes">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="911f2847-ecab-772a-37ad-b325a40b19ce">Grindelwald&apos;s Army</characteristic>
+            <characteristic name="Mastery" typeId="fd922c18-88be-5191-46b0-1ab589f2ef33">2</characteristic>
+            <characteristic name="Defense" typeId="49d96d28-c1dc-f977-7bb6-8e1fbe8fe397">1</characteristic>
+            <characteristic name="Cunning" typeId="9ef0bc71-33ab-98cd-26b3-07c55ed7725f">2 Black</characteristic>
+            <characteristic name="Magic" typeId="84a7bbc1-d970-b7b9-2fd5-f174c9fdda90">6</characteristic>
+            <characteristic name="Courage" typeId="ae357512-6823-3b1d-aebe-2c2c8e52e2e0">5</characteristic>
+            <characteristic name="Wisdom" typeId="4e4daeff-a451-4e80-f5b5-d588866411b4">4</characteristic>
+            <characteristic name="Temper" typeId="d6fc-863a-9aaa-271d">4</characteristic>
+            <characteristic name="Item Slots" typeId="d0e0-c03d-1183-cd2e">1</characteristic>
+            <characteristic name="Spellbook" typeId="3d3e-73e5-dd6a-789c">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="28da-8d10-f098-0942" name="Apparition" hidden="false" targetId="0189-b513-689b-2121" type="profile">
+          <modifiers>
+            <modifier type="append" field="name" value="(Innate Spell)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="5af8-d35e-54fa-f121" name="Dark Arts" hidden="false" targetId="d0bf-0eb1-3424-c7b5" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="20ce-60e2-c558-7663" name="Grindelwald&apos;s Army" hidden="false" targetId="56dc-f689-a347-cbca" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="41f5-7fb8-d9a1-1575" name="Items" hidden="false" collective="false" import="true" targetId="871c-8447-8648-4757" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="a224-2fe1-594e-9e41" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="17bc-30f3-77f5-8e12" name="Spells (With Dark Arts)" hidden="false" collective="false" import="true" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="increment" field="96c9-4a9f-ee44-2b0d" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fff0-6570-5dc9-99c4" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96c9-4a9f-ee44-2b0d" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f8dc-4f59-c752-891b" name="Carrow" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4f4c-97d8-89b5-3343" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="90d4-436b-d0db-92fa" name="Carrow" hidden="false" typeId="2093f4cd-f669-06c6-0f4f-06037948fe28" typeName="1.1 Attributes">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="911f2847-ecab-772a-37ad-b325a40b19ce">Grindelwald&apos;s Army</characteristic>
+            <characteristic name="Mastery" typeId="fd922c18-88be-5191-46b0-1ab589f2ef33">2</characteristic>
+            <characteristic name="Defense" typeId="49d96d28-c1dc-f977-7bb6-8e1fbe8fe397">1</characteristic>
+            <characteristic name="Cunning" typeId="9ef0bc71-33ab-98cd-26b3-07c55ed7725f">2 Black</characteristic>
+            <characteristic name="Magic" typeId="84a7bbc1-d970-b7b9-2fd5-f174c9fdda90">7</characteristic>
+            <characteristic name="Courage" typeId="ae357512-6823-3b1d-aebe-2c2c8e52e2e0">4</characteristic>
+            <characteristic name="Wisdom" typeId="4e4daeff-a451-4e80-f5b5-d588866411b4">5</characteristic>
+            <characteristic name="Temper" typeId="d6fc-863a-9aaa-271d">3</characteristic>
+            <characteristic name="Item Slots" typeId="d0e0-c03d-1183-cd2e">1</characteristic>
+            <characteristic name="Spellbook" typeId="3d3e-73e5-dd6a-789c">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="47c3-a09d-34e1-8d37" name="Avada Kedabra" hidden="false" targetId="356e-206b-ac27-0e46" type="profile">
+          <modifiers>
+            <modifier type="append" field="name" value="(Innate Spell)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="97aa-2562-2b07-181b" name="Dark Arts" hidden="false" targetId="d0bf-0eb1-3424-c7b5" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5223-7ae8-93e3-3437" name="Grindelwald&apos;s Army" hidden="false" targetId="56dc-f689-a347-cbca" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f869-9262-2251-36b3" name="Items" hidden="false" collective="false" import="true" targetId="871c-8447-8648-4757" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8580-5f05-4fbc-3704" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="5bd6-d2b5-30c8-8c4b" name="Spells (With Dark Arts)" hidden="false" collective="false" import="true" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="increment" field="c06c-a478-efc6-f3a3" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fff0-6570-5dc9-99c4" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c06c-a478-efc6-f3a3" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3d87-76df-fa79-2c46" name="Gunnar Grimmson" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c0d7-41c3-f9a8-cb5e" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="870d-d076-bc84-91e3" name="Gunnar Grimmson" hidden="false" typeId="2093f4cd-f669-06c6-0f4f-06037948fe28" typeName="1.1 Attributes">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="911f2847-ecab-772a-37ad-b325a40b19ce">Grindelwald&apos;s Army</characteristic>
+            <characteristic name="Mastery" typeId="fd922c18-88be-5191-46b0-1ab589f2ef33">2</characteristic>
+            <characteristic name="Defense" typeId="49d96d28-c1dc-f977-7bb6-8e1fbe8fe397">2</characteristic>
+            <characteristic name="Cunning" typeId="9ef0bc71-33ab-98cd-26b3-07c55ed7725f">3 Black/White</characteristic>
+            <characteristic name="Magic" typeId="84a7bbc1-d970-b7b9-2fd5-f174c9fdda90">10</characteristic>
+            <characteristic name="Courage" typeId="ae357512-6823-3b1d-aebe-2c2c8e52e2e0">6</characteristic>
+            <characteristic name="Wisdom" typeId="4e4daeff-a451-4e80-f5b5-d588866411b4">7</characteristic>
+            <characteristic name="Temper" typeId="d6fc-863a-9aaa-271d">4</characteristic>
+            <characteristic name="Item Slots" typeId="d0e0-c03d-1183-cd2e">2</characteristic>
+            <characteristic name="Spellbook" typeId="3d3e-73e5-dd6a-789c">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2ae5-60a6-9f88-cf71" name="Protego" hidden="false" targetId="1ebe-2876-db1b-d974" type="profile">
+          <modifiers>
+            <modifier type="append" field="name" value="(Innate Spell)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="a91b-76c1-657b-8fb1" name="Dark Arts" hidden="false" targetId="d0bf-0eb1-3424-c7b5" type="rule"/>
+        <infoLink id="f72a-7717-22b9-7cdc" name="Duelling" hidden="false" targetId="d0d6-59cb-5f49-a1be" type="rule"/>
+        <infoLink id="24c7-a1a0-505a-1e71" name="Expert Wizard " hidden="false" targetId="bd20-7fb8-29d7-33d3" type="rule"/>
+        <infoLink id="a9d5-9b7c-6ce4-b0b0" name="Corrupted Auror" hidden="false" targetId="b8ec-504f-e4fa-9047" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d09b-e17f-a285-1617" name="Grindelwald&apos;s Army" hidden="false" targetId="56dc-f689-a347-cbca" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="1966-24ba-3359-123b" name="Items" hidden="false" collective="false" import="true" targetId="871c-8447-8648-4757" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="fcb8-64b2-53c7-13a9" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="5436-3c87-a60c-9e5c" name="Spells (With Dark Arts)" hidden="false" collective="false" import="true" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="increment" field="e1b4-768b-1d20-53d0" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fff0-6570-5dc9-99c4" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1b4-768b-1d20-53d0" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="12.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d95c-37bb-dc8b-abab" name="Queenie Goldstein" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5f4a-c27e-18e7-af4a" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="bec3-858f-2adc-66fb" name="Queenie Goldstein" hidden="false" typeId="2093f4cd-f669-06c6-0f4f-06037948fe28" typeName="1.1 Attributes">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="911f2847-ecab-772a-37ad-b325a40b19ce">Grindelwald&apos;s Army/Hogwarts</characteristic>
+            <characteristic name="Mastery" typeId="fd922c18-88be-5191-46b0-1ab589f2ef33">2</characteristic>
+            <characteristic name="Defense" typeId="49d96d28-c1dc-f977-7bb6-8e1fbe8fe397">2</characteristic>
+            <characteristic name="Cunning" typeId="9ef0bc71-33ab-98cd-26b3-07c55ed7725f">2 White</characteristic>
+            <characteristic name="Magic" typeId="84a7bbc1-d970-b7b9-2fd5-f174c9fdda90">7</characteristic>
+            <characteristic name="Courage" typeId="ae357512-6823-3b1d-aebe-2c2c8e52e2e0">4</characteristic>
+            <characteristic name="Wisdom" typeId="4e4daeff-a451-4e80-f5b5-d588866411b4">6</characteristic>
+            <characteristic name="Temper" typeId="d6fc-863a-9aaa-271d">0</characteristic>
+            <characteristic name="Item Slots" typeId="d0e0-c03d-1183-cd2e">2</characteristic>
+            <characteristic name="Spellbook" typeId="3d3e-73e5-dd6a-789c">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a34b-4111-4bf8-9e0a" name="Confundo" hidden="false" targetId="92bd-e97c-1931-0dba" type="profile">
+          <modifiers>
+            <modifier type="append" field="name" value="(Innate Spell)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="866c-5bb3-db00-9955" name="Legilimency" hidden="false" targetId="60ec-32c4-1aed-49dc" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1fb6-517a-300a-73c1" name="Grindelwald&apos;s Army" hidden="false" targetId="56dc-f689-a347-cbca" primary="true"/>
+        <categoryLink id="8dd5-5e73-0f87-b8f6" name="Pukwudgie" hidden="false" targetId="6fb0-369f-d775-9e64" primary="false"/>
+        <categoryLink id="1c14-8ad5-6877-10c7" name="Hogwarts" hidden="false" targetId="72a0-0676-dd71-5ecd" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="8ee6-4f67-1114-612a" name="Items" hidden="false" collective="false" import="true" targetId="871c-8447-8648-4757" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="82db-c340-9128-7b89" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="ae6f-9a99-631f-4240" name="Spells (With Dark Arts)" hidden="false" collective="false" import="true" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="increment" field="75d1-1764-8e6e-e012" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fff0-6570-5dc9-99c4" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75d1-1764-8e6e-e012" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="66dd-10dc-6269-a900" name="Percival Graves" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8b5d-0c56-b396-b8f5" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="bf26-271e-002f-80b2" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ddae-d726-8eb8-c40d" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="5963-4c0f-c0b7-7335" name="Percival Graves" hidden="false" typeId="2093f4cd-f669-06c6-0f4f-06037948fe28" typeName="1.1 Attributes">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="911f2847-ecab-772a-37ad-b325a40b19ce">Grindelwald&apos;s Army/Hogwarts</characteristic>
+            <characteristic name="Mastery" typeId="fd922c18-88be-5191-46b0-1ab589f2ef33">3</characteristic>
+            <characteristic name="Defense" typeId="49d96d28-c1dc-f977-7bb6-8e1fbe8fe397">3</characteristic>
+            <characteristic name="Cunning" typeId="9ef0bc71-33ab-98cd-26b3-07c55ed7725f">4 Black/White</characteristic>
+            <characteristic name="Magic" typeId="84a7bbc1-d970-b7b9-2fd5-f174c9fdda90">16</characteristic>
+            <characteristic name="Courage" typeId="ae357512-6823-3b1d-aebe-2c2c8e52e2e0">8</characteristic>
+            <characteristic name="Wisdom" typeId="4e4daeff-a451-4e80-f5b5-d588866411b4">9</characteristic>
+            <characteristic name="Temper" typeId="d6fc-863a-9aaa-271d">10</characteristic>
+            <characteristic name="Item Slots" typeId="d0e0-c03d-1183-cd2e">3</characteristic>
+            <characteristic name="Spellbook" typeId="3d3e-73e5-dd6a-789c">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="02c7-6303-880a-ba19" name="Counter-Spell" hidden="false" targetId="4843-0102-8d8f-3d82" type="profile">
+          <modifiers>
+            <modifier type="append" field="name" value="(Innate Spell)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="6fe4-3fef-159b-1aa5" name="Dark Arts" hidden="false" targetId="d0bf-0eb1-3424-c7b5" type="rule"/>
+        <infoLink id="2503-1a90-b870-369c" name="Corrupted Auror" hidden="false" targetId="b8ec-504f-e4fa-9047" type="rule"/>
+        <infoLink id="78e0-705c-9aab-36c0" name="Leadership" hidden="false" targetId="7c29-d3bc-fa66-50ed" type="rule"/>
+        <infoLink id="923a-9cef-7c87-1f49" name="Master Wizard " hidden="false" targetId="7e41-c870-19f3-5edb" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="75d2-a5d0-8f23-73d7" name="Grindelwald&apos;s Army" hidden="false" targetId="56dc-f689-a347-cbca" primary="true"/>
+        <categoryLink id="84b4-9e89-d4c7-6942" name="New CategoryLink" hidden="false" targetId="ad27-4224-fbf2-18ff" primary="false"/>
+        <categoryLink id="99a7-7d34-5395-9c08" name="Hogwarts" hidden="false" targetId="72a0-0676-dd71-5ecd" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="8414-66bb-2a00-9738" name="Items" hidden="false" collective="false" import="true" targetId="871c-8447-8648-4757" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="cea6-7068-21d3-d8b2" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="ee71-330e-8adf-246b" name="Spells (With Dark Arts)" hidden="false" collective="false" import="true" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="increment" field="9eb5-df95-a3d1-a946" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fff0-6570-5dc9-99c4" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9eb5-df95-a3d1-a946" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="17.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

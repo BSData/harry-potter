@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="aa1e-80ca-b43a-cf7b" name="Harry Potter Miniatures Adventure Game" revision="9" battleScribeVersion="2.03" authorName="NeXo" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="aa1e-80ca-b43a-cf7b" name="Harry Potter Miniatures Adventure Game" revision="10" battleScribeVersion="2.03" authorName="NeXo" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="aa1e-80ca-pubN66054" name="Voldemort"/>
     <publication id="aa1e-80ca-pubN66142" name="Order of the Phoenix"/>
@@ -138,6 +138,26 @@
     <categoryEntry id="2429-b0fd-4155-240a" name="Ravenclaw" hidden="false"/>
     <categoryEntry id="162d-1a86-5b5b-d2ec" name="Hufflepuff" hidden="false"/>
     <categoryEntry id="870d-b9d3-208d-a364" name="Slytherin" hidden="false"/>
+    <categoryEntry id="6fb0-369f-d775-9e64" name="Pukwudgie" hidden="false"/>
+    <categoryEntry id="ad27-4224-fbf2-18ff" name="Grindelwald" hidden="false"/>
+    <categoryEntry id="0c6c-b922-266c-10bd" name="Magizoologist" hidden="true">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0c6c-b922-266c-10bd" type="notEqualTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="8b8c-7eaf-c9ca-f46d" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0c6c-b922-266c-10bd" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8b8c-7eaf-c9ca-f46d" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="c9f6-1bcc-7d54-24f0" name="Thunderbird" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="4e5b49d8-1fef-164b-8bd7-0bee9ad46f2f" name="Characters" hidden="false">
@@ -157,6 +177,9 @@
         <categoryLink id="e809-4e73-1ad9-45a7" name="Ravenclaw" hidden="false" targetId="2429-b0fd-4155-240a" primary="false"/>
         <categoryLink id="848c-5da2-9f07-9495" name="Hufflepuff" hidden="false" targetId="162d-1a86-5b5b-d2ec" primary="false"/>
         <categoryLink id="bc3a-dd17-0c13-2d3d" name="Slytherin" hidden="false" targetId="870d-b9d3-208d-a364" primary="false"/>
+        <categoryLink id="b4af-962e-d060-a11f" name="Pukwudgie" hidden="false" targetId="6fb0-369f-d775-9e64" primary="false"/>
+        <categoryLink id="6b1a-189f-39bf-91be" name="Magizoologist" hidden="false" targetId="0c6c-b922-266c-10bd" primary="false"/>
+        <categoryLink id="e9f7-c3ad-21c5-55fa" name="Thunderbird" hidden="false" targetId="c9f6-1bcc-7d54-24f0" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
@@ -2222,6 +2245,151 @@
         <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="1.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="6e0e-75ef-2532-ae95" name="Pact Amulet" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="261d-4e74-2e87-b77f" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="608f-bc42-44d4-9add" name="Pact Amulet" hidden="false" typeId="3229-77e7-0f3c-27b9" typeName="1.4 Artefact">
+          <characteristics>
+            <characteristic name="Description" typeId="710d-419f-1488-1c46">At the start of the game choose another friendly model with a higher Galleon cost than this model. Once per game, during this model’s activation, you may place the chosen model in an adjacent space to this model.</characteristic>
+            <characteristic name="Rarity" typeId="6ccd-dad9-f7cb-3440">Rare</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="eeeb-b034-e4dd-5aa4" name="Magizoologist" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b8b-f163-5274-5526" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0b6-f4b9-7446-b2aa" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="d48b-4b7e-cb6c-00ef" name="Magizoologist" hidden="false" targetId="ad41-43f6-e6da-b405" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6995-49a7-61b2-d881" name="Magical Suitcase" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="466a-5d0a-2cf8-ee9d" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="612f-1e46-57c0-fec8" name="Magical Suitcase" hidden="false" typeId="3229-77e7-0f3c-27b9" typeName="1.4 Artefact">
+          <characteristics>
+            <characteristic name="Description" typeId="710d-419f-1488-1c46">You can replace this model with the Suitcase marker during its activation. At the start of any round, place this model back in play within 2 spaces of the Suitcase marker, then remove the marker from the board. Can only be purchased by Newt Scamander.</characteristic>
+            <characteristic name="Rarity" typeId="6ccd-dad9-f7cb-3440">Rare</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1ab2-e413-06c7-7b7c" name="Mad Eye&apos;s custom broomstick" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="1a47-6051-3f1a-37f1" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="84c3-cb46-8a02-6d3a" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="0b2a-8897-9c26-cd2e" name="Mad Eye&apos;s custom broomstick" hidden="false" typeId="3229-77e7-0f3c-27b9" typeName="1.4 Artefact">
+          <characteristics>
+            <characteristic name="Description" typeId="710d-419f-1488-1c46">This model gains Fast. In addition, gains a Lucky Mystery die when casting spells. Unique. Broomstock</characteristic>
+            <characteristic name="Rarity" typeId="6ccd-dad9-f7cb-3440">Rare</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="009b-6c81-880a-21ce" name="Potter Stinks Badge" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="1cdb-137a-96c7-b00a" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1736-e7b3-8de4-f51e" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="1188-9077-3e52-d8f7" name="Potter Stinks Badge" hidden="false" typeId="3229-77e7-0f3c-27b9" typeName="1.4 Artefact">
+          <characteristics>
+            <characteristic name="Description" typeId="710d-419f-1488-1c46">This model gains +2 to all his challenges if friendly Cedrid Diggory is in 3 squares. In addition, this model gains -1 to all his characteristics if Harry Potter is in 3 squares. This artefact can be purchased only if your force includes Harry Potter.</characteristic>
+            <characteristic name="Rarity" typeId="6ccd-dad9-f7cb-3440">Rare</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="200c-4eff-83e7-1c7a" name="Jacob’s Cakes" publicationId="aa1e-80ca-pubN66474" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8416-5c57-7a67-fc37" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="6a38-193a-3db4-b08d" name="Jacob’s Cakes" hidden="false" typeId="3229-77e7-0f3c-27b9" typeName="1.4 Artefact">
+          <characteristics>
+            <characteristic name="Description" typeId="710d-419f-1488-1c46">Once per game, a model with this artefact may use it to ignore the damage penalties. When you purchase this artefact, you may equip it to up to two models instead of 1 at the same cost.</characteristic>
+            <characteristic name="Rarity" typeId="6ccd-dad9-f7cb-3440">Common</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f48c-b547-87e4-24a7" name="Jacob’s Cakes (Second Free)" publicationId="aa1e-80ca-pubN66474" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="200c-4eff-83e7-1c7a" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0df3-ab66-157a-f167" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="90e1-e0e8-f8fd-566e" name="Jacob’s Cakes (Second Free)" hidden="false" typeId="3229-77e7-0f3c-27b9" typeName="1.4 Artefact">
+          <characteristics>
+            <characteristic name="Description" typeId="710d-419f-1488-1c46">Once per game, a model with this artefact may use it to ignore the damage penalties. When you purchase this artefact, you may equip it to up to two models instead of 1 at the same cost.</characteristic>
+            <characteristic name="Rarity" typeId="6ccd-dad9-f7cb-3440">Common</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0518-a702-df29-de0d" name="Mounted Wizard" publicationId="aa1e-80ca-pubN66562" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="66f4-b026-2997-1bc3" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="af19-9a1b-66e1-c388" name="Mounted Wizard" hidden="false" typeId="3229-77e7-0f3c-27b9" typeName="1.4 Artefact">
+          <characteristics>
+            <characteristic name="Description" typeId="710d-419f-1488-1c46">Only a model with the Beast trait and a Mastery of at least 1 may take this artefact. This model may choose Spells for its Spellbook, and cast them ignoring the Beast limitation. This card cannot be affected by any other rule.</characteristic>
+            <characteristic name="Rarity" typeId="6ccd-dad9-f7cb-3440">Rare</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="f45a-25ca-6491-8733" name="Spells" hidden="false" collective="false" import="true">
@@ -2481,6 +2649,8 @@
         <entryLink id="ba9e-d60d-a7d8-912e" name="The Impostor" hidden="false" collective="false" import="true" targetId="4ae8-1755-55ce-ca0c" type="selectionEntry"/>
         <entryLink id="39fb-ae5f-3aee-b877" name="Howler" hidden="false" collective="false" import="true" targetId="8a08-9570-e5f6-5634" type="selectionEntry"/>
         <entryLink id="ff2c-4ef6-eaeb-1b20" name="Remembrall" hidden="false" collective="false" import="true" targetId="d439-c0e7-80cd-2e29" type="selectionEntry"/>
+        <entryLink id="3cb6-5193-7778-3a7d" name="Jacob’s Cakes" hidden="false" collective="false" import="true" targetId="200c-4eff-83e7-1c7a" type="selectionEntry"/>
+        <entryLink id="4d4c-0102-a8a6-9d89" name="Jacob’s Cakes (Second)" hidden="false" collective="false" import="true" targetId="f48c-b547-87e4-24a7" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="a5bf-4232-b441-6f7d" name="Potions (Common)" hidden="false" collective="false" import="true">
@@ -2835,6 +3005,10 @@
         <entryLink id="430f-a97e-949f-6761" name="Ron&apos;s Wrecked Wand" hidden="false" collective="false" import="true" targetId="7c9e-496a-48fb-4d00" type="selectionEntry"/>
         <entryLink id="b4c9-f312-d07f-bd10" name="Nimbus 2001" hidden="false" collective="false" import="true" targetId="aca9-cc8f-d61b-584a" type="selectionEntry"/>
         <entryLink id="f50d-4bc2-ae1d-4a88" name="Magi-Me-More!" hidden="false" collective="false" import="true" targetId="75b7-3918-6fab-2d0b" type="selectionEntry"/>
+        <entryLink id="d83d-6e48-bcfb-54cb" name="Pact Amulet" hidden="false" collective="false" import="true" targetId="6e0e-75ef-2532-ae95" type="selectionEntry"/>
+        <entryLink id="87b9-54a9-58d5-0d0f" name="Potter Stinks Badge" hidden="false" collective="false" import="true" targetId="009b-6c81-880a-21ce" type="selectionEntry"/>
+        <entryLink id="87dc-88b9-bacd-627a" name="Mad Eye&apos;s custom broomstick" hidden="false" collective="false" import="true" targetId="1ab2-e413-06c7-7b7c" type="selectionEntry"/>
+        <entryLink id="dc99-654b-68f5-3b5c" name="Mounted Wizard" hidden="false" collective="false" import="true" targetId="0518-a702-df29-de0d" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="f5b5-6c56-7f4e-e56a" name="Potions (Rare)" hidden="false" collective="false" import="true">
@@ -4243,6 +4417,63 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
+    <selectionEntryGroup id="4838-620b-48c0-1575" name="Artefacts (Rare Newt Scamander)" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="c882-c5ad-332c-9748" name="Acromantula Venom" hidden="false" collective="false" import="true" targetId="81d3-5334-a379-88e2" type="selectionEntry"/>
+        <entryLink id="1031-9917-f159-58bd" name="Deluminator" hidden="false" collective="false" import="true" targetId="2dda-d219-3971-82ee" type="selectionEntry"/>
+        <entryLink id="3909-d8a4-e0fe-fdb3" name="Foe-Glass" hidden="false" collective="false" import="true" targetId="5d18-a8ee-3104-de39" type="selectionEntry"/>
+        <entryLink id="49f5-a397-a409-83e5" name="Time-Turner" hidden="false" collective="false" import="true" targetId="6f05-5194-2f3b-4511" type="selectionEntry"/>
+        <entryLink id="a2c4-8174-f979-a457" name="Bellatrix Lestrange’s Knife" hidden="false" collective="false" import="true" targetId="6888-c9d6-6cbb-08cd" type="selectionEntry"/>
+        <entryLink id="d507-8125-2a2b-efbf" name="Helga Hufflepuff’s Cup" hidden="false" collective="false" import="true" targetId="ca07-1e80-4582-1054" type="selectionEntry"/>
+        <entryLink id="df34-e100-6f3a-e4f4" name="Marvolo Gaunt&apos;s Ring" hidden="false" collective="false" import="true" targetId="1472-c025-19cd-0429" type="selectionEntry"/>
+        <entryLink id="1c3a-27f6-1da2-4ed3" name="Rowena Ravenclaw’s Diadem" hidden="false" collective="false" import="true" targetId="5bfa-cda0-0123-0791" type="selectionEntry"/>
+        <entryLink id="b8e4-b29c-31a4-f905" name="Salazar Slytherin’s Locket" hidden="false" collective="false" import="true" targetId="681d-ae53-39aa-26d4" type="selectionEntry"/>
+        <entryLink id="9fd1-f3f0-5445-837c" name="Tom Riddle’s Diary" hidden="false" collective="false" import="true" targetId="4e23-f353-ee5e-7e6a" type="selectionEntry"/>
+        <entryLink id="af31-1e7d-3260-032e" name="Crystal Ball" hidden="false" collective="false" import="true" targetId="7b3d-e52a-3f5d-9242" type="selectionEntry"/>
+        <entryLink id="b663-c093-0766-9e2c" name="Blood Pact" hidden="false" collective="false" import="true" targetId="1e95-2787-bcc8-23b2" type="selectionEntry"/>
+        <entryLink id="57d8-9299-6a3a-497e" name="Traitor" hidden="false" collective="false" import="true" targetId="9cc0-8508-e412-a362" type="selectionEntry"/>
+        <entryLink id="0b3f-5a3f-9119-d2fe" name="Gellert&apos;s Skull" hidden="false" collective="false" import="true" targetId="1540-1435-802b-5193" type="selectionEntry"/>
+        <entryLink id="4f44-3e3a-7e1b-f84f" name="MACUSA Edict" hidden="false" collective="false" import="true" targetId="1754-d5e4-0da0-6493" type="selectionEntry"/>
+        <entryLink id="b743-2cce-78ff-310b" name="MACUSA Orders" hidden="false" collective="false" import="true" targetId="6922-0267-2720-5f38" type="selectionEntry"/>
+        <entryLink id="22ae-59b6-490f-34d4" name="President&apos;s Orders" hidden="false" collective="false" import="true" targetId="4ac9-1ff5-b454-4411" type="selectionEntry"/>
+        <entryLink id="af80-367d-32ac-091b" name="Professor&apos;s Artefacts" hidden="false" collective="false" import="true" targetId="6cd4-ebbc-3e95-8cc8" type="selectionEntry"/>
+        <entryLink id="217a-5909-7c83-5d93" name="Alchemic Potions" hidden="false" collective="false" import="true" targetId="9da6-d8b6-f302-ec1c" type="selectionEntry"/>
+        <entryLink id="ab16-4f94-5ffe-3cb3" name="Blood Bond" hidden="false" collective="false" import="true" targetId="0e86-c11d-31dd-ee2a" type="selectionEntry"/>
+        <entryLink id="8d6d-854d-bc32-1662" name="Floo Powder" hidden="false" collective="false" import="true" targetId="cd14-3591-316c-0e54" type="selectionEntry"/>
+        <entryLink id="9020-c85b-a1ee-218c" name="Ron&apos;s Wrecked Wand" hidden="false" collective="false" import="true" targetId="7c9e-496a-48fb-4d00" type="selectionEntry"/>
+        <entryLink id="33a2-3e47-1774-24a4" name="Nimbus 2001" hidden="false" collective="false" import="true" targetId="aca9-cc8f-d61b-584a" type="selectionEntry"/>
+        <entryLink id="ed98-3842-02b5-40ff" name="Magi-Me-More!" hidden="false" collective="false" import="true" targetId="75b7-3918-6fab-2d0b" type="selectionEntry"/>
+        <entryLink id="125c-5287-85dd-2fde" name="Magical Suitcase" hidden="false" collective="false" import="true" targetId="6995-49a7-61b2-d881" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="7938-7bef-2ed3-1748" name="Items (Newt Scamander)" hidden="false" collective="false" import="true">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="82a7-babf-ec6e-c123" name="Legendary" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9a57-95a7-71bf-0fde" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="bea7-ca02-6eae-66ef" name="Potions (Legendary)" hidden="false" collective="false" import="true" targetId="f77f-e9f0-08bd-85db" type="selectionEntryGroup"/>
+            <entryLink id="3478-9bf6-8ccc-c0b4" name="Artefacts (Legendary)" hidden="false" collective="false" import="true" targetId="e59c-de68-d172-60bd" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="136f-7e6f-9761-e2ac" name="Common" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="77cc-7b12-eb99-bcb1" name="Artefacts (Common)" hidden="false" collective="false" import="true" targetId="541e-a918-c634-6234" type="selectionEntryGroup"/>
+            <entryLink id="4bdd-dadf-b08b-9257" name="Potions (Common)" hidden="false" collective="false" import="true" targetId="a5bf-4232-b441-6f7d" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="8e6a-76e0-d0fa-b90d" name="Rare" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0839-0bb0-e252-37c4" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="76a0-db24-4644-e090" name="Artefacts (Rare Newt Scamander)" hidden="false" collective="false" import="true" targetId="4838-620b-48c0-1575" type="selectionEntryGroup"/>
+            <entryLink id="dedb-9b2f-625b-f988" name="Potions (Rare)" hidden="false" collective="false" import="true" targetId="f5b5-6c56-7f4e-e56a" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="d103-fc7c-84e6-69b5" name="Animagus" page="0" hidden="false">
@@ -4426,7 +4657,9 @@ NB. The Potioneer value is also used in some instances to provide other bonuses 
       <description>When a model with this trait performs a Challenge, it can roll a die and subtract the result from the Difficulty of the Challenge.</description>
     </rule>
     <rule id="0604-5b80-5931-2fcd" name="Slytherin" hidden="false"/>
-    <rule id="a1b2-1cdc-b42f-6394" name="Hufflepuff" hidden="false"/>
+    <rule id="a1b2-1cdc-b42f-6394" name="Hufflepuff" hidden="false">
+      <description>A model with this trait ignores damage penalties.</description>
+    </rule>
     <rule id="7e91-86e1-e952-faa8" name="Wandlore" hidden="false">
       <description>During this model&apos;s activation, choose one friendly model in an adjacent space. That model may reroll Casting rolls until the end of the round.</description>
     </rule>
@@ -4550,6 +4783,30 @@ NB. The Potioneer value is also used in some instances to provide other bonuses 
     </rule>
     <rule id="be6f-1dc4-0892-318b" name="Astronomy Professor" hidden="false">
       <description>Friendly models with the Apprentice trait within 3 spaces ignore the line of sight when performing non-combat Spells.</description>
+    </rule>
+    <rule id="60ec-32c4-1aed-49dc" name="Legilimency" hidden="false">
+      <description>This model can reroll all its casting, attack and defense rolls against models that do not have the Beast trait and a Mastery less than 3 wands.</description>
+    </rule>
+    <rule id="eb22-58f9-0bb7-a41e" name="Strict Matron" hidden="false">
+      <description>At the start of this model&apos;s activation, remove a Effect from a friendly model within 3 spaces. Then, the opponent may immediately move that model 1 space.</description>
+    </rule>
+    <rule id="ad41-43f6-e6da-b405" name="Magizoologist" hidden="false">
+      <description>If you include this model, you may also include any model with Affiliation: Magical Creature (as long as it does not also have Affiliation: Death Eater) and reduce its cost by 1.</description>
+    </rule>
+    <rule id="7451-3507-c7d8-3da5" name="Treasure Hoard" hidden="false">
+      <description>This model can’t be removed from the game by any means. When it would be removed from play, instead place a Loot marker in an adjacent space and move this model 2 spaces. Models adjacent to the marker may spend an Advanced Action to remove it from the board and recover one card Stolen earlier in the game by a Niffler (limitations apply to recovered cards).</description>
+    </rule>
+    <rule id="a610-2445-12e2-1807" name="Hufflepuff Prefect" hidden="false">
+      <description>All friendly models with the Hufflepuff trait within 3 spaces of this model may be affected by this model&apos;s spells, instead of only the target.</description>
+    </rule>
+    <rule id="1ab2-a952-9f83-5469" name="Maledictus" page="0" hidden="false">
+      <description>This model has Nagini (HP062) model as her animal from to Animagus ability without any cost, but if this model would change to her human form after round 4, must roll 3 die and get almost 3 success.</description>
+    </rule>
+    <rule id="1307-9843-a07e-b534" name="Protector of the Law" hidden="false">
+      <description>Once per round when another friendly model suffers damage within 3 spaces of this model, you can immediately move this model up to 3 spaces and make ready to cast one of its spells with Magical Clock of 1.</description>
+    </rule>
+    <rule id="11c0-57b9-b6d4-fc20" name="Death Vision" hidden="false">
+      <description>Only models with at least 1 damage may target this model.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -5071,6 +5328,16 @@ NB. The Potioneer value is also used in some instances to provide other bonuses 
         <characteristic name="Difficulty" typeId="48bb-c6ce-efd9-b84c">0</characteristic>
         <characteristic name="Description" typeId="4ee7-a98d-cfca-ca71">Combat Spell. Special: Up the Difficult by 1 to increase the value of the effects by 1. The target suffers the Slow/1 and the Push/1 Effect.</characteristic>
         <characteristic name="Cooldown Clock" typeId="62f1-68e4-ceff-8682">2</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c53b-b3ee-b093-ba55" name="Push Charm" hidden="false" typeId="0aed-3bd3-2aaa-6237" typeName="1.2 Spell">
+      <characteristics>
+        <characteristic name="Range" typeId="ecb8-5b30-787e-8ab8">4</characteristic>
+        <characteristic name="Power Cost" typeId="05fc-2837-01e5-4a01">2 Grey</characteristic>
+        <characteristic name="Upkeep" typeId="cf20-f678-81bc-115a">0</characteristic>
+        <characteristic name="Difficulty" typeId="48bb-c6ce-efd9-b84c">0</characteristic>
+        <characteristic name="Description" typeId="4ee7-a98d-cfca-ca71">Combat Spell. Target model suffers the Push/3 effect.</characteristic>
+        <characteristic name="Cooldown Clock" typeId="62f1-68e4-ceff-8682">1</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
