@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8dba-fe04-7a54-57c1" name="Death Eaters" revision="8" battleScribeVersion="2.03" library="false" gameSystemId="aa1e-80ca-b43a-cf7b" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8dba-fe04-7a54-57c1" name="Death Eaters" revision="9" battleScribeVersion="2.03" library="false" gameSystemId="aa1e-80ca-b43a-cf7b" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="9868-e6ec-2670-2745" name="Acromantula" hidden="false" collective="false" import="true" targetId="7994-a047-18a7-8e16" type="selectionEntry"/>
     <entryLink id="9488-5083-7a15-ca12" name="Acromantula Swarm" hidden="false" collective="false" import="true" targetId="65a2-87af-f77e-ec4e" type="selectionEntry"/>
@@ -39,6 +39,7 @@
     <entryLink id="1cbd-ae7f-f516-b24c" name="Tom Riddle" hidden="false" collective="false" import="true" targetId="664e-0f54-6884-2e18" type="selectionEntry"/>
     <entryLink id="d597-9b2b-7dfd-9c93" name="Salazar Slytherin&apos;s Basilisk" hidden="false" collective="false" import="true" targetId="8932-fa13-f9f7-2f5a" type="selectionEntry"/>
     <entryLink id="fd81-4eb1-d6e5-da47" name="Big Acromantula" hidden="false" collective="false" import="true" targetId="cc65-5feb-73dd-e05d" type="selectionEntry"/>
+    <entryLink id="d95f-f5ef-c98e-20a7" name="Quirinus Quirrell" hidden="false" collective="false" import="true" targetId="86ee-1452-c3b3-7cd7" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="2af5-ff50-1ae9-2080" name="Barty Crouch Jr." hidden="false" collective="false" import="true" type="model">
@@ -2378,6 +2379,119 @@
       </categoryLinks>
       <costs>
         <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="7.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="86ee-1452-c3b3-7cd7" name="Quirinus Quirrell" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2bf3-147f-9681-8501" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0050-089c-1236-9fd5" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f17c-f858-05a2-b456" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="a604-6e8e-fa92-2d3f" name="Quirinus Quirrell" hidden="false" typeId="2093f4cd-f669-06c6-0f4f-06037948fe28" typeName="1.1 Attributes">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="911f2847-ecab-772a-37ad-b325a40b19ce">Hogwarts</characteristic>
+            <characteristic name="Mastery" typeId="fd922c18-88be-5191-46b0-1ab589f2ef33">2</characteristic>
+            <characteristic name="Defense" typeId="49d96d28-c1dc-f977-7bb6-8e1fbe8fe397">2</characteristic>
+            <characteristic name="Cunning" typeId="9ef0bc71-33ab-98cd-26b3-07c55ed7725f">2 Black/White</characteristic>
+            <characteristic name="Magic" typeId="84a7bbc1-d970-b7b9-2fd5-f174c9fdda90">7</characteristic>
+            <characteristic name="Courage" typeId="ae357512-6823-3b1d-aebe-2c2c8e52e2e0">1</characteristic>
+            <characteristic name="Wisdom" typeId="4e4daeff-a451-4e80-f5b5-d588866411b4">5</characteristic>
+            <characteristic name="Temper" typeId="d6fc-863a-9aaa-271d">5</characteristic>
+            <characteristic name="Item Slots" typeId="d0e0-c03d-1183-cd2e">1</characteristic>
+            <characteristic name="Spellbook" typeId="3d3e-73e5-dd6a-789c">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c8fa-7f9a-b6a5-b892" name="Twisted intentions" hidden="false" typeId="07d6-95ce-9c89-313a" typeName="1.5 Artefact (Attack)">
+          <characteristics>
+            <characteristic name="Description" typeId="cac9-3577-abf0-c57c">Choose an allied model, no roll is needed. The selected model use immediatly his innate ability. After it, ends that model activation.</characteristic>
+            <characteristic name="Rarity" typeId="5542-8a14-e513-9167"/>
+            <characteristic name="Type" typeId="9b7b-8d3c-6c3b-c573">Physical</characteristic>
+            <characteristic name="Bonus" typeId="e033-8269-f4d6-f0c9">0</characteristic>
+            <characteristic name="Damage" typeId="ca7b-dc78-24dd-3315">0</characteristic>
+            <characteristic name="Range" typeId="75a3-8b99-a7f1-efd7">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7c65-d4d5-aade-5e54" name="Dark Arts" hidden="false" targetId="d0bf-0eb1-3424-c7b5" type="rule"/>
+        <infoLink id="99b5-f0a9-7d20-1db5" name="Professor" hidden="false" targetId="8436-145a-2183-50b0" type="rule"/>
+        <infoLink id="a591-188d-bb3a-8057" name="Master Wizard " hidden="false" targetId="7e41-c870-19f3-5edb" type="rule"/>
+        <infoLink id="c85d-ee54-6eb2-2d8d" name="Ravenclaw" hidden="false" targetId="981a-38af-f45f-373c" type="rule"/>
+        <infoLink id="72da-06bf-95d6-7529" name="Duelling" hidden="false" targetId="d0d6-59cb-5f49-a1be" type="rule"/>
+        <infoLink id="b1a3-ccef-409b-1d89" name="Tactician" hidden="false" targetId="9f93-b81a-6461-ca29" type="rule"/>
+        <infoLink id="3c4f-f73f-711d-1580" name="Dark Master" hidden="false" targetId="ba3a-5d14-28fb-ac84" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="10b3-2a23-5749-f716" name="Professor" hidden="false" targetId="9137-5073-312f-b858" primary="false"/>
+        <categoryLink id="b111-8a3e-724e-b749" name="Ravenclaw" hidden="false" targetId="2429-b0fd-4155-240a" primary="false"/>
+        <categoryLink id="0647-0bbb-ad37-5d4d" name="New CategoryLink" hidden="false" targetId="eea5-4f44-b142-d4ef" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="4760-9adf-4bc2-06eb" name="Items" hidden="false" collective="false" import="true" targetId="871c-8447-8648-4757" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="a6b9-1535-0ed2-6c22" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="fae5-a742-ec15-09c4" name="Spells" hidden="false" collective="false" import="true" targetId="f45a-25ca-6491-8733" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="increment" field="5378-bb2e-eb36-22cf" value="1.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e034-6957-d88b-4e4f" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="5378-bb2e-eb36-22cf" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fff0-6570-5dc9-99c4" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e23-f353-ee5e-7e6a" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5378-bb2e-eb36-22cf" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="8880-b599-62eb-5e74" name="Spells (With Dark Arts)" hidden="true" collective="false" import="true" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="increment" field="4978-834d-cedb-6acf" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fff0-6570-5dc9-99c4" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e23-f353-ee5e-7e6a" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4978-834d-cedb-6acf" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="b5b3-c450-07f7-ea77" name="Magical Immunity X " hidden="false" targetId="ccfc-7148-76bb-7c9b" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Magical Immunity 1"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="16.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
