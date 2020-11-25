@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="aa1e-80ca-b43a-cf7b" name="Harry Potter Miniatures Adventure Game" revision="10" battleScribeVersion="2.03" authorName="NeXo" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="aa1e-80ca-b43a-cf7b" name="Harry Potter Miniatures Adventure Game" revision="11" battleScribeVersion="2.03" authorName="NeXo" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="aa1e-80ca-pubN66054" name="Voldemort"/>
     <publication id="aa1e-80ca-pubN66142" name="Order of the Phoenix"/>
@@ -158,6 +158,23 @@
       </constraints>
     </categoryEntry>
     <categoryEntry id="c9f6-1bcc-7d54-24f0" name="Thunderbird" hidden="false"/>
+    <categoryEntry id="b82a-422a-6813-e2f9" name="Troll in the dungeon" hidden="true">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b82a-422a-6813-e2f9" type="notEqualTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="5523-8587-d549-d64c" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b82a-422a-6813-e2f9" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5523-8587-d549-d64c" type="max"/>
+      </constraints>
+    </categoryEntry>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="4e5b49d8-1fef-164b-8bd7-0bee9ad46f2f" name="Characters" hidden="false">
@@ -180,6 +197,7 @@
         <categoryLink id="b4af-962e-d060-a11f" name="Pukwudgie" hidden="false" targetId="6fb0-369f-d775-9e64" primary="false"/>
         <categoryLink id="6b1a-189f-39bf-91be" name="Magizoologist" hidden="false" targetId="0c6c-b922-266c-10bd" primary="false"/>
         <categoryLink id="e9f7-c3ad-21c5-55fa" name="Thunderbird" hidden="false" targetId="c9f6-1bcc-7d54-24f0" primary="false"/>
+        <categoryLink id="10bc-f17d-6167-f063" name="Troll in the dungeon" hidden="false" targetId="b82a-422a-6813-e2f9" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
@@ -2390,6 +2408,45 @@
         <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="96f2-9d05-8351-0b52" name="Nimbus 2000" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="1a47-6051-3f1a-37f1" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b68e-e2c3-7e86-f22c" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="ef23-a41e-7ea8-94e9" name="Nimbus 2000" hidden="false" typeId="3229-77e7-0f3c-27b9" typeName="1.4 Artefact">
+          <characteristics>
+            <characteristic name="Description" typeId="710d-419f-1488-1c46">A model with this card that performs a Movement Action can move 1 additional space. Models with the Broomstick trait only.</characteristic>
+            <characteristic name="Rarity" typeId="6ccd-dad9-f7cb-3440">Rare</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="da91-2f7a-c0c6-d90d" name="Crookshanks" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="86a8-7ab1-a96e-7ed9" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="3866-ead3-5412-1a04" name="Crookshanks" hidden="false" typeId="3229-77e7-0f3c-27b9" typeName="1.4 Artefact">
+          <characteristics>
+            <characteristic name="Description" typeId="710d-419f-1488-1c46">A model with this card gains +2 to Cunning</characteristic>
+            <characteristic name="Rarity" typeId="6ccd-dad9-f7cb-3440">Common</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="1.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="f45a-25ca-6491-8733" name="Spells" hidden="false" collective="false" import="true">
@@ -2433,6 +2490,7 @@
         <entryLink id="a3fb-76f9-cd51-00cf" name="Vera Verto" hidden="false" collective="false" import="true" targetId="2a7e-b1b1-5084-a746" type="selectionEntry"/>
         <entryLink id="071b-bdcf-2892-547f" name="Brackium Emendo" hidden="false" collective="false" import="true" targetId="ab4f-14dd-dda9-bfe0" type="selectionEntry"/>
         <entryLink id="c404-b5a2-ce4b-b6be" name="Serpesortia" hidden="false" collective="false" import="true" targetId="d418-2943-c63b-71c1" type="selectionEntry"/>
+        <entryLink id="2a03-d315-2de8-4c7a" name="Magi-Me-More!" hidden="false" collective="false" import="true" targetId="75b7-3918-6fab-2d0b" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="4003-4f1c-e444-ec09" name="Spells (With Dark Arts)" hidden="false" collective="false" import="true">
@@ -3009,6 +3067,7 @@
         <entryLink id="87b9-54a9-58d5-0d0f" name="Potter Stinks Badge" hidden="false" collective="false" import="true" targetId="009b-6c81-880a-21ce" type="selectionEntry"/>
         <entryLink id="87dc-88b9-bacd-627a" name="Mad Eye&apos;s custom broomstick" hidden="false" collective="false" import="true" targetId="1ab2-e413-06c7-7b7c" type="selectionEntry"/>
         <entryLink id="dc99-654b-68f5-3b5c" name="Mounted Wizard" hidden="false" collective="false" import="true" targetId="0518-a702-df29-de0d" type="selectionEntry"/>
+        <entryLink id="6f11-91eb-b953-dc59" name="Nimbus 2000" hidden="false" collective="false" import="true" targetId="96f2-9d05-8351-0b52" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="f5b5-6c56-7f4e-e56a" name="Potions (Rare)" hidden="false" collective="false" import="true">
@@ -3378,6 +3437,7 @@
         <entryLink id="e1ef-4dc2-f901-25fb" name="Ron&apos;s Wrecked Wand" hidden="false" collective="false" import="true" targetId="7c9e-496a-48fb-4d00" type="selectionEntry"/>
         <entryLink id="2546-4a85-4494-db00" name="Nimbus 2001" hidden="false" collective="false" import="true" targetId="aca9-cc8f-d61b-584a" type="selectionEntry"/>
         <entryLink id="66be-851a-32ba-affc" name="Magi-Me-More!" hidden="false" collective="false" import="true" targetId="75b7-3918-6fab-2d0b" type="selectionEntry"/>
+        <entryLink id="425e-c659-b4a4-5ba6" name="Nimbus 2000" hidden="false" collective="false" import="true" targetId="96f2-9d05-8351-0b52" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="7b99-595a-fd77-41ad" name="Artefacts (Common Harry Potter)" hidden="false" collective="false" import="true">
@@ -3445,6 +3505,7 @@
         <entryLink id="d141-2b46-81f0-8ffa" name="Ron&apos;s Wrecked Wand" hidden="false" collective="false" import="true" targetId="7c9e-496a-48fb-4d00" type="selectionEntry"/>
         <entryLink id="70bc-d033-a12e-b998" name="Nimbus 2001" hidden="false" collective="false" import="true" targetId="aca9-cc8f-d61b-584a" type="selectionEntry"/>
         <entryLink id="edea-89e1-23f6-4691" name="Magi-Me-More!" hidden="false" collective="false" import="true" targetId="75b7-3918-6fab-2d0b" type="selectionEntry"/>
+        <entryLink id="0af0-e789-c856-974f" name="Nimbus 2000" hidden="false" collective="false" import="true" targetId="96f2-9d05-8351-0b52" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="2e5a-5dfc-1c5a-3b39" name="Artefacts (Rare No Mercy)" hidden="false" collective="false" import="true">
@@ -3471,6 +3532,7 @@
         <entryLink id="7e3b-23bf-4160-f6e6" name="Ron&apos;s Wrecked Wand" hidden="false" collective="false" import="true" targetId="7c9e-496a-48fb-4d00" type="selectionEntry"/>
         <entryLink id="9f45-b92d-65fa-853e" name="Nimbus 2001" hidden="false" collective="false" import="true" targetId="aca9-cc8f-d61b-584a" type="selectionEntry"/>
         <entryLink id="1f77-8bc1-8459-2c8c" name="Magi-Me-More!" hidden="false" collective="false" import="true" targetId="75b7-3918-6fab-2d0b" type="selectionEntry"/>
+        <entryLink id="b3f7-498d-f113-9df0" name="Nimbus 2000" hidden="false" collective="false" import="true" targetId="96f2-9d05-8351-0b52" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="b22c-1a08-6b00-4f88" name="Items (No Mercy)" hidden="false" collective="false" import="true">
@@ -3525,6 +3587,7 @@
         <entryLink id="c260-db93-86d6-dc06" name="Ron&apos;s Wrecked Wand" hidden="false" collective="false" import="true" targetId="7c9e-496a-48fb-4d00" type="selectionEntry"/>
         <entryLink id="ec3f-c932-2c5e-7ffb" name="Nimbus 2001" hidden="false" collective="false" import="true" targetId="aca9-cc8f-d61b-584a" type="selectionEntry"/>
         <entryLink id="1389-5913-2a44-a2d6" name="Magi-Me-More!" hidden="false" collective="false" import="true" targetId="75b7-3918-6fab-2d0b" type="selectionEntry"/>
+        <entryLink id="81ef-ff64-4301-699b" name="Nimbus 2000" hidden="false" collective="false" import="true" targetId="96f2-9d05-8351-0b52" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="b2dc-e93c-d8bc-3fd8" name="Artefacts (Legendary Snatcher Leader)" hidden="false" collective="false" import="true">
@@ -3843,6 +3906,7 @@
         <entryLink id="972f-01c8-1349-d13d" name="Ron&apos;s Wrecked Wand" hidden="false" collective="false" import="true" targetId="7c9e-496a-48fb-4d00" type="selectionEntry"/>
         <entryLink id="45dc-9abc-600a-313c" name="Nimbus 2001" hidden="false" collective="false" import="true" targetId="aca9-cc8f-d61b-584a" type="selectionEntry"/>
         <entryLink id="652b-861d-2304-8924" name="Magi-Me-More!" hidden="false" collective="false" import="true" targetId="75b7-3918-6fab-2d0b" type="selectionEntry"/>
+        <entryLink id="9c89-0fe9-8861-1746" name="Nimbus 2000" hidden="false" collective="false" import="true" targetId="96f2-9d05-8351-0b52" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="1593-b9a7-ccb6-a657" name="Items (Pomona Sprout)" hidden="false" collective="false" import="true">
@@ -3898,6 +3962,7 @@
         <entryLink id="d691-d926-b98c-c365" name="Ron&apos;s Wrecked Wand" hidden="false" collective="false" import="true" targetId="7c9e-496a-48fb-4d00" type="selectionEntry"/>
         <entryLink id="ded2-60f3-2194-7cb1" name="Nimbus 2001" hidden="false" collective="false" import="true" targetId="aca9-cc8f-d61b-584a" type="selectionEntry"/>
         <entryLink id="9c1e-b942-f2fc-8564" name="Magi-Me-More!" hidden="false" collective="false" import="true" targetId="75b7-3918-6fab-2d0b" type="selectionEntry"/>
+        <entryLink id="d1fb-4edb-b68a-67ec" name="Nimbus 2000" hidden="false" collective="false" import="true" targetId="96f2-9d05-8351-0b52" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="7e66-0249-5474-9afa" name="Items (Credence Barebone)" hidden="false" collective="false" import="true">
@@ -4095,6 +4160,7 @@
         <entryLink id="0cdc-694c-3712-7377" name="Ron&apos;s Wrecked Wand" hidden="false" collective="false" import="true" targetId="7c9e-496a-48fb-4d00" type="selectionEntry"/>
         <entryLink id="d1b4-0865-1a8d-687c" name="Nimbus 2001" hidden="false" collective="false" import="true" targetId="aca9-cc8f-d61b-584a" type="selectionEntry"/>
         <entryLink id="9382-7d1f-3739-5e12" name="Magi-Me-More!" hidden="false" collective="false" import="true" targetId="75b7-3918-6fab-2d0b" type="selectionEntry"/>
+        <entryLink id="3c77-3534-5149-af24" name="Nimbus 2000" hidden="false" collective="false" import="true" targetId="96f2-9d05-8351-0b52" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="7d67-91f6-cf27-611c" name="Artefacts (Rare Scamander)" hidden="false" collective="false" import="true">
@@ -4123,6 +4189,7 @@
         <entryLink id="c42b-891d-62f7-4e15" name="Ron&apos;s Wrecked Wand" hidden="false" collective="false" import="true" targetId="7c9e-496a-48fb-4d00" type="selectionEntry"/>
         <entryLink id="50f6-79c6-be0c-6a07" name="Nimbus 2001" hidden="false" collective="false" import="true" targetId="aca9-cc8f-d61b-584a" type="selectionEntry"/>
         <entryLink id="62e4-ae51-7a94-f28b" name="Magi-Me-More!" hidden="false" collective="false" import="true" targetId="75b7-3918-6fab-2d0b" type="selectionEntry"/>
+        <entryLink id="df2d-0104-d8e2-43be" name="Nimbus 2000" hidden="false" collective="false" import="true" targetId="96f2-9d05-8351-0b52" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="88c3-b28d-7c9b-72a1" name="Items (Scamander)" hidden="false" collective="false" import="true">
@@ -4234,6 +4301,7 @@
         <entryLink id="e068-fff6-f7da-f65f" name="Ron&apos;s Wrecked Wand" hidden="false" collective="false" import="true" targetId="7c9e-496a-48fb-4d00" type="selectionEntry"/>
         <entryLink id="873f-ccf6-dc53-609b" name="Nimbus 2001" hidden="false" collective="false" import="true" targetId="aca9-cc8f-d61b-584a" type="selectionEntry"/>
         <entryLink id="ce23-06ca-dd7a-9456" name="Magi-Me-More!" hidden="false" collective="false" import="true" targetId="75b7-3918-6fab-2d0b" type="selectionEntry"/>
+        <entryLink id="2ce9-538b-9279-b037" name="Nimbus 2000" hidden="false" collective="false" import="true" targetId="96f2-9d05-8351-0b52" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="2738-dceb-da94-8067" name="Artefacts (Rare Death Eaters Broomstick)" hidden="false" collective="false" import="true">
@@ -4263,6 +4331,7 @@
         <entryLink id="8afe-1568-72e6-651e" name="Nimbus 2001" hidden="false" collective="false" import="true" targetId="aca9-cc8f-d61b-584a" type="selectionEntry"/>
         <entryLink id="f901-b700-db7f-f6b0" name="Ron&apos;s Wrecked Wand" hidden="false" collective="false" import="true" targetId="7c9e-496a-48fb-4d00" type="selectionEntry"/>
         <entryLink id="e787-4fa2-9992-285c" name="Magi-Me-More!" hidden="false" collective="false" import="true" targetId="75b7-3918-6fab-2d0b" type="selectionEntry"/>
+        <entryLink id="6633-1195-43a1-933c" name="Nimbus 2000" hidden="false" collective="false" import="true" targetId="96f2-9d05-8351-0b52" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="cf0b-0b35-b714-32df" name="Spells (Gilderoy Lockhart Impostor)" hidden="false" collective="false" import="true">
@@ -4444,6 +4513,7 @@
         <entryLink id="33a2-3e47-1774-24a4" name="Nimbus 2001" hidden="false" collective="false" import="true" targetId="aca9-cc8f-d61b-584a" type="selectionEntry"/>
         <entryLink id="ed98-3842-02b5-40ff" name="Magi-Me-More!" hidden="false" collective="false" import="true" targetId="75b7-3918-6fab-2d0b" type="selectionEntry"/>
         <entryLink id="125c-5287-85dd-2fde" name="Magical Suitcase" hidden="false" collective="false" import="true" targetId="6995-49a7-61b2-d881" type="selectionEntry"/>
+        <entryLink id="a31e-7762-85f3-d86b" name="Nimbus 2000" hidden="false" collective="false" import="true" targetId="96f2-9d05-8351-0b52" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="7938-7bef-2ed3-1748" name="Items (Newt Scamander)" hidden="false" collective="false" import="true">
@@ -4470,6 +4540,57 @@
           <entryLinks>
             <entryLink id="76a0-db24-4644-e090" name="Artefacts (Rare Newt Scamander)" hidden="false" collective="false" import="true" targetId="4838-620b-48c0-1575" type="selectionEntryGroup"/>
             <entryLink id="dedb-9b2f-625b-f988" name="Potions (Rare)" hidden="false" collective="false" import="true" targetId="f5b5-6c56-7f4e-e56a" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="114f-2007-bb91-88cc" name="Artefacts (Common Hermione Granger)" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="2b78-1133-e6af-c5a7" name="Knife" hidden="false" collective="false" import="true" targetId="98b1-624b-4d7c-7289" type="selectionEntry"/>
+        <entryLink id="dbfa-a57b-cfcd-10d3" name="Sword" hidden="false" collective="false" import="true" targetId="2401-8edd-d7d8-b9b9" type="selectionEntry"/>
+        <entryLink id="8545-0520-d51c-aee1" name="Spellbook" hidden="false" collective="false" import="true" targetId="fff0-6570-5dc9-99c4" type="selectionEntry"/>
+        <entryLink id="d628-05e4-8e2c-5a00" name="Earmuffs" hidden="false" collective="false" import="true" targetId="2608-236d-4ece-aacf" type="selectionEntry"/>
+        <entryLink id="1f8d-5167-5877-6a13" name="Reinforced Bow" hidden="false" collective="false" import="true" targetId="4b69-ea24-0aae-237e" type="selectionEntry"/>
+        <entryLink id="2a3b-f456-3b70-5901" name="Propaganda" hidden="false" collective="false" import="true" targetId="87d8-3f1a-637c-e214" type="selectionEntry"/>
+        <entryLink id="ab7e-c102-1a81-ec34" name="Death Eater Broom" hidden="false" collective="false" import="true" targetId="5635-2fa3-8f46-ac73" type="selectionEntry"/>
+        <entryLink id="e7ed-5c04-fae4-2cbc" name="Impulse" hidden="false" collective="false" import="true" targetId="36b7-f2a1-5d62-3b0f" type="selectionEntry"/>
+        <entryLink id="e2af-4058-d2cc-fd0d" name="Death Eaters Professor" hidden="false" collective="false" import="true" targetId="1cd2-8ae1-05b2-693e" type="selectionEntry"/>
+        <entryLink id="5c91-0fd1-8f98-1672" name="The Impostor" hidden="false" collective="false" import="true" targetId="4ae8-1755-55ce-ca0c" type="selectionEntry"/>
+        <entryLink id="cc86-c797-bfc9-dd43" name="Howler" hidden="false" collective="false" import="true" targetId="8a08-9570-e5f6-5634" type="selectionEntry"/>
+        <entryLink id="c1d1-fc84-23b2-21bc" name="Remembrall" hidden="false" collective="false" import="true" targetId="d439-c0e7-80cd-2e29" type="selectionEntry"/>
+        <entryLink id="da92-cada-bb24-2897" name="Jacob’s Cakes" hidden="false" collective="false" import="true" targetId="200c-4eff-83e7-1c7a" type="selectionEntry"/>
+        <entryLink id="ae9d-3e95-2f95-5a2e" name="Jacob’s Cakes (Second)" hidden="false" collective="false" import="true" targetId="f48c-b547-87e4-24a7" type="selectionEntry"/>
+        <entryLink id="d3e6-49ed-c1a8-3b37" name="Crookshanks" hidden="false" collective="false" import="true" targetId="da91-2f7a-c0c6-d90d" type="selectionEntry">
+          <costs>
+            <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="1.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="fa41-5f4f-86e8-9d56" name="Items (Hermione Granger)" hidden="false" collective="false" import="true">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a56f-dadc-3c15-94bc" name="Legendary" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5d9b-46b0-662b-de1e" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="b21e-bfa3-c3f3-c322" name="Potions (Legendary)" hidden="false" collective="false" import="true" targetId="f77f-e9f0-08bd-85db" type="selectionEntryGroup"/>
+            <entryLink id="87f1-1cc2-f132-f775" name="Artefacts (Legendary)" hidden="false" collective="false" import="true" targetId="e59c-de68-d172-60bd" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="48c7-21de-ea56-7ff5" name="Common" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="1e9a-f4a1-5a49-6ee5" name="Artefacts (Common Hermione Granger)" hidden="false" collective="false" import="true" targetId="114f-2007-bb91-88cc" type="selectionEntryGroup"/>
+            <entryLink id="7ead-4085-1506-021d" name="Potions (Common)" hidden="false" collective="false" import="true" targetId="a5bf-4232-b441-6f7d" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="1947-ce1e-05ce-e57e" name="Rare" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="44f4-165e-ba98-eed7" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="306f-6d6f-6d2a-e404" name="Artefacts (Rare)" hidden="false" collective="false" import="true" targetId="e06e-f794-42d5-a883" type="selectionEntryGroup"/>
+            <entryLink id="84ac-88a7-ddca-918d" name="Potions (Rare)" hidden="false" collective="false" import="true" targetId="f5b5-6c56-7f4e-e56a" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -4807,6 +4928,15 @@ NB. The Potioneer value is also used in some instances to provide other bonuses 
     </rule>
     <rule id="11c0-57b9-b6d4-fc20" name="Death Vision" hidden="false">
       <description>Only models with at least 1 damage may target this model.</description>
+    </rule>
+    <rule id="6c24-b80d-77dd-63c2" name="Troll in the dungeon" hidden="false">
+      <description>You may include a Troll model in your group. The Troll does not deploy using the normal rules. Instead, at the start of the second round, place it within 4 squares of this model.</description>
+    </rule>
+    <rule id="ba3a-5d14-28fb-ac84" name="Dark Master" hidden="false">
+      <description>This model can&apos;t be included in the same group that include a model called Lord Voldemort. In addition, after this model cast a spell suffers 1 damage. After any model is removed from game by Avada Kedabra or by damage, heal 1 damage to this model.</description>
+    </rule>
+    <rule id="db7f-c584-78af-c16e" name="Wingardium Leviosa Master" hidden="false">
+      <description>Any friendly model casting the Wingardium Leviosa spell may target an Overlay. Until the end of the round, all models may ignore the overlay for moving and line of sight but cannot end a move inside it.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -5338,6 +5468,16 @@ NB. The Potioneer value is also used in some instances to provide other bonuses 
         <characteristic name="Difficulty" typeId="48bb-c6ce-efd9-b84c">0</characteristic>
         <characteristic name="Description" typeId="4ee7-a98d-cfca-ca71">Combat Spell. Target model suffers the Push/3 effect.</characteristic>
         <characteristic name="Cooldown Clock" typeId="62f1-68e4-ceff-8682">1</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1529-fec6-91ba-3708" name="Lumos Solem" hidden="false" typeId="0aed-3bd3-2aaa-6237" typeName="1.2 Spell">
+      <characteristics>
+        <characteristic name="Range" typeId="ecb8-5b30-787e-8ab8">3</characteristic>
+        <characteristic name="Power Cost" typeId="05fc-2837-01e5-4a01">3 Grey</characteristic>
+        <characteristic name="Upkeep" typeId="cf20-f678-81bc-115a">-</characteristic>
+        <characteristic name="Difficulty" typeId="48bb-c6ce-efd9-b84c">3</characteristic>
+        <characteristic name="Description" typeId="4ee7-a98d-cfca-ca71">Each enemy model in range deducts 2 Successes from Attack and Defense rolls until the end of the round</characteristic>
+        <characteristic name="Cooldown Clock" typeId="62f1-68e4-ceff-8682">2</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
