@@ -202,6 +202,8 @@
     <entryLink id="8ce4-bc86-5188-ce7c" name="Hermione Granger (First Years)" hidden="false" collective="false" import="true" targetId="d959-5ccb-c3c3-3c9f" type="selectionEntry"/>
     <entryLink id="cdcc-876b-36e1-9d35" name="Troll (Troll in the dungeon)" hidden="false" collective="false" import="true" targetId="dea4-e3a9-1d19-3ab2" type="selectionEntry"/>
     <entryLink id="7542-10cf-3e41-aa67" name="Quirinus Quirrell" hidden="false" collective="false" import="true" targetId="3077-e4a5-5018-3dbd" type="selectionEntry"/>
+    <entryLink id="2328-a5c7-4d4a-9468" name="Filius Flitwick (First Year)" hidden="false" collective="false" import="true" targetId="d4bd-62b7-f962-46be" type="selectionEntry"/>
+    <entryLink id="0d44-8c4a-1c81-2c12" name="Albus Dumbledore (First Year)" hidden="false" collective="false" import="true" targetId="b793-fce1-d270-179c" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="d734-14ea-68a3-2fa1" name="Ginny Weasley" hidden="false" collective="false" import="true" type="model">
@@ -579,6 +581,11 @@
         <modifier type="set" field="hidden" value="true">
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3941-b453-2ae9-df33" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b793-fce1-d270-179c" type="atLeast"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -3070,6 +3077,11 @@
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3941-b453-2ae9-df33" type="atLeast"/>
           </conditions>
         </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b793-fce1-d270-179c" type="atLeast"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="28a3-bb1e-39a2-8c7a" type="max"/>
@@ -4225,6 +4237,11 @@ When a friendly model spends an entire activation adjacent to this marker, draw 
         <modifier type="set" field="hidden" value="true">
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fdbd-24af-5b96-2769" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b793-fce1-d270-179c" type="atLeast"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -8704,6 +8721,191 @@ When a friendly model spends an entire activation adjacent to this marker, draw 
       </entryLinks>
       <costs>
         <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="12.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d4bd-62b7-f962-46be" name="Filius Flitwick (First Year)" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0287-e7cc-2d4d-86ff" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="d48f-81f4-716c-1fae" name="Filius Flitwick" hidden="false" typeId="2093f4cd-f669-06c6-0f4f-06037948fe28" typeName="1.1 Attributes">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="911f2847-ecab-772a-37ad-b325a40b19ce">Hogwarts</characteristic>
+            <characteristic name="Mastery" typeId="fd922c18-88be-5191-46b0-1ab589f2ef33">2</characteristic>
+            <characteristic name="Defense" typeId="49d96d28-c1dc-f977-7bb6-8e1fbe8fe397">2</characteristic>
+            <characteristic name="Cunning" typeId="9ef0bc71-33ab-98cd-26b3-07c55ed7725f">2 White</characteristic>
+            <characteristic name="Magic" typeId="84a7bbc1-d970-b7b9-2fd5-f174c9fdda90">8</characteristic>
+            <characteristic name="Courage" typeId="ae357512-6823-3b1d-aebe-2c2c8e52e2e0">1</characteristic>
+            <characteristic name="Wisdom" typeId="4e4daeff-a451-4e80-f5b5-d588866411b4">8</characteristic>
+            <characteristic name="Temper" typeId="d6fc-863a-9aaa-271d">1</characteristic>
+            <characteristic name="Item Slots" typeId="d0e0-c03d-1183-cd2e">1</characteristic>
+            <characteristic name="Spellbook" typeId="3d3e-73e5-dd6a-789c">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7723-69bb-95fb-6df9" name="Wingardium Leviosa" hidden="false" targetId="060b-52cc-f641-61f1" type="profile">
+          <modifiers>
+            <modifier type="append" field="name" value="(Innate Spell)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="f2e3-f5e1-30ad-b40f" name="Professor" hidden="false" targetId="8436-145a-2183-50b0" type="rule"/>
+        <infoLink id="ce87-6a7d-f717-986e" name="Ravenclaw" hidden="false" targetId="981a-38af-f45f-373c" type="rule"/>
+        <infoLink id="a286-9130-81e1-4656" name="Duelling" hidden="false" targetId="d0d6-59cb-5f49-a1be" type="rule"/>
+        <infoLink id="8e7c-734e-a56b-f65e" name="Expert Wizard " hidden="false" targetId="bd20-7fb8-29d7-33d3" type="rule"/>
+        <infoLink id="9639-5aa5-2098-1806" name="Wingardium Leviosa Master" hidden="false" targetId="db7f-c584-78af-c16e" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="96cd-74a8-219e-14cc" name="Hogwarts" hidden="false" targetId="72a0-0676-dd71-5ecd" primary="true"/>
+        <categoryLink id="607a-f780-728e-9568" name="Professor" hidden="false" targetId="9137-5073-312f-b858" primary="false"/>
+        <categoryLink id="d3dc-2df9-b081-29e5" name="Ravenclaw" hidden="false" targetId="2429-b0fd-4155-240a" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="ccbd-1fe1-f137-40e5" name="Items" hidden="false" collective="false" import="true" targetId="871c-8447-8648-4757" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7662-c574-9f51-f7e3" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="09fc-86b4-15fe-b209" name="Spells" hidden="false" collective="false" import="true" targetId="f45a-25ca-6491-8733" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="increment" field="421e-b939-dd96-b37a" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fff0-6570-5dc9-99c4" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e23-f353-ee5e-7e6a" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="421e-b939-dd96-b37a" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="3481-7811-1c20-97b6" name="Spells (With Dark Arts)" hidden="true" collective="false" import="true" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="increment" field="1fb4-8050-5a98-29d2" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fff0-6570-5dc9-99c4" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e23-f353-ee5e-7e6a" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fb4-8050-5a98-29d2" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="11.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b793-fce1-d270-179c" name="Albus Dumbledore (First Year)" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5491-47eb-1b48-d9d6" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3941-b453-2ae9-df33" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fdbd-24af-5b96-2769" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a23d-f1d8-ddb0-13c1" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="1457-1ebe-647d-80ca" name="Dumbledore" hidden="false" typeId="2093f4cd-f669-06c6-0f4f-06037948fe28" typeName="1.1 Attributes">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="911f2847-ecab-772a-37ad-b325a40b19ce">Hogwarts</characteristic>
+            <characteristic name="Mastery" typeId="fd922c18-88be-5191-46b0-1ab589f2ef33">3</characteristic>
+            <characteristic name="Defense" typeId="49d96d28-c1dc-f977-7bb6-8e1fbe8fe397">2</characteristic>
+            <characteristic name="Cunning" typeId="9ef0bc71-33ab-98cd-26b3-07c55ed7725f">4 White or Black</characteristic>
+            <characteristic name="Magic" typeId="84a7bbc1-d970-b7b9-2fd5-f174c9fdda90">12</characteristic>
+            <characteristic name="Courage" typeId="ae357512-6823-3b1d-aebe-2c2c8e52e2e0">5</characteristic>
+            <characteristic name="Wisdom" typeId="4e4daeff-a451-4e80-f5b5-d588866411b4">9</characteristic>
+            <characteristic name="Temper" typeId="d6fc-863a-9aaa-271d">2</characteristic>
+            <characteristic name="Item Slots" typeId="d0e0-c03d-1183-cd2e">3</characteristic>
+            <characteristic name="Spellbook" typeId="3d3e-73e5-dd6a-789c">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e87a-5534-afba-173d" name="50 Points to Gryffindor" hidden="false" typeId="07d6-95ce-9c89-313a" typeName="1.5 Artefact (Attack)">
+          <characteristics>
+            <characteristic name="Description" typeId="cac9-3577-abf0-c57c">This innate ability can only target a friendly Gryffindor model; no roll is required. Target model’s next Challenge automatically succeeds.</characteristic>
+            <characteristic name="Rarity" typeId="5542-8a14-e513-9167"/>
+            <characteristic name="Type" typeId="9b7b-8d3c-6c3b-c573">Physical</characteristic>
+            <characteristic name="Bonus" typeId="e033-8269-f4d6-f0c9">0</characteristic>
+            <characteristic name="Damage" typeId="ca7b-dc78-24dd-3315">0</characteristic>
+            <characteristic name="Range" typeId="75a3-8b99-a7f1-efd7">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c8c1-6320-4115-6918" name="Duelling" hidden="false" targetId="d0d6-59cb-5f49-a1be" type="rule"/>
+        <infoLink id="c2e9-fee6-f146-9c67" name="Leadership" hidden="false" targetId="7c29-d3bc-fa66-50ed" type="rule"/>
+        <infoLink id="c015-d558-77e0-263a" name="Master Wizard " hidden="false" targetId="7e41-c870-19f3-5edb" type="rule"/>
+        <infoLink id="1024-c97e-30d5-3b62" name="Supreme Mugwump" hidden="false" targetId="45d8-f24a-a6d1-2cbe" type="rule"/>
+        <infoLink id="9167-caa4-6a90-1260" name="Gryffindor" hidden="false" targetId="4392-6d91-4fd2-365d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d5df-4a29-67e8-d863" name="Hogwarts" hidden="false" targetId="72a0-0676-dd71-5ecd" primary="true"/>
+        <categoryLink id="9b4f-84fa-92dc-d81b" name="Gryffindor" hidden="false" targetId="578f-1b23-2669-585d" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="0160-19c5-bcf0-c1fd" name="Items" hidden="false" collective="false" import="true" targetId="871c-8447-8648-4757" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3038-48ae-b3af-871c" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="d87e-5b9d-d846-241d" name="Spells" hidden="false" collective="false" import="true" targetId="f45a-25ca-6491-8733" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="increment" field="b947-9163-759f-01c5" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fff0-6570-5dc9-99c4" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e23-f353-ee5e-7e6a" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c8a9-2bc9-c4e3-1bec" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="e07a-e376-40c7-9c7d" name="Spells (With Dark Arts)" hidden="true" collective="false" import="true" targetId="4003-4f1c-e444-ec09" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="increment" field="b590-2eb3-01db-b28f" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fff0-6570-5dc9-99c4" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e23-f353-ee5e-7e6a" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b590-2eb3-01db-b28f" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="16.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

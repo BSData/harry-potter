@@ -4930,10 +4930,13 @@ NB. The Potioneer value is also used in some instances to provide other bonuses 
       <description>Only models with at least 1 damage may target this model.</description>
     </rule>
     <rule id="6c24-b80d-77dd-63c2" name="Troll in the dungeon" hidden="false">
-      <description>You may include a Troll model in your group. You don&apos;t deploy Troll following normal deployment rules. Instead of this, at beginning of the second round, place Troll within 4 squares of this model.</description>
+      <description>You may include a Troll model in your group. The Troll does not deploy using the normal rules. Instead, at the start of the second round, place it within 4 squares of this model.</description>
     </rule>
     <rule id="ba3a-5d14-28fb-ac84" name="Dark Master" hidden="false">
       <description>This model can&apos;t be included in the same group that include a model called Lord Voldemort. In addition, after this model cast a spell suffers 1 damage. After any model is removed from game by Avada Kedabra or by damage, heal 1 damage to this model.</description>
+    </rule>
+    <rule id="db7f-c584-78af-c16e" name="Wingardium Leviosa Master" hidden="false">
+      <description>Any friendly model casting the Wingardium Leviosa spell may target an Overlay. Until the end of the round, all models may ignore the overlay for moving and line of sight but cannot end a move inside it.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -5473,7 +5476,7 @@ NB. The Potioneer value is also used in some instances to provide other bonuses 
         <characteristic name="Power Cost" typeId="05fc-2837-01e5-4a01">3 Grey</characteristic>
         <characteristic name="Upkeep" typeId="cf20-f678-81bc-115a">-</characteristic>
         <characteristic name="Difficulty" typeId="48bb-c6ce-efd9-b84c">3</characteristic>
-        <characteristic name="Description" typeId="4ee7-a98d-cfca-ca71">Each enemy model in range subtract 2 success in his attack and defense rolls until end of the round.</characteristic>
+        <characteristic name="Description" typeId="4ee7-a98d-cfca-ca71">Each enemy model in range deducts 2 Successes from Attack and Defense rolls until the end of the round</characteristic>
         <characteristic name="Cooldown Clock" typeId="62f1-68e4-ceff-8682">2</characteristic>
       </characteristics>
     </profile>
