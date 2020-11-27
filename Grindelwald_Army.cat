@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3e39-bac8-9771-961e" name="Grindelwald&apos;s Army" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="aa1e-80ca-b43a-cf7b" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3e39-bac8-9771-961e" name="Grindelwald&apos;s Army" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="aa1e-80ca-b43a-cf7b" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="d83c-a9f7-27d6-7cd9" name="Gellert Grindelwald (30mm base)" hidden="false" collective="false" import="true" targetId="bf26-271e-002f-80b2" type="selectionEntry"/>
     <entryLink id="adf1-1a27-6673-d90e" name="Gellert Grindelwald (60mm base)" hidden="false" collective="false" import="true" targetId="8b5d-0c56-b396-b8f5" type="selectionEntry"/>
@@ -91,9 +91,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="a88f-ff07-084d-4193" name="Vinda Rosier" hidden="false" collective="false" import="true" type="model">
-      <modifiers>
-        <modifier type="set" field="name" value="0.0"/>
-      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0026-2541-b2bf-1eda" type="max"/>
       </constraints>
@@ -103,7 +100,7 @@
             <characteristic name="Affiliation" typeId="911f2847-ecab-772a-37ad-b325a40b19ce">Grindelwald&apos;s Army</characteristic>
             <characteristic name="Mastery" typeId="fd922c18-88be-5191-46b0-1ab589f2ef33">2</characteristic>
             <characteristic name="Defense" typeId="49d96d28-c1dc-f977-7bb6-8e1fbe8fe397">2</characteristic>
-            <characteristic name="Cunning" typeId="9ef0bc71-33ab-98cd-26b3-07c55ed7725f">4 Black</characteristic>
+            <characteristic name="Cunning" typeId="9ef0bc71-33ab-98cd-26b3-07c55ed7725f">3 Black</characteristic>
             <characteristic name="Magic" typeId="84a7bbc1-d970-b7b9-2fd5-f174c9fdda90">8</characteristic>
             <characteristic name="Courage" typeId="ae357512-6823-3b1d-aebe-2c2c8e52e2e0">6</characteristic>
             <characteristic name="Wisdom" typeId="4e4daeff-a451-4e80-f5b5-d588866411b4">6</characteristic>
