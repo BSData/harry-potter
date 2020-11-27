@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="03e9-1dee-4361-7029" name="Hogwarts" revision="12" battleScribeVersion="2.03" library="false" gameSystemId="aa1e-80ca-b43a-cf7b" gameSystemRevision="11" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="03e9-1dee-4361-7029" name="Hogwarts" revision="13" battleScribeVersion="2.03" library="false" gameSystemId="aa1e-80ca-b43a-cf7b" gameSystemRevision="13" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="7513-0c39-fa94-ba97" name="Ginny Weasley" hidden="false" collective="false" import="true" targetId="d734-14ea-68a3-2fa1" type="selectionEntry"/>
     <entryLink id="d67d-c3e9-f169-9fb9" name="Harry Potter" hidden="false" collective="false" import="true" targetId="a862-b4be-cb5c-4d46" type="selectionEntry"/>
@@ -3743,6 +3743,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="5797-2c4e-fa67-b1c0" name="Filius Flitwick" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d4bd-62b7-f962-46be" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="04df-d31f-33ad-2140" type="max"/>
       </constraints>
@@ -4097,33 +4104,9 @@ When a friendly model spends an entire activation adjacent to this marker, draw 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebcc-27f2-78ab-bcad" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="468c-e992-de84-fa2a" name="+1 Galleon = -1 VP" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="decrement" field="39b7-674d-1765-92fb" value="1"/>
-              </modifiers>
-              <costs>
-                <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="eed9-ce5e-eb77-e646" name="+2 Galleons = -2 VP" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="decrement" field="39b7-674d-1765-92fb" value="2"/>
-              </modifiers>
-              <costs>
-                <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="4bca-d652-7b9f-869a" name="+3 Galleons = -3 VP" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="decrement" field="39b7-674d-1765-92fb" value="3"/>
-              </modifiers>
-              <costs>
-                <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="0.0"/>
-              </costs>
-            </selectionEntry>
             <selectionEntry id="b26d-605a-9d6b-19dd" name="+4 Galleons = -4 VP" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="decrement" field="39b7-674d-1765-92fb" value="4"/>
+                <modifier type="decrement" field="39b7-674d-1765-92fb" value="4.0"/>
               </modifiers>
               <costs>
                 <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="0.0"/>
@@ -4131,7 +4114,31 @@ When a friendly model spends an entire activation adjacent to this marker, draw 
             </selectionEntry>
             <selectionEntry id="1809-da23-d8a7-fd7d" name="+5 Galleons = -5 VP" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="decrement" field="39b7-674d-1765-92fb" value="5"/>
+                <modifier type="decrement" field="39b7-674d-1765-92fb" value="5.0"/>
+              </modifiers>
+              <costs>
+                <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9d73-82e3-24f7-5573" name="+3 Galleons = -3 VP" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="decrement" field="39b7-674d-1765-92fb" value="3.0"/>
+              </modifiers>
+              <costs>
+                <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e02f-b7b0-9383-3f06" name="+2 Galleons = -2 VP" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="decrement" field="39b7-674d-1765-92fb" value="2.0"/>
+              </modifiers>
+              <costs>
+                <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="adfd-1aae-3c6d-b665" name="+1 Galleons = -1 VP" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="decrement" field="39b7-674d-1765-92fb" value="1.0"/>
               </modifiers>
               <costs>
                 <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="0.0"/>
@@ -4140,9 +4147,6 @@ When a friendly model spends an entire activation adjacent to this marker, draw 
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <costs>
-        <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="0.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="3555-5011-9e9c-5bd5" name="Credence Barebone" hidden="false" collective="false" import="true" type="model">
       <constraints>
@@ -5019,46 +5023,46 @@ When a friendly model spends an entire activation adjacent to this marker, draw 
         <categoryLink id="5f92-35e4-f12c-92cf" name="Hogwarts" hidden="false" targetId="72a0-0676-dd71-5ecd" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="bf53-7423-a155-66a3" name="Goblin" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="8eea-b86f-3162-de33" name="Goblin" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90eb-df0b-74bb-908d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="165e-efe8-227a-35f3" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="54dc-bd9f-b943-4eb4" name="+1 Galleon = -1 VP" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="4759-11f7-a866-d778" name="+4 Galleons = -4 VP" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="decrement" field="39b7-674d-1765-92fb" value="1"/>
+                <modifier type="decrement" field="39b7-674d-1765-92fb" value="4.0"/>
               </modifiers>
               <costs>
                 <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="78a6-3465-041f-f397" name="+2 Galleons = -2 VP" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="2a61-7e5f-49e6-1868" name="+5 Galleons = -5 VP" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="decrement" field="39b7-674d-1765-92fb" value="2"/>
+                <modifier type="decrement" field="39b7-674d-1765-92fb" value="5.0"/>
               </modifiers>
               <costs>
                 <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="c4a4-4d10-e537-3e09" name="+3 Galleons = -3 VP" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="0a6b-616a-93b3-95ef" name="+3 Galleons = -3 VP" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="decrement" field="39b7-674d-1765-92fb" value="3"/>
+                <modifier type="decrement" field="39b7-674d-1765-92fb" value="3.0"/>
               </modifiers>
               <costs>
                 <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="3776-62fd-d7b2-54c8" name="+4 Galleons = -4 VP" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="59c5-a2e6-5991-a748" name="+2 Galleons = -2 VP" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="decrement" field="39b7-674d-1765-92fb" value="4"/>
+                <modifier type="decrement" field="39b7-674d-1765-92fb" value="2.0"/>
               </modifiers>
               <costs>
                 <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="b3ae-a3fe-4471-3b7b" name="+5 Galleons = -5 VP" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="2161-d395-7f08-4747" name="+1 Galleons = -1 VP" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="decrement" field="39b7-674d-1765-92fb" value="5"/>
+                <modifier type="decrement" field="39b7-674d-1765-92fb" value="1.0"/>
               </modifiers>
               <costs>
                 <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="0.0"/>
@@ -5067,9 +5071,6 @@ When a friendly model spends an entire activation adjacent to this marker, draw 
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <costs>
-        <cost name="Galleons" typeId="39b7-674d-1765-92fb" value="0.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="2e1a-c928-543e-dad7" name="Tom Riddle" hidden="false" collective="false" import="true" type="model">
       <constraints>
@@ -8724,6 +8725,13 @@ When a friendly model spends an entire activation adjacent to this marker, draw 
       </costs>
     </selectionEntry>
     <selectionEntry id="d4bd-62b7-f962-46be" name="Filius Flitwick (First Year)" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5797-2c4e-fa67-b1c0" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0287-e7cc-2d4d-86ff" type="max"/>
       </constraints>
